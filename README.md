@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌸🌧️ CA-AdapFL: Climate-Aware Adaptive Federated Learning 🌧️🌸
+# 🌧️ CA-AdapFL: Climate-Aware Adaptive Federated Learning 
 ### *Monthly Rainfall Forecasting across Heterogeneous Hydroclimatic Regions in India*
 
 <p align="center">
