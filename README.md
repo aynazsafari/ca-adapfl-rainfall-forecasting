@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  ✨ <i>Official code, processed datasets, model checkpoints, and reproducibility artifacts published in <b>Scientific Reports</b>.</i> ✨
+  ✨ <i>Official code, processed datasets, model checkpoints, and reproducibility artifacts</b>.</i> ✨
 </p>
 
 ---
