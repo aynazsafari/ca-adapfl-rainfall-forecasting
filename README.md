@@ -112,15 +112,6 @@ python benchmark.py --mode evaluate --seeds 7 42 123 999 2024
 
 ---
 
-## 💌 Authors & Citation
-
-* **Aynaz Safari Shateri** — University of Tabriz ([ORCID: 0009-0009-3494-2753](https://orcid.org/0009-0009-3494-2753))
-* **Mobin Jamshidi Asl** — University of Tabriz ([ORCID: 0009-0005-5494-4247](https://orcid.org/0009-0005-5494-4247))
-* **Amirreza Shirini** — Sahand University of Technology ([ORCID: 0009-0005-3533-0047](https://orcid.org/0009-0005-3533-0047))
-* **Mohammad Taghi Sattari** *(Corresponding Author)* — University of Tabriz / Khazar University / Ankara University ([ORCID: 0000-0002-5139-2118](https://orcid.org/0000-0002-5139-2118))
-* **Halit Apaydin** — Ankara University ([ORCID: 0000-0002-9875-7321](https://orcid.org/0000-0002-9875-7321))
-
-
 <div align="center">
   <br/>
   <p>🌸 <i>Released under the <b>Apache-2.0 License</b></i> 🌸</p>
