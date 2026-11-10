@@ -15,10 +15,6 @@
   ✨ <i>Official code, processed datasets, model checkpoints, and reproducibility artifacts published in <b>Scientific Reports</b>.</i> ✨
 </p>
 
-<p align="center">
-  📖 <b>Read this in other languages:</b> <a href="README_FA.md">فارسی (Persian)</a>
-</p>
-
 ---
 </div>
 
