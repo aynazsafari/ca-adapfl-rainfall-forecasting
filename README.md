@@ -120,17 +120,6 @@ python benchmark.py --mode evaluate --seeds 7 42 123 999 2024
 * **Mohammad Taghi Sattari** *(Corresponding Author)* — University of Tabriz / Khazar University / Ankara University ([ORCID: 0000-0002-5139-2118](https://orcid.org/0000-0002-5139-2118))
 * **Halit Apaydin** — Ankara University ([ORCID: 0000-0002-9875-7321](https://orcid.org/0000-0002-9875-7321))
 
-If you use this codebase or processed artifacts in your research, please cite both our manuscript and the archived Zenodo release:
-
-```bibtex
-@article{shateri2026caadapfl,
-  title   = {Climate-Aware Adaptive Federated Learning for Monthly Rainfall Forecasting across Heterogeneous Hydroclimatic Regions in India},
-  author  = {Safari Shateri, Aynaz and Jamshidi Asl, Mobin and Shirini, Amirreza and Sattari, Mohammad Taghi and Apaydin, Halit},
-  journal = {Scientific Reports},
-  year    = {2026},
-  note    = {Code and data release v1.2.0 archived at Zenodo: https://doi.org/ZENODO_DOI_HERE}
-}
-```
 
 <div align="center">
   <br/>
