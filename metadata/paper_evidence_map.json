@@ -1,0 +1,892 @@
+{
+  "schema": "caadapfl.marked5.paper_evidence_map.v1",
+  "manuscript_identity": {
+    "label": "CAAdapFL_Manuscript_Marked5",
+    "sha256": "98c248a3217b161cab03b112c35c88cc21e0dc755eaaa447cc52de58e4aeb477",
+    "public_docx_included": false,
+    "peer_review_correspondence_included": false
+  },
+  "path_convention": "All paths relative to unified repository root. No local usernames or absolute working paths.",
+  "source_boundary": {
+    "primary": "Accepted revision_v2",
+    "capacity_output": "Exploratory revision_v3, 100 fits",
+    "information_sharing": "information_sharing_v1.0, 40 new fits",
+    "systems_v4": "Separate historical extension; not the source of Marked5 Table11 or Figure13."
+  },
+  "restriction": {
+    "IMD_input_values": "Excluded from public distribution; no IMD input access in portable numerical exporter. Derived evaluation scores/predictions and provenance references are distinct from permission to redistribute input products.",
+    "retained_main_inputs": "Canonical rainfall is CHIRPS. monthly.csv, indices.csv, MAIN_FULL prepared inputs, capacity/delay inputs and sharing inputs are included. Primary/capacity/sharing full verification and saved-state replay do not require optional IMD provider inputs.",
+    "optional_IMD_retraining": "Requires author/provider-permitted independently supplied matching inputs. Public package alone must not claim complete IMD retraining."
+  },
+  "commands": {
+    "numerical_redraws": {
+      "cwd": ".",
+      "command": "python benchmark.py figures --output publication/numerical_redraws_fresh",
+      "scope": "Ten numerical equivalents: Figures5–13 and IS1; no training/inference/network/resampling; fresh output refused if present."
+    },
+    "method_redraws": {
+      "cwd": ".",
+      "command": "python benchmarks/accepted/tools/make_method_figures.py --repo benchmarks/accepted --run runs/revision_v2 --output publication/method_redraws_fresh",
+      "scope": "Existing implementation-based equivalents for Figures1–4, not exact embedded originals; requires original run identity/schema and optional shapely dependency; fresh output only."
+    },
+    "primary_original_figures": {
+      "cwd": "benchmarks/accepted",
+      "command": "python tools/make_figures.py --repo . --run runs/revision_v2 --qa-receipt runs/revision_v2/independent_qa/publication_gate.json --output ../../publication/original_scope_redraws_fresh",
+      "scope": "Original eight scientific export scopes; acceptedQA/source identities; fresh directory only. Uses included canonical CHIRPS inputs and saved primary evidence."
+    },
+    "primary_native_companions": {
+      "cwd": "benchmarks/accepted",
+      "command": "python tools/make_publication_companions.py --repo . --run runs/revision_v2 --figures figures/revision_v2 --qa-receipt runs/revision_v2/independent_qa/publication_gate.json --output ../../publication/companions_fresh",
+      "scope": "Existing nine companion plates; original figure visual-QA required; fresh output only."
+    },
+    "capacity_numeric_verify": {
+      "cwd": ".",
+      "command": "python benchmark.py verify --suite capacity",
+      "scope": "Independent recalculation of completed 100-fit evidence from included MAIN_FULL/delay inputs; writes unique recheck receipts; no training."
+    },
+    "sharing_numeric_verify": {
+      "cwd": ".",
+      "command": "python benchmark.py verify --suite sharing",
+      "scope": "Complete independent sharing QA using included CHIRPS/MAIN_FULL inputs; writes fresh uniquely named receipts."
+    },
+    "sharing_state_replay": {
+      "cwd": ".",
+      "command": "python benchmark.py replay --suite sharing",
+      "scope": "Saved-state inference replay with included MAIN_FULL features and sharing states; no training; requires recorded runtime for exact replay."
+    },
+    "primary_numeric_verify": {
+      "cwd": ".",
+      "command": "python benchmark.py verify --suite primary",
+      "scope": "Complete independent primary arithmetic QA from included canonical CHIRPS/MAIN_FULL inputs."
+    },
+    "source_numeric_verify": {
+      "cwd": ".",
+      "command": "python benchmark.py verify --suite sources",
+      "scope": "Checks saved matched-source predictions/statistics without provider-valued IMD files; upgrades to the original full source-input audit only after permitted native inputs are imported."
+    },
+    "publication_tables": {
+      "cwd": ".",
+      "command": "python benchmark.py tables --output publication/tables_fresh",
+      "scope": "Exports all 31 publication tables plus supporting numeric companions to a fresh directory. Tables1–5 are labelled static display transcriptions; numerical Tables6–11 and IS1–4 are checked against paper_reference.json."
+    }
+  },
+  "items": [
+    {
+      "id": "Table1",
+      "kind": "metadata",
+      "evidence": [
+        "benchmarks/accepted/data/manifest.json",
+        "benchmarks/accepted/provenance/source_tables/extraction_protocol.json",
+        "benchmarks/accepted/provenance/source_tables/ERA5_retrieval.json",
+        "benchmarks/accepted/provenance/source_tables/ERA5Land_retrieval.json",
+        "benchmarks/accepted/provenance/source_tables/GLDAS21_retrieval.json"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/assemble_data.py"
+      ],
+      "notes": [
+        "Source-product metadata, access paths, aggregation and study roles; no claim of historically available real-time vintages.",
+        "IMD input values are excluded from public distribution."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py",
+      "portable_export_role": "static_display_transcription"
+    },
+    {
+      "id": "Table2",
+      "kind": "metadata",
+      "evidence": [
+        "benchmarks/accepted/data/indices.csv",
+        "benchmarks/accepted/data/manifest.json",
+        "benchmarks/accepted/docs/literature/index_rationale.md",
+        "benchmarks/accepted/provenance/source_tables/corrected_indices_with_amv.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/features.py"
+      ],
+      "notes": [
+        "Frozen index definitions/support; AMV is researcher derived."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py",
+      "portable_export_role": "static_display_transcription"
+    },
+    {
+      "id": "Table3",
+      "kind": "metadata",
+      "evidence": [
+        "benchmarks/accepted/provenance/source_tables/extraction_protocol.json",
+        "benchmarks/accepted/provenance/source_tables/india_country_ne_5_1_1.geojson",
+        "benchmarks/accepted/data/manifest.json"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_method_figures.py"
+      ],
+      "notes": [
+        "Half-open boxes and native-cell masks; C1/C5 overlap; not a partition of India."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py",
+      "portable_export_role": "static_display_transcription"
+    },
+    {
+      "id": "Table4",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/05_training_graphs.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/graph_profiles.py"
+      ],
+      "notes": [
+        "Filter variant=enriched; input_affinity, not normalized trainer weights."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py",
+      "portable_export_role": "static_display_transcription"
+    },
+    {
+      "id": "Table5",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/runs/revision_v2/development/feature_selection.json",
+        "benchmarks/accepted/runs/revision_v2/development/hyperparameters_frozen.json",
+        "benchmarks/accepted/runs/revision_v2/datasets/MAIN_FULL_schema.json",
+        "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/runner.py",
+        "benchmarks/accepted/caadapfl/features.py"
+      ],
+      "notes": [
+        "CORE/CLIMATE/FULL TRAIN Ridge screen and fixed CAAA global evaluation; TRAIN_SELECTED is a FULL alias."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py",
+      "portable_export_role": "static_display_transcription"
+    },
+    {
+      "id": "Table6",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/raw_predictions_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/evaluation.py",
+        "benchmarks/accepted/caadapfl/runner.py"
+      ],
+      "notes": [
+        "Exact fixed model keys; equal-client macro means then five-seed mean/sample SD; NSE equals R2."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "Table7",
+      "kind": "paired_uncertainty",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/block_sign_randomization_Holm.json"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/evaluation.py"
+      ],
+      "notes": [
+        "A-minus-B for both metrics; marginal block12 intervals; 31-family annual sign/Holm; no equivalence inference."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "Table8",
+      "kind": "paired_uncertainty",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv",
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_18.csv",
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/evaluation.py",
+        "benchmarks/accepted/tools/supplement_runner.py"
+      ],
+      "notes": [
+        "Fixed nonzero anchor and matched latency/source cohorts; added sources are compared only against their source-valid reference.",
+        "Derived IMD scores are retained; retraining IMD arms requires permitted independently supplied inputs."
+      ],
+      "restricted_input_dependency": [
+        "IMD (optional retraining only)"
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "Table9",
+      "kind": "descriptive",
+      "evidence": [
+        "benchmarks/accepted/runs/revision_v2/descriptive_diagnostics/oni_five_seed_summary.csv",
+        "benchmarks/accepted/runs/revision_v2/descriptive_diagnostics/independent_qa.json"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/qa/descriptive_diagnostics.py"
+      ],
+      "notes": [
+        "Target-minus-two period-end ONI bins; 34/35/27 EVAL months; descriptive, not persistent NOAA events or causal tests.",
+        "Original combined diagnostics generator also requires IMD source access; the saved ONI table needs no IMD input values."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "Table10",
+      "kind": "descriptive",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/evaluation.py"
+      ],
+      "notes": [
+        "CAAA_GLOBAL_FULL; client-specific gradient-TRAIN q80; 23/25/13/29/23 observed exceedances; seed SD is descriptive."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "Table11",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/sharing/evaluation/principal_comparison.csv",
+        "benchmarks/sharing/evaluation/fit_cost_40.csv"
+      ],
+      "generator_code": [
+        "benchmarks/sharing/tools/evaluate_experiment.py"
+      ],
+      "notes": [
+        "Separate FULL12 nonnegative information-sharing study; primary fixed tick60; mean MSE/R2/MSESS, RMSE mean/sample seed SD, required per-fit MiB."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S1",
+      "kind": "feature_dictionary",
+      "evidence": [
+        "benchmarks/accepted/docs/feature_diagnostics/feature_dictionary.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/diagnose_train_features.py"
+      ],
+      "notes": [
+        "All 43 channels, group flags, units and source-support JSON."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S2",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/evaluation.py"
+      ],
+      "notes": [
+        "All 96 main output labels in saved order; not a performance ranking."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S3",
+      "kind": "identity_dictionary",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2_publication_v2/model_abbreviation_ledger.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_publication_companions.py"
+      ],
+      "notes": [
+        "All 47 exact model abbreviations."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S4",
+      "kind": "paired_uncertainty",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block6_sensitivity_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block24_sensitivity_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/evaluation.py"
+      ],
+      "notes": [
+        "31-pair family, both R2 and RMSE; 2000 paired draws at 6/12/24 months."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S5",
+      "kind": "multiplicity",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/block_sign_randomization_Holm.json"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/evaluation.py"
+      ],
+      "notes": [
+        "Exact eight-annual-block sign enumeration; 256 assignments; raw minimum 0.0078125; first Holm31 minimum 0.2421875."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S6",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv",
+        "benchmarks/accepted/runs/supplements_v2/evaluation/seed_summary_all_cases.csv",
+        "benchmarks/accepted/runs/supplements_v2/evaluation/raw_predictions_all_cases.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/supplement_runner.py"
+      ],
+      "notes": [
+        "36 matched-source output identities; 83100 raw forecasts; compare within source-valid cohorts only."
+      ],
+      "restricted_input_dependency": [
+        "IMD (optional retraining only)"
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S7",
+      "kind": "paired_uncertainty",
+      "evidence": [
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_18.csv",
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_long_108_saved_rows.csv",
+        "benchmarks/accepted/runs/supplements_v2/evaluation/IMD/paired_block_bootstrap_summary.csv",
+        "benchmarks/accepted/runs/supplements_v2/evaluation/solar/paired_block_bootstrap_summary.csv",
+        "benchmarks/accepted/runs/supplements_v2/evaluation/GLDAS21/paired_block_bootstrap_summary.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/supplement_runner.py",
+        "benchmarks/accepted/tools/qa/supplement_reference.py"
+      ],
+      "notes": [
+        "18 within-source comparisons; both metric intervals include zero; no supplemental p-values."
+      ],
+      "restricted_input_dependency": [
+        "IMD (optional retraining only)"
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S8",
+      "kind": "development",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_candidates_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_rounds_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/caadapfl/runner.py",
+        "benchmarks/accepted/tools/make_figures.py"
+      ],
+      "notes": [
+        "36 symbolic development views; 35 unique fit bundles; seed42 VAL-only scores."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S9",
+      "kind": "literature_metadata",
+      "evidence": [
+        "benchmarks/accepted/docs/literature/comparison_table.csv",
+        "benchmarks/accepted/docs/literature/verification_receipt.json"
+      ],
+      "generator_code": [],
+      "notes": [
+        "Ten verified related studies; differences of targets/splits/architectures preclude cross-paper accuracy ranking."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S10",
+      "kind": "protocol_inventory",
+      "evidence": [
+        "benchmarks/accepted/runs/revision_v3/protocol.json",
+        "benchmarks/accepted/runs/revision_v3/choices_frozen.json",
+        "benchmarks/accepted/runs/revision_v3/fit_complete.json",
+        "benchmarks/accepted/publication/revision_v3/fit_inventory_100.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/revision_v3_runner.py",
+        "benchmarks/accepted/tools/reproduce_revision_v3.py"
+      ],
+      "notes": [
+        "100 unique fits: 25 development + 75 controls; aliases/projections are not additional fits."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S11",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/publication/revision_v3/S11_development.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/revision_v3_publication.py"
+      ],
+      "notes": [
+        "Five architecture candidates; selection by mean VAL R2, not EVAL."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S12",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/publication/revision_v3/S12_components.csv",
+        "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/revision_v3_publication.py"
+      ],
+      "notes": [
+        "Selected FULL12 parent; embedding-off retains climate inputs/drivers; adaptive-off retains fixed proximity and is a FedProx alias."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S13",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/publication/revision_v3/S13_output_loss.csv",
+        "benchmarks/accepted/runs/revision_v3/evaluation/per_client.csv",
+        "benchmarks/accepted/runs/revision_v3/evaluation/tail_bias_summary.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/revision_v3_publication.py"
+      ],
+      "notes": [
+        "RAW/nonnegative/tailweight2 controls for four methods; includes S13b auxiliary metrics and undefined counts."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S14",
+      "kind": "numerical",
+      "evidence": [
+        "benchmarks/accepted/publication/revision_v3/S14_delay.csv",
+        "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/revision_v3_publication.py"
+      ],
+      "notes": [
+        "Matched FULL48 delay2 arms, 297 TRAIN targets; same issuance, not a true earlier forecast lead."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S15",
+      "kind": "paired_uncertainty",
+      "evidence": [
+        "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv",
+        "benchmarks/accepted/runs/revision_v3/evaluation/bootstrap_draws_36.csv",
+        "benchmarks/accepted/runs/revision_v3/evaluation/annual_sign_Holm36.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/revision_v3_evaluate.py",
+        "benchmarks/accepted/tools/revision_v3_independent_qa.py"
+      ],
+      "notes": [
+        "36-family contrasts include 32 fresh-output and four archived v2 controls; first Holm minimum 0.28125."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "S16",
+      "kind": "paired_uncertainty",
+      "evidence": [
+        "benchmarks/accepted/publication/revision_v3/S16_archived_CI_13_all_blocks.csv",
+        "benchmarks/accepted/runs/revision_v3/evaluation/archived_additional_draws_11.csv",
+        "benchmarks/accepted/runs/revision_v3/evaluation/archived_feature_draws_2.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/revision_v3_evaluate.py",
+        "benchmarks/accepted/tools/revision_v3_independent_qa.py"
+      ],
+      "notes": [
+        "A01–A11 archived router/personal/climatology contrasts plus F01/F02 climate-feature contrasts; unadjusted exploratory diagnostics outside original31/new36 families."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "IS1",
+      "kind": "protocol_inventory",
+      "evidence": [
+        "benchmarks/sharing/protocol.json",
+        "benchmarks/sharing/analysis_amendment_v1.json",
+        "benchmarks/sharing/evaluation/fit_cost_40.csv"
+      ],
+      "generator_code": [
+        "benchmarks/sharing/tools/sharing_engine.py",
+        "benchmarks/sharing/tools/run_experiment.py"
+      ],
+      "notes": [
+        "Eight policies × five seeds; amendment after training began, before scoring new EVAL; 40 fits, 357300 optimizer steps, 10764000 example presentations."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "IS2",
+      "kind": "paired_uncertainty",
+      "evidence": [
+        "benchmarks/sharing/evaluation/paired_CI_7.csv",
+        "benchmarks/sharing/evaluation/annual_MSE_sign_tests.csv",
+        "benchmarks/sharing/evaluation/annual_loss_contributions.csv",
+        "benchmarks/sharing/evaluation/bootstrap_draws_7.csv",
+        "benchmarks/sharing/evaluation/bootstrap_resamples.npz"
+      ],
+      "generator_code": [
+        "benchmarks/sharing/tools/evaluate_experiment.py",
+        "benchmarks/sharing/tools/independent_qa.py"
+      ],
+      "notes": [
+        "Seven reported contrasts; six amended focal contrasts; retain original Holm7 alongside Holm6. Marginal intervals; 6000 joint resamples, 42000 contrast-draw rows, 84 intervals."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "IS3",
+      "kind": "endpoint_sensitivity",
+      "evidence": [
+        "benchmarks/sharing/evaluation/model_summary_ALL_endpoints.csv",
+        "benchmarks/sharing/evaluation/macro_per_seed_ALL_endpoints.csv",
+        "benchmarks/sharing/evaluation/raw_predictions_ALL_endpoints.csv"
+      ],
+      "generator_code": [
+        "benchmarks/sharing/tools/evaluate_experiment.py"
+      ],
+      "notes": [
+        "fixed60 versus common VAL20/40/60 global/local and separately selected personal diagnostics; not extra fits/independent outcomes."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "IS4",
+      "kind": "communication_inventory",
+      "evidence": [
+        "benchmarks/sharing/evaluation/fit_cost_40.csv",
+        "benchmarks/sharing/qa/acceptance.json",
+        "benchmarks/sharing/qa/portable_state_replay.json"
+      ],
+      "generator_code": [
+        "benchmarks/sharing/tools/sharing_engine.py",
+        "benchmarks/sharing/tools/verify_training_completion.py",
+        "benchmarks/sharing/tools/replay_predictions.py"
+      ],
+      "notes": [
+        "Required uncompressed numeric payload sums recipients; setup/initial/final messages included; optional VAL/audit accounted separately; excludes transport/energy/WAN claims."
+      ],
+      "portable_table_command": "publication_tables",
+      "portable_exporter": "scripts/export_tables.py"
+    },
+    {
+      "id": "Figure01",
+      "kind": "figure",
+      "evidence": [
+        "publication/reference/Figure01.png",
+        "benchmarks/accepted/caadapfl/neural_benchmark.py"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_method_figures.py"
+      ],
+      "notes": [
+        "Architecture implementation diagram; exact reference preserved; optional method redraw uses 01_network."
+      ],
+      "reference_image": "publication/reference/Figure01.png",
+      "redraw_supported": false,
+      "portable_redraw_command": null,
+      "exact_layout_reconstruction": false
+    },
+    {
+      "id": "Figure02",
+      "kind": "figure",
+      "evidence": [
+        "publication/reference/Figure02.png",
+        "benchmarks/accepted/figures/revision_v2/source_data/fit_cost_ledger_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/shared_graph_setup_ledger.json"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_method_figures.py"
+      ],
+      "notes": [
+        "Original FULL48 simulation messages; optional method redraw uses 02_messages; boundaries differ from sharing ledger."
+      ],
+      "reference_image": "publication/reference/Figure02.png",
+      "redraw_supported": false,
+      "portable_redraw_command": null,
+      "exact_layout_reconstruction": false
+    },
+    {
+      "id": "Figure03",
+      "kind": "figure",
+      "evidence": [
+        "publication/reference/Figure03.png",
+        "benchmarks/accepted/provenance/source_tables/extraction_protocol.json",
+        "benchmarks/accepted/provenance/source_tables/india_country_ne_5_1_1.geojson"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_method_figures.py"
+      ],
+      "notes": [
+        "Domains; optional method redraw uses 04_fixed_domains; contains no 2025 rainfall."
+      ],
+      "reference_image": "publication/reference/Figure03.png",
+      "redraw_supported": false,
+      "portable_redraw_command": null,
+      "exact_layout_reconstruction": false
+    },
+    {
+      "id": "Figure04",
+      "kind": "figure",
+      "evidence": [
+        "publication/reference/Figure04.png",
+        "benchmarks/accepted/docs/feature_diagnostics/feature_dictionary.csv",
+        "benchmarks/accepted/runs/revision_v2/datasets/MAIN_FULL_schema.json"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_method_figures.py"
+      ],
+      "notes": [
+        "Frozen availability/split roles; optional method redraw uses 03_input_availability; revised archives, not historical real-time vintages."
+      ],
+      "reference_image": "publication/reference/Figure04.png",
+      "redraw_supported": false,
+      "portable_redraw_command": null,
+      "exact_layout_reconstruction": false
+    },
+    {
+      "id": "Figure05",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/01_global_and_classical.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/aggregate_per_seed_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_figures.py",
+        "benchmarks/accepted/tools/make_publication_companions.py"
+      ],
+      "notes": [
+        "Fixed global/classical model order; five seed points plus mean/sampleSD, not confidence intervals."
+      ],
+      "reference_image": "publication/reference/Figure05.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure06",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/02_personal.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/aggregate_per_seed_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_figures.py",
+        "benchmarks/accepted/tools/make_publication_companions.py"
+      ],
+      "notes": [
+        "Fixed personal model order; checkpoints separately selected; sampleSD, not causal personalization effect."
+      ],
+      "reference_image": "publication/reference/Figure06.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure07",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/raw_predictions_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv"
+      ],
+      "generator_code": [],
+      "notes": [
+        "CAAA_GLOBAL_FULL five seeds, TRAIN monthly climatology deduplicated across seeds, observed rainfall, gradient-TRAIN q80; negative forecasts retained."
+      ],
+      "reference_image": "publication/reference/Figure07.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure08",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/05_training_graphs.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/05_training_graph_profiles.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_figures.py",
+        "benchmarks/accepted/tools/make_publication_companions.py"
+      ],
+      "notes": [
+        "Original/enriched/uniform input affinity matrices; common scale0–1; not row-normalized trainer weights, causal effects or skill."
+      ],
+      "reference_image": "publication/reference/Figure08.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure09",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_candidates_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_rounds_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_figures.py"
+      ],
+      "notes": [
+        "All seed42 LR/mu/coefficient grids and sixty-round selected curves; own color scale; developmental VAL results."
+      ],
+      "reference_image": "publication/reference/Figure09.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure10",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/04_anchor_ablations.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block6_sensitivity_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block24_sensitivity_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_figures.py",
+        "benchmarks/accepted/tools/make_publication_companions.py"
+      ],
+      "notes": [
+        "Nonzero (.3,.3,.4) anchor-minus-removal; marginal block12 intervals, not selected-primary removals."
+      ],
+      "reference_image": "publication/reference/Figure10.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure11",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/08_client_PR_seed42.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/PR_coordinates_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_figures.py",
+        "benchmarks/accepted/tools/make_publication_companions.py"
+      ],
+      "notes": [
+        "Separate five-client probability PR curves at seed42, local TRAINq80 observed prevalence; no pooled-client curve."
+      ],
+      "reference_image": "publication/reference/Figure11.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure12",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/07_client_heavy.csv"
+      ],
+      "generator_code": [
+        "benchmarks/accepted/tools/make_figures.py"
+      ],
+      "notes": [
+        "Global/personal recall/AP/tailRMSE seed points and mean/sampleSD; percentage whiskers clipped at0/100 with arrows, raw proportions always withinbounds."
+      ],
+      "reference_image": "publication/reference/Figure12.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "Figure13",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/sharing/evaluation/principal_comparison.csv",
+        "benchmarks/sharing/evaluation/macro_per_seed_ALL_endpoints.csv",
+        "benchmarks/sharing/evaluation/fit_cost_40.csv"
+      ],
+      "generator_code": [],
+      "notes": [
+        "Fixed tick60; mean macroRMSE; seed min–max, not CIs; symlog payload retainingzero; TRAIN climatology reference."
+      ],
+      "reference_image": "publication/reference/Figure13.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    },
+    {
+      "id": "FigureIS1",
+      "kind": "figure",
+      "evidence": [
+        "benchmarks/sharing/evaluation/model_summary_ALL_endpoints.csv"
+      ],
+      "generator_code": [
+        "benchmarks/sharing/tools/build_deliverables.py"
+      ],
+      "notes": [
+        "Primary tick60 versus secondary common VAL20/40/60 global/local path; personal diagnostics remain separately labelled."
+      ],
+      "reference_image": "benchmarks/sharing/figures/04_checkpoint_sensitivity.png",
+      "redraw_supported": true,
+      "portable_redraw_command": "numerical_redraws",
+      "exact_layout_reconstruction": false,
+      "portable_exporter": "scripts/publication_export.py"
+    }
+  ],
+  "limitations": [
+    "Exact embedded Figure1–12 plotting layouts were not recovered from runnable generators. Embedded originals are hash/pixel-retained separately; equivalents must be labelled redraws.",
+    "Nine original TRAIN Ridge-screen fit timings were not separately recorded and cannot be restored.",
+    "Frozen processed panels can reproduce model experiments subject to source-access restrictions; complete historical operational vintages and provider-wide reacquisition are not established.",
+    "Eight annual blocks and fixed overlapping domains constrain inference; optimizer seeds do not add independent years/clients.",
+    "The manuscript's stated absence of a permanent repository/DOI was true when Marked5 was authored and must be updated separately after actual public deposit."
+  ]
+}

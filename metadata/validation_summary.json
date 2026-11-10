@@ -1,0 +1,147 @@
+{
+  "status": "PASS_WITH_DECLARED_IMD_AND_RUNTIME_BOUNDARIES",
+  "validated_utc": "2026-10-10T22:02:58.950208+00:00",
+  "software_license": "Apache-2.0",
+  "published": false,
+  "new_full_empirical_training_in_packaging_task": false,
+  "current_paper_fit_bundles": 513,
+  "frozen_source_files_authenticated": 606,
+  "independent_arithmetic": {
+    "primary": {
+      "status": "PASS",
+      "labels": 96,
+      "forecasts": 230400,
+      "bootstrap_draws": 186000
+    },
+    "sources": {
+      "status": "PASS_OUTPUT_ARITHMETIC",
+      "labels": 36,
+      "forecasts": 83100,
+      "bootstrap_draws": 108000,
+      "solar_gldas_source_and_scaling_rederived": true,
+      "IMD_REFERENCE_scaling_rederived": true,
+      "IMD_ADDED_input_reconstruction_checked_in_public_mode": false
+    },
+    "capacity": {
+      "status": "PASS",
+      "labels": 46,
+      "forecasts": 110400,
+      "bootstrap_draws": 294000
+    },
+    "sharing": {
+      "status": "PASS",
+      "numeric_scalar_checks": 415487,
+      "assertions": 75331
+    }
+  },
+  "saved_state_replay": {
+    "primary": {
+      "status": "PASS_WITH_STATED_CLASSICAL_TOLERANCE",
+      "forecasts": 230400,
+      "neural_and_baseline_exact": true,
+      "maximum_classical_router_difference_mm": 1.1368683772161603e-13,
+      "classical_rainfall_absolute_tolerance_mm": 1e-10
+    },
+    "capacity": {
+      "status": "PASS",
+      "all_authentic_forecasts": 110400,
+      "new_inference_forecasts": 48000,
+      "exact_alias_projection_forecasts": 24000,
+      "authenticated_carried_archival_forecasts": 38400
+    },
+    "sources_public": {
+      "status": "PARTIAL_UNAVAILABLE",
+      "exact_solar_and_GLDAS21_forecasts": 57600,
+      "IMD_added_features_excluded": true
+    },
+    "sources_full_local": {
+      "status": "PASS",
+      "exact_forecasts": 83100
+    },
+    "sharing": {
+      "status": "PASS",
+      "exact_neural_forecasts": 62400,
+      "no_fit_climatology_rows_checked_by_math_QA": 2400
+    }
+  },
+  "native_IMD_import": {
+    "status": "PASS",
+    "native_files": 44,
+    "native_bytes": 1119766988,
+    "byte_identical_restored_paths": 8,
+    "old_descriptive_pairs_not_restored": true,
+    "two_distinct_source_and_model_environments": true
+  },
+  "checks": {
+    "packaging_unittests_passed": 29,
+    "scientific_invariants_passed": 11,
+    "synthetic_source_packaging_checks_passed": 27,
+    "symlink_creation_tests_unavailable_on_host": 2,
+    "all_7_notebook_code_cells_executed_without_errors": true,
+    "main96_label_notebook_max_metric_difference": 1.4210854715202004e-14,
+    "publication_tables": 31,
+    "displayed_result_values_matched": 514,
+    "paper_map_items": 45,
+    "numeric_redraws_visually_checked": 10,
+    "method_redraws_visually_checked": 4,
+    "hosted_GitHub_Actions_executed": false
+  },
+  "evidence_receipt_hashes": {
+    "primary_math": {
+      "receipt": "completed_result_audit.json",
+      "sha256": "f1a962d8f6264fc533d7ef59862fe72f33b8321b6b0061841cdff8f2fde3a454"
+    },
+    "sources_math_hardened": {
+      "receipt": "source_qa_hardened.json",
+      "sha256": "4cd8a1f2f90bcd19f39f01f0b2ffa9485a78808945e29706493a7d61169ff913"
+    },
+    "capacity_math": {
+      "receipt": "complete.json",
+      "sha256": "e1278843206e371aa10c869f3a12c53b0682e296901d116a7ed0114c390b6db9"
+    },
+    "sharing_math": {
+      "receipt": "sharing.json",
+      "sha256": "9cd174c65820e6a90cdaa031236250b9412797e9b6bf5c1d2c0a2c5a1aadd435"
+    },
+    "primary_state": {
+      "receipt": "replay_receipt.json",
+      "sha256": "57b8d356a5d07559e042c957cb1c34c5d54c7d368730222e8f9ef1684bc70a34"
+    },
+    "capacity_state": {
+      "receipt": "replay_receipt.json",
+      "sha256": "3bffca30012b427227c8f3b01c9f51529bde5e0f065cc779194b83272861d475"
+    },
+    "sources_public_state": {
+      "receipt": "replay_receipt.json",
+      "sha256": "2212518498aec842bc35e958795dcf102222ad7903cf0351e78ce4342ab9d9a1"
+    },
+    "sources_complete_local_state": {
+      "receipt": "replay_receipt.json",
+      "sha256": "8229aaecf1069df1fafaa86430da9bba09d676ecd71796954db4dd8ea9f5f030"
+    },
+    "sharing_state": {
+      "receipt": "sharing.json",
+      "sha256": "45b3a389ffe11c16b92ef7f4fdd36080210914c49fccbe4ce139e84920010384"
+    },
+    "native_imd_import": {
+      "receipt": "imd_import_test_receipt.json",
+      "sha256": "f70daa8c41ed7d99aea6ed64d79648a9271e7ff88995da3c9b1cc07abd0faf45"
+    },
+    "source_packaging_synthetic": {
+      "receipt": "source_packaging_qa.json",
+      "sha256": "ce8e5ef68fdcef1e4476afa9776b83022813b8e0b9fdb7fbac4a322e42b415d9"
+    },
+    "table_exports": {
+      "receipt": "validation.json",
+      "sha256": "5eba6a706721fe124689b17459f87baddb31451310e920007ac74b52cfadc44b"
+    }
+  },
+  "limits": [
+    "IMD inputs absent from public source/results. Acquire matching native files under applicable terms for full IMD-added inference/scaler admission.",
+    "Exact saved-state replay/source training retains full recorded Windows/Python/compiler/PyTorch runtime guards. The pip recipe was not independently proven to recreate that complete build.",
+    "No new full empirical retraining was needed/performed for packaging. Bounded synthetic optimizer tests are implementation checks.",
+    "Numerical redraws retain data semantics; original embedded manuscript images are separately retained. Exact pixel layouts are not reconstructed.",
+    "The inspected2017\u20132024 evaluation is retrospective/exploratory. No new untouchedholdout, formalprivacy or distributedinstitutionaldeployment validation.",
+    "Local source archive relocation validation is recorded separately after packaging; no remote repository/Release/DOI exists yet."
+  ]
+}

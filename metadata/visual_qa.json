@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "review": "All14 rendered plates visually inspected; PNG/SVG preserve source data; original manuscript image layouts stored separately.",
+  "files": {
+    "publication/method_redraws/01_network.png": "65a4a2fecb6925f870a53ccf7c281794a37b9e832c186f092bd10bda1556aba4",
+    "publication/method_redraws/02_messages.png": "dfe51fb6edb8a0c6e98137163d3f56020eab0459cfdfe0474cce5c3035f9c39e",
+    "publication/method_redraws/03_input_availability.png": "33c9a46446a128abc77d471fe5402931ad8f09d4a1ce112c588dcfa071e85151",
+    "publication/method_redraws/04_fixed_domains.png": "ea72233a61bf2a4ace50f4e706ce10df77c736e2540157339ce5685cc6c558ff",
+    "publication/numerical_redraws/Figure05.png": "73293e54b8afdae66b796d7d87d1118eb0286144e7e667b71aa707dc9c3449ba",
+    "publication/numerical_redraws/Figure06.png": "ff0329c4d82af14b10d53f884c2ff191026d9401ef75dafb8c8d004aea893963",
+    "publication/numerical_redraws/Figure07.png": "690862a6a03e55cf9f3bbc059be9a904f6960d3d7a6e0bc175bf3cf623e783e4",
+    "publication/numerical_redraws/Figure08.png": "c22f5db51f4060545161d7ac91370761e8f0cd86a9f591dc2c7b1eec03a69cdd",
+    "publication/numerical_redraws/Figure09.png": "072cccc98e124e2c38259c79b1e56ae38cc78c357b1422623a935f10334fddb0",
+    "publication/numerical_redraws/Figure10.png": "4cbea3bf80ba4b23ca6bb2b2d69a8c135188dc504432a04c541587e7edaf6381",
+    "publication/numerical_redraws/Figure11.png": "8e573a80bc19ef2a0e64b49d3fc0404f451bad83412273d58c148b3f14d56ff1",
+    "publication/numerical_redraws/Figure12.png": "ada2cf3f72fb9c8c2515a6901b0bdc45001fb3e4b404d6c84cbef0f4e6daae42",
+    "publication/numerical_redraws/Figure13.png": "73b7a64d7a97f219bdc73d79fdd4b3e6d2e7baf0f307a3eb330824a24821d7af",
+    "publication/numerical_redraws/FigureIS1.png": "628b13fcae03c72be7957dead6c3e4bd25445db631c03f8a1f9fc5f5b923ecf0"
+  },
+  "method_mapping": {
+    "Figure1": "01_network",
+    "Figure2": "02_messages",
+    "Figure3": "04_fixed_domains",
+    "Figure4": "03_input_availability"
+  }
+}

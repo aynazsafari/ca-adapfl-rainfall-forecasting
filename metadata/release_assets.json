@@ -1,0 +1,90 @@
+{
+  "version": "1.2.0",
+  "status": "LOCAL_CANDIDATE_NOT_PUBLISHED",
+  "prepared_utc": "2026-10-10T21:39:04.896130+00:00",
+  "assets": [
+    {
+      "file": "CAAdapFL_Accepted_Results_Part_01.zip",
+      "bytes": 1225078515,
+      "sha256": "03e082018142da08ba00de4b39381c4449f8b37cef4e62191541290d521d64f8",
+      "target": "benchmarks/accepted",
+      "strip_prefix": "",
+      "members": 1050,
+      "omitted_inputs": [
+        {
+          "path": "runs/revision_v2/descriptive_diagnostics/CHIRPS_IMD_same_month_pairs.csv",
+          "sha256": "4d9ec5fac516f1a60b73b88cd1cdba192de4ca7d3595ba02187dba2d73b9fde3",
+          "bytes": 426897,
+          "reason": "IMD provider-derived input excluded from public asset"
+        }
+      ]
+    },
+    {
+      "file": "CAAdapFL_Accepted_Results_Part_02.zip",
+      "bytes": 1296099311,
+      "sha256": "fa6861ed76c8724eef4ba62663551be2f30ab924f94e19669cc879c811c428fc",
+      "target": "benchmarks/accepted",
+      "strip_prefix": "",
+      "members": 893,
+      "omitted_inputs": []
+    },
+    {
+      "file": "CAAdapFL_Accepted_Results_Part_03.zip",
+      "bytes": 1326389731,
+      "sha256": "ed8d2fdc9ab0120b475bdc05941c622f2baffd16f47b2b230da780176edd59ea",
+      "target": "benchmarks/accepted",
+      "strip_prefix": "",
+      "members": 1027,
+      "omitted_inputs": [
+        {
+          "path": "runs/supplements_v2/datasets/IMD_ADDED_FULL_evaluation_features.npz",
+          "sha256": "78c08cb80ccb2add2eb861a04578c01fda047b1549a9c7ba9262efc453373c1f",
+          "bytes": 270306,
+          "reason": "IMD provider-derived input excluded from public asset"
+        },
+        {
+          "path": "runs/supplements_v2/datasets/IMD_ADDED_FULL_fit.npz",
+          "sha256": "07822be743330dab4cbee5d4ac858e0ec1774280f1ea2c243fb510594f95b501",
+          "bytes": 1169082,
+          "reason": "IMD provider-derived input excluded from public asset"
+        },
+        {
+          "path": "runs/supplements_v2/datasets/IMD_ADDED_FULL_schema.json",
+          "sha256": "48bfa75f9f3d82f872df3779a0c0a899f5c36835ea83b6de36a8f731585c4a16",
+          "bytes": 14924,
+          "reason": "IMD provider-derived input excluded from public asset"
+        }
+      ]
+    },
+    {
+      "file": "CAAdapFL_Accepted_Results_Part_04.zip",
+      "bytes": 1413156815,
+      "sha256": "33decaffe4c3fda9902de2a621c3eca61ac06c935cb5c85708f4ed0d1d316af6",
+      "target": "benchmarks/accepted",
+      "strip_prefix": "",
+      "members": 867,
+      "omitted_inputs": []
+    },
+    {
+      "file": "CAAdapFL_Capacity_Output_Results.zip",
+      "bytes": 569009328,
+      "sha256": "b532aba471c024a49b1d98dea5ee2d094be2a9c2f57e6dc5a0beae675b19be1b",
+      "target": "benchmarks/accepted",
+      "strip_prefix": "caadapfl_benchmark/",
+      "members": 1150,
+      "omitted_inputs": []
+    },
+    {
+      "file": "CAAdapFL_Information_Sharing_Results.zip",
+      "bytes": 134275878,
+      "sha256": "bd805680025235005b761d5cb8d4ce4853dad3fd66ee294311272160ecd1b811",
+      "target": "benchmarks/sharing",
+      "strip_prefix": "information_sharing_benchmark/",
+      "members": 947,
+      "omitted_inputs": []
+    }
+  ],
+  "repository_url": null,
+  "doi": null,
+  "input_scope": "Public model inputs exclude IMD; optional native-source importer restores them only in a local authorized checkout"
+}
