@@ -1,0 +1,37 @@
+{
+  "id": "S9",
+  "role": "saved_numeric_evidence",
+  "rows": 10,
+  "columns": [
+    "short",
+    "year",
+    "title",
+    "task",
+    "mechanism",
+    "personalization",
+    "climate",
+    "graph",
+    "explainability",
+    "study_region",
+    "tuning",
+    "privacy",
+    "difference",
+    "doi",
+    "url",
+    "version",
+    "locators"
+  ],
+  "sources": {
+    "benchmarks/accepted/docs/literature/comparison_table.csv": {
+      "sha256": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9",
+      "rows": 10
+    }
+  },
+  "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+  "files_sha256": {
+    "S9.csv": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

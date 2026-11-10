@@ -1,0 +1,684 @@
+{
+  "version": 1,
+  "frozen_stage": "before main evaluation",
+  "parent_approval": "nine plates, fixed full comparison family",
+  "original_script_sha256": "316a77b750ba5703532874976cfb6ca3f4c4a32e22dc67a44685573d98c92b09",
+  "protocol_file_sha256": "3e2cb629ab69209bf6510203d3e073914be18cd4480bb185847b7f303363f602",
+  "default_run": "runs/revision_v2",
+  "default_figures": "figures/revision_v2",
+  "original_artifact_count": 8,
+  "companion_plate_count": 9,
+  "width_inches": 6.7,
+  "minimum_font_pt": 10,
+  "output_formats": [
+    "PNG 300 dpi",
+    "PDF",
+    "SVG"
+  ],
+  "physical_page_rule": "Fixed 6.7-inch canvas; no tight-bbox expansion or shrink to fit. Never crop data.",
+  "pairs": [
+    [
+      "CAAA_GLOBAL_CORE",
+      "FEDAVG_GLOBAL_CORE"
+    ],
+    [
+      "CAAA_GLOBAL_CORE",
+      "FEDPROX_GLOBAL_CORE"
+    ],
+    [
+      "CAAA_GLOBAL_CLIMATE",
+      "FEDAVG_GLOBAL_CLIMATE"
+    ],
+    [
+      "CAAA_GLOBAL_CLIMATE",
+      "FEDPROX_GLOBAL_CLIMATE"
+    ],
+    [
+      "CAAA_GLOBAL_FULL",
+      "FEDAVG_GLOBAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_FULL",
+      "FEDPROX_GLOBAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_TRAIN_SELECTED",
+      "FEDAVG_GLOBAL_TRAIN_SELECTED"
+    ],
+    [
+      "CAAA_GLOBAL_TRAIN_SELECTED",
+      "FEDPROX_GLOBAL_TRAIN_SELECTED"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "FEDAVG_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "FEDPROX_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "DITTO_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "LOCAL_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_CLIMATE_WEIGHT"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_PERFORMANCE_WEIGHT"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_PROX"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_AUX"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_EMBEDDING"
+    ],
+    [
+      "CAAA_GLOBAL_CORE",
+      "CAAA_GLOBAL_CORE_CLIMATE_FREE"
+    ],
+    [
+      "GRAPH_ENRICHED_PERSONAL_FULL",
+      "GRAPH_ORIGINAL_PERSONAL_FULL"
+    ],
+    [
+      "GRAPH_ENRICHED_PERSONAL_FULL",
+      "GRAPH_UNIFORM_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_LATENCY_LAG1",
+      "CAAA_GLOBAL_LATENCY_REFERENCE"
+    ],
+    [
+      "FEDAVG_GLOBAL_LATENCY_LAG1",
+      "FEDAVG_GLOBAL_LATENCY_REFERENCE"
+    ],
+    [
+      "FEDPROX_GLOBAL_LATENCY_LAG1",
+      "FEDPROX_GLOBAL_LATENCY_REFERENCE"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_validation_best"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_equal_weight"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_convex"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_temporal_OOF_Ridge_stack"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_validation_best"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_equal_weight"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_convex"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_temporal_OOF_Ridge_stack"
+    ]
+  ],
+  "pair_labels": [
+    "01  CA-G/C − FA-G/C",
+    "02  CA-G/C − FP-G/C",
+    "03  CA-G/I − FA-G/I",
+    "04  CA-G/I − FP-G/I",
+    "05  CA-G/F − FA-G/F",
+    "06  CA-G/F − FP-G/F",
+    "07  CA-G/S − FA-G/S",
+    "08  CA-G/S − FP-G/S",
+    "09  CA-P/F − FA-P/F",
+    "10  CA-P/F − FP-P/F",
+    "11  CA-P/F − DI-P/F",
+    "12  CA-P/F − LN-P/F",
+    "13  CA-A/F − CA-noCW/F",
+    "14  CA-A/F − CA-noPW/F",
+    "15  CA-A/F − CA-noProx/F",
+    "16  CA-A/F − CA-noAux/F",
+    "17  CA-A/F − CA-noEmb/F",
+    "18  CA-G/C − CA-G/C0",
+    "19  GR-E/F − GR-O/F",
+    "20  GR-E/F − GR-U/F",
+    "21  CA-G/L1 − CA-G/L0",
+    "22  FA-G/L1 − FA-G/L0",
+    "23  FP-G/L1 − FP-G/L0",
+    "24  R-C/Rob − R-C/Best",
+    "25  R-C/Rob − R-C/Eq",
+    "26  R-C/Rob − R-C/Cvx",
+    "27  R-C/Rob − R-C/OOF",
+    "28  R-F/Rob − R-F/Best",
+    "29  R-F/Rob − R-F/Eq",
+    "30  R-F/Rob − R-F/Cvx",
+    "31  R-F/Rob − R-F/OOF"
+  ],
+  "forest_ranges": [
+    [
+      0,
+      8
+    ],
+    [
+      8,
+      16
+    ],
+    [
+      16,
+      24
+    ],
+    [
+      24,
+      31
+    ]
+  ],
+  "forest_metrics": [
+    "macro_R2",
+    "macro_RMSE_mm"
+  ],
+  "forest_limits": "Per metric common to all four plates: min/max of zero, all 31 point estimates and all 31 CI endpoints, with 8% span padding; degenerate span uses .01. No sorting, clipping or transformations.",
+  "seeds": [
+    42,
+    123,
+    2024,
+    7,
+    999
+  ],
+  "clients": [
+    "Client1_NW_Arid",
+    "Client2_Indo_Gangetic",
+    "Client3_NE_Himalaya",
+    "Client4_South_Peninsular",
+    "Client5_Central_India"
+  ],
+  "global_models": [
+    "CAAA_GLOBAL_FULL",
+    "FEDAVG_GLOBAL_FULL",
+    "FEDPROX_GLOBAL_FULL",
+    "CENTRAL_GLOBAL_FULL",
+    "raw_pooled_ET_FULL_latest",
+    "local_ET_FULL_latest",
+    "client_normalized_pooled_ET_FULL_latest"
+  ],
+  "personal_models": [
+    "CAAA_PERSONAL_FULL",
+    "DITTO_PERSONAL_FULL",
+    "LOCAL_PERSONAL_FULL",
+    "GRAPH_ORIGINAL_PERSONAL_FULL",
+    "GRAPH_ENRICHED_PERSONAL_FULL",
+    "GRAPH_UNIFORM_PERSONAL_FULL"
+  ],
+  "pr_models": [
+    "CAAA_GLOBAL_FULL",
+    "FEDAVG_GLOBAL_FULL",
+    "FEDPROX_GLOBAL_FULL"
+  ],
+  "pr_seed": 42,
+  "flags": [
+    "NO_CLIMATE_WEIGHT",
+    "NO_PERFORMANCE_WEIGHT",
+    "NO_PROX",
+    "NO_AUX",
+    "NO_EMBEDDING"
+  ],
+  "graph_variants": [
+    "original",
+    "enriched",
+    "uniform"
+  ],
+  "graph_scale": [
+    0,
+    1
+  ],
+  "model_ledger": [
+    {
+      "model": "CAAA_GLOBAL_CORE",
+      "alias": "CA-G/C",
+      "full_name": "CA-ALCE global, CORE14",
+      "scope": "global",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "FEDAVG_GLOBAL_CORE",
+      "alias": "FA-G/C",
+      "full_name": "FedAvg global, CORE14",
+      "scope": "global",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "FEDPROX_GLOBAL_CORE",
+      "alias": "FP-G/C",
+      "full_name": "FedProx global, CORE14",
+      "scope": "global",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "CAAA_GLOBAL_CLIMATE",
+      "alias": "CA-G/I",
+      "full_name": "CA-ALCE global, CLIMATE21",
+      "scope": "global",
+      "feature_group": "CLIMATE21"
+    },
+    {
+      "model": "FEDAVG_GLOBAL_CLIMATE",
+      "alias": "FA-G/I",
+      "full_name": "FedAvg global, CLIMATE21",
+      "scope": "global",
+      "feature_group": "CLIMATE21"
+    },
+    {
+      "model": "FEDPROX_GLOBAL_CLIMATE",
+      "alias": "FP-G/I",
+      "full_name": "FedProx global, CLIMATE21",
+      "scope": "global",
+      "feature_group": "CLIMATE21"
+    },
+    {
+      "model": "CAAA_GLOBAL_FULL",
+      "alias": "CA-G/F",
+      "full_name": "CA-ALCE global, FULL43",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "FEDAVG_GLOBAL_FULL",
+      "alias": "FA-G/F",
+      "full_name": "FedAvg global, FULL43",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "FEDPROX_GLOBAL_FULL",
+      "alias": "FP-G/F",
+      "full_name": "FedProx global, FULL43",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_TRAIN_SELECTED",
+      "alias": "CA-G/S",
+      "full_name": "CA-ALCE global, TRAIN_SELECTED",
+      "scope": "global",
+      "feature_group": "TRAIN_SELECTED"
+    },
+    {
+      "model": "FEDAVG_GLOBAL_TRAIN_SELECTED",
+      "alias": "FA-G/S",
+      "full_name": "FedAvg global, TRAIN_SELECTED",
+      "scope": "global",
+      "feature_group": "TRAIN_SELECTED"
+    },
+    {
+      "model": "FEDPROX_GLOBAL_TRAIN_SELECTED",
+      "alias": "FP-G/S",
+      "full_name": "FedProx global, TRAIN_SELECTED",
+      "scope": "global",
+      "feature_group": "TRAIN_SELECTED"
+    },
+    {
+      "model": "CAAA_PERSONAL_FULL",
+      "alias": "CA-P/F",
+      "full_name": "CA-ALCE personal, FULL43",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "FEDAVG_PERSONAL_FULL",
+      "alias": "FA-P/F",
+      "full_name": "FedAvg personal, FULL43",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "FEDPROX_PERSONAL_FULL",
+      "alias": "FP-P/F",
+      "full_name": "FedProx personal, FULL43",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "DITTO_PERSONAL_FULL",
+      "alias": "DI-P/F",
+      "full_name": "Ditto personal, FULL43",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "LOCAL_PERSONAL_FULL",
+      "alias": "LN-P/F",
+      "full_name": "Local neural personal, FULL43",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_FULL_ANCHOR",
+      "alias": "CA-A/F",
+      "full_name": "CA-ALCE global, fixed nonzero coefficient anchor (.3,.3,.4)",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_FULL_NO_CLIMATE_WEIGHT",
+      "alias": "CA-noCW/F",
+      "full_name": "CA-ALCE global, fixed anchor with climate aggregation weight removed",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_FULL_NO_PERFORMANCE_WEIGHT",
+      "alias": "CA-noPW/F",
+      "full_name": "CA-ALCE global, fixed anchor with performance aggregation weight removed",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_FULL_NO_PROX",
+      "alias": "CA-noProx/F",
+      "full_name": "CA-ALCE global, fixed anchor with proximal loss removed",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_FULL_NO_AUX",
+      "alias": "CA-noAux/F",
+      "full_name": "CA-ALCE global, fixed anchor with auxiliary loss removed",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_FULL_NO_EMBEDDING",
+      "alias": "CA-noEmb/F",
+      "full_name": "CA-ALCE global, fixed anchor with climate embedding removed",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_CORE_CLIMATE_FREE",
+      "alias": "CA-G/C0",
+      "full_name": "CA-ALCE global, CORE14 with all climate pathways removed",
+      "scope": "global",
+      "feature_group": "CORE14 climate-free control"
+    },
+    {
+      "model": "GRAPH_ENRICHED_PERSONAL_FULL",
+      "alias": "GR-E/F",
+      "full_name": "ClimateGraph enriched personal",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "GRAPH_ORIGINAL_PERSONAL_FULL",
+      "alias": "GR-O/F",
+      "full_name": "ClimateGraph original personal",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "GRAPH_UNIFORM_PERSONAL_FULL",
+      "alias": "GR-U/F",
+      "full_name": "ClimateGraph uniform personal",
+      "scope": "personal",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CAAA_GLOBAL_LATENCY_LAG1",
+      "alias": "CA-G/L1",
+      "full_name": "CA-ALCE global, matched one additional month lag",
+      "scope": "global",
+      "feature_group": "FULL43 matched latency cohort"
+    },
+    {
+      "model": "CAAA_GLOBAL_LATENCY_REFERENCE",
+      "alias": "CA-G/L0",
+      "full_name": "CA-ALCE global, matched reference latency",
+      "scope": "global",
+      "feature_group": "FULL43 matched latency cohort"
+    },
+    {
+      "model": "FEDAVG_GLOBAL_LATENCY_LAG1",
+      "alias": "FA-G/L1",
+      "full_name": "FedAvg global, matched one additional month lag",
+      "scope": "global",
+      "feature_group": "FULL43 matched latency cohort"
+    },
+    {
+      "model": "FEDAVG_GLOBAL_LATENCY_REFERENCE",
+      "alias": "FA-G/L0",
+      "full_name": "FedAvg global, matched reference latency",
+      "scope": "global",
+      "feature_group": "FULL43 matched latency cohort"
+    },
+    {
+      "model": "FEDPROX_GLOBAL_LATENCY_LAG1",
+      "alias": "FP-G/L1",
+      "full_name": "FedProx global, matched one additional month lag",
+      "scope": "global",
+      "feature_group": "FULL43 matched latency cohort"
+    },
+    {
+      "model": "FEDPROX_GLOBAL_LATENCY_REFERENCE",
+      "alias": "FP-G/L0",
+      "full_name": "FedProx global, matched reference latency",
+      "scope": "global",
+      "feature_group": "FULL43 matched latency cohort"
+    },
+    {
+      "model": "ROUTER_CORE_robust_convex",
+      "alias": "R-C/Rob",
+      "full_name": "CORE router, robust convex",
+      "scope": "named classical router",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "ROUTER_CORE_validation_best",
+      "alias": "R-C/Best",
+      "full_name": "CORE router, validation best",
+      "scope": "named classical router",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "ROUTER_CORE_equal_weight",
+      "alias": "R-C/Eq",
+      "full_name": "CORE router, equal weight",
+      "scope": "named classical router",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "ROUTER_CORE_convex",
+      "alias": "R-C/Cvx",
+      "full_name": "CORE router, convex",
+      "scope": "named classical router",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "ROUTER_CORE_temporal_OOF_Ridge_stack",
+      "alias": "R-C/OOF",
+      "full_name": "CORE router, temporal OOF Ridge stack",
+      "scope": "named classical router",
+      "feature_group": "CORE14"
+    },
+    {
+      "model": "ROUTER_FULL_robust_convex",
+      "alias": "R-F/Rob",
+      "full_name": "FULL router, robust convex",
+      "scope": "named classical router",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "ROUTER_FULL_validation_best",
+      "alias": "R-F/Best",
+      "full_name": "FULL router, validation best",
+      "scope": "named classical router",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "ROUTER_FULL_equal_weight",
+      "alias": "R-F/Eq",
+      "full_name": "FULL router, equal weight",
+      "scope": "named classical router",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "ROUTER_FULL_convex",
+      "alias": "R-F/Cvx",
+      "full_name": "FULL router, convex",
+      "scope": "named classical router",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "ROUTER_FULL_temporal_OOF_Ridge_stack",
+      "alias": "R-F/OOF",
+      "full_name": "FULL router, temporal OOF Ridge stack",
+      "scope": "named classical router",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "CENTRAL_GLOBAL_FULL",
+      "alias": "CE-G/F",
+      "full_name": "Central neural global, FULL43",
+      "scope": "global",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "raw_pooled_ET_FULL_latest",
+      "alias": "ET-raw/F",
+      "full_name": "ExtraTrees raw pooled",
+      "scope": "pooled classical",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "local_ET_FULL_latest",
+      "alias": "ET-local/F",
+      "full_name": "ExtraTrees local",
+      "scope": "local",
+      "feature_group": "FULL43"
+    },
+    {
+      "model": "client_normalized_pooled_ET_FULL_latest",
+      "alias": "ET-norm/F",
+      "full_name": "ExtraTrees client-normalized pooled",
+      "scope": "pooled classical",
+      "feature_group": "FULL43"
+    }
+  ],
+  "plates": [
+    {
+      "id": "P01_paired_01_08",
+      "size_inches": [
+        6.7,
+        4.8
+      ],
+      "source": "03_paired_family.csv",
+      "rows": [
+        0,
+        8
+      ]
+    },
+    {
+      "id": "P02_paired_09_16",
+      "size_inches": [
+        6.7,
+        4.8
+      ],
+      "source": "03_paired_family.csv",
+      "rows": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "P03_paired_17_24",
+      "size_inches": [
+        6.7,
+        4.8
+      ],
+      "source": "03_paired_family.csv",
+      "rows": [
+        16,
+        24
+      ]
+    },
+    {
+      "id": "P04_paired_25_31",
+      "size_inches": [
+        6.7,
+        4.8
+      ],
+      "source": "03_paired_family.csv",
+      "rows": [
+        24,
+        31
+      ]
+    },
+    {
+      "id": "P05_global",
+      "size_inches": [
+        6.7,
+        4.5
+      ],
+      "source": "01_global_and_classical.csv"
+    },
+    {
+      "id": "P06_personal",
+      "size_inches": [
+        6.7,
+        4.2
+      ],
+      "source": "02_personal.csv"
+    },
+    {
+      "id": "P07_anchor",
+      "size_inches": [
+        6.7,
+        3.5
+      ],
+      "source": "04_anchor_ablations.csv"
+    },
+    {
+      "id": "P08_training_graphs",
+      "size_inches": [
+        6.7,
+        3.0
+      ],
+      "source": "05_training_graphs.csv"
+    },
+    {
+      "id": "P09_client_PR_seed42",
+      "size_inches": [
+        6.7,
+        5.4
+      ],
+      "source": "08_client_PR_seed42.csv"
+    }
+  ],
+  "gate": [
+    "Completed evaluation and hash-bound independent QA PASS before CSV reads",
+    "Original eight-figure manifest and every output checksum verified",
+    "Original figure visual QA PASS bound to manifest and run identity",
+    "Exact frozen pair, method, client and seed orders checked"
+  ],
+  "scope": "Revised-archive retrospective 2017–2024 evaluation, five fixed overlapping clients; no prospective or spatial-population claim.",
+  "uncertainty": "Marginal 95% block12 paired intervals, not simultaneous 31-family intervals; block6/24 source tables retained. Seed whiskers are sample SD, not confidence intervals.",
+  "excluded_companions": "Original 06 validation grid and 07 heavy-event figure remain full repository/supplement artifacts; Word heavy-event summaries may use native tables. No additional plate selection from scores."
+}

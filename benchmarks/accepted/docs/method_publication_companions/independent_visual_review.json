@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "reviewer": "/root/audit_notebook",
+  "evidence_type": "Direct agent review message; recorded by assembling agent",
+  "render_manifest_sha256": "c79c5322318c5fc9824f24b5c7a66195c7a66807dec3f141446b15be3a7d8e4b",
+  "scope": "All four companion PNGs individually at original resolution, all four original PNGs, captions, and both generators.",
+  "findings": [
+    "No clipping, overlap, arrow, dimension, unit, support-calendar or domain defect observed.",
+    "Every SVG minimum font 10.5pt; native PNG widths 2010 pixels at 300dpi.",
+    "Network nonlinear attention, bypass and two heads; two-line objective preserved.",
+    "Plain summaries, reporting 16bytes/client, selected inactive aggregation terms versus anchor, privileged graph/raw pooling/noDP explicit.",
+    "Lag support and vintage assumptions match originals; frozen boxes and C1-C5 overlap with native-center/WGS84 whole-cell weighting retained."
+  ],
+  "scientific_results_or_models_read": false,
+  "reviewer_writes_or_renders": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "OFFICIAL_TAGS_RESOLVED",
+  "retrieved_utc": "2026-10-08T01:08:51.814959+00:00",
+  "sources": [
+    {
+      "action": "actions/checkout",
+      "verified_tag": "v7",
+      "commit_sha": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "source_url": "https://api.github.com/repos/actions/checkout/git/ref/tags/v7",
+      "reference_response_sha256": "eb64702bd7fe370829731abf3e259385d6919907848fd1f63a0842cb4139674c",
+      "annotated_tag_response_sha256": null,
+      "primary_readme": "https://github.com/actions/checkout",
+      "authenticated_request": false
+    },
+    {
+      "action": "actions/setup-python",
+      "verified_tag": "v7",
+      "commit_sha": "5fda3b95a4ea91299a34e894583c3862153e4b97",
+      "source_url": "https://api.github.com/repos/actions/setup-python/git/ref/tags/v7",
+      "reference_response_sha256": "d56e818155aaba1f1ec44cc3d439e474b323a67e1b509e5a79c9f811c1fb181b",
+      "annotated_tag_response_sha256": null,
+      "primary_readme": "https://github.com/actions/setup-python",
+      "authenticated_request": false
+    }
+  ],
+  "external_repository_or_workflow_changes_performed": false
+}

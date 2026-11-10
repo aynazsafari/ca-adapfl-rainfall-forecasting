@@ -1,0 +1,36 @@
+item,definition,source_key
+alpha_beta_gamma,"[1.0, 0.0, 0.0]",protocol.alpha_beta_gamma
+batch_size,32,protocol.batch_size
+common_architecture_selection,"""Highest mean paired-seed selected-global VALIDATION macroR2 over the five development candidates; ties within1e-4 favor fewer trainable parameters, then fixed candidate order. All four algorithm controls receive exactly this common architecture and fixed optimizer settings. This is a matched-mechanism comparison, not independent best-of-search tuning of every algorithm.""",protocol.common_architecture_selection
+compact_rule,"""Greedy correlation thinning on pooled TRAIN final sequence rows; abs(r)>=.95; fixed source feature order; always retain four known-calendar harmonics. Recompute TRAIN-only scaling. Raw two-driver adaptation remains unchanged.""",protocol.compact_rule
+delay2,"""Two extra months of observed-input latency at the original target-first-day issuance. Latest rain/index t−4, met t−6. Both reference and delayed arms start1983-03 and have297/35/71/96 labels. Known target calendar unchanged. This does not claim true issuance two months earlier; that would require earlier label embargoes.""",protocol.delay2
+development_candidates,"[""FULL_H48"", ""FULL_H24"", ""FULL_H12"", ""COMPACT_H12"", ""REGULARIZED_H12""]",protocol.development_candidates
+fair_methods,"[""caaa"", ""fedavg"", ""fedprox"", ""central""]",protocol.fair_methods
+git_policy,"""Prepare code/data-manifests/raw predictions/environment/README and checks for GitHub; no invented public repository or DOI.""",protocol.git_policy
+head,"""softplus(decoded rainfall_mm,beta=.1/mm), mapping back to local z only for objective; per-row local mean/std in central pool; identical training/checkpoint/inference""",protocol.head
+historical_evaluation,"""2017–2024 already inspected; exploratory only""",protocol.historical_evaluation
+local_epochs,3,protocol.local_epochs
+loss_selection,"""A common variant is chosen by the highest mean VALIDATION macroR2 across four methods and five seeds; tie within1e-4 favors RAW, then NONNEGATIVE, then NONNEGATIVE_TAIL2. RAW also receives common max(0,mm) inference sensitivity, with its already selected raw checkpoint explicitly retained.""",protocol.loss_selection
+lr,0.001,protocol.lr
+new_fit_budget,"{""delay"": 10, ""development"": 25, ""matched_fedavg_central"": 10, ""maximum"": 100, ""nonnegative_and_tail"": 40, ""selected_factorial_additional"": 15}",protocol.new_fit_budget
+new_holdout,"""Only if accessible, source-consistent, complete and verified unused. No2025/2026 period is called independent without provenance. Not required to invent a holdout.""",protocol.new_holdout
+output_loss_variants,"[""RAW"", ""NONNEGATIVE"", ""NONNEGATIVE_TAIL2""]",protocol.output_loss_variants
+paired_seeds,"[42, 123, 2024, 7, 999]",protocol.paired_seeds
+prox_mu,0.1,protocol.prox_mu
+regularization,"{""head_dropout"": 0.5, ""hidden"": 12, ""recurrent_dropout"": 0.35, ""weight_decay"": 0.0001}",protocol.regularization
+rounds,60,protocol.rounds
+selected_parent_factorial,"{""adaptive_prox"": [true, false], ""climate_sequence_channels_and_adaptive_drivers"": ""retained in all arms; embedding-off removes its branch only"", ""embedding"": [true, false], ""fixed_mu"": 0.1}",protocol.selected_parent_factorial
+selection_role,"""outer validation 2011–2016 excluding December2016; never evaluation""",protocol.selection_role
+stopping,"""Complete fixed100 fits (or exact reuse of selected-parent/FedProx-equivalent identity); no seed expansion, no evaluation-led retuning; stop only for finite known errors requiring reviewed code repair and new identity.""",protocol.stopping
+tail_loss,"""Weighted standardized squared error, weight2 for observed rainfall>TRAIN localq80, normalized by fixed mean weight over each client TRAIN (pooled mean weight for central). Auxiliary=.3 and proximal coefficients unchanged.""",protocol.tail_loss
+version,"""revision_v3.0""",protocol.version
+Frozen choice: development_choice,"{""common_config"": {""head_dropout"": 0.3, ""hidden"": 12, ""recurrent_dropout"": 0.2, ""weight_decay"": 0.0}, ""frozen_utc"": ""2026-10-08T21:17:16.773955+00:00"", ""group"": ""FULL"", ""selected"": {""label"": ""FULL_H12"", ""mean_validation_r2"": 0.7884907558300841, ""trainable_parameters"": 17330}, ""selected_using_evaluation"": false, ""selection_rule"": ""Highest mean paired-seed selected-global VALIDATION macroR2 over the five development candidates; ties within1e-4 favor fewer trainable parameters, then fixed candidate order. All four algorithm controls receive exactly this common architecture and fixed optimizer settings. This is a matched-mechanism comparison, not independent best-of-search tuning of every algorithm."", ""summaries"": [{""label"": ""FULL_H48"", ""mean_validation_r2"": 0.7687433175807452, ""trainable_parameters"": 109202}, {""label"": ""FULL_H24"", ""mean_validation_r2"": 0.7754200990718091, ""trainable_parameters"": 38738}, {""label"": ""FULL_H12"", ""mean_validation_r2"": 0.7884907558300841, ""trainable_parameters"": 17330}, {""label"": ""COMPACT_H12"", ""mean_validation_r2"": 0.7746788418303453, ""trainable_parameters"": 16530}, {""label"": ""REGULARIZED_H12"", ""mean_validation_r2"": 0.7853749315167216, ""trainable_parameters"": 17330}]}",choices_frozen.development_choice
+Frozen choice: evaluation_label_used,false,choices_frozen.evaluation_label_used
+Frozen choice: frozen_utc,"""2026-10-08T22:04:48.740101+00:00""",choices_frozen.frozen_utc
+Frozen choice: loss_choices,"[{""mean_validation_macro_r2"": 0.7949858476521741, ""variant"": ""RAW""}, {""mean_validation_macro_r2"": 0.7986395311450021, ""variant"": ""NONNEGATIVE""}, {""mean_validation_macro_r2"": 0.7895770823692149, ""variant"": ""NONNEGATIVE_TAIL2""}]",choices_frozen.loss_choices
+Frozen choice: run_identity_sha256,"""e39f5b1c4bfe5b2b13021329c4729415312efba05b91326c53eb5e88fcf0bb95""",choices_frozen.run_identity_sha256
+Frozen choice: selected_common_loss,"{""mean_validation_macro_r2"": 0.7986395311450021, ""variant"": ""NONNEGATIVE""}",choices_frozen.selected_common_loss
+Client split counts,"{""Client1_NW_Arid"": {""evaluation"": 96, ""monitor"": 35, ""train"": 299, ""validation"": 71}, ""Client2_Indo_Gangetic"": {""evaluation"": 96, ""monitor"": 35, ""train"": 299, ""validation"": 71}, ""Client3_NE_Himalaya"": {""evaluation"": 96, ""monitor"": 35, ""train"": 299, ""validation"": 71}, ""Client4_South_Peninsular"": {""evaluation"": 96, ""monitor"": 35, ""train"": 299, ""validation"": 71}, ""Client5_Central_India"": {""evaluation"": 96, ""monitor"": 35, ""train"": 299, ""validation"": 71}}",MAIN_FULL_schema.statistics.clients.role_counts
+Actual unique fits,100,len(fit_inventory_100)
+Actual aggregate optimizer steps,891900,sum(fit_inventory_100.optimizer_steps)
+Actual aggregate presented examples,26892000,sum(fit_inventory_100.examples)

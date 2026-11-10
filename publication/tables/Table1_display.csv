@@ -1,0 +1,19 @@
+Dataset,Official provider,Study access,"Native
+grid","Time
+support",Reduction,Source period,Variables,Role,Citation
+CHIRPS v2.0 final,UCSB CHC,Frozen monthly native extraction,0.05°,Monthly,Rainfall total;  WGS84 area mean,1981–2024,Rainfall,Target,[17]
+ERA5,ECMWF/Copernicus,Earth Engine;  six months pinned AWS recovery,0.25°,Hourly UTC,State means;  precipitation interval sums,1981–2024,"t2m, d2m, sp, mslp, u10, v10, tp",7 main channels,[18]
+ERA5-Land,ECMWF/Copernicus,Earth Engine native grid,0.1°,Hourly UTC,State means;  deaccumulated flows,1981–2024,"3 temperature; 4 soil-water; tp, evaporation, 2 runoff",11 main channels,[28]
+GLDAS Noah 2.1 [29],NASA GES DISC,"Earth Engine
+GLDAS/V021/
+NOAH/G025/T3H",0.25°,3-hourly,State means;  physical rate/flow sums,2000–2024,12 state/flow channels,Matched supplement,[19]
+NASA POWER v10 LST [30],NASA LaRC,Official monthly AWS native grids,"Met: 0.5°
+× 0.625°
+Solar: 1°",Monthly LST,"Native means;
+solar × 0.0864","Met: 1981–2024;
+solar: 1984–2024","T2M, RH2M, WS10M, PRECTOTCORR; separate solar",4 main channels; solar supplement,[31]
+IMD RF25,IMD Pune,Supplied daily grids;  independently reconstructed,0.25°,Daily,Complete-month sums;  native area mean,1981–2024; one regional month invalid,Rainfall,Matched lagged input; source comparison,[32]
+Six climate indices,NOAA CPC/PSL; ERSSTv6,Frozen text/index archive; raw SST reconstruction,Index; AMV2° SST,"Monthly;
+ONI: 3 mo;
+MEIv2: 2 mo",Period-end alignment; derived AMV,1981–2024,"Niño3.4, DMI, SOI, ONI, MEIv2, AMV","6 indices +
+interaction",See Table 2

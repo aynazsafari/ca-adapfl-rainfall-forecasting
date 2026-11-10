@@ -1,0 +1,19 @@
+METHOD FIGURES v3: independent source and original-resolution visual QA
+
+Decision: PASS for scientific content and layout of all four v3 figures, with their exact accompanying captions. No material repair remains in the figures reviewed. Inspection covers each original PNG, not a montage; all 14 listed PNG/PDF/SVG/caption assets are bound to verified bytes and hashes. PDF/SVG exports were checksum and format-presence checked, not separately rendered for visual inspection.
+
+01_network: correct 12 x 43 FULL input, 7-variable climate context, two bidirectional LSTM layers with 48 units/direction and 96-wide states, 7->32->16 climate embedding, nonlinear joint 112->32->1 attention and direct embedding-to-concatenation bypass, and the 112-wide rainfall/heavy heads. Training uses BCEWithLogitsLoss; caption distinguishes the reporting sigmoid. Shared TRAIN input scaling and locally fitted target/q80 are now explicit. Proximal coefficient bounds .3 mu through mu match the declared adaptive rule.
+
+02_messages: per-round fixed TRAIN strengths, model states and scalar diagnostics are distinguished from one-time counts and sensitivity/input summaries. Caption now admits exported target mean/SD (16 bytes/client) and exposed q80. Plain numerical payloads, absence of secure aggregation/DP, privileged aligned TRAIN rainfall for graph controls and declared raw pooling for central/static-router controls are clear. The diagram depicts the CAAA family; its caption explicitly admits primary coefficients (1,0,0), which deactivate performance/climate aggregation terms. Removal experiments instead use the fixed nonzero (.3,.3,.4) anchor. The climate embedding and adaptive proximal pathways are separate from those aggregation terms.
+
+03_input_availability: source schema reconstructs historical origins -12..-1, combined rainfall -24..-2, eligible index period ends -13..-2, underlying ONI start -15 and MEIv2 start -14, and meteorological months -15..-4. First-day 00:00 UTC issue and extra-month availability sensitivity agree with the frozen specification. Caption/footer correctly disclose archive assumptions rather than historical operational vintages.
+
+04_fixed_domains: displayed bounds match all five clients in the hash-verified extraction protocol and the hash-verified Natural Earth geometry. The source coordinate axes are labelled longitude/latitude. Country-intersected boxes, native-center selection, half-open bounds, whole-cell WGS84 weights, no resampling, overlap and incomplete national coverage are stated. This is not a forecast or an April-June 2025 rainfall map.
+
+Release prerequisite outside the figure assets: the source-only geography generator imports Shapely. Root has explicitly chosen to package this as a separate optional diagram dependency and document the isolated installation; the core model requirements do not include it. This receipt accepts figure science/layout and does not claim that optional diagram installation has already been independently tested.
+
+Optional editorial polish only: several labels/captions join words and digits (for example 'all12', 'over12', 'mean96', 'at00:00' and 'Earth5.1.1'). Inserting spaces would improve typography but does not obscure numerical meaning. No new render is required by this receipt. If any asset/caption changes, its new hash needs a new receipt.
+
+Existing source metadata caveat: the schema input-scaler privacy sentence says local target/threshold summaries remain at clients, while the schema itself exposes those summaries. The revised captions and the actual reporting ledger explicitly disclose the exports. Preserve this disclosure in release/paper text; this review does not modify frozen source/schema bytes.
+
+No real evaluation labels, evaluation score CSVs or predictions were read. No model fitting or inference occurred. No core code, root generator or existing render was edited. Only this independent QA receipt and notes were written.

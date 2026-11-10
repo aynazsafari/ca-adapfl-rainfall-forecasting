@@ -1,0 +1,95 @@
+{
+  "status": "PASS_MEASURED",
+  "no_fitting_or_inference": true,
+  "evaluation_truth_or_scores_opened": false,
+  "fit_job_sha256": "2977a1228f9f07b55320341dcc9e7c5f1d9355d7037694834ce9057b27be5c74",
+  "fit_artifact_sizes_bytes": {
+    "selected_states.pt": 2681171,
+    "round_states.pt": 18755741,
+    "manifest.json": 55132,
+    "curves.json": 238154,
+    "local_steps.json": 108419,
+    "messages.json": 309678
+  },
+  "state_payload_bytes": 436808,
+  "selected_state_count": 6,
+  "selected_tensor_inventory": {
+    "tensors": 198,
+    "tensor_element_bytes": 2620848,
+    "unique_storage_bytes": 2620848,
+    "unique_storages": 198
+  },
+  "periodic_rounds": [
+    1,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60
+  ],
+  "periodic_state_count": 42,
+  "periodic_tensor_inventory": {
+    "tensors": 1386,
+    "tensor_element_bytes": 18345936,
+    "unique_storage_bytes": 18345936,
+    "unique_storages": 1386
+  },
+  "load_seconds": 0.2326939000049606,
+  "memory_samples": [
+    {
+      "stage": "stdlib_plus_psutil",
+      "process_rss_bytes": 20770816,
+      "available_ram_bytes": 1039192064,
+      "timestamp_unix": 1791417881.6789873
+    },
+    {
+      "stage": "after_torch_and_neural_module_import",
+      "process_rss_bytes": 206831616,
+      "available_ram_bytes": 898928640,
+      "timestamp_unix": 1791417883.5565925
+    },
+    {
+      "stage": "after_one_load_fit",
+      "process_rss_bytes": 238964736,
+      "available_ram_bytes": 873361408,
+      "timestamp_unix": 1791417883.7031305
+    },
+    {
+      "stage": "after_discarding_periodic_round_states",
+      "process_rss_bytes": 238936064,
+      "available_ram_bytes": 873361408,
+      "timestamp_unix": 1791417883.747652
+    },
+    {
+      "stage": "after_discarding_fit_result",
+      "process_rss_bytes": 238936064,
+      "available_ram_bytes": 873361408,
+      "timestamp_unix": 1791417883.787654
+    }
+  ],
+  "one_fit_rss_increase_bytes": 32133120,
+  "rss_released_by_discarding_periodic_states_bytes": 28672,
+  "rss_released_after_fit_disposal_bytes": 28672,
+  "resolved_main_neural_schedule_count_before_possible_anchor_alias": 140,
+  "group_counts": {
+    "CORE": 20,
+    "CLIMATE": 15,
+    "FULL": 105
+  },
+  "family_counts": {
+    "fedavg": 25,
+    "fedprox": 25,
+    "caaa": 60,
+    "central": 5,
+    "local": 5,
+    "ditto": 5,
+    "graph_original": 5,
+    "graph_enriched": 5,
+    "graph_uniform": 5
+  },
+  "FULL_observed_size_tensor_cache_lower_bound_bytes": 2044261440,
+  "FULL_observed_size_tensor_cache_lower_bound_with_maximum_anchor_alias_bytes": 1939427520,
+  "lower_bound_excludes_CORE_CLIMATE_fits_and_python_logs_imports_features_predictions": true,
+  "engineering_assessment": "The current evaluate() retains all loaded FitResult objects and every periodic state. The measured FULL-family tensor-only lower bound exceeds the contemporaneous available-memory margin. Evaluation should release each model after producing all required identities, or load selected states only. This changes resource handling only; preserve saved checkpoint/source/config hashes and prediction identities. No modules were edited."
+}

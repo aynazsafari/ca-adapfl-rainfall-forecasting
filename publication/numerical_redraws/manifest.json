@@ -1,0 +1,202 @@
+{
+  "status": "RENDERED_NUMERICAL_REDRAWS_REQUIRING_VISUAL_REVIEW",
+  "original_images_role": "Exact originals retained in publication/reference; these PNG/SVG exports are distinct numerical equivalents.",
+  "no_training_inference_network_resampling_or_IMD_input_access": true,
+  "source_csvs": {
+    "benchmarks/accepted/figures/revision_v2/source_data/01_global_and_classical.csv": {
+      "sha256": "c1f640bdc5086bafb807e384f89af661a00bd8b50bfcf4b4720562f23f8e381c",
+      "rows": 35
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/02_personal.csv": {
+      "sha256": "d340c78907dbbb73cf7f98dd2a99aa695fb3f7ef49b2bc9ab06034ee423d05c6",
+      "rows": 30
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/raw_predictions_ALL.csv": {
+      "sha256": "31caf6b3dff04ce4737591d9057374470ae15844014083ed62f03b66591fd23a",
+      "rows": 230400
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv": {
+      "sha256": "47461129382f8a0a1b7ba0b83ed9aa61603d55a872093c37955c0e539d6c1543",
+      "rows": 2400
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/05_training_graphs.csv": {
+      "sha256": "b0eed1c20c9e80975edaba6107207412d836981cf4f38a791c8951e45d5f0985",
+      "rows": 75
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/06_validation_candidates_ALL.csv": {
+      "sha256": "5d9a1cf7a78c677fc3d1706dd474a95a27b3725898b19cf0cb9f3209ae0e770e",
+      "rows": 36
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/06_validation_rounds_ALL.csv": {
+      "sha256": "2e3bee766fd7ff11ce84687208ec18ac6e87a28fd5d43298778e08670e968b0c",
+      "rows": 2160
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/04_anchor_ablations.csv": {
+      "sha256": "b97316df4aac9368286638d3d2daf3768544d3e97cc2a592ea05c01157219714",
+      "rows": 10
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/08_client_PR_seed42.csv": {
+      "sha256": "5a58c92ccebefe2b827811de260be686af4d04e5401ac4de28424e7e349739d3",
+      "rows": 1455
+    },
+    "benchmarks/sharing/evaluation/principal_comparison.csv": {
+      "sha256": "6c2dcccd2ac694625d2f5199e62c9b14ea8e5998b723fb86c62f7641469b2035",
+      "rows": 9
+    },
+    "benchmarks/sharing/evaluation/macro_per_seed_ALL_endpoints.csv": {
+      "sha256": "f6d3457385abf3ff3c30e0da6053702d055fa28dc297a87d016fcb4d6e5398f1",
+      "rows": 135
+    },
+    "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+      "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+      "rows": 40
+    },
+    "benchmarks/sharing/evaluation/model_summary_ALL_endpoints.csv": {
+      "sha256": "ca75ed2e9e967cc1b3be154c4dd482345a3fc540ece1ac3b90c6292bc1bf72cf",
+      "rows": 27
+    }
+  },
+  "figures": [
+    {
+      "id": "Figure05",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Fixed FULL global and classical identities. Open points are the five paired optimizer seeds; diamonds and whiskers show mean \u00b1 sample seed SD, not confidence intervals. Metrics average clients equally. Global and personal checkpoints were selected separately on VAL.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/01_global_and_classical.csv"
+      ],
+      "files_sha256": {
+        "Figure05.png": "73293e54b8afdae66b796d7d87d1118eb0286144e7e667b71aa707dc9c3449ba",
+        "Figure05.svg": "08596b2b7dd1c00c3c3b7b657e4675e424d423da6b7dfa6e11bba74b101083d6",
+        "Figure05_caption.txt": "294c239b80b7d507e9c2e6c77170b2b897f0e089142dbf0b5817ad3b0a570bdc"
+      }
+    },
+    {
+      "id": "Figure06",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Fixed FULL personal neural identities. Open points are the five paired optimizer seeds; diamonds and whiskers show mean \u00b1 sample seed SD, not confidence intervals. Metrics average clients equally. Global and personal checkpoints were selected separately on VAL.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/02_personal.csv"
+      ],
+      "files_sha256": {
+        "Figure06.png": "ff0329c4d82af14b10d53f884c2ff191026d9401ef75dafb8c8d004aea893963",
+        "Figure06.svg": "caf8986c738de9fe60e34a3e166ddff40c99af384374f8b783ed50a209ea2ae6",
+        "Figure06_caption.txt": "d311ebed5b61a402737f2dc2eb883228b92ef33e6b00ba61b47b2e2f894162be"
+      }
+    },
+    {
+      "id": "Figure07",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Observed versus forecast regional monthly rainfall, 2017\u20132024. Each panel shows all 480 CAAA global FULL seed-specific forecasts (96 dates \u00d7 five seeds), and the 96 distinct TRAIN monthly climatology forecasts. Dashed line: 1:1; dotted vertical line: local gradient-TRAIN q80. Panels have separate scales. Negative forecasts are retained. Repeated seeds add forecasts, not independent observations.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/raw_predictions_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv"
+      ],
+      "files_sha256": {
+        "Figure07.png": "690862a6a03e55cf9f3bbc059be9a904f6960d3d7a6e0bc175bf3cf623e783e4",
+        "Figure07.svg": "f19f438f8e653318e37a56412a7b28cb7f135eb48f1bc99feb38fa6bdd44bfa7",
+        "Figure07_caption.txt": "b9cd769b8fef2e592038bc2a6469ee18cf1f24a89a102430c1363a2b383f197a"
+      }
+    },
+    {
+      "id": "Figure08",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Fixed original, enriched and uniform TRAIN input affinities on a shared 0\u20131 scale. TRAIN targets run 1983-01 through 2007-11 (299 per client). These structural summaries use privileged aligned TRAIN anomalies/descriptors; they are neither causal effects nor forecast skill. Row-normalized trainer weights remain in the source CSV.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/05_training_graphs.csv"
+      ],
+      "files_sha256": {
+        "Figure08.png": "c22f5db51f4060545161d7ac91370761e8f0cd86a9f591dc2c7b1eec03a69cdd",
+        "Figure08.svg": "c77b7874c71b68db0eef48730155063945a162c237aa2ef32c6c1655d29eb437",
+        "Figure08_caption.txt": "c055ed5a747ad403e72653799b36c588966096bb968369c29d13472df57c000d"
+      }
+    },
+    {
+      "id": "Figure09",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Seed-42 development grids on January 2011\u2013November 2016 VAL. (a) Shared learning rate. (b) Six method-specific proximal \u03bc grids. (c) Fifteen quarter-step simplex triples plus the (0.3,0.3,0.4) anchor; color uses its own validation scale. Rings mark selected candidates. (d) All sixty saved validation rounds for the selected LR, CAAA \u03bc and coefficient candidates. Validation was reused for tuning/checkpoint selection; these are developmental scores, not independent accuracy estimates.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_candidates_ALL.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_rounds_ALL.csv"
+      ],
+      "files_sha256": {
+        "Figure09.png": "072cccc98e124e2c38259c79b1e56ae38cc78c357b1422623a935f10334fddb0",
+        "Figure09.svg": "4c51c5f8b2ecc76a84ea3ef2964a891ea7bdec5773e24cf2d281c01f306ebd77",
+        "Figure09_caption.txt": "940f08a99a81fd4fd58aed94fd53e18d5f71da9fdfddaf4f8994ace780fc19d0"
+      }
+    },
+    {
+      "id": "Figure10",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Fixed (0.3,0.3,0.4) anchor minus each separate removal. Points and lines are saved paired differences and marginal unadjusted 95% circular block12 intervals. Positive R\u00b2/negative RMSE favors the anchor. The selected (1,0,0) primary is a distinct identity. Intervals are not simultaneous; block6/24 sensitivities remain in companion evidence.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/04_anchor_ablations.csv"
+      ],
+      "files_sha256": {
+        "Figure10.png": "4cbea3bf80ba4b23ca6bb2b2d69a8c135188dc504432a04c541587e7edaf6381",
+        "Figure10.svg": "664769746edf7e93405a9b73ee46348da5ab29d90a3e4d141c171fc8cb94ebaf",
+        "Figure10_caption.txt": "314025b5b74049044779d4dda1d80104f1d4f8cd4264c84a3eab7af51bdc1cad"
+      }
+    },
+    {
+      "id": "Figure11",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Separate client precision\u2013recall curves for the three FULL global identities at fixed illustrative seed 42. Scores are predicted heavy-event probabilities. Events exceed the local gradient-TRAIN q80; dash-dot line is observed evaluation prevalence. No pooled-client curve is shown. This realization is not an event-scale flood-warning validation.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/08_client_PR_seed42.csv",
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv"
+      ],
+      "files_sha256": {
+        "Figure11.png": "8e573a80bc19ef2a0e64b49d3fc0404f451bad83412273d58c148b3f14d56ff1",
+        "Figure11.svg": "d2e940d4b07274c5bde6c2384a69e9bfbb6b4300cfb910600cf604ba9c4adc18",
+        "Figure11_caption.txt": "3eba1db88a5c0924d6f5bd4177b76bb6fa370731d77e97ae0c39c2bab26049f5"
+      }
+    },
+    {
+      "id": "Figure12",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Per-client heavy-event recall, average precision and rainfall tail RMSE for fixed FULL global/personal identities. Small points: five seeds; diamonds and whiskers: mean \u00b1 sample seed SD, not confidence intervals. Recall uses probability \u22650.5; AP uses continuous probabilities; tail RMSE scores observed months exceeding local TRAIN q80. Proportion whiskers stop at 0/100% with arrows when SD extends beyond those bounds. Seed values themselves remain in [0,100%]; repeated seeds do not add observed events.",
+      "sources": [
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv"
+      ],
+      "files_sha256": {
+        "Figure12.png": "ada2cf3f72fb9c8c2515a6901b0bdc45001fb3e4b404d6c84cbef0f4e6daae42",
+        "Figure12.svg": "7c43bc8aca1333934d45830b122448798a48172dfdc418b7df3ce2251c0d3b96",
+        "Figure12_caption.txt": "f41323004e89c17a360221e429c6ff903b0b3779a00769e2ac7f6fa1bc525468"
+      }
+    },
+    {
+      "id": "Figure13",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Information-sharing study, fixed tick60. Points show mean macro RMSE; ranges are optimizer-seed minimum\u2013maximum, not confidence intervals. Own/shared denotes local/shared TRAIN input scaling. K1/K5/K20 is synchronization cadence in local ticks. Required numeric payload sums recipients and includes federated initial/final model delivery; central pooled payload includes engineered examples/final delivery. Transport and research audit traffic are excluded. Dashed line is TRAIN climatology. No network-latency or compute saving is implied.",
+      "sources": [
+        "benchmarks/sharing/evaluation/principal_comparison.csv",
+        "benchmarks/sharing/evaluation/macro_per_seed_ALL_endpoints.csv",
+        "benchmarks/sharing/evaluation/fit_cost_40.csv"
+      ],
+      "files_sha256": {
+        "Figure13.png": "73b7a64d7a97f219bdc73d79fdd4b3e6d2e7baf0f307a3eb330824a24821d7af",
+        "Figure13.svg": "7e053390a9bbf046c47a99868f7c203fabd6efac5e89eee50a7f3327f44fc069",
+        "Figure13_caption.txt": "275cb3045192b6050c5c7006e133ea032fdb829672efb75998df0a982fa78e07"
+      }
+    },
+    {
+      "id": "FigureIS1",
+      "render_role": "numerically_equivalent_redraw",
+      "caption": "Common VAL checkpoint sensitivity for the same fitted policies. Primary fixed tick60 and secondary common selection among ticks20/40/60 are shown for global/local paths. Personal diagnostic paths remain separately identified in model_summary_ALL_endpoints.csv. Checkpoint communication is separately priced; optimizer repeats and endpoint forecasts do not add independent observations.",
+      "sources": [
+        "benchmarks/sharing/evaluation/model_summary_ALL_endpoints.csv"
+      ],
+      "files_sha256": {
+        "FigureIS1.png": "628b13fcae03c72be7957dead6c3e4bd25445db631c03f8a1f9fc5f5b923ecf0",
+        "FigureIS1.svg": "5538d92e667d9d60737b52a21e545b9036da38abbf3d7045e1d7943699bb4f42",
+        "FigureIS1_caption.txt": "087d85b4d0049f6c59d07d1c2a1890e48198b485f67650383920ff0c43d1dfc8"
+      }
+    }
+  ],
+  "runtime": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2"
+  },
+  "exporter_sha256": "d83c3eb01c2183af783a99db075efd5ff164198a9569cc43a7d1e0801aa37148"
+}

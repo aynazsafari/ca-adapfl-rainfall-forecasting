@@ -1,0 +1,727 @@
+{
+  "retrieved_utc": "2026-10-07T22:09:54.445949+00:00",
+  "snapshot_id": "ZFKDHBCTBVHVXM3BQFV0",
+  "geo_sha256": "4cdbe7cba953c55e4c6591b779128484c2e203ff0c3433b1826bafca95a4d090",
+  "native_grid": {
+    "resolution": 0.25,
+    "latitude_order": "descending",
+    "longitude_0_360": true
+  },
+  "union_cells": 3287,
+  "client_cells": {
+    "Client1_NW_Arid": 690,
+    "Client2_Indo_Gangetic": 912,
+    "Client3_NE_Himalaya": 419,
+    "Client4_South_Peninsular": 466,
+    "Client5_Central_India": 864
+  },
+  "spatial_tiles": [
+    [
+      19,
+      25
+    ],
+    [
+      19,
+      26
+    ],
+    [
+      20,
+      23
+    ],
+    [
+      20,
+      24
+    ],
+    [
+      20,
+      25
+    ],
+    [
+      20,
+      26
+    ],
+    [
+      20,
+      27
+    ],
+    [
+      20,
+      28
+    ],
+    [
+      20,
+      29
+    ],
+    [
+      20,
+      30
+    ],
+    [
+      20,
+      31
+    ],
+    [
+      20,
+      32
+    ],
+    [
+      21,
+      22
+    ],
+    [
+      21,
+      23
+    ],
+    [
+      21,
+      24
+    ],
+    [
+      21,
+      25
+    ],
+    [
+      21,
+      26
+    ],
+    [
+      21,
+      27
+    ],
+    [
+      21,
+      28
+    ],
+    [
+      21,
+      29
+    ],
+    [
+      21,
+      30
+    ],
+    [
+      21,
+      31
+    ],
+    [
+      22,
+      22
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      22,
+      24
+    ],
+    [
+      22,
+      25
+    ],
+    [
+      22,
+      26
+    ],
+    [
+      22,
+      27
+    ],
+    [
+      22,
+      28
+    ],
+    [
+      22,
+      29
+    ],
+    [
+      22,
+      30
+    ],
+    [
+      22,
+      31
+    ],
+    [
+      23,
+      24
+    ],
+    [
+      23,
+      25
+    ],
+    [
+      23,
+      26
+    ],
+    [
+      23,
+      27
+    ],
+    [
+      24,
+      24
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      24,
+      26
+    ],
+    [
+      24,
+      27
+    ],
+    [
+      25,
+      25
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      26,
+      25
+    ],
+    [
+      26,
+      26
+    ],
+    [
+      27,
+      25
+    ],
+    [
+      27,
+      26
+    ]
+  ],
+  "n_spatial_tiles": 46,
+  "temporal_tiles": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+  ],
+  "n_temporal_tiles": 45,
+  "hour_start_index": 359424,
+  "hour_end_inclusive_index": 745128,
+  "instantaneous_hours": 385704,
+  "precipitation_hours": 385704,
+  "source_coordinate_hours": 756048,
+  "coordinate_gap_count": 0,
+  "raw_tile_uncompressed_bytes": 5031936,
+  "sample_tiles": [
+    {
+      "var": "t2m",
+      "key": "single/temporal/t2m/c/41/19/25",
+      "bytes": 2929971,
+      "sha256": "29c58aac22994a0ac02d43b16b655da3023917211d292d8e15f8713d94cbd4c7",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "t2m",
+      "key": "single/temporal/t2m/c/63/22/23",
+      "bytes": 2645211,
+      "sha256": "4d140d2367469a24e49795d90641c50185d8d917e15e20b51e405a47d1295486",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "t2m",
+      "key": "single/temporal/t2m/c/85/27/26",
+      "bytes": 2562524,
+      "sha256": "ac113da7618c2ffc060d8d5dcbb430e3d2a292c4b62bdf9416472d62884a0462",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "d2m",
+      "key": "single/temporal/d2m/c/41/19/25",
+      "bytes": 2927662,
+      "sha256": "e554120e50bf0fab9f2517041494f6221966c5902a5c14718d32dda3da03d6c7",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "d2m",
+      "key": "single/temporal/d2m/c/63/22/23",
+      "bytes": 2661644,
+      "sha256": "f99833bfb44d06c51f132a381147f07117e3f594c99fdd25527a2e39fe04027f",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "d2m",
+      "key": "single/temporal/d2m/c/85/27/26",
+      "bytes": 2500433,
+      "sha256": "7cf84f3c34291a942c6c7dc34af3b506684d6e962c8ca28b8d70686e5357df23",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "sp",
+      "key": "single/temporal/sp/c/41/19/25",
+      "bytes": 3176995,
+      "sha256": "87dec18b7a2f950141fab0280d001ad84af811d5dbb633fc0cda0d51bb160f4d",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "sp",
+      "key": "single/temporal/sp/c/63/22/23",
+      "bytes": 2639008,
+      "sha256": "be5f7b4b87da3475529fc133c161f6f3dfa1ded05291fccb424c3147813cac4d",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "sp",
+      "key": "single/temporal/sp/c/85/27/26",
+      "bytes": 2602906,
+      "sha256": "0f2110bcdc5761ae8cd4062d47d8adcfc38beed0cfd0de8c0229f4bf719cd3aa",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "u10",
+      "key": "single/temporal/u10/c/41/19/25",
+      "bytes": 2732200,
+      "sha256": "31eb56e211f4cd8dab7f106a457090dd6906e4e1a537368ae550b3532784d329",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "u10",
+      "key": "single/temporal/u10/c/63/22/23",
+      "bytes": 2789012,
+      "sha256": "4390d44856afe3cb331ea235ac4822a1aa6020bd7958a43d40671fffc8c0eeb3",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "u10",
+      "key": "single/temporal/u10/c/85/27/26",
+      "bytes": 2858621,
+      "sha256": "fb69de3353b6f1c8bd42b3d596caa972c3a855faf62e7a4f491fd8a47960c206",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "v10",
+      "key": "single/temporal/v10/c/41/19/25",
+      "bytes": 2696335,
+      "sha256": "cb8a19c58611b41e6f98a3d96b42626656912a46fb82d1c219cbf487b0e33fcf",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "v10",
+      "key": "single/temporal/v10/c/63/22/23",
+      "bytes": 2704401,
+      "sha256": "52c9940cdb086607244ba7f333f5db45e9a96d3a91db26a0394424e72c32765f",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "v10",
+      "key": "single/temporal/v10/c/85/27/26",
+      "bytes": 2826857,
+      "sha256": "e7855ea1e3c895ca4ac87fe97ef7a32de4ef8863b5fe7329536f71c8247ad815",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "tp",
+      "key": "single/temporal/tp/c/41/19/25",
+      "bytes": 839025,
+      "sha256": "c1a3c8a2cc5c16eec4e79964aa4edcd1f771547d5ece18525940805da4db4e82",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "tp",
+      "key": "single/temporal/tp/c/63/22/23",
+      "bytes": 480951,
+      "sha256": "1554681d85b322c7f516255081888fa7aead9511bd1897b23c3a9920b862a21c",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "tp",
+      "key": "single/temporal/tp/c/85/27/26",
+      "bytes": 1241279,
+      "sha256": "d4cc4bf02e7420a4ff62cbe50c211e0281adacc8b4d04b0506105310b1c6a022",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "msl",
+      "key": "single/temporal/msl/c/41/19/25",
+      "bytes": 2019029,
+      "sha256": "3370afb24beb44818ed6bd8aac253742b80b0899f43961ed1b5c138c722cce0d",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "msl",
+      "key": "single/temporal/msl/c/63/22/23",
+      "bytes": 1449252,
+      "sha256": "5be46aeb0be2205e2a001205153dcea030217733604c0097d25ff0d19db74e09",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    },
+    {
+      "var": "msl",
+      "key": "single/temporal/msl/c/85/27/26",
+      "bytes": 1557061,
+      "sha256": "8c8ccbf32d459388c9e67f904066650646961de494d70b846319004bde151cbd",
+      "chunk_type": "ChunkType.native",
+      "dtype": "float32",
+      "count": 1257984,
+      "finite_fraction": 1.0
+    }
+  ],
+  "status": {
+    "t2m": {
+      "counts": {
+        "0": 385705
+      },
+      "flagged_hours": 0,
+      "attrs": {
+        "standard_name": "status_flag",
+        "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+        "units": "1",
+        "flag_values": [
+          0,
+          100,
+          101,
+          102,
+          103,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+        "valid_range": [
+          0,
+          254
+        ],
+        "GRIB_shortName": "2t",
+        "GRIB_name": "2 metre temperature",
+        "GRIB_cfVarName": "t2m",
+        "GRIB_paramId": 167,
+        "coordinates": "expver",
+        "_FillValue": 255
+      }
+    },
+    "d2m": {
+      "counts": {
+        "0": 385705
+      },
+      "flagged_hours": 0,
+      "attrs": {
+        "standard_name": "status_flag",
+        "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+        "units": "1",
+        "flag_values": [
+          0,
+          100,
+          101,
+          102,
+          103,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+        "valid_range": [
+          0,
+          254
+        ],
+        "GRIB_shortName": "2d",
+        "GRIB_name": "2 metre dewpoint temperature",
+        "GRIB_cfVarName": "d2m",
+        "GRIB_paramId": 168,
+        "coordinates": "expver",
+        "_FillValue": 255
+      }
+    },
+    "sp": {
+      "counts": {
+        "0": 385705
+      },
+      "flagged_hours": 0,
+      "attrs": {
+        "standard_name": "status_flag",
+        "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+        "units": "1",
+        "flag_values": [
+          0,
+          100,
+          101,
+          102,
+          103,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+        "valid_range": [
+          0,
+          254
+        ],
+        "GRIB_shortName": "sp",
+        "GRIB_name": "Surface pressure",
+        "GRIB_cfVarName": "sp",
+        "GRIB_paramId": 134,
+        "coordinates": "expver",
+        "_FillValue": 255
+      }
+    },
+    "u10": {
+      "counts": {
+        "0": 385705
+      },
+      "flagged_hours": 0,
+      "attrs": {
+        "standard_name": "status_flag",
+        "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+        "units": "1",
+        "flag_values": [
+          0,
+          100,
+          101,
+          102,
+          103,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+        "valid_range": [
+          0,
+          254
+        ],
+        "GRIB_shortName": "10u",
+        "GRIB_name": "10 metre U wind component",
+        "GRIB_cfVarName": "u10",
+        "GRIB_paramId": 165,
+        "coordinates": "expver",
+        "_FillValue": 255
+      }
+    },
+    "v10": {
+      "counts": {
+        "0": 385705
+      },
+      "flagged_hours": 0,
+      "attrs": {
+        "standard_name": "status_flag",
+        "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+        "units": "1",
+        "flag_values": [
+          0,
+          100,
+          101,
+          102,
+          103,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+        "valid_range": [
+          0,
+          254
+        ],
+        "GRIB_shortName": "10v",
+        "GRIB_name": "10 metre V wind component",
+        "GRIB_cfVarName": "v10",
+        "GRIB_paramId": 166,
+        "coordinates": "expver",
+        "_FillValue": 255
+      }
+    },
+    "tp": {
+      "counts": {
+        "0": 385705
+      },
+      "flagged_hours": 0,
+      "attrs": {
+        "standard_name": "status_flag",
+        "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+        "units": "1",
+        "flag_values": [
+          0,
+          100,
+          101,
+          102,
+          103,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+        "valid_range": [
+          0,
+          254
+        ],
+        "GRIB_shortName": "tp",
+        "GRIB_name": "Total precipitation",
+        "GRIB_cfVarName": "tp",
+        "GRIB_paramId": 228,
+        "accumulation_comment": "accumulations are over 1 hour ending at `valid_time`. Reference: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation#heading-Meanratesfluxesandaccumulations",
+        "coordinates": "expver",
+        "_FillValue": 255
+      }
+    },
+    "msl": {
+      "counts": {
+        "0": 385705
+      },
+      "flagged_hours": 0,
+      "attrs": {
+        "standard_name": "status_flag",
+        "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+        "units": "1",
+        "flag_values": [
+          0,
+          100,
+          101,
+          102,
+          103,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+        "valid_range": [
+          0,
+          254
+        ],
+        "GRIB_shortName": "msl",
+        "GRIB_name": "Mean sea level pressure",
+        "GRIB_cfVarName": "msl",
+        "GRIB_paramId": 151,
+        "coordinates": "expver",
+        "_FillValue": 255
+      }
+    }
+  },
+  "expver_counts": {
+    "1": 385705
+  },
+  "sample_mean_bytes_by_variable": {
+    "t2m": 2712568.6666666665,
+    "d2m": 2696579.6666666665,
+    "sp": 2806303.0,
+    "u10": 2793277.6666666665,
+    "v10": 2742531.0,
+    "tp": 853751.6666666666,
+    "msl": 1675114.0
+  },
+  "estimated_source_chunk_bytes": 33699860130.0,
+  "sample_max_bound_bytes": 37219456980
+}

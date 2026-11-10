@@ -1,0 +1,575 @@
+{
+  "schema": "bounded_reference_verification_v1",
+  "status": "PASS_WITH_EXPLICIT_VINTAGE_LIMITS",
+  "verified_utc": "2026-10-08T01:13:27.706788+00:00",
+  "bundle_count": 6,
+  "items": [
+    {
+      "id": "01_original_reference26",
+      "status": "VERIFIED_CORRECTION",
+      "publication": {
+        "type": "journal_article",
+        "title": "Documentation of a highly ENSO‐related sst region in the equatorial pacific: Research note",
+        "authors": [
+          {
+            "given": "Anthony G.",
+            "family": "Barnston"
+          },
+          {
+            "given": "Muthuvel",
+            "family": "Chelliah"
+          },
+          {
+            "given": "Stanley B.",
+            "family": "Goldenberg"
+          }
+        ],
+        "year": 1997,
+        "journal": "Atmosphere-Ocean",
+        "volume": "35",
+        "issue": "3",
+        "pages": "367-383",
+        "doi": "10.1080/07055900.1997.9649597",
+        "publisher": "Informa UK Limited",
+        "primary_publisher_url": "https://www.tandfonline.com/doi/abs/10.1080/07055900.1997.9649597",
+        "publisher_deposited_metadata": "barnston_crossref.json",
+        "published_print": {
+          "date-parts": [
+            [
+              1997,
+              1
+            ]
+          ]
+        },
+        "published_online": {
+          "date-parts": [
+            [
+              2010,
+              11,
+              19
+            ]
+          ]
+        }
+      },
+      "original_anchor": "original manuscript reference26, paragraph P0851",
+      "action": "Replace Bamston with Barnston; use citation year1997; retain2010 only as online-publication metadata.",
+      "evidence_locators": [
+        "raw/barnston_crossref.json: message.author, published-print, published-online, volume, issue, page, DOI"
+      ],
+      "access_limit": "Publisher landing was403 in direct browser opening; indexed publisher metadata and public publisher-deposited Crossref record verified without full-text access."
+    },
+    {
+      "id": "02_ersst_v6",
+      "status": "VERIFIED_VERSION_AND_PUBLICATIONS",
+      "organization": "NOAA/NESDIS/NCEI",
+      "dataset_title": "NOAA monthly ERSSTv6 (in situ only)",
+      "dataset_version": "v6",
+      "dataset_doi": null,
+      "official_product_url": "https://www.ncei.noaa.gov/products/extended-reconstructed-sst",
+      "publications": [
+        {
+          "type": "journal_article",
+          "title": "Extended Reconstructed Sea Surface Temperature, Version 6 (ERSSTv6). Part I: An Artificial Neural Network Approach",
+          "authors": [
+            {
+              "given": "Boyin",
+              "family": "Huang"
+            },
+            {
+              "given": "Xungang",
+              "family": "Yin"
+            },
+            {
+              "given": "Tim",
+              "family": "Boyer"
+            },
+            {
+              "given": "Chunying",
+              "family": "Liu"
+            },
+            {
+              "given": "Matthew",
+              "family": "Menne"
+            },
+            {
+              "given": "Yuhan Douglas",
+              "family": "Rao"
+            },
+            {
+              "given": "Thomas",
+              "family": "Smith"
+            },
+            {
+              "given": "Russell",
+              "family": "Vose"
+            },
+            {
+              "given": "Huai-Min",
+              "family": "Zhang"
+            }
+          ],
+          "year": 2025,
+          "journal": "Journal of Climate",
+          "volume": "38",
+          "issue": "4",
+          "pages": "1105-1121",
+          "doi": "10.1175/jcli-d-23-0707.1",
+          "publisher": "American Meteorological Society",
+          "primary_publisher_url": "https://journals.ametsoc.org/view/journals/clim/38/4/JCLI-D-23-0707.1.xml",
+          "publisher_deposited_metadata": "ersst6_part1_crossref.json",
+          "published_print": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                15
+              ]
+            ]
+          },
+          "published_online": null
+        },
+        {
+          "type": "journal_article",
+          "title": "Extended Reconstructed Sea Surface Temperature, Version 6 (ERSSTv6). Part II: Upgrades on Quality Control and Large-Scale Filter",
+          "authors": [
+            {
+              "given": "Boyin",
+              "family": "Huang"
+            },
+            {
+              "given": "Xungang",
+              "family": "Yin"
+            },
+            {
+              "given": "Tim",
+              "family": "Boyer"
+            },
+            {
+              "given": "Chunying",
+              "family": "Liu"
+            },
+            {
+              "given": "Matthew",
+              "family": "Menne"
+            },
+            {
+              "given": "Yuhan Douglas",
+              "family": "Rao"
+            },
+            {
+              "given": "Thomas",
+              "family": "Smith"
+            },
+            {
+              "given": "Russell",
+              "family": "Vose"
+            },
+            {
+              "given": "Huai-Min",
+              "family": "Zhang"
+            }
+          ],
+          "year": 2025,
+          "journal": "Journal of Climate",
+          "volume": "38",
+          "issue": "4",
+          "pages": "1123-1136",
+          "doi": "10.1175/jcli-d-24-0185.1",
+          "publisher": "American Meteorological Society",
+          "primary_publisher_url": "https://journals.ametsoc.org/view/journals/clim/38/4/JCLI-D-24-0185.1.xml",
+          "publisher_deposited_metadata": "ersst6_part2_crossref.json",
+          "published_print": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                15
+              ]
+            ]
+          },
+          "published_online": null
+        }
+      ],
+      "frozen_snapshot_sha256": "afe81239648e7ececb4bf85a5d0791bc824dd3624f6ac2d6e86bf756d47d8c73",
+      "frozen_snapshot_retrieved_utc": "2026-10-07T21:58:17.976029+00:00",
+      "native_grid": "2 degree latitude x 2 degree longitude",
+      "native_sst_units": "degree_C",
+      "native_ssta_climatology": "1991-2020",
+      "derived_amv_climatology": "1951-1980 monthly climatology recomputed from absolute sst",
+      "notes": [
+        "Product page has a placeholder pending a v6 data DOI; no v6 dataset DOI verified.",
+        "Do not substitute ERSSTv5 article/data DOI for v6.",
+        "The unsmoothed NorthAtlantic-minus-global AMV is researcher-derived; this does not identify it as an official NOAA AMO series.",
+        "Archive snapshot is retrospective; no historical real-time release availability is claimed."
+      ],
+      "evidence_locators": [
+        "raw/ncei_ersst.html: Citation and Product Information",
+        "local_native_attributes.json: ersst6",
+        "raw/ersst6_part1_crossref.json: message",
+        "raw/ersst6_part2_crossref.json: message"
+      ]
+    },
+    {
+      "id": "03_mei_v2",
+      "status": "VERIFIED_PRODUCT_CITATION_VINTAGE_UNRESOLVED",
+      "dataset_title": "Multivariate ENSO Index Version 2 (MEI.v2)",
+      "provider": "NOAA Physical Sciences Laboratory",
+      "official_product_url": "https://psl.noaa.gov/enso/mei/",
+      "dataset_doi": null,
+      "publication": {
+        "type": "journal_article",
+        "title": "Towards Probabilistic Multivariate ENSO Monitoring",
+        "authors": [
+          {
+            "given": "Tao",
+            "family": "Zhang"
+          },
+          {
+            "given": "Andrew",
+            "family": "Hoell"
+          },
+          {
+            "given": "Judith",
+            "family": "Perlwitz"
+          },
+          {
+            "given": "Jon",
+            "family": "Eischeid"
+          },
+          {
+            "given": "Donald",
+            "family": "Murray"
+          },
+          {
+            "given": "Martin",
+            "family": "Hoerling"
+          },
+          {
+            "given": "Thomas M.",
+            "family": "Hamill"
+          }
+        ],
+        "year": 2019,
+        "journal": "Geophysical Research Letters",
+        "volume": "46",
+        "issue": "17-18",
+        "pages": "10532-10540",
+        "doi": "10.1029/2019gl083946",
+        "publisher": "American Geophysical Union (AGU)",
+        "primary_publisher_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2019GL083946",
+        "publisher_deposited_metadata": "mei_v2_zhang_crossref.json",
+        "published_print": {
+          "date-parts": [
+            [
+              2019,
+              9
+            ]
+          ]
+        },
+        "published_online": {
+          "date-parts": [
+            [
+              2019,
+              9,
+              5
+            ]
+          ]
+        }
+      },
+      "frozen_file_sha256": "90a376fa1b5a07b512ee072d10d4d16312f4f20cbc679979311376aa853dfb68",
+      "frozen_reanalysis_vintage": null,
+      "calendar_semantics": "12 overlapping two-month seasons, labeled by period-end month in this benchmark",
+      "notes": [
+        "Provider lists Zhang etal2019 for multivariate monitoring; Wolter and Timlin2011 MEI.ext alone is insufficient as a dedicated MEIv2 dataset citation.",
+        "Current page uses JRA3Q for its entire reconstructed time series, replacing JRA55 after March2024; it is not a JRA55/JRA3Q splice.",
+        "Frozen input footer identifies Version2 and overlapping seasons, but not JRA55/JRA3Q. Do not retroactively assign the current page vintage to its bytes.",
+        "Current overview1.5degree and legacy Methods2.5degree are different generations of documentation; avoid an unsupported archived-grid claim."
+      ],
+      "evidence_locators": [
+        "raw/noaa_mei_v2.html: Overview, Methods, References, Resources",
+        "raw/mei_v2_zhang_crossref.json: message",
+        "local_native_attributes.json: mei_v2"
+      ]
+    },
+    {
+      "id": "04_gldas_noah_3h_v21",
+      "status": "VERIFIED_CURRENT_DATASET_CITATION",
+      "dataset_title": "GLDAS Noah Land Surface Model L4 3 hourly 0.25 x 0.25 degree, Version 2.1",
+      "creators": [
+        {
+          "name": "Beaudoing, H.",
+          "givenName": "H.",
+          "familyName": "Beaudoing",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Rodell, M.",
+          "givenName": "M.",
+          "familyName": "Rodell",
+          "affiliation": [],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Hydrological Sciences Laboratory (HSL)",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "publisher": "NASA Goddard Earth Sciences Data and Information Services Center",
+      "publication_year": 2020,
+      "doi": "10.5067/E7TYRXPJKWOQ",
+      "official_product_url": "https://disc.gsfc.nasa.gov/datasets/GLDAS_NOAH025_3H_2.1/summary",
+      "short_name": "GLDAS_NOAH025_3H",
+      "version": "2.1",
+      "model_version": "Noah3.6",
+      "citation_year_discrepancy": {
+        "current_NASA_catalog_and_DataCite": 2020,
+        "older_README_example_page12": 2016,
+        "resolution": "Use2020 recommended current dataset citation; preserve older README discrepancy as evidence."
+      },
+      "notes": [
+        "This DOI is for the3hourly0.25degreeV2.1 final product, not monthly, Early Product, GLDAS1 or another land-surface model.",
+        "Retain the existing Rodell etal2004 GLDAS methods reference as well as this dataset reference.",
+        "Published backward3h tavg/acc physical semantics underpin aggregation; raw time_bnds and custom GEE hour-property origin remain unverified."
+      ],
+      "evidence_locators": [
+        "raw/gldas21_datacite.json: data.attributes.creators,titles,publicationYear,doi,url",
+        "raw/gldas21_cmr.json: feed.entry[0].short_name,version_id,time_start",
+        "raw/NASA_README_GLDAS2_frozen.pdf: pages11-12 Table2 and section1.3; page23 Table4",
+        "local_native_attributes.json: gldas21"
+      ]
+    },
+    {
+      "id": "05_power_merra2_meteorology",
+      "status": "VERIFIED_FROZEN_SOURCE_AND_ACKNOWLEDGMENT",
+      "provider": "NASA Langley Research Center, Prediction Of Worldwide Energy Resources (POWER)",
+      "service": "native AWS analysis-ready monthly temporal Local Solar Time Zarr",
+      "version": "10.0.0",
+      "access_date": "2026-10-07",
+      "upstream": "NASA Goddard Global Modeling and Assimilation Office, MERRA-2",
+      "publication": {
+        "type": "journal_article",
+        "title": "The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2)",
+        "authors": [
+          {
+            "given": "Ronald",
+            "family": "Gelaro"
+          },
+          {
+            "given": "Will",
+            "family": "McCarty"
+          },
+          {
+            "given": "Max J.",
+            "family": "Suárez"
+          },
+          {
+            "given": "Ricardo",
+            "family": "Todling"
+          },
+          {
+            "given": "Andrea",
+            "family": "Molod"
+          },
+          {
+            "given": "Lawrence",
+            "family": "Takacs"
+          },
+          {
+            "given": "Cynthia A.",
+            "family": "Randles"
+          },
+          {
+            "given": "Anton",
+            "family": "Darmenov"
+          },
+          {
+            "given": "Michael G.",
+            "family": "Bosilovich"
+          },
+          {
+            "given": "Rolf",
+            "family": "Reichle"
+          },
+          {
+            "given": "Krzysztof",
+            "family": "Wargan"
+          },
+          {
+            "given": "Lawrence",
+            "family": "Coy"
+          },
+          {
+            "given": "Richard",
+            "family": "Cullather"
+          },
+          {
+            "given": "Clara",
+            "family": "Draper"
+          },
+          {
+            "given": "Santha",
+            "family": "Akella"
+          },
+          {
+            "given": "Virginie",
+            "family": "Buchard"
+          },
+          {
+            "given": "Austin",
+            "family": "Conaty"
+          },
+          {
+            "given": "Arlindo M.",
+            "family": "da Silva"
+          },
+          {
+            "given": "Wei",
+            "family": "Gu"
+          },
+          {
+            "given": "Gi-Kong",
+            "family": "Kim"
+          },
+          {
+            "given": "Randal",
+            "family": "Koster"
+          },
+          {
+            "given": "Robert",
+            "family": "Lucchesi"
+          },
+          {
+            "given": "Dagmar",
+            "family": "Merkova"
+          },
+          {
+            "given": "Jon Eric",
+            "family": "Nielsen"
+          },
+          {
+            "given": "Gary",
+            "family": "Partyka"
+          },
+          {
+            "given": "Steven",
+            "family": "Pawson"
+          },
+          {
+            "given": "William",
+            "family": "Putman"
+          },
+          {
+            "given": "Michele",
+            "family": "Rienecker"
+          },
+          {
+            "given": "Siegfried D.",
+            "family": "Schubert"
+          },
+          {
+            "given": "Meta",
+            "family": "Sienkiewicz"
+          },
+          {
+            "given": "Bin",
+            "family": "Zhao"
+          }
+        ],
+        "year": 2017,
+        "journal": "Journal of Climate",
+        "volume": "30",
+        "issue": "14",
+        "pages": "5419-5454",
+        "doi": "10.1175/jcli-d-16-0758.1",
+        "publisher": "American Meteorological Society",
+        "primary_publisher_url": "https://journals.ametsoc.org/view/journals/clim/30/14/jcli-d-16-0758.1.xml",
+        "publisher_deposited_metadata": "merra2_gelaro_crossref.json",
+        "published_print": {
+          "date-parts": [
+            [
+              2017,
+              7
+            ]
+          ]
+        },
+        "published_online": null
+      },
+      "source_root": "https://nasa-power.s3.us-west-2.amazonaws.com/merra2/temporal/power_merra2_monthly_temporal_lst.zarr",
+      "native_grid": "0.5degree latitude x0.625degree longitude",
+      "variables": {
+        "T2M": {
+          "units": "C",
+          "long_name": "Temperature at 2 Meters",
+          "cell_methods": "time: mean"
+        },
+        "RH2M": {
+          "units": "%",
+          "long_name": "Relative Humidity at 2 Meters",
+          "cell_methods": "time: mean"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "long_name": "Wind Speed at 10 Meters",
+          "cell_methods": "time: mean"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "long_name": "Precipitation Corrected",
+          "cell_methods": "time: mean"
+        }
+      },
+      "acknowledgment_notes": [
+        "Credit NASA POWER/NASA LaRC and Earth Science Division funding; NASA/GMAO for MERRA-2.",
+        "Include actual monthly service/native version10.0.0/access date, adapting the generic POWER referencing example.",
+        "Named merra2 archive is used; do not describe current GEOS-IT near-real-time tail as an input here.",
+        "PRECTOTCORR stays monthly-mean mm/day; it is not a monthly rainfall total."
+      ],
+      "evidence_locators": [
+        "local_native_attributes.json: power.merra2",
+        "raw/power_referencing.html: Referencing Guide",
+        "raw/power_acknowledgements.html: Acknowledgement",
+        "raw/power_sources_frozen.html: Meteorology",
+        "raw/nasa_gmao_merra2.html: Overview Paper",
+        "raw/merra2_gelaro_crossref.json: message"
+      ]
+    },
+    {
+      "id": "06_power_srb_syn_solar",
+      "status": "VERIFIED_FROZEN_SOURCE_AND_ACKNOWLEDGMENT",
+      "provider": "NASA POWER/NASA Langley Research Center",
+      "service": "native AWS monthly temporal LST Zarr",
+      "version": "10.0.0",
+      "access_date": "2026-10-07",
+      "native_grid": "1degree x1degree",
+      "source_roots": {
+        "srb": "https://nasa-power.s3.us-west-2.amazonaws.com/srb/temporal/power_srb_monthly_temporal_lst.zarr",
+        "syn1deg": "https://nasa-power.s3.us-west-2.amazonaws.com/syn1deg/temporal/power_syn1deg_monthly_temporal_lst.zarr"
+      },
+      "study_source_calendar": {
+        "SRB": "1984-01 through2000-12",
+        "CERES_SYN1deg": "2001-01 through2024-12"
+      },
+      "native_units": "W m-2",
+      "benchmark_units": "MJ m-2 day-1",
+      "conversion": "multiply monthly-mean W m-2 by86400/1000000 =0.0864",
+      "upstream_release_edition_claim": "Current POWER documentation describes SRB4.0IP and SYN1degEdition4.2; frozen POWER native metadata pins version10.0.0/source families, not those upstream editions independently.",
+      "dataset_doi": null,
+      "acknowledgment_notes": [
+        "Credit NASA POWER/NASA LaRC; NASA/GEWEX SRB and NASA CERES SYN1deg source projects; NASA LaRC ASDC.",
+        "Provider documentation warns that multiple solar sources limit long-term trend inference across transitions.",
+        "Do not claim FLASHFlux inputs for the frozen1984-2024 SRB/SYN supplement, or availability before1984.",
+        "No source-specific solar DOI or release year is invented; POWER version is not the CERES/SRB edition."
+      ],
+      "evidence_locators": [
+        "local_native_attributes.json: power.srb and power.syn1deg",
+        "raw/power_sources_frozen.html: Solar",
+        "raw/power_acknowledgements.html: Acknowledgement",
+        "raw/nasa_srb_acknowledgement.html: Data Usage Acknowledgement",
+        "raw/power_referencing.html: Referencing Guide"
+      ]
+    }
+  ],
+  "scope": "citation metadata/source acknowledgments only; no manuscript writing, new data substitution or model-result reads"
+}

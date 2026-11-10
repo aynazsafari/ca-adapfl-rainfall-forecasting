@@ -1,0 +1,45 @@
+{
+  "id": "Table11",
+  "role": "derived_numeric_evidence",
+  "rows": 9,
+  "columns": [
+    "model",
+    "MSE_mm2_mean",
+    "MSE_mm2_std",
+    "RMSE_mm_mean",
+    "RMSE_mm_std",
+    "R2_mean",
+    "R2_std",
+    "MSESS_mean",
+    "MSESS_std",
+    "bias_mm_mean",
+    "bias_mm_std",
+    "MAE_mm_mean",
+    "MAE_mm_std",
+    "tail80_bias_mm_mean",
+    "tail80_bias_mm_std",
+    "tail80_RMSE_mm_mean",
+    "tail80_RMSE_mm_std",
+    "required_payload_MiB"
+  ],
+  "sources": {
+    "benchmarks/sharing/evaluation/principal_comparison.csv": {
+      "sha256": "6c2dcccd2ac694625d2f5199e62c9b14ea8e5998b723fb86c62f7641469b2035",
+      "rows": 9
+    },
+    "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+      "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+      "rows": 40
+    }
+  },
+  "formula_or_selector": "Primary fixed tick60 ledger; macro MSE/R2/MSESS average clients then seeds; RMSE mean/sample SD; mean per-fit required bytes divided by 2^20. Macro MSE is not squared macro RMSE.",
+  "files_sha256": {
+    "Table11.csv": "21f6b5970362d89f95b1038952d1fe0ed75af3dbfad780e4900cd37287b7948d",
+    "Table11_display.csv": "e0f479a5b7101182bf0a6454d95f97cc5a7ed1177fbe34375afbf69f0c46682d"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 53,
+    "discrepancies": []
+  }
+}

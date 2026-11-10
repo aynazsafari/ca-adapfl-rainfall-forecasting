@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "errors": [],
+  "papers": 10,
+  "pdf_pages": 154,
+  "doi_verified": 6,
+  "reviewer_comments": 20,
+  "no_study_scores_or_fits": true,
+  "outputs": [
+    {
+      "name": "LITERATURE_COMPARISON.md",
+      "sha256": "2c930169259033bb99cbd5986f71f28879ed5f4fc50ed34ebe8c699af6123bbb",
+      "bytes": 20356
+    },
+    {
+      "name": "papers.json",
+      "sha256": "64d1e819d6ef03ef69847847c90124a218e50eb39ca3ef192db41fe68623bd22",
+      "bytes": 24458
+    },
+    {
+      "name": "comparison_table.csv",
+      "sha256": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9",
+      "bytes": 12511
+    },
+    {
+      "name": "references.bib",
+      "sha256": "46217ea5b9d3113fd01a42d86a24f4b66fc886cff45a4cbc0cfd90ff97c67ec4",
+      "bytes": 4122
+    },
+    {
+      "name": "reviewer_context_exact20.json",
+      "sha256": "3a3fe62566588d9484beafda82dfda29ec892ed2f9fab85fd6cca9c20cd1f672",
+      "bytes": 15222
+    },
+    {
+      "name": "source_read_receipt.json",
+      "sha256": "1e529b91b3e552d0115f97697ee0f51354cd099d723b131b7ac8642aac6d218b",
+      "bytes": 5989
+    }
+  ]
+}

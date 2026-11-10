@@ -1,0 +1,3 @@
+Fixed original, enriched and uniform TRAIN input affinities on a shared 0–1 scale. TRAIN targets run 1983-01 through 2007-11 (299 per client). These structural summaries use privileged aligned TRAIN anomalies/descriptors; they are neither causal effects nor forecast skill. Row-normalized trainer weights remain in the source CSV.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

@@ -1,0 +1,11 @@
+# Archive contents and extraction
+
+`CAAdapFL_Benchmark_Source.zip` contains the runnable source core, pinned direct requirements, processed input tables, retained source lineage, public synthetic tests, source-assembly/QA tools, figures, executed inspection notebook and final document acceptance receipts. Extract it into a new directory. It excludes `.git`, environments, caches, `runs/`, superseded `snapshots/`, and raw upstream climate payloads.
+
+`CAAdapFL_Inspect_Completed_Results.zip` adds both accepted runs' tables, raw predictions, diagnostics, choices, schemas and fit metadata. It excludes `.pt` and `.joblib` model states. Extract into the source-core directory to inspect tables and run the read-only notebook. Independent model/checkpoint audit needs the full parts.
+
+`CAAdapFL_Completed_Results_Part_01.zip` through `Part_04.zip` contain every file in the two accepted completed run directories, including all saved models/checkpoints. They are four independently extractable ZIPs containing distinct paths, not split-ZIP segments. Extract all four into the same source-core directory to restore `runs/revision_v2` and `runs/supplements_v2`. The inspection ZIP is then redundant and can be skipped. The result manifest lists each file's original SHA256 and its part, and each archive's SHA256 plus full-member CRC pass. The four archives contain 3,841 files / 6,689,933,545 uncompressed bytes.
+
+Superseded v1 engineering fits and original source caches remain in the local working record, not this completed-results release. Frozen historical documentation identifies that history; current release scope is defined here. The current core `PACKAGE_MANIFEST.json` excludes its own bytes to avoid a circular hash. The launch manifest remains in historical provenance. The final documentation audit is added after that inventory as an explicitly excluded receipt.
+
+Reproduce new training using the README's fresh run directory rather than overwriting accepted `runs/`. Processed-snapshot training does not need the original Google/Earth Engine account. Optional reacquisition needs source access and the separate workflow in `docs/SOURCE_REPRODUCTION.md`. Raw source redistribution remains governed by provider terms in `DATA_ATTRIBUTION.md`; no software license or permanent public deposit is asserted by this local package.

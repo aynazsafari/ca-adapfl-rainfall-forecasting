@@ -1,0 +1,140 @@
+Browser tab: 1, Title: "*New Script - Earth Engine Code Editor", URL: "https://code.earthengine.google.com/".
+1 AXWebArea *New Script - Earth Engine Code Editor, URL: code.earthengine.google.com/
+	2 container head
+		3 image Google Earth Engine
+		4 container search-container
+			5 text field (settable)
+		6 button icon
+			7 image
+		8 button icon
+			9 image
+		10 container
+			68 text gen-lang-client-0677607444
+			69 image
+	12 container main
+		13 container
+			14 container
+				15 container
+					16 container
+						17 button Scripts
+						18 button Docs
+						19 button Assets
+						20 text field (settable)
+						21 button NEW
+							22 text NEW
+						23 button
+						70 container
+							71 container
+								72 image
+								73 text Owner
+							74 text No accessible repositories. Click Refresh to check again.
+						75 container
+							76 container
+								77 image
+								78 text Writer
+							79 text No accessible repositories. Click Refresh to check again.
+						80 container
+							81 container
+								82 image
+								83 text Reader
+							84 text No accessible repositories. Click Refresh to check again.
+						85 container
+							86 container
+								87 image
+								88 text Archive
+							89 text No accessible repositories. Click Refresh to check again.
+						90 container
+							91 image
+							92 text Examples
+					37 container
+						118 text New Script *
+						38 button Get Link, Help: Create public link to snapshot of script., ID: tool-bar-link-button
+						39 pop up button (collapsed) Secondary Actions: Expand
+						40 button Save, Help: Save script (Ctrl+S)
+						41 pop up button (collapsed) Secondary Actions: Expand
+						42 button Run, Help: Run script (Ctrl+Enter)
+						43 pop up button (collapsed) Secondary Actions: Expand
+						44 button Reset, Help: Clear map, inspector, and console
+						45 pop up button (collapsed) Secondary Actions: Expand
+						46 button Apps, Help: Manage apps
+					47 container
+						48 text entry area (settable) 
+						49 container
+							50 text 73
+							119 text 74
+							120 text 75
+							121 text 76
+							122 text 77
+							123 text 78
+							124 text 79
+							125 text 80
+							126 text 81
+							127 text 82
+						186 container
+							187 container
+								188 text }) ;
+							189 container
+								190 text }) ;
+							191 container
+								192 text return ee.FeatureCollection ( perMonth . flatten ( )) ;
+							193 text }
+							194 container
+								195 text [ 'ERA5Land' ] . forEach ( function ( name ) {
+							196 container
+								197 text var d = DEFINITIONS [ name ] , f = extract ( name , d , d . months ) ;
+							198 container
+								199 text f . getDownloadURL ( 'CSV' , null , 'CAAdapFL_' + name + '_completed' , function ( url , error ) { print ( name + ' FULL_TABLE_URL' , error || url ) ; }) ;
+							200 container
+								201 text }) ;
+				51 container
+					52 button Inspector
+					53 button Console
+					54 button Tasks
+					55 button chat_spark_2 Ask
+						56 text chat_spark_2
+						57 text Ask
+					202 container task-pane
+						203 container
+							204 text Search  or cancel multiple tasks in the 
+							205 link Description: Task Manager open_in_new, Value: code.earthengine.google.com/tasks
+							206 text  or try the 
+							207 link Description: Tasks Page in the Cloud Console open_in_new, Value: console.cloud.google.com/earth-engine/tasks?project=gen-lang-client-0677607444
+							208 text .
+						209 container
+							210 text UPDATING...
+						211 text SUBMITTED TASKS
+						212 container
+							213 text CAAdapFL_GLDAS21_2000_2024 5m
+						214 container
+							215 text CAAdapFL_ERA5_1981_2024 ID:  4A3JJ5PPRJSB5WXHR3PW6SYK Phase:  Completed Runtime:  13m  (started  2026-10-08 01:48:37 +0300 ) Execution status:  Attempt # 1 Priority:  100  (default) Batch compute usage:  1600.5947  EECU-seconds
+							218 link Description: Source Script, Value: code.earthengine.google.com/331ae9d85063a493d7f63e9dd585ea61
+							219 link Description: Open in Drive, Value: drive.google.com/#folders/1c4fFqYtxWfEEW4hGDALxgmDJjCt-MElL
+							220 text 13m
+						216 container
+							217 text CAAdapFL_ERA5Land_1981_2024 9m
+			94 container
+				95 button Keyboard shortcuts
+				96 container Map
+				173 menu bar
+					174 Description: Stop drawing, Value: 1
+					175 Description: Add a marker, Value: 0
+					176 Description: Draw a line, Value: 0
+					177 Description: Draw a shape, Value: 0
+					178 Description: Draw a rectangle, Value: 0
+				179 menu bar
+					180 Description: Show street map, Value: 1, ID: DD3BAD39-57CF-4145-8E29-6EED5660B4B2
+					181 Description: Show satellite imagery, Value: 0, ID: 0DB90AC4-8578-458C-8423-E2838D2644E8
+				182 container
+					183 button Zoom in
+					184 button Zoom out
+				109 checkbox Description: Toggle fullscreen view, Value: 0
+				110 link Description: Open this area in Google Maps (opens a new window), Value: maps.google.com/maps?ll=34.8,-95.2&z=4&t=m&hl=en-US&gl=US&mapclient=apiv3
+				111 container
+					112 button Keyboard shortcuts
+					113 text Map data ©2026 Google, INEGI
+					114 button Map Scale: 500 km per 53 pixels
+						115 container
+							185 text 500 km 
+					117 link Description: Terms (opens in new tab), Value: google.com/intl/en-US_US/help/terms_maps.html
+
+The focused UI element is 1 AXWebArea *New Script - Earth Engine Code Editor, URL: code.earthengine.google.com/

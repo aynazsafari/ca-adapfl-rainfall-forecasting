@@ -1,0 +1,224 @@
+{
+  "status": "ISSUES",
+  "created_utc": "2026-10-08T03:15:24.656833+00:00",
+  "run_sha256": "c10ec7499adba7470982ec57eb2daaba0634d79adae49ccb53ebca6309a218fb",
+  "companion_manifest_sha256": "8ce224b5f7ad663b0c7d78025238c99034eeece31e387d84191798fca9bcb8f6",
+  "scope": "Independent source/hashes, individual native2010px PNG visible layout, SVG font and frozen plan/order review of nine actual manuscript-size companions; no model/source/scientific changes. Conditional marginal paired uncertainty and distinct global/personal/anchor estimands retained.",
+  "figures": [
+    {
+      "id": "P01_paired_01_08",
+      "png_sha256": "1be8bbdccac128c81fb63bab5b8a36e6473de69089ad7b36e8ffe6ca43fb9b48",
+      "native_pixel_dimensions": [
+        2010,
+        1440
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P01_paired_01_08.txt",
+      "csv_lookups": [
+        "source_data/03_paired_family.csv",
+        "source_data/paired_block6_sensitivity_ALL.csv",
+        "source_data/paired_block24_sensitivity_ALL.csv",
+        "source_data/paired_per_seed_summary_ALL.csv"
+      ]
+    },
+    {
+      "id": "P02_paired_09_16",
+      "png_sha256": "4fa7beddbb7194dca510f1596a2eaa6b954e0f45d52fb5cc5570f1fb88a7920f",
+      "native_pixel_dimensions": [
+        2010,
+        1440
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P02_paired_09_16.txt",
+      "csv_lookups": [
+        "source_data/03_paired_family.csv",
+        "source_data/paired_block6_sensitivity_ALL.csv",
+        "source_data/paired_block24_sensitivity_ALL.csv",
+        "source_data/paired_per_seed_summary_ALL.csv"
+      ]
+    },
+    {
+      "id": "P03_paired_17_24",
+      "png_sha256": "f7e1a4dfca936ed18d503f9ee5ba6256901236bbbed8a268918485ebe5caa7a8",
+      "native_pixel_dimensions": [
+        2010,
+        1440
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P03_paired_17_24.txt",
+      "csv_lookups": [
+        "source_data/03_paired_family.csv",
+        "source_data/paired_block6_sensitivity_ALL.csv",
+        "source_data/paired_block24_sensitivity_ALL.csv",
+        "source_data/paired_per_seed_summary_ALL.csv"
+      ]
+    },
+    {
+      "id": "P04_paired_25_31",
+      "png_sha256": "25001eb4563f15e7a013692aee719cc8a724c6f52b9be79bef332a1afe801e97",
+      "native_pixel_dimensions": [
+        2010,
+        1440
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P04_paired_25_31.txt",
+      "csv_lookups": [
+        "source_data/03_paired_family.csv",
+        "source_data/paired_block6_sensitivity_ALL.csv",
+        "source_data/paired_block24_sensitivity_ALL.csv",
+        "source_data/paired_per_seed_summary_ALL.csv"
+      ]
+    },
+    {
+      "id": "P05_global",
+      "png_sha256": "71e6e138de6bdc0316fba558f0699b52c4748ac5c9ab88b440ca8b0ec5f46dbb",
+      "native_pixel_dimensions": [
+        2010,
+        1350
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P05_global.txt",
+      "csv_lookups": [
+        "source_data/01_global_and_classical.csv"
+      ]
+    },
+    {
+      "id": "P06_personal",
+      "png_sha256": "83ac5315367795fc26a77b1d1ad5f87d484a387be201360edac978893bb72283",
+      "native_pixel_dimensions": [
+        2010,
+        1260
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P06_personal.txt",
+      "csv_lookups": [
+        "source_data/02_personal.csv"
+      ]
+    },
+    {
+      "id": "P07_anchor",
+      "png_sha256": "cccd312fd85322bfba47dcdb72e0d6aeef8f36f693558e5a44cc9a385dcb97d3",
+      "native_pixel_dimensions": [
+        2010,
+        1050
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P07_anchor.txt",
+      "csv_lookups": [
+        "source_data/04_anchor_ablations.csv",
+        "source_data/paired_block6_sensitivity_ALL.csv",
+        "source_data/paired_block24_sensitivity_ALL.csv",
+        "source_data/paired_per_seed_summary_ALL.csv"
+      ]
+    },
+    {
+      "id": "P08_training_graphs",
+      "png_sha256": "2f5b5457426b5d5d111a11ebb34469bc0b1696d97feea393f0c763770117b93f",
+      "native_pixel_dimensions": [
+        2010,
+        900
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P08_training_graphs.txt",
+      "csv_lookups": [
+        "source_data/05_training_graphs.csv",
+        "source_data/05_training_graph_profiles.csv"
+      ]
+    },
+    {
+      "id": "P09_client_PR_seed42",
+      "png_sha256": "7d1d103e99abff15f8009a182c64e0e34ba85f8bf04cae2837f8e40e8adf0c86",
+      "native_pixel_dimensions": [
+        2010,
+        1620
+      ],
+      "minimum_visible_svg_font_pt": 10.0,
+      "individual_original_resolution_inspection": true,
+      "caption": "captions/P09_client_PR_seed42.txt",
+      "csv_lookups": [
+        "source_data/08_client_PR_seed42.csv",
+        "source_data/per_client_ALL.csv"
+      ]
+    }
+  ],
+  "blocking_issues": [
+    {
+      "severity": "visual_acceptance_blocker",
+      "figures": [
+        "P05_global",
+        "P06_personal"
+      ],
+      "location": "make_publication_companions.py seeds(), original lines362-365",
+      "problem": "R2 pad computed before expanding low endpoint tozero; marker centers are retained but extreme open/filled marker glyphs are clipped by the right axes boundary.",
+      "specific_points": "Global local_ET seed42 only4.197px from right boundary; personal Ditto seed2024/42 only4.067/4.126px, below nominal9.081px scatter half-width.",
+      "recommended_minimal_repair": "For R2 expand lo=min(lo,0) before calculating pad=max(hi-lo,.01)*.08; retain all data, identities, source order, font sizes, canvas and other plots. Archive candidate and helper before explicitly disclosed plotting-only repair."
+    }
+  ],
+  "all31_shared_unclipped_center_interval_limits": {
+    "macro_R2": [
+      -0.02710391895356883,
+      0.03701280562428333
+    ],
+    "macro_RMSE_mm": [
+      -3.9434837480300344,
+      3.123346613518714
+    ]
+  },
+  "seed_marker_padding_analysis": {
+    "P05_global": {
+      "pre_repair_x_limits": [
+        -0.005861676829502836,
+        0.8222812406095171
+      ],
+      "pre_repair_extreme_margin_px": 4.196958282034256,
+      "full_range_padded_limits": [
+        -0.06531356510240115,
+        0.8817331288824155
+      ],
+      "full_range_padded_extreme_margin_px": 40.89310344827585,
+      "scatter_nominal_half_width_px": 9.081039465709738
+    },
+    "P06_personal": {
+      "pre_repair_x_limits": [
+        -0.0034686775031378047,
+        0.8224087996118656
+      ],
+      "pre_repair_extreme_margin_px": 2.4903843275522073,
+      "full_range_padded_limits": [
+        -0.06551520976869822,
+        0.884455331877426
+      ],
+      "full_range_padded_extreme_margin_px": 40.89310344827585,
+      "scatter_nominal_half_width_px": 9.081039465709738
+    }
+  },
+  "exact_input_sources_verified": 21,
+  "exact_output_files_verified": 49,
+  "provenance": {
+    "original_eight_manifest_sha256": "aee4b28e3ad1f9379713c7d0c7a660f905702d3aa7426f7a582340eff722ff8b",
+    "original_eight_visual_qa_sha256": "3df2048d8018920822400f4e01af5d7648919e9882a1f8866cee10efc84257b8",
+    "publication_gate_sha256": "93a76b6016725da1bedab6ed036713d1c44a0c53f7c8e646bd248496e8c85a75",
+    "graph_precision_repair_sha256": "3a7220983b3ff2bda7bf8b96a31d67720c686cd2fee0d5bdaf22842841b48211",
+    "helper_sha256": "3d0b9a60a9a5ad10d44d7572227baabed27623b51319f2c848d3abff55dc0394",
+    "frozen_plan_sha256": "7c62f5c40d4f1d2a55c3f8d763dd6dae2b50c2cb3b9fcb61bc3e21884ff200a0"
+  },
+  "nonblocking_notes": [
+    "Original06 validation-grid and07 heavy-event artifacts remain standalone/supplement; no result-selected subset replaces them.",
+    "Graphs round labels toone decimal; actual affinities and colors retain precision.",
+    "PR plots include conventional boundary coordinates and fixed seed42 examples for all five clients; they are not best-seed or pooled-client curves.",
+    "No simultaneous family superiority inference follows from the displayed marginal95% intervals."
+  ],
+  "model_training": false,
+  "model_inference": false,
+  "source_preparation": false,
+  "repository_mutated": false,
+  "supplement_evaluation_or_sealed_truth_opened": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "tests": 11,
+  "command": "python -m unittest discover -s tests -p test_invariants.py -v",
+  "elapsed_suite_seconds": 5.129,
+  "scope": "Installed final package, synthetic invariant checks; no study model fit",
+  "source": "Actual command output in this task, exit code0",
+  "test_file_sha256": "99be54a48dc446e26a300fcfe302bc801ddc1a5eed967235782cfc083f0f7fa0"
+}

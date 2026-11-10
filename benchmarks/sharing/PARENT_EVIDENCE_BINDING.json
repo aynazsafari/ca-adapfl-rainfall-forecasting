@@ -1,0 +1,23 @@
+{
+  "description": "Prepared data and original ALCE code are authenticated parent evidence. New fits and information-policy interventions are separate.",
+  "parent_archives": [
+    {
+      "filename": "CAAdapFL_Systems_v4_SOURCE.zip",
+      "bytes": 41270290,
+      "sha256": "a44d6904b35591b57e891165ba95b4bb5d3bb8738847deefd127025aaad165e9",
+      "members": 670,
+      "CRC": "PASS",
+      "all_member_sha256": "PASS"
+    },
+    {
+      "filename": "CAAdapFL_Systems_v4_RESULTS.zip",
+      "bytes": 18380558,
+      "sha256": "c551c2c44d7e1d92aed998f98ec08acb925f0a81ebf9646d3d6ed7d61d47b12e",
+      "members": 92,
+      "CRC": "PASS",
+      "all_member_sha256": "PASS"
+    }
+  ],
+  "parent_folder_relative": "../../09_systems_revision",
+  "raw_monthly_target": "CHIRPS; same parent revised-archive panel; not IMD independent target"
+}

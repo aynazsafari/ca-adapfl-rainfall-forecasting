@@ -1,0 +1,124 @@
+{
+  "schema": "final_repository_documentation_D01_D07_readonly_audit_v1",
+  "status": "PASS",
+  "scope": "Bounded final agent source/documentation/CLI/manifest review of the completed local release. This is not a new numerical study audit, model rerun, hosted CI run, cross-platform proof or full archive CRC recheck.",
+  "repository": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\03_benchmark\\caadapfl_benchmark",
+  "package_manifest_sha256": "7a35045bf5c18716dbaead89cf38f17039140401e5c82e4f593de416afba7c77",
+  "prior_frozen_manifest_sha256": "c6576838ce35091417f682832cec04ccc671dd11022b07bf38e67f3464ba0fa9",
+  "active_primary_run_sha256": "c10ec7499adba7470982ec57eb2daaba0634d79adae49ccb53ebca6309a218fb",
+  "metadata_reconciliation_path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\response_authoring\\final_release_metadata_reconciliation.json",
+  "metadata_reconciliation_sha256": "bc4b1d5f1615be102a0b92005ccbf84d660c17e40629e57a76c6abecbc429bce",
+  "checks": [
+    {
+      "id": "D01",
+      "status": "PASS",
+      "finding": "Current plotting instructions pass explicit publication_gate.json. The portable make_publication_gate.py verifies independent PASS scope, run SHA and exact evaluation completion hash, preserves the original audit, retains structured scope, performs no scientific calculations and refuses existing output. The placeholder path in the prepared checklist was corrected to the actual tools/qa/make_publication_gate.py."
+    },
+    {
+      "id": "D02",
+      "status": "PASS",
+      "finding": "Current Markdown and the explicitly designated current-release CSV distinguish candidate/nonzero-anchor aggregation from selected count-only uniform primary. Full-TRAIN climate relevance is static; nonlinear embedding and sample/minibatch adaptive proximity are separate pathways. Anomaly correlation and MetePFL/FedPoD prior graph/geography are qualified. All 10 study rows and every source-fact column are exactly equal between original and current CSV; only the historical inference/difference column changes."
+    },
+    {
+      "id": "D03",
+      "status": "PASS_AFTER_DISCLOSED_SINGLE_SENTENCE_REPAIR",
+      "finding": "README, current release, source reproduction, result figures and publication layout point to accepted completed revision_v2 and the corrected figures/revision_v2_publication_v2. Seven-cell/three-plot notebook execution is bound to retained actual receipts. A stale Persian notebook-future sentence was identified, replaced exactly under a retained repair receipt, and reviewed against the successor manifest. The source scientific protocol has a historical banner and byte-exact retained scientific body. General rendering instructions describe requirements for newly generated artifacts rather than claiming current accepted documents are unfinished."
+    },
+    {
+      "id": "D04",
+      "status": "PASS",
+      "finding": "Current guides state 90 unique supplemental fits/evaluation completed and independent QA PASS, 36 labels, 83,100 saved predictions and 108,000 draws. Three matched cohorts and 18 within-source contrasts remain separate from the main 31-pair family. Structural solar/GLDAS starts, invalid IMD support, no cross-cohort ranking and no equivalence claim are retained."
+    },
+    {
+      "id": "D05",
+      "status": "PASS",
+      "finding": "Canonical reconstruction uses retained tables without credentials, a nonexistent output directory and --with-gldas; source reacquisition uses a separate repository copy/environment, pinned snapshot and explicit relocated --ee-table. Source CLI pointers and admitted supplement defaults match static argparse interfaces. Historical workspace-only audit commands are explicitly labelled and retained; current QA README gives portable primary/descriptive commands and names the public scripts. Supplemental audit is available at tools/qa/audit_completed_supplements.py with --run/--primary-run/--output; no additional permission is required by its interface."
+    },
+    {
+      "id": "D06",
+      "status": "PASS",
+      "finding": "Successor core manifest 7a35045b... binds 555 unique files/105,160,395 bytes, document acceptance, source and completed-results manifests, repaired guide and byte-retained c657... parent manifest. All listed core paths exist with recorded sizes; 50 focused content hashes and all six scientific modules match. Current distribution/package is 1.0.1. ENVIRONMENT.json has no installed caadapfl-benchmark entry; earlier attribution of installed 1.0.0 to that environment file was incorrect. Current versus historical environment, direct pins versus resolver lock, archive/core/inspection exclusions and independent ZIP-part extraction are explicit."
+    },
+    {
+      "id": "D07",
+      "status": "PASS",
+      "finding": "Current release separates 283 actual unique main bundles (167 neural,105 classical,10 router,1 baseline) from 96 prediction labels and the symbolic schedule. It scopes 305 inferred direct estimator operations, 180 OOF bundles/540 estimator operations,50 client Ridge fits,9 selector fits with no individual timers but included driver elapsed, shared aliases/personal states/setup charged once, and seven superseded v1 engineering fits. Numeric communication payloads differ from real network measurements; parallel elapsed, worker wall and CPU totals remain distinct."
+    }
+  ],
+  "resolved_during_review": [
+    {
+      "id": "D03_FA_NOTEBOOK_STATUS",
+      "severity": "documentation status mismatch",
+      "repair_receipt_sha256": "633d2a0500b9c7a585986ec093634b7ef1c7b869cf156f953b4efd7d5b4f4154",
+      "exact_one_sentence_changed": true,
+      "original_guide_and_manifest_archived_byte_exact": true,
+      "science_changed": false
+    }
+  ],
+  "remaining_material_findings": [],
+  "prior_assumption_correction": "ENVIRONMENT.json has no installed caadapfl-benchmark entry. The earlier audit assumption that it records installed package 1.0.0 was incorrect. CURRENT_ENVIRONMENT.json and pyproject correctly state installed/package version 1.0.1.",
+  "claim_boundaries_confirmed": [
+    "No general selected-global CAAA superiority or best-in-all-metrics claim",
+    "No untouched/prospective test, external preregistration or historical as-of-vintage proof",
+    "No causal index attribution/current SHAP/independent CHIRPS-IMD truth claim",
+    "No secure aggregation/differential privacy/network-latency/flood-warning deployment guarantee",
+    "No invented code licence, institution, public repository/deposit link, author approval or submission",
+    "Graph setup requires declared privileged offline access; C1/C5 overlap and joint temporal resampling remain disclosed",
+    "Native ERA5 recovery replaces six deficient months without statistical imputation; 522 EE months and March control remain explicit"
+  ],
+  "release_metadata": {
+    "core_files": 555,
+    "core_inventoried_bytes": 105160395,
+    "completed_result_files": 3841,
+    "completed_result_uncompressed_bytes": 6689933545,
+    "independent_zip_parts": 4,
+    "accepted_document_page_counts": [
+      32,
+      21,
+      8
+    ],
+    "source_notebook_code_cells": 7,
+    "observed_package_version": "1.0.1"
+  },
+  "not_performed": [
+    "No tests or scientific QA programs executed",
+    "No raw truth/results metric CSVs read",
+    "No model/checkpoint/round-history files opened",
+    "No CRC/hash reread of multi-GB ZIP archives",
+    "No shared repository writes",
+    "No external terms/literature were re-browsed; checked retained source-attribution and original-paper evidence boundaries",
+    "No repository or final-output mutation by this agent"
+  ],
+  "limits": [
+    "Core path/size existence checked for555 entries; complete core SHA256 sweep was not performed.50 focused content hashes, including all six scientific module hashes, were reconciled.",
+    "The result archive manifest and existing full-member CRC PASS receipts were read as metadata; multi-GB ZIPs/model histories were not opened or rehashed.",
+    "Final source/doc acceptance is distinct from human author review, public deposit and licence choice.",
+    "Current recovery README normalizes newline encoding to CRLF while adding a historical banner; its unchanged original parent bytes are archived. The scientific protocol body remains byte-exact."
+  ],
+  "scope_label_correction": {
+    "parent_path": "FINAL_REPOSITORY_DOCUMENTATION_QA_PARENT.json",
+    "parent_sha256": "b98018c3b8761354396ae6cfeccd7c613cca90fb633cea242289d7995e282eb2",
+    "changed_field": "scope",
+    "before": "final human source/",
+    "after": "final agent source/",
+    "reason": "The reviewer was an AI agent; no human/coauthor review or approval occurred. All original audit checks, hashes and conclusions remain exact."
+  },
+  "current_release_locator_repair_adapter": {
+    "status": "PASS",
+    "previous_manifest_sha256": "7a35045bf5c18716dbaead89cf38f17039140401e5c82e4f593de416afba7c77",
+    "current_manifest_sha256": "d6bb56ce3f37023396f7f4a5e4ec0a07a34cb5fd5b88cc02fd6f5e2ec3f953dc",
+    "original_555_inventory_paths_retained": true,
+    "changed_common_paths": [
+      "docs/document_release/Reviewer_Disposition_20_Comments.csv"
+    ],
+    "all_other_common_file_sha256_exact": true,
+    "added_inventory_paths": [
+      "docs/publication_repairs/reviewer_locator_csv_repair.json",
+      "provenance/historical_release_guides/reviewer_tracker_locator_fix/PACKAGE_MANIFEST.json",
+      "provenance/historical_release_guides/reviewer_tracker_locator_fix/Reviewer_Disposition_20_Comments.csv"
+    ],
+    "repair_receipt_path": "docs/publication_repairs/reviewer_locator_csv_repair.json",
+    "repair_receipt_sha256": "9195256ff357d82be5d2042969e841f97f18156bc042adb232dc885a8b9abbe1",
+    "scope": "Root verified all current core file hashes and exact20 formatter-only locator repairs. Original independent scientific, document and documentation acceptance remain retained; no new fits, inference, numerical audit or rendering claimed."
+  }
+}

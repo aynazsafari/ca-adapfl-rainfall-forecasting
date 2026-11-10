@@ -1,0 +1,73 @@
+{
+  "label": "SYNTHETIC VERIFICATION ONLY \u2014 NOT RAINFALL RESULTS",
+  "architecture": "alce_joint_tanh_attention_v2",
+  "checks": {
+    "fedprox_mu0_bitwise_fedavg": 0.0,
+    "fedavg_fedprox_personal_post_update_diagnostic_mu0_identity": true,
+    "personal_checkpoint_macro_validation_rule": true,
+    "repeat_inference_bitwise_equal": true,
+    "inference_rejects_labels": true,
+    "unknown_config_rejected": true,
+    "post2016_labels_rejected": true,
+    "unreleased_role_end_december_labels_rejected": [
+      "train",
+      "monitor",
+      "validation"
+    ],
+    "example_ledger_exact": 192,
+    "payload_byte_ledger_exact": {
+      "model_state_bytes": 17172,
+      "downlink": 154548,
+      "uplink": 103440
+    },
+    "personal_diagnostics_add_no_training_or_model_message_stream": true,
+    "all_component_ablations_change_parameters": {
+      "no_climate": 0.02959071844816208,
+      "no_performance": 0.013423167169094086,
+      "no_prox": 0.000286884605884552,
+      "no_aux": 0.011707105673849583,
+      "no_embedding": 0.012067422270774841
+    },
+    "adaptive_prox_bounds": true,
+    "caaa_convex_weights": true,
+    "outer_labels_only_select_checkpoint_not_training_path": true,
+    "inner_monitor_feedback_and_removal_verified": true,
+    "disabled_embedding_ignores_context": true,
+    "nonlinear_joint_attention_climate_intervention_fixed_hidden_max_delta": 0.004686594009399414,
+    "zero_embedding_removes_climate_attention_pathway": true,
+    "raw_mm_inference_is_unclipped": true,
+    "raw_mm_checkpoint_score_is_unclipped": true,
+    "zero_context_core_supported_only_with_disabled_embedding": true,
+    "all_methods_and_three_graphs_smoke": {
+      "central": {
+        "selected_rounds": {
+          "global": 2
+        },
+        "optimizer_steps": 24
+      },
+      "local": {
+        "selected_rounds": {
+          "personal": 2
+        },
+        "optimizer_steps": 24
+      },
+      "fedprox": {
+        "selected_rounds": {
+          "global": 2,
+          "personal": 2
+        },
+        "optimizer_steps": 24
+      },
+      "ditto": {
+        "selected_rounds": {
+          "global": 2,
+          "personal": 2
+        },
+        "optimizer_steps": 48
+      }
+    },
+    "saved_state_roundtrip_bitwise_predictions": true
+  },
+  "artifact_directory": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_impl\\synthetic_smoke\\synthetic_pva7lumf",
+  "module_sha256": "7ce74b0d4fd4277aa21ba668b91c9f3f9ad7e913992aefa07bad2d73ff57ce36"
+}

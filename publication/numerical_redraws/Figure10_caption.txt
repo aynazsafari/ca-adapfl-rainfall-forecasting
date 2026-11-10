@@ -1,0 +1,3 @@
+Fixed (0.3,0.3,0.4) anchor minus each separate removal. Points and lines are saved paired differences and marginal unadjusted 95% circular block12 intervals. Positive R²/negative RMSE favors the anchor. The selected (1,0,0) primary is a distinct identity. Intervals are not simultaneous; block6/24 sensitivities remain in companion evidence.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

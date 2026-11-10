@@ -1,0 +1,31 @@
+{
+  "id": "S6_cohorts",
+  "role": "saved_numeric_evidence",
+  "rows": 3,
+  "columns": [
+    "case",
+    "TRAIN_start",
+    "TRAIN_end",
+    "TRAIN_months_per_client",
+    "monitor_months_per_client",
+    "validation_months_per_client",
+    "evaluation_start",
+    "evaluation_end",
+    "evaluation_months_per_client",
+    "REFERENCE_features",
+    "ADDED_features"
+  ],
+  "sources": {
+    "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv": {
+      "sha256": "7c7e71e3c21b6c5eff4410a9c5fe03bf62e9aa044624fd36310b2b5e5ee5205b",
+      "rows": 36
+    }
+  },
+  "formula_or_selector": "Distinct frozen source-specific cohort/feature support; each source is compared only within its matched cohort.",
+  "files_sha256": {
+    "S6_cohorts.csv": "f7b04dcca9edbf77ab0d566766882917ef190614284056bf867930fbe168b614"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

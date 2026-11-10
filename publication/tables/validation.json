@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Rounded displayed numerical agreement for Tables6--11 and IS1--4; no model fitting/inference/source rebuild/resampling.",
+  "required_tables": 31,
+  "exported_tables_and_companions": 40,
+  "table_checks": {
+    "Table6": {
+      "status": "PASS",
+      "numeric_tokens_checked": 126,
+      "discrepancies": []
+    },
+    "Table7": {
+      "status": "PASS",
+      "numeric_tokens_checked": 28,
+      "discrepancies": []
+    },
+    "Table8": {
+      "status": "PASS",
+      "numeric_tokens_checked": 70,
+      "discrepancies": []
+    },
+    "Table9": {
+      "status": "PASS",
+      "numeric_tokens_checked": 24,
+      "discrepancies": []
+    },
+    "Table10": {
+      "status": "PASS",
+      "numeric_tokens_checked": 60,
+      "discrepancies": []
+    },
+    "Table11": {
+      "status": "PASS",
+      "numeric_tokens_checked": 53,
+      "discrepancies": []
+    },
+    "IS1": {
+      "status": "PASS",
+      "numeric_tokens_checked": 22,
+      "discrepancies": []
+    },
+    "IS2": {
+      "status": "PASS",
+      "numeric_tokens_checked": 62,
+      "discrepancies": []
+    },
+    "IS3": {
+      "status": "PASS",
+      "numeric_tokens_checked": 21,
+      "discrepancies": []
+    },
+    "IS4": {
+      "status": "PASS",
+      "numeric_tokens_checked": 48,
+      "discrepancies": []
+    }
+  },
+  "paper_reference_sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a",
+  "exporter_sha256": "e8a9fa8c85a488821fb3a32220c0047b3256fc10f6d8c229b481e09fe6f425d4"
+}

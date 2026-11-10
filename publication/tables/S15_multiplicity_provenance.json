@@ -1,0 +1,33 @@
+{
+  "id": "S15_multiplicity",
+  "role": "saved_numeric_evidence",
+  "rows": 36,
+  "columns": [
+    "model_a",
+    "model_b",
+    "delta_macro_R2_a_minus_b",
+    "two_sided_p",
+    "block_length_months",
+    "n_blocks",
+    "method",
+    "null_assumption",
+    "multiplicity",
+    "not_iid_Wilcoxon",
+    "contrast_id",
+    "holm_p_36",
+    "reject_at_05"
+  ],
+  "sources": {
+    "benchmarks/accepted/runs/revision_v3/evaluation/annual_sign_Holm36.csv": {
+      "sha256": "1554a3f17fa6ef49a33472610baeb6caec67125497a221f6ac853f1958966965",
+      "rows": 36
+    }
+  },
+  "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+  "files_sha256": {
+    "S15_multiplicity.csv": "1554a3f17fa6ef49a33472610baeb6caec67125497a221f6ac853f1958966965"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

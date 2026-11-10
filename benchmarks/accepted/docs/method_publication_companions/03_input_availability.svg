@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="482.4pt" height="424.8pt" viewBox="0 0 482.4 424.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-08T06:07:41.597254</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 424.8 
+L 482.4 424.8 
+L 482.4 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #202020" x="241.2" y="22.256406" transform="rotate(-0 241.2 22.256406)">Observed input support for target month t</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #202020" x="241.2" y="42.497344" transform="rotate(-0 241.2 42.497344)">Issue: first day of t, at 00:00 UTC</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #202020" transform="translate(69.966328 386.507344)">Each sequence has 12 rows; sensitivity adds one month of delay.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #202020" transform="translate(49.746445 398.897344)">Support is assumed; final archives do not establish operational vintages.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #202020" transform="translate(75.22125 411.287344)">Known seasonal harmonics do not use observed target rainfall.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_2">
+    <path d="M 36.18 344.088 
+L 460.692 344.088 
+L 460.692 57.348 
+L 36.18 57.348 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 52.199321 344.088 
+L 52.199321 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m4a57a7a6be" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4a57a7a6be" x="52.199321" y="344.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="52.199321" y="359.065539" transform="rotate(-0 52.199321 359.065539)">t−24</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 148.315245 344.088 
+L 148.315245 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4a57a7a6be" x="148.315245" y="344.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="148.315245" y="359.065539" transform="rotate(-0 148.315245 359.065539)">t−18</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 244.43117 344.088 
+L 244.43117 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4a57a7a6be" x="244.43117" y="344.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="244.43117" y="359.065539" transform="rotate(-0 244.43117 359.065539)">t−12</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 340.547094 344.088 
+L 340.547094 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4a57a7a6be" x="340.547094" y="344.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="340.547094" y="359.065539" transform="rotate(-0 340.547094 359.065539)">t−6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 372.585736 344.088 
+L 372.585736 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m4a57a7a6be" x="372.585736" y="344.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="372.585736" y="359.065539" transform="rotate(-0 372.585736 359.065539)">t−4</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 404.624377 344.088 
+L 404.624377 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m4a57a7a6be" x="404.624377" y="344.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="404.624377" y="359.065539" transform="rotate(-0 404.624377 359.065539)">t−2</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 436.663019 344.088 
+L 436.663019 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m4a57a7a6be" x="436.663019" y="344.088" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="436.663019" y="359.065539" transform="rotate(-0 436.663019 359.065539)">t</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle" x="248.436" y="373.566359" transform="rotate(-0 248.436 373.566359)">Calendar months relative to forecast target t</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 44.18966 95.502919 
+L 412.634038 95.502919 
+L 412.634038 79.315984 
+L 44.18966 79.315984 
+z
+" clip-path="url(#p25878a0ebd)" style="fill: #315b7e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 220.402189 141.751306 
+L 412.634038 141.751306 
+L 412.634038 125.564371 
+L 220.402189 125.564371 
+z
+" clip-path="url(#p25878a0ebd)" style="fill: #71844a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 188.363547 187.999694 
+L 412.634038 187.999694 
+L 412.634038 171.812758 
+L 188.363547 171.812758 
+z
+" clip-path="url(#p25878a0ebd)" style="fill: #8b9e65"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 204.382868 234.248081 
+L 412.634038 234.248081 
+L 412.634038 218.061145 
+L 204.382868 218.061145 
+z
+" clip-path="url(#p25878a0ebd)" style="fill: #a4b185"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 188.363547 280.496468 
+L 380.595396 280.496468 
+L 380.595396 264.309532 
+L 188.363547 264.309532 
+z
+" clip-path="url(#p25878a0ebd)" style="fill: #b28735"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 236.421509 326.744855 
+L 428.653358 326.744855 
+L 428.653358 310.557919 
+L 236.421509 310.557919 
+z
+" clip-path="url(#p25878a0ebd)" style="fill: #5c6670"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 436.663019 344.088 
+L 436.663019 57.348 
+" clip-path="url(#p25878a0ebd)" style="fill: none; stroke-dasharray: 3.885,1.68; stroke-dashoffset: 0; stroke: #333333; stroke-width: 1.05"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 36.18 344.088 
+L 460.692 344.088 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="42.587728" y="73.025498" transform="rotate(-0 42.587728 73.025498)">CHIRPS rain for all 12 rows</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="228.411849" y="90.136991" transform="rotate(-0 228.411849 90.136991)">t-24 … t-2</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="42.587728" y="119.273885" transform="rotate(-0 42.587728 119.273885)">Six index period ends for all 12 rows</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="316.518113" y="136.385378" transform="rotate(-0 316.518113 136.385378)">t-13 … t-2</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="42.587728" y="165.522272" transform="rotate(-0 42.587728 165.522272)">Underlying ONI three-month support</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #202020" x="300.498792" y="182.633765" transform="rotate(-0 300.498792 182.633765)">t-15 … t-2</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="42.587728" y="211.770659" transform="rotate(-0 42.587728 211.770659)">Underlying MEIv2 two-month support</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #202020" x="308.508453" y="228.882152" transform="rotate(-0 308.508453 228.882152)">t-14 … t-2</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="42.587728" y="258.019046" transform="rotate(-0 42.587728 258.019046)">Meteorological months for all 12 rows</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="284.479472" y="275.130539" transform="rotate(-0 284.479472 275.130539)">t-15 … t-4</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start" x="42.587728" y="304.267433" transform="rotate(-0 42.587728 304.267433)">Historical row origins</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="332.537434" y="321.378926" transform="rotate(-0 332.537434 321.378926)">t-12 … t-1</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p25878a0ebd">
+   <rect x="36.18" y="57.348" width="424.512" height="286.74"/>
+  </clipPath>
+ </defs>
+</svg>

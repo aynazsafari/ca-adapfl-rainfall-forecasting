@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "standalone_native_weights_bitwise_match_accepted_January_helper": true,
+  "cell_counts": {
+    "Client1_NW_Arid": 690,
+    "Client2_Indo_Gangetic": 912,
+    "Client3_NE_Himalaya": 419,
+    "Client4_South_Peninsular": 466,
+    "Client5_Central_India": 864
+  },
+  "live_source_rereads": 0
+}

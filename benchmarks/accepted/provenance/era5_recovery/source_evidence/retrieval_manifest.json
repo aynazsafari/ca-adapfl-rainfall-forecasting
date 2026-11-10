@@ -1,0 +1,38 @@
+[
+  {
+    "path": "work\\era5_rebuild\\source_evidence\\aws_registry.yaml",
+    "url": "https://raw.githubusercontent.com/awslabs/open-data-registry/main/datasets/earthmover-era5.yaml",
+    "resolved_url": "https://raw.githubusercontent.com/awslabs/open-data-registry/main/datasets/earthmover-era5.yaml",
+    "retrieved_utc": "2026-10-07T22:10:24.970458+00:00",
+    "bytes": 7171,
+    "sha256": "0eb1eb15317f32fdd2f8eec60560d53aa7bd7b4219c13d00a7ae17966d09c75f",
+    "etag": "W/\"b3dbacd15b02b7b62101824249d8cf5b34f128556c4a7062815c89af1e75e09e\""
+  },
+  {
+    "path": "work\\era5_rebuild\\source_evidence\\era5_qc_README.md",
+    "url": "https://raw.githubusercontent.com/earth-mover/era5-qc/main/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/earth-mover/era5-qc/main/README.md",
+    "retrieved_utc": "2026-10-07T22:10:25.515265+00:00",
+    "bytes": 11294,
+    "sha256": "4127cb930c58e8cd75577e74b4b56622c1e15d2bda16ee82a301900b0a3e68b5",
+    "etag": "W/\"bd54cf1bf79008f14a510378e10813e4ff2e2898301fb384567e8b32ead6cfd5\""
+  },
+  {
+    "path": "work\\era5_rebuild\\source_evidence\\era5_qc_cds.py",
+    "url": "https://raw.githubusercontent.com/earth-mover/era5-qc/main/src/era5_qc/cds.py",
+    "resolved_url": "https://raw.githubusercontent.com/earth-mover/era5-qc/main/src/era5_qc/cds.py",
+    "retrieved_utc": "2026-10-07T22:10:26.056471+00:00",
+    "bytes": 6929,
+    "sha256": "408a9dbffdd3190f39c0807c8468dae4beb6219b75888880bd8583c64cb2dba6",
+    "etag": "W/\"aab45f8b93563674fc51e19369a14d309a10563b787ffb489012be611a63a119\""
+  },
+  {
+    "path": "work\\era5_rebuild\\source_evidence\\ecmwf_accumulation_conversion.html",
+    "url": "https://confluence.ecmwf.int/spaces/CKB/pages/197702790/Conversion+table+for+accumulated+variables+total+precipitation+fluxes",
+    "resolved_url": "https://confluence.ecmwf.int/spaces/CKB/pages/197702790/Conversion+table+for+accumulated+variables+total+precipitation+fluxes",
+    "retrieved_utc": "2026-10-07T22:10:27.085779+00:00",
+    "bytes": 113332,
+    "sha256": "c867033c2c6df7f6e6e79f15df4dd9bd2cf779a3a55a906f17a35d317d6c64c4",
+    "etag": null
+  }
+]

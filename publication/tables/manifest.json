@@ -1,0 +1,1574 @@
+{
+  "status": "PASS",
+  "tables": {
+    "Table1": {
+      "id": "Table1",
+      "role": "static_display_transcription",
+      "rows": 7,
+      "columns": [
+        "Dataset",
+        "Official provider",
+        "Study access",
+        "Native\ngrid",
+        "Time\nsupport",
+        "Reduction",
+        "Source period",
+        "Variables",
+        "Role",
+        "Citation"
+      ],
+      "sources": {
+        "metadata/paper_reference.json": {
+          "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+        }
+      },
+      "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+      "files_sha256": {
+        "Table1.csv": "5969ba894726edcb43ca8e3deb206945d2a275a58cb4ebaac32ce179de0a2218",
+        "Table1_display.csv": "5969ba894726edcb43ca8e3deb206945d2a275a58cb4ebaac32ce179de0a2218"
+      },
+      "validation_against_displayed_paper": {
+        "status": "STATIC_TRANSCRIPTION"
+      }
+    },
+    "Table2": {
+      "id": "Table2",
+      "role": "static_display_transcription",
+      "rows": 6,
+      "columns": [
+        "Index",
+        "Measurement/rationale",
+        "Frozen source",
+        "Archive definition",
+        "Period support",
+        "Latest eligible",
+        "Citation/note"
+      ],
+      "sources": {
+        "metadata/paper_reference.json": {
+          "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+        }
+      },
+      "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+      "files_sha256": {
+        "Table2.csv": "ed379e423ce89db2a2077582f2ce56d6099903e652e91ec766e5fdcf6432793e",
+        "Table2_display.csv": "ed379e423ce89db2a2077582f2ce56d6099903e652e91ec766e5fdcf6432793e"
+      },
+      "validation_against_displayed_paper": {
+        "status": "STATIC_TRANSCRIPTION"
+      }
+    },
+    "Table3": {
+      "id": "Table3",
+      "role": "static_display_transcription",
+      "rows": 5,
+      "columns": [
+        "Client",
+        "Domain label",
+        "Half-open bounds",
+        "Interpretation",
+        "Rainfall setting",
+        "Constraint"
+      ],
+      "sources": {
+        "metadata/paper_reference.json": {
+          "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+        }
+      },
+      "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+      "files_sha256": {
+        "Table3.csv": "710c147874ab06fc95957c1503885a6c32b9eef62d415f930a557e51a895cbdb",
+        "Table3_display.csv": "710c147874ab06fc95957c1503885a6c32b9eef62d415f930a557e51a895cbdb"
+      },
+      "validation_against_displayed_paper": {
+        "status": "STATIC_TRANSCRIPTION"
+      }
+    },
+    "Table4": {
+      "id": "Table4",
+      "role": "static_display_transcription",
+      "rows": 5,
+      "columns": [
+        "S",
+        "C1 NW",
+        "C2 IGP",
+        "C3 NE",
+        "C4 South",
+        "C5 Central"
+      ],
+      "sources": {
+        "metadata/paper_reference.json": {
+          "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+        }
+      },
+      "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+      "files_sha256": {
+        "Table4.csv": "4c8187a56c41ed487ed4cb97da96e33e0b668b21fc006efd651433bf1653725d",
+        "Table4_display.csv": "4c8187a56c41ed487ed4cb97da96e33e0b668b21fc006efd651433bf1653725d"
+      },
+      "validation_against_displayed_paper": {
+        "status": "STATIC_TRANSCRIPTION"
+      }
+    },
+    "Table5": {
+      "id": "Table5",
+      "role": "static_display_transcription",
+      "rows": 5,
+      "columns": [
+        "Configuration",
+        "Channels",
+        "TRAIN\nper client",
+        "TRAIN screen R\u00b2",
+        "Eval R\u00b2",
+        "Eval RMSE mm",
+        "Mechanism/cohort"
+      ],
+      "sources": {
+        "metadata/paper_reference.json": {
+          "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+        }
+      },
+      "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+      "files_sha256": {
+        "Table5.csv": "dd37b3f36bdfe6b3ea397c912393ff104baa72faa7752e848e27272829bd144f",
+        "Table5_display.csv": "dd37b3f36bdfe6b3ea397c912393ff104baa72faa7752e848e27272829bd144f"
+      },
+      "validation_against_displayed_paper": {
+        "status": "STATIC_TRANSCRIPTION"
+      }
+    },
+    "Table6": {
+      "id": "Table6",
+      "role": "saved_numeric_evidence",
+      "rows": 14,
+      "columns": [
+        "model",
+        "R2_mean",
+        "R2_std",
+        "R2_min",
+        "R2_max",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "RMSE_mm_min",
+        "RMSE_mm_max",
+        "MAE_mm_mean",
+        "MAE_mm_std",
+        "MAE_mm_min",
+        "MAE_mm_max",
+        "PBIAS_signed_percent_mean",
+        "PBIAS_signed_percent_std",
+        "PBIAS_signed_percent_min",
+        "PBIAS_signed_percent_max",
+        "PBIAS_absolute_percent_mean",
+        "PBIAS_absolute_percent_std",
+        "PBIAS_absolute_percent_min",
+        "PBIAS_absolute_percent_max",
+        "forecast_bias_signed_percent_mean",
+        "forecast_bias_signed_percent_std",
+        "forecast_bias_signed_percent_min",
+        "forecast_bias_signed_percent_max",
+        "KGE_2009_mean",
+        "KGE_2009_std",
+        "KGE_2009_min",
+        "KGE_2009_max",
+        "Pearson_r_mean",
+        "Pearson_r_std",
+        "Pearson_r_min",
+        "Pearson_r_max",
+        "NSE_mean",
+        "NSE_std",
+        "NSE_min",
+        "NSE_max"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv": {
+          "sha256": "7c03ea7d97bfe6aecf1b151924b2deabc294734bbbdaeb6a0d78455c925aaf19",
+          "rows": 96
+        }
+      },
+      "formula_or_selector": "Select the fourteen fixed identities in manuscript order. Saved equal-client macro metric means then five-seed mean/sample SD (ddof=1).",
+      "files_sha256": {
+        "Table6.csv": "55b743a6d45aea04a5b411871101fbdb9bd7acf427c498d71a8c5dd031c7907a",
+        "Table6_display.csv": "e5d050bde4439413f387fc501b16d4d96940d778b7c9f5a2af89ad199e7629a3"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 126,
+        "discrepancies": []
+      }
+    },
+    "Table7": {
+      "id": "Table7",
+      "role": "saved_numeric_evidence",
+      "rows": 4,
+      "columns": [
+        "model_a",
+        "model_b",
+        "delta_R2",
+        "R2_CI95_low",
+        "R2_CI95_high",
+        "delta_RMSE_mm",
+        "RMSE_CI95_low",
+        "RMSE_CI95_high",
+        "Holm_p_31"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv": {
+          "sha256": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577",
+          "rows": 186
+        },
+        "benchmarks/accepted/figures/revision_v2/source_data/block_sign_randomization_Holm.json": {
+          "sha256": "7a1c7094da42b57ced0ed9ecd066c55c5fbc538fc02d1e14c9f3f806749e2a1e"
+        }
+      },
+      "formula_or_selector": "Four fixed A-minus-B pairs, block12 marginal percentile intervals and retained Holm31 annual sign enumeration; no resampling rerun.",
+      "files_sha256": {
+        "Table7.csv": "f3c37590bb21595631c83a6e606bdd0a36112a4ab89e841251f86e8f830bd317",
+        "Table7_display.csv": "9810e97ade1acfc3f31cc98501fbf6c7ce329706deecc561004115b573c1a21d"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 28,
+        "discrepancies": []
+      }
+    },
+    "Table8": {
+      "id": "Table8",
+      "role": "saved_numeric_evidence",
+      "rows": 10,
+      "columns": [
+        "comparison",
+        "model_a",
+        "model_b",
+        "TRAIN_months",
+        "EVAL_months",
+        "R2_a",
+        "R2_b",
+        "delta_R2",
+        "CI95_low",
+        "CI95_high"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv": {
+          "sha256": "7c03ea7d97bfe6aecf1b151924b2deabc294734bbbdaeb6a0d78455c925aaf19",
+          "rows": 96
+        },
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv": {
+          "sha256": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577",
+          "rows": 186
+        },
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_18.csv": {
+          "sha256": "2f4467d8d04f972323927145b2508ba4d1699186d4a0e2fa861028b071b3fd3e",
+          "rows": 18
+        },
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv": {
+          "sha256": "7c7e71e3c21b6c5eff4410a9c5fe03bf62e9aa044624fd36310b2b5e5ee5205b",
+          "rows": 36
+        }
+      },
+      "formula_or_selector": "Fixed anchor/CORE/latency selections and within-source CAAA GLOBAL added-minus-reference selections. Cohort lengths from frozen protocol/source ledgers; derived IMD scores require no provider-valued input file.",
+      "files_sha256": {
+        "Table8.csv": "0b89d02cc2d469699f52f09c99f1a79d8b16572b9e6595ef432cd1c197c3c25b",
+        "Table8_display.csv": "c6d7250edd3e68dd3b6b411873d8fd70dd55e9ab238f044baa70e4c7d4435f3d"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 70,
+        "discrepancies": []
+      }
+    },
+    "Table9": {
+      "id": "Table9",
+      "role": "saved_numeric_evidence",
+      "rows": 12,
+      "columns": [
+        "model",
+        "ONI_value_bin",
+        "scope",
+        "paired_seeds",
+        "unique_dates",
+        "client_count",
+        "R2_undefined_seeds",
+        "R2_mean",
+        "R2_std",
+        "NSE_undefined_seeds",
+        "NSE_mean",
+        "NSE_std",
+        "RMSE_mm_undefined_seeds",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "MAE_mm_undefined_seeds",
+        "MAE_mm_mean",
+        "MAE_mm_std",
+        "PBIAS_signed_percent_undefined_seeds",
+        "PBIAS_signed_percent_mean",
+        "PBIAS_signed_percent_std",
+        "PBIAS_absolute_percent_undefined_seeds",
+        "PBIAS_absolute_percent_mean",
+        "PBIAS_absolute_percent_std",
+        "forecast_bias_signed_percent_undefined_seeds",
+        "forecast_bias_signed_percent_mean",
+        "forecast_bias_signed_percent_std",
+        "Pearson_r_undefined_seeds",
+        "Pearson_r_mean",
+        "Pearson_r_std",
+        "KGE_2009_undefined_seeds",
+        "KGE_2009_mean",
+        "KGE_2009_std"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/revision_v2/descriptive_diagnostics/oni_five_seed_summary.csv": {
+          "sha256": "b2ea6de0695bd30fa7c7257237d8e0d64c083e5c371c8947cce54fb3b99b5f7f",
+          "rows": 576
+        }
+      },
+      "formula_or_selector": "Four fixed identities; target-minus-two period-end ONI value bins; saved five-seed summaries; descriptive strata, not independent event tests.",
+      "files_sha256": {
+        "Table9.csv": "a6d977a6e1c3929bcc86d0cc9d92337b2c5b45f395e8c56e8da92559ca8501db",
+        "Table9_display.csv": "99f3a4fbbc94922f08ae2d60ddb709bf94e214c3ab4ba7c63204e2c74a4738ca"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 24,
+        "discrepancies": []
+      }
+    },
+    "Table10": {
+      "id": "Table10",
+      "role": "derived_numeric_evidence",
+      "rows": 6,
+      "columns": [
+        "client",
+        "q80_mm",
+        "observed_n",
+        "heavy_precision_mean",
+        "heavy_precision_std",
+        "heavy_recall_mean",
+        "heavy_recall_std",
+        "heavy_F1_mean",
+        "heavy_F1_std",
+        "tail80_RMSE_mm_mean",
+        "tail80_RMSE_mm_std"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv": {
+          "sha256": "47461129382f8a0a1b7ba0b83ed9aa61603d55a872093c37955c0e539d6c1543",
+          "rows": 2400
+        }
+      },
+      "formula_or_selector": "CAAA_GLOBAL_FULL only; per-client five-seed mean/sample SD. Macro averages client metrics within each seed before computing seed SD; no pooled precision/recall.",
+      "files_sha256": {
+        "Table10.csv": "e7854b0f467ef8ef5fc865f25025703807dd26d51a61a4e40cd3ff4fc446626f",
+        "Table10_display.csv": "1e6996be906412f725a5f453af8c21716db6f15840ea3d1027fe8bde2db0ca85"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 60,
+        "discrepancies": []
+      }
+    },
+    "Table11": {
+      "id": "Table11",
+      "role": "derived_numeric_evidence",
+      "rows": 9,
+      "columns": [
+        "model",
+        "MSE_mm2_mean",
+        "MSE_mm2_std",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "R2_mean",
+        "R2_std",
+        "MSESS_mean",
+        "MSESS_std",
+        "bias_mm_mean",
+        "bias_mm_std",
+        "MAE_mm_mean",
+        "MAE_mm_std",
+        "tail80_bias_mm_mean",
+        "tail80_bias_mm_std",
+        "tail80_RMSE_mm_mean",
+        "tail80_RMSE_mm_std",
+        "required_payload_MiB"
+      ],
+      "sources": {
+        "benchmarks/sharing/evaluation/principal_comparison.csv": {
+          "sha256": "6c2dcccd2ac694625d2f5199e62c9b14ea8e5998b723fb86c62f7641469b2035",
+          "rows": 9
+        },
+        "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+          "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+          "rows": 40
+        }
+      },
+      "formula_or_selector": "Primary fixed tick60 ledger; macro MSE/R2/MSESS average clients then seeds; RMSE mean/sample SD; mean per-fit required bytes divided by 2^20. Macro MSE is not squared macro RMSE.",
+      "files_sha256": {
+        "Table11.csv": "21f6b5970362d89f95b1038952d1fe0ed75af3dbfad780e4900cd37287b7948d",
+        "Table11_display.csv": "e0f479a5b7101182bf0a6454d95f97cc5a7ed1177fbe34375afbf69f0c46682d"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 53,
+        "discrepancies": []
+      }
+    },
+    "S1": {
+      "id": "S1",
+      "role": "saved_numeric_evidence",
+      "rows": 43,
+      "columns": [
+        "index",
+        "feature",
+        "incremental_group",
+        "core_member",
+        "climate_member",
+        "full_member",
+        "raw_physical_unit",
+        "analyzed_unit",
+        "unit_basis",
+        "support_json"
+      ],
+      "sources": {
+        "benchmarks/accepted/docs/feature_diagnostics/feature_dictionary.csv": {
+          "sha256": "c6a10990cee0cc3d2ac73254186962dff923ba05cdeb9ca513d30fb31f5d9232",
+          "rows": 43
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S1.csv": "c6a10990cee0cc3d2ac73254186962dff923ba05cdeb9ca513d30fb31f5d9232"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S2": {
+      "id": "S2",
+      "role": "saved_numeric_evidence",
+      "rows": 96,
+      "columns": [
+        "model",
+        "R2_mean",
+        "R2_std",
+        "R2_min",
+        "R2_max",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "RMSE_mm_min",
+        "RMSE_mm_max",
+        "MAE_mm_mean",
+        "MAE_mm_std",
+        "MAE_mm_min",
+        "MAE_mm_max",
+        "PBIAS_signed_percent_mean",
+        "PBIAS_signed_percent_std",
+        "PBIAS_signed_percent_min",
+        "PBIAS_signed_percent_max",
+        "PBIAS_absolute_percent_mean",
+        "PBIAS_absolute_percent_std",
+        "PBIAS_absolute_percent_min",
+        "PBIAS_absolute_percent_max",
+        "forecast_bias_signed_percent_mean",
+        "forecast_bias_signed_percent_std",
+        "forecast_bias_signed_percent_min",
+        "forecast_bias_signed_percent_max",
+        "KGE_2009_mean",
+        "KGE_2009_std",
+        "KGE_2009_min",
+        "KGE_2009_max",
+        "Pearson_r_mean",
+        "Pearson_r_std",
+        "Pearson_r_min",
+        "Pearson_r_max",
+        "NSE_mean",
+        "NSE_std",
+        "NSE_min",
+        "NSE_max"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv": {
+          "sha256": "7c03ea7d97bfe6aecf1b151924b2deabc294734bbbdaeb6a0d78455c925aaf19",
+          "rows": 96
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S2.csv": "7c03ea7d97bfe6aecf1b151924b2deabc294734bbbdaeb6a0d78455c925aaf19"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S3": {
+      "id": "S3",
+      "role": "saved_numeric_evidence",
+      "rows": 47,
+      "columns": [
+        "model",
+        "alias",
+        "full_name",
+        "scope",
+        "feature_group"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2_publication_v2/model_abbreviation_ledger.csv": {
+          "sha256": "99f904731717053ce87874efc3a3de45fa8838e31b7eacdc78b196aa77cf3610",
+          "rows": 47
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S3.csv": "f1780b2b4c63a57a460114eee5e78c108bb13ba27f886aeab6c352b669eb343d"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S4": {
+      "id": "S4",
+      "role": "saved_numeric_evidence",
+      "rows": 186,
+      "columns": [
+        "model_a",
+        "model_b",
+        "metric",
+        "delta_a_minus_b",
+        "CI95_low",
+        "CI95_high",
+        "block_length_months",
+        "role",
+        "repetitions",
+        "n_seeds",
+        "n_clients",
+        "n_months",
+        "resample_seeds"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv": {
+          "sha256": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577",
+          "rows": 186
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S4.csv": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S6": {
+      "id": "S6",
+      "role": "saved_numeric_evidence",
+      "rows": 36,
+      "columns": [
+        "model",
+        "method",
+        "identity",
+        "arm",
+        "metric_scope",
+        "R2_mean",
+        "R2_std",
+        "R2_min",
+        "R2_max",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "RMSE_mm_min",
+        "RMSE_mm_max",
+        "MAE_mm_mean",
+        "MAE_mm_std",
+        "MAE_mm_min",
+        "MAE_mm_max",
+        "PBIAS_signed_percent_mean",
+        "PBIAS_signed_percent_std",
+        "PBIAS_signed_percent_min",
+        "PBIAS_signed_percent_max",
+        "PBIAS_absolute_percent_mean",
+        "PBIAS_absolute_percent_std",
+        "PBIAS_absolute_percent_min",
+        "PBIAS_absolute_percent_max",
+        "forecast_bias_signed_percent_mean",
+        "forecast_bias_signed_percent_std",
+        "forecast_bias_signed_percent_min",
+        "forecast_bias_signed_percent_max",
+        "KGE_2009_mean",
+        "KGE_2009_std",
+        "KGE_2009_min",
+        "KGE_2009_max",
+        "Pearson_r_mean",
+        "Pearson_r_std",
+        "Pearson_r_min",
+        "Pearson_r_max",
+        "NSE_mean",
+        "NSE_std",
+        "NSE_min",
+        "NSE_max",
+        "case",
+        "TRAIN_start",
+        "TRAIN_end",
+        "TRAIN_months_per_client",
+        "monitor_months_per_client",
+        "validation_months_per_client",
+        "evaluation_start",
+        "evaluation_end",
+        "evaluation_months_per_client",
+        "clients",
+        "seeds",
+        "REFERENCE_features",
+        "ADDED_features",
+        "source_feature_count_added",
+        "model_features",
+        "raw_prediction_count_from_saved_diagnostic",
+        "raw_negative_count_from_saved_diagnostic",
+        "minimum_raw_prediction_mm_from_saved_diagnostic"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv": {
+          "sha256": "7c7e71e3c21b6c5eff4410a9c5fe03bf62e9aa044624fd36310b2b5e5ee5205b",
+          "rows": 36
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S6.csv": "7c7e71e3c21b6c5eff4410a9c5fe03bf62e9aa044624fd36310b2b5e5ee5205b"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S7": {
+      "id": "S7",
+      "role": "saved_numeric_evidence",
+      "rows": 18,
+      "columns": [
+        "case",
+        "method",
+        "identity",
+        "model_ADDED",
+        "model_REFERENCE",
+        "delta_definition",
+        "clients",
+        "seeds",
+        "TRAIN_months_per_client",
+        "evaluation_months_per_client",
+        "REFERENCE_features",
+        "ADDED_features",
+        "primary_block_months",
+        "bootstrap_repetitions_per_block",
+        "delta_macro_R2",
+        "macro_R2_CI95_low_block12",
+        "macro_R2_CI95_high_block12",
+        "macro_R2_CI95_low_block6",
+        "macro_R2_CI95_high_block6",
+        "macro_R2_CI95_low_block24",
+        "macro_R2_CI95_high_block24",
+        "delta_macro_RMSE_mm",
+        "macro_RMSE_mm_CI95_low_block12",
+        "macro_RMSE_mm_CI95_high_block12",
+        "macro_RMSE_mm_CI95_low_block6",
+        "macro_RMSE_mm_CI95_high_block6",
+        "macro_RMSE_mm_CI95_low_block24",
+        "macro_RMSE_mm_CI95_high_block24"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_18.csv": {
+          "sha256": "2f4467d8d04f972323927145b2508ba4d1699186d4a0e2fa861028b071b3fd3e",
+          "rows": 18
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S7.csv": "2f4467d8d04f972323927145b2508ba4d1699186d4a0e2fa861028b071b3fd3e"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S8": {
+      "id": "S8",
+      "role": "saved_numeric_evidence",
+      "rows": 36,
+      "columns": [
+        "stage",
+        "method",
+        "graph_name",
+        "identity",
+        "seed",
+        "lr",
+        "mu",
+        "alpha",
+        "beta",
+        "gamma",
+        "validation_macro_R2",
+        "job_sha256",
+        "selected",
+        "selected_round"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_candidates_ALL.csv": {
+          "sha256": "5d9a1cf7a78c677fc3d1706dd474a95a27b3725898b19cf0cb9f3209ae0e770e",
+          "rows": 36
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S8.csv": "e21dc132bd10e2dba53424e8dd22316e26ce10aa00ecd2e5ffd190f4e492651e"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S9": {
+      "id": "S9",
+      "role": "saved_numeric_evidence",
+      "rows": 10,
+      "columns": [
+        "short",
+        "year",
+        "title",
+        "task",
+        "mechanism",
+        "personalization",
+        "climate",
+        "graph",
+        "explainability",
+        "study_region",
+        "tuning",
+        "privacy",
+        "difference",
+        "doi",
+        "url",
+        "version",
+        "locators"
+      ],
+      "sources": {
+        "benchmarks/accepted/docs/literature/comparison_table.csv": {
+          "sha256": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9",
+          "rows": 10
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S9.csv": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S11": {
+      "id": "S11",
+      "role": "saved_numeric_evidence",
+      "rows": 5,
+      "columns": [
+        "model",
+        "R2_mean",
+        "R2_std",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "MAE_mm_mean",
+        "tail80_RMSE_macro_mm",
+        "tail80_bias_macro_mm",
+        "tail80_underprediction_macro_fraction",
+        "nonheavy_RMSE_macro_mm",
+        "MSESS_vs_climatology",
+        "negative_predictions_total_over_2400_seed_specific_rows",
+        "validation_R2_mean",
+        "validation_R2_sd",
+        "trainable_parameters",
+        "channels"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S11_development.csv": {
+          "sha256": "71f7b7266d3052690523e08a4b1abfa004e3021094eee8a1e85d15e70acf1b48",
+          "rows": 5
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S11.csv": "71f7b7266d3052690523e08a4b1abfa004e3021094eee8a1e85d15e70acf1b48"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S12": {
+      "id": "S12",
+      "role": "saved_numeric_evidence",
+      "rows": 4,
+      "columns": [
+        "model",
+        "R2_mean",
+        "R2_std",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "MAE_mm_mean",
+        "tail80_RMSE_macro_mm",
+        "tail80_bias_macro_mm",
+        "tail80_underprediction_macro_fraction",
+        "nonheavy_RMSE_macro_mm",
+        "MSESS_vs_climatology",
+        "negative_predictions_total_over_2400_seed_specific_rows"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S12_components.csv": {
+          "sha256": "b297b15632c5866614b870762e1b806e3ac46ea960baf8f536121cce19d7076c",
+          "rows": 4
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S12.csv": "b297b15632c5866614b870762e1b806e3ac46ea960baf8f536121cce19d7076c"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S13": {
+      "id": "S13",
+      "role": "saved_numeric_evidence",
+      "rows": 12,
+      "columns": [
+        "model",
+        "R2_mean",
+        "R2_std",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "MAE_mm_mean",
+        "tail80_RMSE_macro_mm",
+        "tail80_bias_macro_mm",
+        "tail80_underprediction_macro_fraction",
+        "nonheavy_RMSE_macro_mm",
+        "MSESS_vs_climatology",
+        "negative_predictions_total_over_2400_seed_specific_rows"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S13_output_loss.csv": {
+          "sha256": "6c497549fd8f273ec281127e80f4c78a41e00f5486a3500a328e51d867a5dc4a",
+          "rows": 12
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S13.csv": "6c497549fd8f273ec281127e80f4c78a41e00f5486a3500a328e51d867a5dc4a"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S14": {
+      "id": "S14",
+      "role": "saved_numeric_evidence",
+      "rows": 2,
+      "columns": [
+        "model",
+        "R2_mean",
+        "R2_std",
+        "RMSE_mm_mean",
+        "RMSE_mm_std",
+        "MAE_mm_mean",
+        "tail80_RMSE_macro_mm",
+        "tail80_bias_macro_mm",
+        "tail80_underprediction_macro_fraction",
+        "nonheavy_RMSE_macro_mm",
+        "MSESS_vs_climatology",
+        "negative_predictions_total_over_2400_seed_specific_rows"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S14_delay.csv": {
+          "sha256": "49abf50e8603f0589a006a6501c038474a554ee2c7bbc96f710260cf8ced0b11",
+          "rows": 2
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S14.csv": "49abf50e8603f0589a006a6501c038474a554ee2c7bbc96f710260cf8ced0b11"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S15": {
+      "id": "S15",
+      "role": "saved_numeric_evidence",
+      "rows": 216,
+      "columns": [
+        "contrast_id",
+        "model_a",
+        "model_b",
+        "metric",
+        "delta_a_minus_b",
+        "CI95_low",
+        "CI95_high",
+        "block_length_months",
+        "role",
+        "repetitions",
+        "n_seeds",
+        "n_clients",
+        "n_months",
+        "resample_seeds"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv": {
+          "sha256": "72d80e58c18999801f509e230c02136661d45a6d0e8d8d74173085960a19108a",
+          "rows": 216
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S15.csv": "72d80e58c18999801f509e230c02136661d45a6d0e8d8d74173085960a19108a"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S16": {
+      "id": "S16",
+      "role": "saved_numeric_evidence",
+      "rows": 78,
+      "columns": [
+        "contrast_id",
+        "model_a",
+        "model_b",
+        "metric",
+        "delta_a_minus_b",
+        "CI95_low",
+        "CI95_high",
+        "block_length_months",
+        "role",
+        "repetitions",
+        "n_seeds",
+        "n_clients",
+        "n_months",
+        "resample_seeds"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S16_archived_CI_13_all_blocks.csv": {
+          "sha256": "ce0e459c89d1a7e8e0782fae50e9956ae6a3b757894162d1737061ca42ddbbab",
+          "rows": 78
+        }
+      },
+      "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+      "files_sha256": {
+        "S16.csv": "ce0e459c89d1a7e8e0782fae50e9956ae6a3b757894162d1737061ca42ddbbab"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S5": {
+      "id": "S5",
+      "role": "saved_numeric_evidence",
+      "rows": 31,
+      "columns": [
+        "Holm_p",
+        "block_length_months",
+        "delta_macro_R2_a_minus_b",
+        "method",
+        "model_a",
+        "model_b",
+        "multiplicity",
+        "n_blocks",
+        "not_iid_Wilcoxon",
+        "null_assumption",
+        "two_sided_p"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/block_sign_randomization_Holm.json": {
+          "sha256": "7a1c7094da42b57ced0ed9ecd066c55c5fbc538fc02d1e14c9f3f806749e2a1e"
+        }
+      },
+      "formula_or_selector": "Flatten the full 31-pair exact annual sign/Holm31 JSON; no p-values recalculated.",
+      "files_sha256": {
+        "S5.csv": "708aa0b2b069da239b2878a07885e0d1d0d7ed0bfa4838547567f323d5ae3bc4"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S10": {
+      "id": "S10",
+      "role": "derived_protocol_inventory",
+      "rows": 35,
+      "columns": [
+        "item",
+        "definition",
+        "source_key"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/revision_v3/protocol.json": {
+          "sha256": "9a6e32b6b7b2ca2b208c45cd45b2956c23d5cb89580f56dbda51de14fdd44ead"
+        },
+        "benchmarks/accepted/runs/revision_v3/choices_frozen.json": {
+          "sha256": "7b5624adeccd9ec9c5186141ac136e56c5b79f0bc1457173a2c74dbf46fc937b"
+        },
+        "benchmarks/accepted/runs/revision_v3/datasets/MAIN_FULL_schema.json": {
+          "sha256": "b490615527ccb06c4894611868be4e76e3eb2887d9a07b8ce9ad11dd8f0c2809"
+        },
+        "benchmarks/accepted/publication/revision_v3/fit_inventory_100.csv": {
+          "sha256": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac",
+          "rows": 100
+        }
+      },
+      "formula_or_selector": "Protocol/choice definitions and schema counts, with unique fit count and aggregate optimizer steps/examples calculated from the immutable 100-fit inventory. Original prose layout is represented as explicit source-key rows.",
+      "files_sha256": {
+        "S10.csv": "fddd92497f35c4770338675c26c1dd560c0db02b160ee4ea59652fafaa4a7a22"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S10_fits": {
+      "id": "S10_fits",
+      "role": "saved_numeric_evidence",
+      "rows": 100,
+      "columns": [
+        "id",
+        "label",
+        "seed",
+        "scenario",
+        "group",
+        "selected_round",
+        "validation_macro_r2",
+        "elapsed_seconds",
+        "optimizer_steps",
+        "examples"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/fit_inventory_100.csv": {
+          "sha256": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac",
+          "rows": 100
+        }
+      },
+      "formula_or_selector": "All 100 unique per-fit costs and selected checkpoints; aliases/projections do not add fits.",
+      "files_sha256": {
+        "S10_fits.csv": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S6_cohorts": {
+      "id": "S6_cohorts",
+      "role": "saved_numeric_evidence",
+      "rows": 3,
+      "columns": [
+        "case",
+        "TRAIN_start",
+        "TRAIN_end",
+        "TRAIN_months_per_client",
+        "monitor_months_per_client",
+        "validation_months_per_client",
+        "evaluation_start",
+        "evaluation_end",
+        "evaluation_months_per_client",
+        "REFERENCE_features",
+        "ADDED_features"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv": {
+          "sha256": "7c7e71e3c21b6c5eff4410a9c5fe03bf62e9aa044624fd36310b2b5e5ee5205b",
+          "rows": 36
+        }
+      },
+      "formula_or_selector": "Distinct frozen source-specific cohort/feature support; each source is compared only within its matched cohort.",
+      "files_sha256": {
+        "S6_cohorts.csv": "f7b04dcca9edbf77ab0d566766882917ef190614284056bf867930fbe168b614"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S7_long": {
+      "id": "S7_long",
+      "role": "saved_numeric_evidence",
+      "rows": 108,
+      "columns": [
+        "model_a",
+        "model_b",
+        "metric",
+        "delta_a_minus_b",
+        "CI95_low",
+        "CI95_high",
+        "block_length_months",
+        "role",
+        "repetitions",
+        "n_seeds",
+        "n_clients",
+        "n_months",
+        "resample_seeds",
+        "case"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_long_108_saved_rows.csv": {
+          "sha256": "ad1873e31626c9c4b5842420906813cc6601a5138d737ecb5bd0a370a871c6a9",
+          "rows": 108
+        }
+      },
+      "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+      "files_sha256": {
+        "S7_long.csv": "ad1873e31626c9c4b5842420906813cc6601a5138d737ecb5bd0a370a871c6a9"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S8_rounds": {
+      "id": "S8_rounds",
+      "role": "saved_numeric_evidence",
+      "rows": 2160,
+      "columns": [
+        "stage",
+        "job_sha256",
+        "identity",
+        "round",
+        "validation_macro_R2",
+        "selected_candidate",
+        "selected_checkpoint"
+      ],
+      "sources": {
+        "benchmarks/accepted/figures/revision_v2/source_data/06_validation_rounds_ALL.csv": {
+          "sha256": "2e3bee766fd7ff11ce84687208ec18ac6e87a28fd5d43298778e08670e968b0c",
+          "rows": 2160
+        }
+      },
+      "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+      "files_sha256": {
+        "S8_rounds.csv": "4881b93c8965c4a5697fc3687491f20c24db50cd520257e6f902038f9f5a2d13"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S12_contrasts": {
+      "id": "S12_contrasts",
+      "role": "saved_numeric_evidence",
+      "rows": 24,
+      "columns": [
+        "contrast_id",
+        "model_a",
+        "model_b",
+        "metric",
+        "delta_a_minus_b",
+        "CI95_low",
+        "CI95_high",
+        "block_length_months",
+        "role",
+        "repetitions",
+        "n_seeds",
+        "n_clients",
+        "n_months",
+        "resample_seeds"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv": {
+          "sha256": "72d80e58c18999801f509e230c02136661d45a6d0e8d8d74173085960a19108a",
+          "rows": 216
+        }
+      },
+      "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+      "files_sha256": {
+        "S12_contrasts.csv": "b9327e18e9d460f196d80919832f41f91953e727033e74dbfad74c18fb1666c0"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S14_contrasts": {
+      "id": "S14_contrasts",
+      "role": "saved_numeric_evidence",
+      "rows": 6,
+      "columns": [
+        "contrast_id",
+        "model_a",
+        "model_b",
+        "metric",
+        "delta_a_minus_b",
+        "CI95_low",
+        "CI95_high",
+        "block_length_months",
+        "role",
+        "repetitions",
+        "n_seeds",
+        "n_clients",
+        "n_months",
+        "resample_seeds"
+      ],
+      "sources": {
+        "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv": {
+          "sha256": "72d80e58c18999801f509e230c02136661d45a6d0e8d8d74173085960a19108a",
+          "rows": 216
+        }
+      },
+      "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+      "files_sha256": {
+        "S14_contrasts.csv": "a735c91f65fce260c84fc18d39bcb4d0fc82a816f35ca727391032d5d5e4eceb"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S15_multiplicity": {
+      "id": "S15_multiplicity",
+      "role": "saved_numeric_evidence",
+      "rows": 36,
+      "columns": [
+        "model_a",
+        "model_b",
+        "delta_macro_R2_a_minus_b",
+        "two_sided_p",
+        "block_length_months",
+        "n_blocks",
+        "method",
+        "null_assumption",
+        "multiplicity",
+        "not_iid_Wilcoxon",
+        "contrast_id",
+        "holm_p_36",
+        "reject_at_05"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/revision_v3/evaluation/annual_sign_Holm36.csv": {
+          "sha256": "1554a3f17fa6ef49a33472610baeb6caec67125497a221f6ac853f1958966965",
+          "rows": 36
+        }
+      },
+      "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+      "files_sha256": {
+        "S15_multiplicity.csv": "1554a3f17fa6ef49a33472610baeb6caec67125497a221f6ac853f1958966965"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "S13b": {
+      "id": "S13b",
+      "role": "derived_numeric_evidence",
+      "rows": 132,
+      "columns": [
+        "model",
+        "metric",
+        "mean_of_equal_client_seed_means",
+        "sample_seed_SD",
+        "undefined_client_seed_rows",
+        "defined_seed_means"
+      ],
+      "sources": {
+        "benchmarks/accepted/runs/revision_v3/evaluation/per_client.csv": {
+          "sha256": "6ed47053d12204a2f5e4ac129800ef3f879520a3a3365282fa5c1d0c998b256b",
+          "rows": 1150
+        },
+        "benchmarks/accepted/publication/revision_v3/S13_output_loss.csv": {
+          "sha256": "6c497549fd8f273ec281127e80f4c78a41e00f5486a3500a328e51d867a5dc4a",
+          "rows": 12
+        }
+      },
+      "formula_or_selector": "Twelve output/loss identities; per-seed means over defined client metrics then seed mean/sample SD. Undefined client/seed metrics are counted explicitly.",
+      "files_sha256": {
+        "S13b.csv": "5dc4ac43250291d41ce414a844d2208217af2f4915ec8061b7c950565f003d78"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "IS1": {
+      "id": "IS1",
+      "role": "derived_numeric_evidence",
+      "rows": 8,
+      "columns": [
+        "cadence",
+        "label",
+        "method",
+        "scaling",
+        "aggregations",
+        "optimizer_steps_per_fit",
+        "examples_per_fit",
+        "seeds"
+      ],
+      "sources": {
+        "benchmarks/sharing/protocol.json": {
+          "sha256": "e1a8b0960fa4e3ca7da2a05018ffc260f9b1368fec2df01518032d87aa60be7a"
+        },
+        "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+          "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+          "rows": 40
+        }
+      },
+      "formula_or_selector": "Policy rows from frozen arms; K aggregation count=ticks/K; optimizer steps from fixed_budget reconciled against all forty fit ledgers.",
+      "files_sha256": {
+        "IS1.csv": "fd47d4ee47363705c4dcdd206d4c8300f910dd1f69aeecd3817b992547ba31d0",
+        "IS1_display.csv": "2e9093f39da72ad9de03c7b1f4c0c176d2d6509adcb66a99f76114a2929b2111"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 22,
+        "discrepancies": []
+      }
+    },
+    "IS2": {
+      "id": "IS2",
+      "role": "saved_numeric_evidence",
+      "rows": 7,
+      "columns": [
+        "contrast_id",
+        "delta_MSE_mm2",
+        "MSE_CI95_low",
+        "MSE_CI95_high",
+        "delta_RMSE_mm",
+        "RMSE_CI95_low",
+        "RMSE_CI95_high",
+        "raw_p",
+        "Holm6",
+        "Holm7"
+      ],
+      "sources": {
+        "benchmarks/sharing/evaluation/paired_CI_7.csv": {
+          "sha256": "f60f01e842b9c3648229fe240f816ce009874b289b28fd18eb4e753ddd3b082e",
+          "rows": 84
+        },
+        "benchmarks/sharing/evaluation/annual_MSE_sign_tests.csv": {
+          "sha256": "e8a98d7178e560e4dd2debb237c6ee8d7bd908c5cb52d5870943e277ba12d69f",
+          "rows": 7
+        }
+      },
+      "formula_or_selector": "Seven fixed contrasts, marginal block12 saved MSE/RMSE intervals; annual MSE raw/retained Holm7/amended Holm6 p-values. S07 is outside Holm6.",
+      "files_sha256": {
+        "IS2.csv": "43971b69f3828d2730e382c154d87ec1670e0c84b2ae27db22dc0393df4b0a53",
+        "IS2_display.csv": "029de97a4b6d3f5762b6930383e4e4e70e2560aa0ee8423fb750f68248b0568f"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 62,
+        "discrepancies": []
+      }
+    },
+    "IS2_all_blocks": {
+      "id": "IS2_all_blocks",
+      "role": "saved_numeric_evidence",
+      "rows": 84,
+      "columns": [
+        "contrast_id",
+        "title",
+        "metric",
+        "delta",
+        "CI95_low",
+        "CI95_high",
+        "block_length_months",
+        "repetitions",
+        "interval_role",
+        "metric_role",
+        "multiplicity"
+      ],
+      "sources": {
+        "benchmarks/sharing/evaluation/paired_CI_7.csv": {
+          "sha256": "f60f01e842b9c3648229fe240f816ce009874b289b28fd18eb4e753ddd3b082e",
+          "rows": 84
+        }
+      },
+      "formula_or_selector": "All 84 saved intervals at block6/12/24; no uncertainty resampling.",
+      "files_sha256": {
+        "IS2_all_blocks.csv": "f60f01e842b9c3648229fe240f816ce009874b289b28fd18eb4e753ddd3b082e"
+      },
+      "validation_against_displayed_paper": {
+        "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+      }
+    },
+    "IS3": {
+      "id": "IS3",
+      "role": "saved_numeric_evidence",
+      "rows": 8,
+      "columns": [
+        "model",
+        "fixed60_global_local_RMSE_mm",
+        "VAL_global_local_RMSE_mm",
+        "VAL_personal_RMSE_mm"
+      ],
+      "sources": {
+        "benchmarks/sharing/evaluation/model_summary_ALL_endpoints.csv": {
+          "sha256": "ca75ed2e9e967cc1b3be154c4dd482345a3fc540ece1ac3b90c6292bc1bf72cf",
+          "rows": 27
+        }
+      },
+      "formula_or_selector": "Same fitted policies, separately declared fixed60/global/local, common VAL20/40/60 global/local and personal diagnostic paths; no endpoint selection by EVAL.",
+      "files_sha256": {
+        "IS3.csv": "7a26d6356ceb10aec3cc9e9e5e96c920735eec56d638d44c3b15f3d5abefc899",
+        "IS3_display.csv": "490e69c1d45ca528cdbc2bcffdc574386b17b14fb8164e31bdb10f32fbda93f5"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 21,
+        "discrepancies": []
+      }
+    },
+    "IS4": {
+      "id": "IS4",
+      "role": "derived_numeric_evidence",
+      "rows": 8,
+      "columns": [
+        "model",
+        "seed",
+        "optimizer_steps",
+        "examples",
+        "aggregation_count",
+        "all_round_VAL_audit_bytes",
+        "downlink_bytes",
+        "logical_required_payload_bytes",
+        "model_state_bytes",
+        "model_tensor_bytes",
+        "parameters",
+        "scaler_setup_bytes",
+        "three_checkpoint_VAL_selection_bytes_all_identities",
+        "three_checkpoint_VAL_selection_bytes_per_identity",
+        "total_engine_wall_seconds",
+        "train_cpu_seconds",
+        "train_wall_seconds",
+        "uplink_bytes",
+        "validation_audit_cpu_seconds",
+        "validation_audit_wall_seconds"
+      ],
+      "sources": {
+        "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+          "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+          "rows": 40
+        }
+      },
+      "formula_or_selector": "Arithmetic means over five per-fit ledgers. MiB=bytes/2^20. Required, alternative VAL3 selection and round-wise research audit bytes remain separate; timings describe recorded simulation.",
+      "files_sha256": {
+        "IS4.csv": "545c291c428e0b94f32e0f0ac3308744a95e8c7103ff10c234e51b5857050c2b",
+        "IS4_display.csv": "79a89fd826f7793484b917f5d0679deded000ecf9460f4e19e3b9c81ad85fbce"
+      },
+      "validation_against_displayed_paper": {
+        "status": "PASS",
+        "numeric_tokens_checked": 48,
+        "discrepancies": []
+      }
+    }
+  },
+  "source_files": {
+    "metadata/paper_reference.json": {
+      "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv": {
+      "sha256": "7c03ea7d97bfe6aecf1b151924b2deabc294734bbbdaeb6a0d78455c925aaf19",
+      "rows": 96
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv": {
+      "sha256": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577",
+      "rows": 186
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/block_sign_randomization_Holm.json": {
+      "sha256": "7a1c7094da42b57ced0ed9ecd066c55c5fbc538fc02d1e14c9f3f806749e2a1e"
+    },
+    "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_18.csv": {
+      "sha256": "2f4467d8d04f972323927145b2508ba4d1699186d4a0e2fa861028b071b3fd3e",
+      "rows": 18
+    },
+    "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv": {
+      "sha256": "7c7e71e3c21b6c5eff4410a9c5fe03bf62e9aa044624fd36310b2b5e5ee5205b",
+      "rows": 36
+    },
+    "benchmarks/accepted/runs/revision_v2/descriptive_diagnostics/oni_five_seed_summary.csv": {
+      "sha256": "b2ea6de0695bd30fa7c7257237d8e0d64c083e5c371c8947cce54fb3b99b5f7f",
+      "rows": 576
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv": {
+      "sha256": "47461129382f8a0a1b7ba0b83ed9aa61603d55a872093c37955c0e539d6c1543",
+      "rows": 2400
+    },
+    "benchmarks/sharing/evaluation/principal_comparison.csv": {
+      "sha256": "6c2dcccd2ac694625d2f5199e62c9b14ea8e5998b723fb86c62f7641469b2035",
+      "rows": 9
+    },
+    "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+      "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+      "rows": 40
+    },
+    "benchmarks/accepted/docs/feature_diagnostics/feature_dictionary.csv": {
+      "sha256": "c6a10990cee0cc3d2ac73254186962dff923ba05cdeb9ca513d30fb31f5d9232",
+      "rows": 43
+    },
+    "benchmarks/accepted/figures/revision_v2_publication_v2/model_abbreviation_ledger.csv": {
+      "sha256": "99f904731717053ce87874efc3a3de45fa8838e31b7eacdc78b196aa77cf3610",
+      "rows": 47
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/06_validation_candidates_ALL.csv": {
+      "sha256": "5d9a1cf7a78c677fc3d1706dd474a95a27b3725898b19cf0cb9f3209ae0e770e",
+      "rows": 36
+    },
+    "benchmarks/accepted/docs/literature/comparison_table.csv": {
+      "sha256": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9",
+      "rows": 10
+    },
+    "benchmarks/accepted/publication/revision_v3/S11_development.csv": {
+      "sha256": "71f7b7266d3052690523e08a4b1abfa004e3021094eee8a1e85d15e70acf1b48",
+      "rows": 5
+    },
+    "benchmarks/accepted/publication/revision_v3/S12_components.csv": {
+      "sha256": "b297b15632c5866614b870762e1b806e3ac46ea960baf8f536121cce19d7076c",
+      "rows": 4
+    },
+    "benchmarks/accepted/publication/revision_v3/S13_output_loss.csv": {
+      "sha256": "6c497549fd8f273ec281127e80f4c78a41e00f5486a3500a328e51d867a5dc4a",
+      "rows": 12
+    },
+    "benchmarks/accepted/publication/revision_v3/S14_delay.csv": {
+      "sha256": "49abf50e8603f0589a006a6501c038474a554ee2c7bbc96f710260cf8ced0b11",
+      "rows": 2
+    },
+    "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv": {
+      "sha256": "72d80e58c18999801f509e230c02136661d45a6d0e8d8d74173085960a19108a",
+      "rows": 216
+    },
+    "benchmarks/accepted/publication/revision_v3/S16_archived_CI_13_all_blocks.csv": {
+      "sha256": "ce0e459c89d1a7e8e0782fae50e9956ae6a3b757894162d1737061ca42ddbbab",
+      "rows": 78
+    },
+    "benchmarks/accepted/publication/revision_v3/fit_inventory_100.csv": {
+      "sha256": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac",
+      "rows": 100
+    },
+    "benchmarks/accepted/runs/revision_v3/protocol.json": {
+      "sha256": "9a6e32b6b7b2ca2b208c45cd45b2956c23d5cb89580f56dbda51de14fdd44ead"
+    },
+    "benchmarks/accepted/runs/revision_v3/choices_frozen.json": {
+      "sha256": "7b5624adeccd9ec9c5186141ac136e56c5b79f0bc1457173a2c74dbf46fc937b"
+    },
+    "benchmarks/accepted/runs/revision_v3/datasets/MAIN_FULL_schema.json": {
+      "sha256": "b490615527ccb06c4894611868be4e76e3eb2887d9a07b8ce9ad11dd8f0c2809"
+    },
+    "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_long_108_saved_rows.csv": {
+      "sha256": "ad1873e31626c9c4b5842420906813cc6601a5138d737ecb5bd0a370a871c6a9",
+      "rows": 108
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/06_validation_rounds_ALL.csv": {
+      "sha256": "2e3bee766fd7ff11ce84687208ec18ac6e87a28fd5d43298778e08670e968b0c",
+      "rows": 2160
+    },
+    "benchmarks/accepted/runs/revision_v3/evaluation/annual_sign_Holm36.csv": {
+      "sha256": "1554a3f17fa6ef49a33472610baeb6caec67125497a221f6ac853f1958966965",
+      "rows": 36
+    },
+    "benchmarks/accepted/runs/revision_v3/evaluation/per_client.csv": {
+      "sha256": "6ed47053d12204a2f5e4ac129800ef3f879520a3a3365282fa5c1d0c998b256b",
+      "rows": 1150
+    },
+    "benchmarks/sharing/protocol.json": {
+      "sha256": "e1a8b0960fa4e3ca7da2a05018ffc260f9b1368fec2df01518032d87aa60be7a"
+    },
+    "benchmarks/sharing/evaluation/paired_CI_7.csv": {
+      "sha256": "f60f01e842b9c3648229fe240f816ce009874b289b28fd18eb4e753ddd3b082e",
+      "rows": 84
+    },
+    "benchmarks/sharing/evaluation/annual_MSE_sign_tests.csv": {
+      "sha256": "e8a98d7178e560e4dd2debb237c6ee8d7bd908c5cb52d5870943e277ba12d69f",
+      "rows": 7
+    },
+    "benchmarks/sharing/evaluation/model_summary_ALL_endpoints.csv": {
+      "sha256": "ca75ed2e9e967cc1b3be154c4dd482345a3fc540ece1ac3b90c6292bc1bf72cf",
+      "rows": 27
+    }
+  },
+  "runtime": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  }
+}

@@ -1,0 +1,3 @@
+Fixed FULL personal neural identities. Open points are the five paired optimizer seeds; diamonds and whiskers show mean ± sample seed SD, not confidence intervals. Metrics average clients equally. Global and personal checkpoints were selected separately on VAL.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

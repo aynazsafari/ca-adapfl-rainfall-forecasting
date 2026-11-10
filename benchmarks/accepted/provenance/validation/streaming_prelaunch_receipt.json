@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-08T00:11:33.962515+00:00",
+  "run_sha256": "c10ec7499adba7470982ec57eb2daaba0634d79adae49ccb53ebca6309a218fb",
+  "streaming_equivalence_receipt_sha256": "0fa17cba5e9d585f19e90b178cc69f39cdc2323445c3f95996e0b249f3e2397d",
+  "prelaunch_receipt_sha256": "c8100b6b235f129fde2f8f0e387a41c19752e76c5027a26aaa33c3f51f30dd2f",
+  "installed_public_tests": {
+    "passed": 11,
+    "exit_code": 0,
+    "suite_seconds": 5.236,
+    "selected_only_reload_parity_included": true,
+    "test_file_sha256": "2fdc64b4ad8801162ae6a751a47f68ffee5e7b6930f370e56a7a132c1c9c429b"
+  },
+  "runner_synthetic_checks": 77,
+  "zero_successor_study_fits": true,
+  "scientific_runtime_environment_sha256": "8b401474214cb8c69ebd66b8800543e60e29ae9063b418aeed559d869e0eb9f4",
+  "study_training_mathematics_unchanged": true,
+  "no_evaluation_forecasts_or_scores_accessed_before_change": true
+}

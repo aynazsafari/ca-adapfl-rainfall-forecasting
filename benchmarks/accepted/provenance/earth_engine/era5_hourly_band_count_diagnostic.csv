@@ -1,0 +1,8 @@
+system:index,dewpoint_temperature_2m_max,dewpoint_temperature_2m_min,expected_hours,mean_sea_level_pressure_max,mean_sea_level_pressure_min,month,surface_pressure_max,surface_pressure_min,temperature_2m_max,temperature_2m_min,total_precipitation_max,total_precipitation_min,u_component_of_wind_10m_max,u_component_of_wind_10m_min,v_component_of_wind_10m_max,v_component_of_wind_10m_min,.geo
+0,720,720,720.0,720,720,2022-04,720,720,720,720,719,719,720,720,720,720,
+1,744,744,744.0,744,744,2022-05,744,744,744,744,738,738,744,744,744,744,
+2,744,744,744.0,744,744,2022-07,744,744,744,744,743,743,744,744,744,744,
+3,744,744,744.0,744,744,2022-08,744,744,744,744,738,738,744,744,744,744,
+4,744,744,744.0,744,744,2024-01,744,744,744,744,743,743,744,744,744,744,
+5,696,696,696.0,696,696,2024-02,696,696,696,696,690,690,696,696,696,696,
+6,744,744,744.0,744,744,2024-03,744,744,744,744,744,744,744,744,744,744,

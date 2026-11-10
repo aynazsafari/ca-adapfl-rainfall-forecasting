@@ -1,0 +1,3 @@
+Information-sharing study, fixed tick60. Points show mean macro RMSE; ranges are optimizer-seed minimum–maximum, not confidence intervals. Own/shared denotes local/shared TRAIN input scaling. K1/K5/K20 is synchronization cadence in local ticks. Required numeric payload sums recipients and includes federated initial/final model delivery; central pooled payload includes engineered examples/final delivery. Transport and research audit traffic are excluded. Dashed line is TRAIN climatology. No network-latency or compute saving is implied.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

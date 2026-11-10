@@ -1,0 +1,68 @@
+{
+  "snapshot_id": "ZFKDHBCTBVHVXM3BQFV0",
+  "chunk_count": 644,
+  "temporal_tiles": [
+    82,
+    84
+  ],
+  "source_compressed_bytes": 1465963879,
+  "source_compressed_bytes_by_variable": {
+    "t2m": 242959504,
+    "d2m": 242457524,
+    "sp": 250815483,
+    "u10": 251045554,
+    "v10": 247401509,
+    "tp": 77316097,
+    "msl": 153968208
+  },
+  "climate_byte_ceiling": 2000000000,
+  "ledger_sha256": "8b20454206cfd7c64ae3d7e0ffc1f26992dfb223066148d67c72e9b711566040",
+  "contract_sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f",
+  "status": "NATIVE_RECOVERY_PASS_COMPATIBILITY_PENDING",
+  "rows": 35,
+  "independent_checks": 245,
+  "max_independent_absolute_difference": 1.7462298274040222e-10,
+  "all_native_cells_all_required_hours_valid": true,
+  "source_flags": {
+    "t2m": {
+      "0": 5139
+    },
+    "d2m": {
+      "0": 5139
+    },
+    "sp": {
+      "0": 5139
+    },
+    "u10": {
+      "0": 5139
+    },
+    "v10": {
+      "0": 5139
+    },
+    "tp": {
+      "0": 5139
+    },
+    "msl": {
+      "0": 5139
+    }
+  },
+  "source_expver": {
+    "1": 5139
+  },
+  "imputed_cells": 0,
+  "elapsed_seconds": 677.2029999999795,
+  "output_files": {
+    "derived\\independent_aggregation_check.csv": "f1dd738ffca673f54376f53675f1af3684235fa0a933076d6abf8d33ebc8c5ae",
+    "derived\\monthlycomparisonexpected.csv": "40b563ebe8f8cfae3c8c7d4e0829e55dcaad87b86a0622b946ddc303805043ab",
+    "derived\\monthly_source_rows.csv": "431779ede8f78b1e345e5ce151c5afd2871dc67b688c034dae8d77f36aed81db",
+    "derived\\native_hourly_2022-04.nc": "bbe031e9b37730a751b39a87eaced7065d13ed9d574938354baebbeb3ac937b2",
+    "derived\\native_hourly_2022-05.nc": "d357675c05190fbbb2be1960e1382451c8c74e57be6c2ad482e637cf28869892",
+    "derived\\native_hourly_2022-07.nc": "4e95a85bc537c43626fba604040841c8fdd7c7f2701ee4a42d8a5ada07f2b5e5",
+    "derived\\native_hourly_2022-08.nc": "3495790ecd20f54b93468c68301290752b971168f9e129ca6240103c5de19dcf",
+    "derived\\native_hourly_2024-01.nc": "0c1e6a0d448b78347839f3928eceb109d47a6a4ddfa6753b8787d7e32dfbcab6",
+    "derived\\native_hourly_2024-02.nc": "47944c0715186df40348f6b29bf3879ca0935f5a224bf359a9081ea999273433",
+    "derived\\native_hourly_2024-03.nc": "5927ace048b606a2f716bf9d9cead75fac187c1b7260487919a4ed46cd1e988e",
+    "derived\\native_support_unit_checks.csv": "0000a34b56652c13ccf7637b51837b74121f3c98d1a6ab60ec1874443c835903",
+    "derived\\regional_hourly.npz": "6e8bf0e047feca6544242dc41092964056d17b71b3856216b2faa6868c121b92"
+  }
+}

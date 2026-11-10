@@ -1,0 +1,9 @@
+Configuration,Channels,"TRAIN
+per client",TRAIN screen R²,Eval R²,Eval RMSE mm,Mechanism/cohort
+CORE,14,299,0.7539,0.7608 ± 0.0067,52.98 ± 1.10,Main global CAAA;12 positions;fixed selected HP
+CLIMATE,21,299,0.7585,0.7391 ± 0.0094,54.76 ± 1.11,Main global CAAA;12 positions;fixed selected HP
+FULL,43,299,0.7737,0.7553 ± 0.0079,52.87 ± 1.25,Main global CAAA;12 positions;fixed selected HP
+"TRAIN_
+SELECTED",43,299,0.7737,FULL alias,FULL alias,No additional fits;not post-EVAL selection
+"CORE_
+CLIMATE_FREE",14,299,Not screened,0.7612 ± 0.0073,52.98 ± 1.13,No climate context/weight/adaptive proximity;zero drivers

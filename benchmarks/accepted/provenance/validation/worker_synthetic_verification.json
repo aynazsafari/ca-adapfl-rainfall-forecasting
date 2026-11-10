@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "synthetic neural worker sees no evaluation archives",
+    "synthetic neural worker emits both global/personal validation scores",
+    "selected and round checkpoints preserved",
+    "message and actual-step ledgers saved",
+    "resume returns same fit receipt without rewriting",
+    "router worker preserves genuine OOF provenance",
+    "router scores all five concrete suites",
+    "OOF uses exact same expert configs, including synthetic tree budget",
+    "baseline fit is sealed without evaluation labels",
+    "evaluation inference is label-free with96finite outputs",
+    "all evaluation outputs have a completed hash receipt",
+    "evaluation resume validates receipts without rewriting",
+    "all31declared comparison receipts emitted",
+    "relocated fit resume ignores only runtime root",
+    "relocated receipt preserves original root provenance",
+    "relocated preparation validates same input/code identity",
+    "relocated frozen evaluation validates all receipts",
+    "relocation does not hide a changed learning rate",
+    "immutable schedules permit relocation without changing original provenance"
+  ],
+  "checks_passed": 19,
+  "label": "SYNTHETIC ONLY; fixtures alias one tiny2-round model, no scientific results",
+  "real_data_fits": 0,
+  "real_data_reads": 0,
+  "real_data_scores": 0,
+  "relocated_directory": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\run_impl\\synthetic_only\\synthetic_o3h_3cc3\\relocated",
+  "temporary_directory": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\run_impl\\synthetic_only\\synthetic_o3h_3cc3\\prepared_synthetic"
+}

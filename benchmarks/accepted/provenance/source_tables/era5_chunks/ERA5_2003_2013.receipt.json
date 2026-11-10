@@ -1,0 +1,13 @@
+{
+  "source": "ERA5",
+  "period": [
+    "2003-01",
+    "2013-12"
+  ],
+  "sha256": "441f6e9c57b6458f1e0be0175d5cd1cd323790cacb3707c1347ec2781b32fde9",
+  "bytes": 195024,
+  "rows": 660,
+  "retrieved_utc": "2026-10-07T23:23:58.234299+00:00",
+  "seconds": 1.3302429999457672,
+  "origin": "Same frozen native-source EE extraction; inbound computed table split into nonoverlapping time chunks after full direct-table request failed"
+}

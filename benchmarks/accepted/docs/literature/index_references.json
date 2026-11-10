@@ -1,0 +1,260 @@
+{
+  "schema": "six_index_primary_rationale_v1",
+  "reviewer_item": "R1-m1",
+  "prepared_utc": "2026-10-08T00:11:42.735796+00:00",
+  "primary_sources_count": 6,
+  "source_bytes_retained_count": 5,
+  "sources": [
+    {
+      "id": "S1",
+      "key": "noaa_enso",
+      "title": "ENSO Information",
+      "authors": [
+        "NOAA Physical Sciences Laboratory"
+      ],
+      "year": null,
+      "url": "https://www.psl.noaa.gov/enso/index.html",
+      "doi": null,
+      "source_class": "official_dataset_provider_definition",
+      "read_scope": [
+        "ENSO-101: regional-impact paragraph and SOI paragraph",
+        "Climate Indices relating to ENSO: introductory paragraph and index/region table",
+        "Past Events: seasonality paragraph"
+      ],
+      "quote_words": 6,
+      "version_caution": "Definition context only. Do not infer frozen SST product/base-period from a mutable current page.",
+      "retained_source": {
+        "key": "noaa_enso",
+        "url": "https://www.psl.noaa.gov/enso/index.html",
+        "cache_reused": true,
+        "cache_processed_utc": "2026-10-08T00:11:41.801173+00:00",
+        "retrieval_utc": null,
+        "retained_file_mtime_utc": "2026-10-08T00:07:21.456138+00:00",
+        "status": "retained",
+        "path": "index_sources/noaa_enso.html",
+        "bytes": 77192,
+        "sha256": "5464c5b0fba6a75eaf095204841314dd6994b9743e0f7f6b7781ccda500b1024",
+        "extracted_characters": 18960
+      },
+      "verbatim_quote_location": "index_rationale.md: Exact short excerpts and read locators"
+    },
+    {
+      "id": "S2",
+      "key": "noaa_meiv2",
+      "title": "Multivariate ENSO Index Version 2 (MEI.v2)",
+      "authors": [
+        "NOAA Physical Sciences Laboratory"
+      ],
+      "year": null,
+      "url": "https://www.psl.noaa.gov/enso/mei/index.html",
+      "doi": null,
+      "source_class": "official_dataset_provider_definition",
+      "read_scope": [
+        "Overview including current update and bimonthly EOF definition",
+        "Methods paragraphs 1-6",
+        "Values vintage-comparison sections",
+        "Resources"
+      ],
+      "quote_words": 3,
+      "version_caution": "Current JRA3Q retrospective revision is explicit. Frozen supplied MEIv2 bytes are preserved; their JRA vintage is not authenticated by this page.",
+      "retained_source": {
+        "key": "noaa_meiv2",
+        "url": "https://www.psl.noaa.gov/enso/mei/index.html",
+        "cache_reused": true,
+        "cache_processed_utc": "2026-10-08T00:11:41.802172+00:00",
+        "retrieval_utc": null,
+        "retained_file_mtime_utc": "2026-10-08T00:07:21.391299+00:00",
+        "status": "retained",
+        "path": "index_sources/noaa_meiv2.html",
+        "bytes": 49726,
+        "sha256": "5bd5025389fa7b9b2206e8b8f882f63faf380b5efc84ed6932a79c75f0e7b541",
+        "extracted_characters": 11241
+      },
+      "verbatim_quote_location": "index_rationale.md: Exact short excerpts and read locators"
+    },
+    {
+      "id": "S3",
+      "key": "ashok2004",
+      "title": "Individual and Combined Influences of ENSO and the Indian Ocean Dipole on the Indian Summer Monsoon",
+      "authors": [
+        "Karumuri Ashok",
+        "Zhaoyong Guan",
+        "N. H. Saji",
+        "Toshio Yamagata"
+      ],
+      "year": 2004,
+      "url": "https://sites.bu.edu/thompsonlab/files/2018/01/Ashok-et-al.-2004.pdf",
+      "publisher_url": "https://journals.ametsoc.org/view/journals/clim/17/16/1520-0442_2004_017_3141_iacioe_2.0.co_2.xml",
+      "doi": "10.1175/1520-0442(2004)017<3141:IACIOE>2.0.CO;2",
+      "journal": "Journal of Climate",
+      "volume": "17",
+      "issue": "16",
+      "pages": "3141-3155",
+      "source_class": "published_primary_research_institutional_pdf",
+      "read_scope": [
+        "Abstract: printed3141/PDF1",
+        "Section2a and footnote3: printed3142/PDF2",
+        "Section2b: printed3143/PDF3",
+        "Section3 mechanism: printed3145-3147/PDF5-7"
+      ],
+      "quote_words": 8,
+      "version_caution": "Original ENSO diagnostic is Nino3, not exact Nino3.4 input. Seasonal observational/composite and AGCM evidence, not this monthly predictive protocol.",
+      "retained_source": {
+        "key": "ashok2004",
+        "url": "https://sites.bu.edu/thompsonlab/files/2018/01/Ashok-et-al.-2004.pdf",
+        "cache_reused": true,
+        "cache_processed_utc": "2026-10-08T00:11:41.822178+00:00",
+        "retrieval_utc": null,
+        "retained_file_mtime_utc": "2026-10-08T00:07:22.784466+00:00",
+        "status": "retained",
+        "path": "index_sources/ashok2004.pdf",
+        "bytes": 2697259,
+        "sha256": "0ddfa4e2c626555643e04aed3b9d6ae9589c7f6711a95034b0679c1a86acc85e",
+        "pdf_pages": 15,
+        "extracted_characters": 45472
+      },
+      "verbatim_quote_location": "index_rationale.md: Exact short excerpts and read locators"
+    },
+    {
+      "id": "S4",
+      "key": "kumar1999_pubmed",
+      "title": "On the Weakening Relationship Between the Indian Monsoon and ENSO",
+      "authors": [
+        "K. Krishna Kumar",
+        "Balaji Rajagopalan",
+        "Mark A. Cane"
+      ],
+      "year": 1999,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10381876/",
+      "doi": "10.1126/science.284.5423.2156",
+      "journal": "Science",
+      "volume": "284",
+      "issue": "5423",
+      "pages": "2156-2159",
+      "pmid": "10381876",
+      "source_class": "primary_publication_abstract_official_nlm",
+      "read_scope": [
+        "Abstract only; official NLM PubMed XML retained"
+      ],
+      "quote_words": 7,
+      "version_caution": "Do not claim full paper read. Published historical discussion does not settle current ENSO relationship or AMV behavior.",
+      "retained_source": {
+        "key": "kumar1999_pubmed",
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=10381876&retmode=xml",
+        "cache_reused": true,
+        "cache_processed_utc": "2026-10-08T00:11:41.822178+00:00",
+        "retrieval_utc": null,
+        "retained_file_mtime_utc": "2026-10-08T00:07:22.357667+00:00",
+        "status": "retained",
+        "path": "index_sources/kumar1999_pubmed.xml",
+        "bytes": 3489,
+        "sha256": "6f61d7f9672e3bec72f9992234f8a8250b32050156f8397c26a31f7bee81483e",
+        "abstract_only": true,
+        "abstract_characters": 863
+      },
+      "verbatim_quote_location": "index_rationale.md: Exact short excerpts and read locators"
+    },
+    {
+      "id": "S5",
+      "key": "goswami2006",
+      "title": "A Physical Mechanism for North Atlantic SST Influence on the Indian Summer Monsoon",
+      "authors": [
+        "B. N. Goswami",
+        "M. S. Madhusoodanan",
+        "C. P. Neema",
+        "D. Sengupta"
+      ],
+      "year": 2006,
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2005gl024803",
+      "doi": "10.1029/2005GL024803",
+      "journal": "Geophysical Research Letters",
+      "volume": "33",
+      "article_number": "L02706",
+      "source_class": "published_primary_research_publisher_html",
+      "read_scope": [
+        "Abstract[1]",
+        "Section2[4]",
+        "Section3[5]",
+        "Section4[6]-[7]"
+      ],
+      "quote_words": 8,
+      "version_caution": "Kaplan/JJAS source, larger North Atlantic box, twice9-year-running-mean diagnostic; not a monthly/global-removed/ERSSTv6 index.",
+      "retained_source": {
+        "key": "goswami2006",
+        "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2005gl024803",
+        "retrieval_utc": "2026-10-08T00:11:41.832317+00:00",
+        "http_status": 403,
+        "final_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2005gl024803",
+        "content_type": "text/html; charset=UTF-8",
+        "status": "retention_failed",
+        "error_type": "HTTPError",
+        "error": "403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2005gl024803"
+      },
+      "verbatim_quote_location": "index_rationale.md: Exact short excerpts and read locators",
+      "web_read_status": "Publisher full text read through web tool; direct Python byte retention403, no source bytes/hash asserted."
+    },
+    {
+      "id": "S6",
+      "key": "trenberth_shea2006",
+      "title": "Atlantic Hurricanes and Natural Variability in 2005",
+      "authors": [
+        "Kevin E. Trenberth",
+        "Dennis J. Shea"
+      ],
+      "year": 2006,
+      "url": "https://staff.cgd.ucar.edu/trenbert/trenberth.pdf/TrenberthSheaHurricanes2006GRL026894.pdf",
+      "doi": "10.1029/2006GL026894",
+      "journal": "Geophysical Research Letters",
+      "volume": "33",
+      "article_number": "L12704",
+      "source_class": "published_primary_research_author_ncar_pdf",
+      "read_scope": [
+        "PDF/printedp2[7]-[9] and Figures1-3",
+        "PDF/printedp3[11]",
+        "PDF/printedp4[15]-[16]"
+      ],
+      "quote_words": 7,
+      "version_caution": "Annual1901-1970-reference low-pass filtered diagnostic; use only as rationale for global removal, not exact replication or Indian monthly forecasting evidence.",
+      "retained_source": {
+        "key": "trenberth_shea2006",
+        "url": "https://staff.cgd.ucar.edu/trenbert/trenberth.pdf/TrenberthSheaHurricanes2006GRL026894.pdf",
+        "cache_reused": true,
+        "cache_processed_utc": "2026-10-08T00:11:41.983848+00:00",
+        "retrieval_utc": null,
+        "retained_file_mtime_utc": "2026-10-08T00:07:24.639997+00:00",
+        "status": "retained",
+        "path": "index_sources/trenberth_shea2006.pdf",
+        "bytes": 467693,
+        "sha256": "520c8bc9c9605aa9d1d59264ad27a6afaac8f9fa0eed3b1eeda3b0536abf13ee",
+        "pdf_pages": 4,
+        "extracted_characters": 23546
+      },
+      "verbatim_quote_location": "index_rationale.md: Exact short excerpts and read locators"
+    }
+  ],
+  "new_baselines_or_lag_search": false,
+  "manuscript_edited": false,
+  "evaluation_truth_or_scores_accessed": false,
+  "frozen_index_names": [
+    "nino34_anomaly",
+    "dmi_hadisst11_anomaly",
+    "soi_cpc_standardized",
+    "oni_anomaly_3mo",
+    "meiv2_bimonthly",
+    "amv_ersstv6_global_removed_1951_1980"
+  ],
+  "calendar": {
+    "target": "t",
+    "issue": "first day of t, 00UTC",
+    "historical_origins": "t-12 through t-1",
+    "index_period_end_sequence": "t-13 through t-2",
+    "latest_attention_climate_period_end": "t-2",
+    "earliest_ONI_underlying_month": "t-15",
+    "earliest_MEIv2_underlying_month": "t-14",
+    "met_supplement_support": "t-15 through t-4",
+    "interpretation": "retrospective archive-availability assumptions; not physical lag optima"
+  },
+  "existing_FL_matrix": "LITERATURE_COMPARISON.md; verification_receipt.json",
+  "manuscript_revision_status": "evidence memo only; wait for audited actual results",
+  "memo_sha256": "f68303e88a92b73fc97f958340e7d8c0618ecf6027487b37db0ddbe3706590ca"
+}

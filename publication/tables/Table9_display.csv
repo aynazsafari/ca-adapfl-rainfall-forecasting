@@ -1,0 +1,5 @@
+Fixed main identity,Negative n=34 R²,RMSE mm,Neutral n=35 R²,RMSE mm,Positive n=27 R²,RMSE mm
+CAAA global,0.7821,44.19,0.6735,59.24,0.7473,52.64
+FedAvg global,0.7888,43.46,0.6598,58.52,0.7667,50.63
+FedProx global,0.7826,44.15,0.6754,59.14,0.7472,52.65
+CAAA personal,0.8216,39.61,0.7483,53.57,0.8075,46.61

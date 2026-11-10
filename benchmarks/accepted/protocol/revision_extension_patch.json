@@ -1,0 +1,61 @@
+{
+  "original_neural_sha256": "83814bc45d96b4dd2ea185436b9538babe59cbc70adcc00fe7ff4c33055d4873",
+  "new_neural_sha256": "9bd2cfe872030e2e23a0fe169c032046814cc10572a11148b16deb68e5fc1f9f",
+  "changes": [
+    {
+      "old": "ARCHITECTURE_ID = \"alce_joint_tanh_attention_v2\"",
+      "new": "ARCHITECTURE_ID = \"alce_joint_tanh_attention_revision_v3\""
+    },
+    {
+      "old": "    primary_identity: str = \"auto\"",
+      "new": "    primary_identity: str = \"auto\"\n    nonnegative_head: bool = False\n    softplus_beta_per_mm: float = 0.1\n    tail_weight: float = 1.0\n    weight_decay: float = 0.0"
+    },
+    {
+      "old": "        if self.method not in METHODS:",
+      "new": "        if type(self.nonnegative_head) is not bool:\n            raise ValueError(\"nonnegative_head must be boolean\")\n        if not np.isfinite((self.softplus_beta_per_mm,self.tail_weight,self.weight_decay)).all() or self.softplus_beta_per_mm <= 0 or self.tail_weight < 1 or self.weight_decay < 0:\n            raise ValueError(\"Invalid physical-head/loss/regularization configuration\")\n        if self.method not in METHODS:"
+    },
+    {
+      "old": "        self.use_embedding = config.use_embedding",
+      "new": "        self.use_embedding = config.use_embedding\n        self.nonnegative_head = config.nonnegative_head\n        self.softplus_beta_per_mm = config.softplus_beta_per_mm"
+    },
+    {
+      "old": "    heavy: torch.Tensor\n\n    @classmethod\n    def from_batch(cls, batch: LabeledBatch):\n        return cls(*(torch.tensor(getattr(batch, name)) for name in (\"x\", \"climate\", \"drivers\", \"y_z\", \"heavy\")))",
+      "new": "    heavy: torch.Tensor\n    target_mean: torch.Tensor\n    target_std: torch.Tensor\n\n    @classmethod\n    def from_batch(cls, batch: LabeledBatch, mean: float, std: float):\n        return cls(*(torch.tensor(getattr(batch, name)) for name in (\"x\", \"climate\", \"drivers\", \"y_z\", \"heavy\")),\n                   torch.full((len(batch.keys),),mean), torch.full((len(batch.keys),),std))"
+    },
+    {
+      "old": "        self._train = _Tensors.from_batch(source.train)\n        self._monitor = _Tensors.from_batch(source.monitor)\n        self._validation = _Tensors.from_batch(source.validation)",
+      "new": "        self._train = _Tensors.from_batch(source.train,source.target_mean,source.target_std)\n        self._monitor = _Tensors.from_batch(source.monitor,source.target_mean,source.target_std)\n        self._validation = _Tensors.from_batch(source.validation,source.target_mean,source.target_std)"
+    },
+    {
+      "old": "            optimizer = torch.optim.Adam(parameters, lr=cfg.lr)",
+      "new": "            optimizer = torch.optim.Adam(parameters, lr=cfg.lr,weight_decay=cfg.weight_decay)"
+    },
+    {
+      "old": "            optimizer = torch.optim.SGD(parameters, lr=cfg.lr, momentum=cfg.momentum)",
+      "new": "            optimizer = torch.optim.SGD(parameters, lr=cfg.lr, momentum=cfg.momentum,weight_decay=cfg.weight_decay)"
+    },
+    {
+      "old": "                    mse = nn.functional.mse_loss(prediction, batch.y[indices])",
+      "new": "                    prediction = decode_z(prediction,batch.target_mean[indices],batch.target_std[indices],cfg.nonnegative_head,cfg.softplus_beta_per_mm)\n                    if cfg.tail_weight == 1:\n                        mse = nn.functional.mse_loss(prediction,batch.y[indices])\n                    else:\n                        weights = 1 + (cfg.tail_weight-1)*batch.heavy[indices]\n                        # Fixed whole-TRAIN normalization preserves the expected MSE scale.\n                        normalizer = 1 + (cfg.tail_weight-1)*float(batch.heavy.mean())\n                        mse = (weights*(prediction-batch.y[indices]).square()).mean()/normalizer"
+    },
+    {
+      "old": "            z = torch.cat(predictions).numpy().astype(np.float64)",
+      "new": "            z = decode_z(torch.cat(predictions),tensors.target_mean,tensors.target_std,self.model.nonnegative_head,self.model.softplus_beta_per_mm).numpy().astype(np.float64)"
+    },
+    {
+      "old": "                    zs.append(z.numpy())",
+      "new": "                    mean,sd = self.target_stats[client_id]\n                    z = decode_z(z,z.new_tensor(mean),z.new_tensor(sd),self.config.nonnegative_head,self.config.softplus_beta_per_mm)\n                    zs.append(z.numpy())"
+    },
+    {
+      "old": "rainfall_prediction_policy=\"raw inverse-transformed mm; no clipping in checkpoint scores or inference\",",
+      "new": "rainfall_prediction_policy=\"decoded-mm softplus, identically in training/selection/inference\" if self.config.nonnegative_head else \"raw inverse-transformed mm; no clipping in checkpoint scores or inference\",\n                        tail_loss_normalization=\"TRAIN-fixed mean weight; auxiliary/proximal coefficients unchanged\","
+    },
+    {
+      "old": "                                       for name in (\"x\", \"climate\", \"drivers\", \"y\", \"heavy\")))",
+      "new": "                                       for name in (\"x\", \"climate\", \"drivers\", \"y\", \"heavy\", \"target_mean\", \"target_std\")))"
+    }
+  ],
+  "decoder": "\n\ndef decode_z(z, mean, std, enabled: bool, beta: float = 0.1):\n    \"\"\"Constrain physical rainfall, including per-row client scales in central pools.\"\"\"\n    if not enabled:\n        return z\n    rainfall = nn.functional.softplus(mean.to(torch.float64) + std.to(torch.float64)*z.to(torch.float64), beta=beta)\n    return (rainfall-mean)/std\n",
+  "numerical_stability": "Float64 per-row target scales and decoded head; max0 only guards physical-head inverse-transform roundoff at mathematical zero. RAW route unchanged.",
+  "features_change": "Allow prespecified extra_lag=2; existing normal issuance and role boundaries retained."
+}

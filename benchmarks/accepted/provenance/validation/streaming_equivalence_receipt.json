@@ -1,0 +1,285 @@
+{
+  "status": "PASS",
+  "source_old_sha256": "7ce74b0d4fd4277aa21ba668b91c9f3f9ad7e913992aefa07bad2d73ff57ce36",
+  "source_new_sha256": "83814bc45d96b4dd2ea185436b9538babe59cbc70adcc00fe7ff4c33055d4873",
+  "all_preloader_scientific_code_byte_identical": true,
+  "program_sha256": "3c72d14eefea3bb33fb91161c8f586919152f60f1993c84433329375a69ea4af",
+  "old_run_sha256": "0ab0eae92b79d1d8299e1c49ddfcb53b9e1c8cf32ff52c2eab0f0de460a39e53",
+  "evaluation_truth_scores_inputs_read": false,
+  "new_fits_performed": false,
+  "probes": {
+    "equivalence": {
+      "status": "PASS",
+      "default_history_rounds": 7,
+      "selected_only_history_rounds": 0,
+      "guarded_torch_load_files": [
+        "selected_states.pt"
+      ],
+      "selected_state_tensor_count": 198,
+      "selected_tensor_bytes": 2620848,
+      "skipped_periodic_tensor_bytes": 18345936,
+      "validation_prediction_count": 710,
+      "comparisons": [
+        {
+          "client": "Client1_NW_Arid",
+          "identity": "global",
+          "validation_predictions": 71,
+          "checkpoint_round": 18,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client1_NW_Arid",
+          "identity": "personal",
+          "validation_predictions": 71,
+          "checkpoint_round": 13,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client2_Indo_Gangetic",
+          "identity": "global",
+          "validation_predictions": 71,
+          "checkpoint_round": 18,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client2_Indo_Gangetic",
+          "identity": "personal",
+          "validation_predictions": 71,
+          "checkpoint_round": 13,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client3_NE_Himalaya",
+          "identity": "global",
+          "validation_predictions": 71,
+          "checkpoint_round": 18,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client3_NE_Himalaya",
+          "identity": "personal",
+          "validation_predictions": 71,
+          "checkpoint_round": 13,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client4_South_Peninsular",
+          "identity": "global",
+          "validation_predictions": 71,
+          "checkpoint_round": 18,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client4_South_Peninsular",
+          "identity": "personal",
+          "validation_predictions": 71,
+          "checkpoint_round": 13,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client5_Central_India",
+          "identity": "global",
+          "validation_predictions": 71,
+          "checkpoint_round": 18,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        },
+        {
+          "client": "Client5_Central_India",
+          "identity": "personal",
+          "validation_predictions": 71,
+          "checkpoint_round": 13,
+          "full_vs_selected_z_bitwise_equal": true,
+          "full_vs_selected_mm_bitwise_equal": true,
+          "full_vs_selected_probability_bitwise_equal": true,
+          "original_saved_validation_mm_bitwise_equal": true,
+          "original_saved_validation_probability_bitwise_equal": true
+        }
+      ],
+      "evaluation_inputs_truth_or_scores_read": false,
+      "training_performed": false,
+      "fit_archive_fields_read": [
+        "raw_target_month",
+        "scaled_x",
+        "scaled_climate",
+        "raw_drivers"
+      ],
+      "checkpoint_sha256": {
+        "selected_states.pt": "70c503cb869a95d821d807118ebc760a248311e64d6e7b2442c2ce49b137fbe6",
+        "round_states.pt": "2d6ca73a5f1347a4775a65dea8d3cc49026938f202c0c8fb542099d1e5783faf"
+      },
+      "validation_prediction_sha256": "a5f7ed66e49275865e11b4e27be57a8173809e1ee32b9594fb241fcf356f4450"
+    },
+    "memory": {
+      "status": "PASS",
+      "isolated_process_pid": 23960,
+      "repeats": 20,
+      "baseline_imported_rss_bytes": 207433728,
+      "peak_loaded_rss_bytes": 214896640,
+      "peak_increment_bytes": 7462912,
+      "last5_minus_first5_peak_rss_bytes": 24576,
+      "available_ram_before_probe_bytes": 2372354048,
+      "selected_tensor_bytes_per_fit": 2620848,
+      "periodic_tensor_bytes_opened": 0,
+      "no_inference_or_fitting": true,
+      "samples": [
+        {
+          "repeat": 1,
+          "loaded_rss_bytes": 214147072,
+          "after_disposal_rss_bytes": 214028288,
+          "elapsed_seconds": 0.05126650002785027
+        },
+        {
+          "repeat": 2,
+          "loaded_rss_bytes": 214859776,
+          "after_disposal_rss_bytes": 214859776,
+          "elapsed_seconds": 0.0460190000012517
+        },
+        {
+          "repeat": 3,
+          "loaded_rss_bytes": 214863872,
+          "after_disposal_rss_bytes": 214863872,
+          "elapsed_seconds": 0.04642180004157126
+        },
+        {
+          "repeat": 4,
+          "loaded_rss_bytes": 214867968,
+          "after_disposal_rss_bytes": 214867968,
+          "elapsed_seconds": 0.04518129990901798
+        },
+        {
+          "repeat": 5,
+          "loaded_rss_bytes": 214872064,
+          "after_disposal_rss_bytes": 214872064,
+          "elapsed_seconds": 0.04385670006740838
+        },
+        {
+          "repeat": 6,
+          "loaded_rss_bytes": 214872064,
+          "after_disposal_rss_bytes": 214872064,
+          "elapsed_seconds": 0.045473899925127625
+        },
+        {
+          "repeat": 7,
+          "loaded_rss_bytes": 214884352,
+          "after_disposal_rss_bytes": 214884352,
+          "elapsed_seconds": 0.0456836000084877
+        },
+        {
+          "repeat": 8,
+          "loaded_rss_bytes": 214884352,
+          "after_disposal_rss_bytes": 214884352,
+          "elapsed_seconds": 0.043379200040362775
+        },
+        {
+          "repeat": 9,
+          "loaded_rss_bytes": 214892544,
+          "after_disposal_rss_bytes": 214892544,
+          "elapsed_seconds": 0.04412320000119507
+        },
+        {
+          "repeat": 10,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.04419719998259097
+        },
+        {
+          "repeat": 11,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.04775759996846318
+        },
+        {
+          "repeat": 12,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.04594750003889203
+        },
+        {
+          "repeat": 13,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.043423700029961765
+        },
+        {
+          "repeat": 14,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.04556190001312643
+        },
+        {
+          "repeat": 15,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.045899400021880865
+        },
+        {
+          "repeat": 16,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.04728129995055497
+        },
+        {
+          "repeat": 17,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.046483400044962764
+        },
+        {
+          "repeat": 18,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.045403099968098104
+        },
+        {
+          "repeat": 19,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.0447460999712348
+        },
+        {
+          "repeat": 20,
+          "loaded_rss_bytes": 214896640,
+          "after_disposal_rss_bytes": 214896640,
+          "elapsed_seconds": 0.045954199973493814
+        }
+      ],
+      "interpretation": "Windows allocator may retain freed arenas; repeated one-fit loading/disposal reuses bounded memory rather than retaining all FitResult objects."
+    }
+  }
+}

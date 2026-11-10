@@ -1,0 +1,62 @@
+{
+  "status": "PASS_NATIVE_VECTOR_PRINT_PAGES",
+  "parent_render_manifest_sha256": "c79c5322318c5fc9824f24b5c7a66195c7a66807dec3f141446b15be3a7d8e4b",
+  "caption_files_unchanged": {
+    "captions.json": "4affaca701f846f1dfb4414574739d36aaa0e7b7056ffcf6070a0a437b955f6e",
+    "captions.txt": "cad815b604fe34a9dd0058da37d7775be8f2a6fb181102c32a04e6a221a1edd0"
+  },
+  "generator_sha256": "ee90175beadf95bccd922e7ee6dbcce2c285d0c9c6a7c2ccaa743de72c29abd9",
+  "files": [
+    {
+      "figure": "01_network",
+      "path": "print_pages_v4/01_network_with_caption.pdf",
+      "sha256": "c77512bebfee1296045ea02ab1f0aa99a12e840699caa75e9b81328bbaecbdc9",
+      "page_width_in": 6.699999999999999,
+      "page_height_in": 8.149999999999999,
+      "minimum_pdf_text_font_pt": 10.0,
+      "caption_exact_word_sequence": true,
+      "pdf_caption_nonwhitespace_glyph_sequence_identical": true,
+      "caption_line_count": 15,
+      "system_available_memory_before_render_bytes": 1994350592
+    },
+    {
+      "figure": "02_messages",
+      "path": "print_pages_v4/02_messages_with_caption.pdf",
+      "sha256": "20ff5208e418ad8f5943dfc3dbc60b38788fce4e7117d4b34d7c6c66cfcb66d3",
+      "page_width_in": 6.699999999999999,
+      "page_height_in": 8.016666666666666,
+      "minimum_pdf_text_font_pt": 10.0,
+      "caption_exact_word_sequence": true,
+      "pdf_caption_nonwhitespace_glyph_sequence_identical": true,
+      "caption_line_count": 13,
+      "system_available_memory_before_render_bytes": 1989849088
+    },
+    {
+      "figure": "03_input_availability",
+      "path": "print_pages_v4/03_input_availability_with_caption.pdf",
+      "sha256": "17711d4ee4e2dc09cf4af7a34b0a292736bf87f40778dbb4db9925364d53b9ee",
+      "page_width_in": 6.699999999999999,
+      "page_height_in": 7.549999999999999,
+      "minimum_pdf_text_font_pt": 10.0,
+      "caption_exact_word_sequence": true,
+      "pdf_caption_nonwhitespace_glyph_sequence_identical": true,
+      "caption_line_count": 9,
+      "system_available_memory_before_render_bytes": 1986605056
+    },
+    {
+      "figure": "04_fixed_domains",
+      "path": "print_pages_v4/04_fixed_domains_with_caption.pdf",
+      "sha256": "75ad17eddf583eadc63e91197ced6a61b89e0a6220061e574565b3687f562331",
+      "page_width_in": 6.699999999999999,
+      "page_height_in": 7.616666666666666,
+      "minimum_pdf_text_font_pt": 10.0,
+      "caption_exact_word_sequence": true,
+      "pdf_caption_nonwhitespace_glyph_sequence_identical": true,
+      "caption_line_count": 7,
+      "system_available_memory_before_render_bytes": 1990213632
+    }
+  ],
+  "scope": "Owned vector companion diagrams plus preserved exact captions; 10pt caption text, 12pt baselines, 0.15in separation.",
+  "no_original_or_scientific_input_edits": true,
+  "scientific_results_read": false
+}

@@ -1,0 +1,85 @@
+{
+  "status": "STATIC_PASS",
+  "reviewed_utc": "2026-10-08T01:19:15.382194+00:00",
+  "checked_files": {
+    ".github/workflows/implementation-checks.yml": "777ab7b6f8a6fc259a874e3e98d90a694e418ebd0689f3812632d9a355a821ce",
+    "docs/CI.md": "b538447059c677e8576f0e9c547d1646bd0d2f1b45cba9de07b76344a4666d2a",
+    "provenance/tooling/github_action_pins.json": "7b9e87e2e353f2b0fdeadeb72c7a1a5fc006c22520af2d1fe15148d21bd30749",
+    "pyproject.toml": "be9773f9ed6a6585dab8bf4ca57d41fcb1fac132d749895e77816df2c342ccd0",
+    "requirements-lock.txt": "efa0496eb06e6bdf8a89d6b98de4c55932e65294049a686cff4cb306e930d475",
+    "tests/test_invariants.py": "2fdc64b4ad8801162ae6a751a47f68ffee5e7b6930f370e56a7a132c1c9c429b",
+    "tests/README.md": "f59eb2619831439716c21944e1d50b12f21945b3368157322f825e7c915443d3"
+  },
+  "findings": [],
+  "structure": {
+    "yaml_parsed": true,
+    "duplicate_keys": false,
+    "parser": "PyYAML BaseLoader (GitHub on preserved)",
+    "triggers": [
+      "push",
+      "pull_request"
+    ],
+    "permissions": {
+      "contents": "read"
+    },
+    "matrix": {
+      "os": [
+        "ubuntu-latest",
+        "windows-latest"
+      ]
+    },
+    "action_pins_exactly_match_local_provenance": [
+      {
+        "action": "actions/checkout",
+        "commit": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+        "tag": "v7"
+      },
+      {
+        "action": "actions/setup-python",
+        "commit": "5fda3b95a4ea91299a34e894583c3862153e4b97",
+        "tag": "v7"
+      }
+    ],
+    "credentials_persisted": false,
+    "schedule_deploy_or_research_run_step": false
+  },
+  "package_and_reference": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "direct_dependencies_match_current_reference": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "torch": "2.14.1",
+      "joblib": "1.6.0",
+      "threadpoolctl": "3.7.0",
+      "matplotlib": "3.11.2",
+      "nbformat": "5.11.1",
+      "nbclient": "0.11.0",
+      "ipykernel": "7.4.0"
+    },
+    "builder_reference_version": "84.0.0",
+    "test_files_discovered": [
+      "tests/test_invariants.py"
+    ],
+    "public_tests": 11,
+    "tiny_synthetic_fits": 2,
+    "tiny_rounds": 2,
+    "tiny_epochs": 1,
+    "tiny_cpu_threads": 1
+  },
+  "not_performed": [
+    "No dependency installation",
+    "No test execution/model fitting",
+    "No scientific source/evaluation reads",
+    "No GitHub/network operations",
+    "No package edits"
+  ],
+  "limitations": [
+    "Static local preparation is not successful GitHub Actions execution or Linux parity.",
+    "Action commits match the supplied local official-tag retrieval receipt; no live tag/API response was re-fetched in this review.",
+    "Direct dependency pins match the observed Windows reference; transitive dependencies, setuptools>=68 and moving latest runner images are not fully locked.",
+    "Availability/install time of pinned binary wheels on hosted runners and the20-minute timeout remain unexecuted."
+  ]
+}

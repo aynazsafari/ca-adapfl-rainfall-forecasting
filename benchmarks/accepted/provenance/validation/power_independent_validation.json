@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "merra2_all_country_centers",
+      "passed": true
+    },
+    {
+      "check": "merra2_all_native_full_cell_areas",
+      "passed": true,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "check": "merra2_all_region_centers_Client1_NW_Arid",
+      "passed": true
+    },
+    {
+      "check": "merra2_all_region_centers_Client2_Indo_Gangetic",
+      "passed": true
+    },
+    {
+      "check": "merra2_all_region_centers_Client3_NE_Himalaya",
+      "passed": true
+    },
+    {
+      "check": "merra2_all_region_centers_Client4_South_Peninsular",
+      "passed": true
+    },
+    {
+      "check": "merra2_all_region_centers_Client5_Central_India",
+      "passed": true
+    },
+    {
+      "check": "merra2_T2M_all_export_array_bytes",
+      "passed": true
+    },
+    {
+      "check": "merra2_RH2M_all_export_array_bytes",
+      "passed": true
+    },
+    {
+      "check": "merra2_WS10M_all_export_array_bytes",
+      "passed": true
+    },
+    {
+      "check": "merra2_PRECTOTCORR_all_export_array_bytes",
+      "passed": true
+    },
+    {
+      "check": "srb_all_country_centers",
+      "passed": true
+    },
+    {
+      "check": "srb_all_native_full_cell_areas",
+      "passed": true,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "check": "srb_all_region_centers_Client1_NW_Arid",
+      "passed": true
+    },
+    {
+      "check": "srb_all_region_centers_Client2_Indo_Gangetic",
+      "passed": true
+    },
+    {
+      "check": "srb_all_region_centers_Client3_NE_Himalaya",
+      "passed": true
+    },
+    {
+      "check": "srb_all_region_centers_Client4_South_Peninsular",
+      "passed": true
+    },
+    {
+      "check": "srb_all_region_centers_Client5_Central_India",
+      "passed": true
+    },
+    {
+      "check": "srb_ALLSKY_SFC_SW_DWN_all_export_array_bytes",
+      "passed": true
+    },
+    {
+      "check": "syn1deg_all_country_centers",
+      "passed": true
+    },
+    {
+      "check": "syn1deg_all_native_full_cell_areas",
+      "passed": true,
+      "maximum_relative_difference": 0.0
+    },
+    {
+      "check": "syn1deg_all_region_centers_Client1_NW_Arid",
+      "passed": true
+    },
+    {
+      "check": "syn1deg_all_region_centers_Client2_Indo_Gangetic",
+      "passed": true
+    },
+    {
+      "check": "syn1deg_all_region_centers_Client3_NE_Himalaya",
+      "passed": true
+    },
+    {
+      "check": "syn1deg_all_region_centers_Client4_South_Peninsular",
+      "passed": true
+    },
+    {
+      "check": "syn1deg_all_region_centers_Client5_Central_India",
+      "passed": true
+    },
+    {
+      "check": "syn1deg_ALLSKY_SFC_SW_DWN_all_export_array_bytes",
+      "passed": true
+    },
+    {
+      "check": "all_native_cell_count_and_scalar_regional_values",
+      "passed": true,
+      "verified_values": 13020,
+      "maximum_absolute_difference": 5.684341886080802e-14,
+      "all_native_center_tests": 3496
+    },
+    {
+      "check": "complete_expected_long_keys",
+      "passed": true
+    },
+    {
+      "check": "exact_full_panel_keys",
+      "passed": true
+    },
+    {
+      "check": "met_complete_1981_2024_and_solar_structural_gaps_only",
+      "passed": true
+    },
+    {
+      "check": "all_converted_solar_unit_explicit_MJ",
+      "passed": true
+    },
+    {
+      "check": "all_raw_download_sha256",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "verification_method": "Independent scalar country covers, each full geodesic cell, Python math.fsum weighted mean, every output row, all NC native arrays hashes, every compressed downloaded raw chunk hash",
+  "training_run": false
+}

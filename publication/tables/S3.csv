@@ -1,0 +1,48 @@
+model,alias,full_name,scope,feature_group
+CAAA_GLOBAL_CORE,CA-G/C,"CA-ALCE global, CORE14",global,CORE14
+FEDAVG_GLOBAL_CORE,FA-G/C,"FedAvg global, CORE14",global,CORE14
+FEDPROX_GLOBAL_CORE,FP-G/C,"FedProx global, CORE14",global,CORE14
+CAAA_GLOBAL_CLIMATE,CA-G/I,"CA-ALCE global, CLIMATE21",global,CLIMATE21
+FEDAVG_GLOBAL_CLIMATE,FA-G/I,"FedAvg global, CLIMATE21",global,CLIMATE21
+FEDPROX_GLOBAL_CLIMATE,FP-G/I,"FedProx global, CLIMATE21",global,CLIMATE21
+CAAA_GLOBAL_FULL,CA-G/F,"CA-ALCE global, FULL43",global,FULL43
+FEDAVG_GLOBAL_FULL,FA-G/F,"FedAvg global, FULL43",global,FULL43
+FEDPROX_GLOBAL_FULL,FP-G/F,"FedProx global, FULL43",global,FULL43
+CAAA_GLOBAL_TRAIN_SELECTED,CA-G/S,"CA-ALCE global, TRAIN_SELECTED",global,TRAIN_SELECTED
+FEDAVG_GLOBAL_TRAIN_SELECTED,FA-G/S,"FedAvg global, TRAIN_SELECTED",global,TRAIN_SELECTED
+FEDPROX_GLOBAL_TRAIN_SELECTED,FP-G/S,"FedProx global, TRAIN_SELECTED",global,TRAIN_SELECTED
+CAAA_PERSONAL_FULL,CA-P/F,"CA-ALCE personal, FULL43",personal,FULL43
+FEDAVG_PERSONAL_FULL,FA-P/F,"FedAvg personal, FULL43",personal,FULL43
+FEDPROX_PERSONAL_FULL,FP-P/F,"FedProx personal, FULL43",personal,FULL43
+DITTO_PERSONAL_FULL,DI-P/F,"Ditto personal, FULL43",personal,FULL43
+LOCAL_PERSONAL_FULL,LN-P/F,"Local neural personal, FULL43",personal,FULL43
+CAAA_GLOBAL_FULL_ANCHOR,CA-A/F,"CA-ALCE global, fixed nonzero coefficient anchor (.3,.3,.4)",global,FULL43
+CAAA_GLOBAL_FULL_NO_CLIMATE_WEIGHT,CA-noCW/F,"CA-ALCE global, fixed anchor with climate aggregation weight removed",global,FULL43
+CAAA_GLOBAL_FULL_NO_PERFORMANCE_WEIGHT,CA-noPW/F,"CA-ALCE global, fixed anchor with performance aggregation weight removed",global,FULL43
+CAAA_GLOBAL_FULL_NO_PROX,CA-noProx/F,"CA-ALCE global, fixed anchor with proximal loss removed",global,FULL43
+CAAA_GLOBAL_FULL_NO_AUX,CA-noAux/F,"CA-ALCE global, fixed anchor with auxiliary loss removed",global,FULL43
+CAAA_GLOBAL_FULL_NO_EMBEDDING,CA-noEmb/F,"CA-ALCE global, fixed anchor with climate embedding removed",global,FULL43
+CAAA_GLOBAL_CORE_CLIMATE_FREE,CA-G/C0,"CA-ALCE global, CORE14 with all climate pathways removed",global,CORE14 climate-free control
+GRAPH_ENRICHED_PERSONAL_FULL,GR-E/F,ClimateGraph enriched personal,personal,FULL43
+GRAPH_ORIGINAL_PERSONAL_FULL,GR-O/F,ClimateGraph original personal,personal,FULL43
+GRAPH_UNIFORM_PERSONAL_FULL,GR-U/F,ClimateGraph uniform personal,personal,FULL43
+CAAA_GLOBAL_LATENCY_LAG1,CA-G/L1,"CA-ALCE global, matched one additional month lag",global,FULL43 matched latency cohort
+CAAA_GLOBAL_LATENCY_REFERENCE,CA-G/L0,"CA-ALCE global, matched reference latency",global,FULL43 matched latency cohort
+FEDAVG_GLOBAL_LATENCY_LAG1,FA-G/L1,"FedAvg global, matched one additional month lag",global,FULL43 matched latency cohort
+FEDAVG_GLOBAL_LATENCY_REFERENCE,FA-G/L0,"FedAvg global, matched reference latency",global,FULL43 matched latency cohort
+FEDPROX_GLOBAL_LATENCY_LAG1,FP-G/L1,"FedProx global, matched one additional month lag",global,FULL43 matched latency cohort
+FEDPROX_GLOBAL_LATENCY_REFERENCE,FP-G/L0,"FedProx global, matched reference latency",global,FULL43 matched latency cohort
+ROUTER_CORE_robust_convex,R-C/Rob,"CORE router, robust convex",named classical router,CORE14
+ROUTER_CORE_validation_best,R-C/Best,"CORE router, validation best",named classical router,CORE14
+ROUTER_CORE_equal_weight,R-C/Eq,"CORE router, equal weight",named classical router,CORE14
+ROUTER_CORE_convex,R-C/Cvx,"CORE router, convex",named classical router,CORE14
+ROUTER_CORE_temporal_OOF_Ridge_stack,R-C/OOF,"CORE router, temporal OOF Ridge stack",named classical router,CORE14
+ROUTER_FULL_robust_convex,R-F/Rob,"FULL router, robust convex",named classical router,FULL43
+ROUTER_FULL_validation_best,R-F/Best,"FULL router, validation best",named classical router,FULL43
+ROUTER_FULL_equal_weight,R-F/Eq,"FULL router, equal weight",named classical router,FULL43
+ROUTER_FULL_convex,R-F/Cvx,"FULL router, convex",named classical router,FULL43
+ROUTER_FULL_temporal_OOF_Ridge_stack,R-F/OOF,"FULL router, temporal OOF Ridge stack",named classical router,FULL43
+CENTRAL_GLOBAL_FULL,CE-G/F,"Central neural global, FULL43",global,FULL43
+raw_pooled_ET_FULL_latest,ET-raw/F,ExtraTrees raw pooled,pooled classical,FULL43
+local_ET_FULL_latest,ET-local/F,ExtraTrees local,local,FULL43
+client_normalized_pooled_ET_FULL_latest,ET-norm/F,ExtraTrees client-normalized pooled,pooled classical,FULL43

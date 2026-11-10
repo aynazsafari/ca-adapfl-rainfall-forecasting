@@ -1,0 +1,10 @@
+{
+  "source": "ERA5Land",
+  "path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\ee_rebuild\\completed_raw\\CAAdapFL_ERA5Land_completed.csv",
+  "bytes": 984186,
+  "sha256": "7d8376900da83886d4660b8667737f72ebcf61f8dbdfe9ac82a8fb741b614a4d",
+  "retrieved_utc": "2026-10-07T23:13:34.308037+00:00",
+  "download_seconds": 1.8446041999850422,
+  "content_type": "text/csv; charset=utf-8",
+  "origin": "Direct authorized EarthEngine publicsource computed table; DriveUI downloadHTTPfailed"
+}

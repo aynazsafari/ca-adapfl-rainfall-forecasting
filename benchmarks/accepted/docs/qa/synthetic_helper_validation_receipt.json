@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "label": "SYNTHETIC_HELPER_VALIDATION_ONLY",
+  "tests_run": 12,
+  "actual_study_files_or_evaluation_data_read": false,
+  "training_or_model_construction": false,
+  "checks": [
+    "adaptive [.3mu,mu] bound and incorrect-step rejection",
+    "synthetic cost schema for seven neural methods and matched298 cohort",
+    {
+      "name": "96x5x5 paired PCG64 all6000 draws/CI/perseed",
+      "max_abs_difference": 0
+    },
+    "undefined zero/constant cases and raw negative forecast",
+    "exact256 sign enumeration and closed-form Holm",
+    "CSV int/float equivalence accepted; changed numeric value/key rejected",
+    "strict q80 and >=.5 probability boundaries",
+    "closed-form regression/bias/KGE",
+    "direct current evaluator exported metric/PR schema",
+    "static current runner/export and adaptive/graph wire schema",
+    "end-to-end synthetic exported metric/PR/negative/main-vs-latency schemas",
+    "tied-score PR/AP/AUC and no-event undefined case"
+  ],
+  "audit_only_repairs": [
+    "Corrected adaptive CAAA proximity audit bound from incorrect mu lower bound to declared [.3mu,mu].",
+    "Matched latency CSV values use keyed numeric comparison, accepting equivalent inferred integer/float dtypes and rejecting changed values/schema."
+  ],
+  "scientific_source_sha256": "a70b2771257be53661ef6d2b0b583fd17efabd289d24fada477de9f5147966c4",
+  "helper_sha256": {
+    "audit_completed_run.py": "2bfa0e47cc656af7043057cd115e827786f6a478e7d207aefe8730027d5b80f0",
+    "metric_reference.py": "50629d02c571aa34cc71838df72fbd28c7d08da690dddff51dc03c1c8dd7ea26",
+    "uncertainty_reference.py": "106538b0c85df83b99c8168df1669c1417890187022795d9ced039bde2af65be",
+    "fit_cost_reference.py": "cd688cd0a656061062b0f50f7f2490b894ef9098961e4ea3fd145765e533def8"
+  },
+  "elapsed_seconds": 3.2655765999807045,
+  "failures": []
+}

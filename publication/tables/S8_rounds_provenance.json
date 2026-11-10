@@ -1,0 +1,27 @@
+{
+  "id": "S8_rounds",
+  "role": "saved_numeric_evidence",
+  "rows": 2160,
+  "columns": [
+    "stage",
+    "job_sha256",
+    "identity",
+    "round",
+    "validation_macro_R2",
+    "selected_candidate",
+    "selected_checkpoint"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2/source_data/06_validation_rounds_ALL.csv": {
+      "sha256": "2e3bee766fd7ff11ce84687208ec18ac6e87a28fd5d43298778e08670e968b0c",
+      "rows": 2160
+    }
+  },
+  "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+  "files_sha256": {
+    "S8_rounds.csv": "4881b93c8965c4a5697fc3687491f20c24db50cd520257e6f902038f9f5a2d13"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

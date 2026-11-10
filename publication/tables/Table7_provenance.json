@@ -1,0 +1,35 @@
+{
+  "id": "Table7",
+  "role": "saved_numeric_evidence",
+  "rows": 4,
+  "columns": [
+    "model_a",
+    "model_b",
+    "delta_R2",
+    "R2_CI95_low",
+    "R2_CI95_high",
+    "delta_RMSE_mm",
+    "RMSE_CI95_low",
+    "RMSE_CI95_high",
+    "Holm_p_31"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv": {
+      "sha256": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577",
+      "rows": 186
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/block_sign_randomization_Holm.json": {
+      "sha256": "7a1c7094da42b57ced0ed9ecd066c55c5fbc538fc02d1e14c9f3f806749e2a1e"
+    }
+  },
+  "formula_or_selector": "Four fixed A-minus-B pairs, block12 marginal percentile intervals and retained Holm31 annual sign enumeration; no resampling rerun.",
+  "files_sha256": {
+    "Table7.csv": "f3c37590bb21595631c83a6e606bdd0a36112a4ab89e841251f86e8f830bd317",
+    "Table7_display.csv": "9810e97ade1acfc3f31cc98501fbf6c7ce329706deecc561004115b573c1a21d"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 28,
+    "discrepancies": []
+  }
+}

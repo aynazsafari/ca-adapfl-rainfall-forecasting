@@ -1,0 +1,314 @@
+{
+  "status": "PASS",
+  "evaluation_labels_or_scores_read": false,
+  "training_or_array_reads": false,
+  "audit_scope": "First completed real seed42 FULL FedAvg LR fits; frozen protocol, checksums, chronology, training arithmetic, communication, checkpoint selection and outer-validation arithmetic only.",
+  "findings": [],
+  "run_sha256": "0ab0eae92b79d1d8299e1c49ddfcb53b9e1c8cf32ff52c2eab0f0de460a39e53",
+  "runtime_environment": {
+    "operating_system": {
+      "architecture": "AMD64",
+      "release": "11",
+      "system": "Windows",
+      "version": "10.0.26200"
+    },
+    "packages": {
+      "joblib": {
+        "distribution_version": "1.6.0",
+        "loaded_version": "1.6.0"
+      },
+      "numpy": {
+        "distribution_version": "2.3.5",
+        "loaded_version": "2.3.5"
+      },
+      "pandas": {
+        "distribution_version": "3.0.1",
+        "loaded_version": "3.0.1"
+      },
+      "scikit-learn": {
+        "distribution_version": "1.9.1",
+        "loaded_version": "1.9.1"
+      },
+      "scipy": {
+        "distribution_version": "1.18.1",
+        "loaded_version": "1.18.1"
+      },
+      "threadpoolctl": {
+        "distribution_version": "3.7.0",
+        "loaded_version": "3.7.0"
+      },
+      "torch": {
+        "distribution_version": "2.14.1",
+        "loaded_version": "2.14.1+cpu"
+      }
+    },
+    "python": {
+      "compiler": "MSC v.1944 64 bit (AMD64)",
+      "implementation": "CPython",
+      "version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "word_bits": 64
+    },
+    "schema": "scientific_runtime_v1",
+    "torch_build": {
+      "compiled_config": "PyTorch built with:\n  - C++ Version: 202002\n  - MSVC 194234444\n  - Intel(R) oneAPI Math Kernel Library Version 2026.1-Product Build 20260612 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.12.0 (Git Hash 80afa71049cd69a3df32adcccb623b12cd7baa22)\n  - OpenMP 2019\n  - LAPACK is enabled (usually provided by MKL)\n  - CPU capability usage: AVX2\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=5c4886908584029761b579af026dcfb627c84070, CUDA_FLAGS= -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS -Xcompiler /Zc:__cplusplus -Xcompiler /Zc:preprocessor -Xcompiler /w -w -Xcompiler /FS -Xfatbin -compress-all  -Xcompiler=/wd4819,/wd4503,/wd4190,/wd4244,/wd4251,/wd4275,/wd4522 -Wno-deprecated-gpu-targets --expt-extended-lambda -DCUB_WRAPPED_NAMESPACE=at_cuda_detail -DDISABLE_CUSPARSE_DEPRECATED -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__, CXX_COMPILER=C:/actions-runner/_work/pytorch/pytorch/.ci/pytorch/windows/tmp_bin/sccache-cl.exe, CXX_FLAGS=/DWIN32 /D_WINDOWS /EHsc /Zc:__cplusplus /bigobj /FS /utf-8 -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DSYMBOLICATE_MOBILE_DEBUG_HANDLE /wd4624 /wd4068 /wd4067 /wd4267 /wd4661 /wd4717 /wd4244 /wd4804 /wd4273, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.14.1, USE_CUDA=0, USE_CUDNN=OFF, USE_CUSPARSELT=OFF, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_HIPSPARSELT=OFF, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=OFF, USE_NNPACK=OFF, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n",
+      "compiled_config_sha256": "a29c96e46c8d9375db30335ca82560abddfa6ce33cf55c1440eca5d188898eb1",
+      "cuda": null,
+      "debug": false,
+      "git_version": "5c4886908584029761b579af026dcfb627c84070",
+      "hip": null
+    }
+  },
+  "audit_program_sha256": "34cc8ae48a045ba6cf48fa39fca70ce85be504e99d520998b87628caced37ce6",
+  "first_completed_job": "2977a1228f9f07b55320341dcc9e7c5f1d9355d7037694834ce9057b27be5c74",
+  "fits": [
+    {
+      "job_sha256": "2977a1228f9f07b55320341dcc9e7c5f1d9355d7037694834ce9057b27be5c74",
+      "fit_directory": "outputs/03_benchmark/caadapfl_benchmark/runs/revision_v1/fits/2977a1228f9f07b5",
+      "config": {
+        "adaptive_prox": true,
+        "alpha": 0.3,
+        "attention_hidden": 32,
+        "aux_weight": 0.3,
+        "batch_size": 32,
+        "beta": 0.3,
+        "cpu_threads": 2,
+        "embedding": 16,
+        "gamma": 0.4,
+        "grad_clip": 5.0,
+        "graph_name": null,
+        "head_dropout": 0.3,
+        "hidden": 48,
+        "layers": 2,
+        "local_epochs": 3,
+        "lr": 0.001,
+        "method": "fedavg",
+        "momentum": 0.0,
+        "monitor_end": "2010-11-01",
+        "monitor_start": "2008-01-01",
+        "optimizer": "adam",
+        "primary_identity": "global",
+        "prox_mu": 0.01,
+        "recurrent_dropout": 0.2,
+        "rounds": 60,
+        "seed": 42,
+        "state_checkpoint_interval": 10,
+        "train_end": "2007-11-01",
+        "use_aux": true,
+        "use_climate": true,
+        "use_embedding": true,
+        "use_performance": true,
+        "use_prox": true,
+        "validation_end": "2016-11-01",
+        "validation_start": "2011-01-01"
+      },
+      "rounds": 60,
+      "per_client_roles": {
+        "train": 299,
+        "monitor": 35,
+        "validation": 71
+      },
+      "optimizer_updates": 9000,
+      "training_examples_presented": 269100,
+      "selected_rounds": {
+        "global": 18,
+        "personal": 13
+      },
+      "validation_macro_r2_recomputed": {
+        "global": 0.7399188451089576,
+        "personal": 0.8245204061807362
+      },
+      "validation_per_client_r2_recomputed": {
+        "global": {
+          "Client1_NW_Arid": 0.7774090755581831,
+          "Client2_Indo_Gangetic": 0.8332146224577957,
+          "Client3_NE_Himalaya": 0.8395905884594171,
+          "Client4_South_Peninsular": 0.37219546423987415,
+          "Client5_Central_India": 0.8771844748295174
+        },
+        "personal": {
+          "Client1_NW_Arid": 0.8034088116162598,
+          "Client2_Indo_Gangetic": 0.836247904834297,
+          "Client3_NE_Himalaya": 0.918784400115009,
+          "Client4_South_Peninsular": 0.6617248877003934,
+          "Client5_Central_India": 0.9024360266377223
+        }
+      },
+      "checkpoint_curve_macro_r2": {
+        "global": 0.739918841946784,
+        "personal": 0.8245204066729277
+      },
+      "raw_float64_csv_minus_float32_checkpoint_r2": {
+        "global": 3.162173523030276e-09,
+        "personal": -4.921915097710894e-10
+      },
+      "prediction_keys": 710,
+      "parameter_payload_bytes": 436808,
+      "message_count": 1810,
+      "message_types": {
+        "initial_model": 5,
+        "train_count": 5,
+        "global_reference": 300,
+        "model_update": 300,
+        "outer_validation_metrics_global": 300,
+        "inner_monitor_diagnostic_metrics_global": 300,
+        "outer_validation_metrics_personal": 300,
+        "inner_monitor_diagnostic_metrics_personal": 300
+      },
+      "message_bytes": {
+        "uplink": 131061640,
+        "downlink": 133226440
+      },
+      "input_scaler_setup_bytes": 6920,
+      "target_inverse_summary_bytes": 80,
+      "checkpoint_archive_integrity": "PASS without tensor deserialization or model loading",
+      "artifact_sha256": {
+        "model\\curves.csv": "fbb6ad61668dc717af0ea78bce7cf34e8631cc2e42c2e5595e04ec08d7b23507",
+        "model\\curves.json": "47843581ff5f1673084fe1fbe99fd6bcc23c995e75d14d72a1367a29535394f4",
+        "model\\local_steps.csv": "f8622e9d9e4a2f049422f378526ec9a7efda9da712aebf8ca619466332980aea",
+        "model\\local_steps.json": "681a4c73b7f9b6faab7d911d47e30dee481af7dc63b7d58e640c1e62d8142127",
+        "model\\manifest.json": "5e20a90093878108ea08d384aef39da62b80a99b2bf232b6000231c3388f73f4",
+        "model\\messages.csv": "6b9d221e10bd5105a5473c9262f5830864bd7a258546bac94839b8951421b0b0",
+        "model\\messages.json": "6fe20d7f9c5457b79e9fed8836fd60430018f9884c0724d2128ac94bf51278fe",
+        "model\\round_states.pt": "2d6ca73a5f1347a4775a65dea8d3cc49026938f202c0c8fb542099d1e5783faf",
+        "model\\selected_states.pt": "70c503cb869a95d821d807118ebc760a248311e64d6e7b2442c2ce49b137fbe6",
+        "setup_ledger.json": "3a8db7096fdba1dd1756b01d274e7dec06683724831eb463e7dc7acd0d0401e7",
+        "validation_predictions.csv": "a5f7ed66e49275865e11b4e27be57a8173809e1ee32b9594fb241fcf356f4450"
+      },
+      "elapsed_wall_seconds": 83.7989007999422,
+      "worker_process_cpu_seconds": 163.34375,
+      "evaluation_labels_accessed": false
+    },
+    {
+      "job_sha256": "81086f7710cfb9e31e4b5f0b4cdbebe0df86a3927e914b701e095d25e08fdaf2",
+      "fit_directory": "outputs/03_benchmark/caadapfl_benchmark/runs/revision_v1/fits/81086f7710cfb9e3",
+      "config": {
+        "adaptive_prox": true,
+        "alpha": 0.3,
+        "attention_hidden": 32,
+        "aux_weight": 0.3,
+        "batch_size": 32,
+        "beta": 0.3,
+        "cpu_threads": 2,
+        "embedding": 16,
+        "gamma": 0.4,
+        "grad_clip": 5.0,
+        "graph_name": null,
+        "head_dropout": 0.3,
+        "hidden": 48,
+        "layers": 2,
+        "local_epochs": 3,
+        "lr": 0.003,
+        "method": "fedavg",
+        "momentum": 0.0,
+        "monitor_end": "2010-11-01",
+        "monitor_start": "2008-01-01",
+        "optimizer": "adam",
+        "primary_identity": "global",
+        "prox_mu": 0.01,
+        "recurrent_dropout": 0.2,
+        "rounds": 60,
+        "seed": 42,
+        "state_checkpoint_interval": 10,
+        "train_end": "2007-11-01",
+        "use_aux": true,
+        "use_climate": true,
+        "use_embedding": true,
+        "use_performance": true,
+        "use_prox": true,
+        "validation_end": "2016-11-01",
+        "validation_start": "2011-01-01"
+      },
+      "rounds": 60,
+      "per_client_roles": {
+        "train": 299,
+        "monitor": 35,
+        "validation": 71
+      },
+      "optimizer_updates": 9000,
+      "training_examples_presented": 269100,
+      "selected_rounds": {
+        "global": 26,
+        "personal": 13
+      },
+      "validation_macro_r2_recomputed": {
+        "global": 0.7276750003512248,
+        "personal": 0.8115892040938707
+      },
+      "validation_per_client_r2_recomputed": {
+        "global": {
+          "Client1_NW_Arid": 0.7489852548858338,
+          "Client2_Indo_Gangetic": 0.8545636228144583,
+          "Client3_NE_Himalaya": 0.8497174582175585,
+          "Client4_South_Peninsular": 0.30680819195892084,
+          "Client5_Central_India": 0.8783004738793527
+        },
+        "personal": {
+          "Client1_NW_Arid": 0.7643404684578557,
+          "Client2_Indo_Gangetic": 0.8585379379851823,
+          "Client3_NE_Himalaya": 0.9187872262541665,
+          "Client4_South_Peninsular": 0.6186095870977066,
+          "Client5_Central_India": 0.8976708006744428
+        }
+      },
+      "checkpoint_curve_macro_r2": {
+        "global": 0.7276749924566621,
+        "personal": 0.8115891988188867
+      },
+      "raw_float64_csv_minus_float32_checkpoint_r2": {
+        "global": 7.894562670252014e-09,
+        "personal": 5.2749840051546926e-09
+      },
+      "prediction_keys": 710,
+      "parameter_payload_bytes": 436808,
+      "message_count": 1810,
+      "message_types": {
+        "initial_model": 5,
+        "train_count": 5,
+        "global_reference": 300,
+        "model_update": 300,
+        "outer_validation_metrics_global": 300,
+        "inner_monitor_diagnostic_metrics_global": 300,
+        "outer_validation_metrics_personal": 300,
+        "inner_monitor_diagnostic_metrics_personal": 300
+      },
+      "message_bytes": {
+        "uplink": 131061640,
+        "downlink": 133226440
+      },
+      "input_scaler_setup_bytes": 6920,
+      "target_inverse_summary_bytes": 80,
+      "checkpoint_archive_integrity": "PASS without tensor deserialization or model loading",
+      "artifact_sha256": {
+        "model\\curves.csv": "a91b162e87c1b568d47b6e34b7d1a2837c875a5be0fa55eeecbcef88b1168ad8",
+        "model\\curves.json": "8b568b958e6592041b9c44a78e5697d11f9839913a149a841da306d69a832869",
+        "model\\local_steps.csv": "b487eee61c2ae2792c551998942225a9092b56f6f6acd299d10ea35aa4592959",
+        "model\\local_steps.json": "5f0a763d0f74ee5801af6d141a1fed11df2c6434431a1f265a12b77948367c1d",
+        "model\\manifest.json": "09230c5cd7daa63bdd035b8c50ba2b591556afba4132b7bf7743e31f23522d38",
+        "model\\messages.csv": "6b9d221e10bd5105a5473c9262f5830864bd7a258546bac94839b8951421b0b0",
+        "model\\messages.json": "6fe20d7f9c5457b79e9fed8836fd60430018f9884c0724d2128ac94bf51278fe",
+        "model\\round_states.pt": "293ea89a03fc79ea4725369c02669572beb393f4486f1c5877631ff54b897ef2",
+        "model\\selected_states.pt": "41aa09ffb7b6d3114a8f9570f5e79d6c3f26905d3def6240cbcd46eba1a8ff72",
+        "setup_ledger.json": "3a8db7096fdba1dd1756b01d274e7dec06683724831eb463e7dc7acd0d0401e7",
+        "validation_predictions.csv": "346dc3ae73f6ec5f3ed8197294b47c72d1ce1bc8102edf45ff0f7a2453221c4f"
+      },
+      "elapsed_wall_seconds": 83.89027219999116,
+      "worker_process_cpu_seconds": 163.46875,
+      "evaluation_labels_accessed": false
+    }
+  ],
+  "lr_stage": {
+    "selection_identity": "global",
+    "candidate_count": 2,
+    "selected_lr": 0.001,
+    "selected_job_sha256": "2977a1228f9f07b55320341dcc9e7c5f1d9355d7037694834ce9057b27be5c74",
+    "selected_config_sha256": "31948b136cd1f63cb32a5095127009696805508f8545f8390bf8427273c77225",
+    "selection_recomputed": true
+  },
+  "read_files_excluded": [
+    "datasets/evaluation_truth.csv",
+    "any evaluation_predictions.csv",
+    "any evaluation metrics/score output",
+    "all feature arrays"
+  ],
+  "runtime_integrity": "Installed six frozen module hashes checked; model metadata versions match frozen runtime signature through fit receipt/runtime guard."
+}

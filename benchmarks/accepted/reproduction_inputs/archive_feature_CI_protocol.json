@@ -1,0 +1,30 @@
+{
+  "CI_level": 0.95,
+  "additional_legacy_label_mapping": {
+    "CAAA_GLOBAL_CLIMATE_V2": "CAAA_GLOBAL_CLIMATE",
+    "CAAA_GLOBAL_CORE_V2": "CAAA_GLOBAL_CORE"
+  },
+  "blocks": [
+    12,
+    6,
+    24
+  ],
+  "bootstrap_seed": 731,
+  "cohort": "Same five fixed clients, five paired seeds,96 historicalevaluationmonths",
+  "created_utc": "2026-10-08T21:23:39.782758+00:00",
+  "fresh_evaluation_opened": false,
+  "multiplicity": "Unadjusted exploratory intervals; no Holm/significance claim",
+  "pairs": [
+    [
+      "CAAA_GLOBAL_CLIMATE_V2",
+      "CAAA_GLOBAL_CORE_V2"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_V2",
+      "CAAA_GLOBAL_CORE_V2"
+    ]
+  ],
+  "repetitions": 2000,
+  "source_raw_sha256": "31caf6b3dff04ce4737591d9057374470ae15844014083ed62f03b66591fd23a",
+  "status": "Separate archived exploratory diagnostic; no change to100 fit budget or36 new/31 accepted families"
+}

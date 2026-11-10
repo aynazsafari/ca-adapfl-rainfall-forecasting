@@ -1,0 +1,12 @@
+Policy,"Required
+bytes",MiB,CPU s,Wall s,"VAL3
+bytes","Audit
+bytes"
+Local / own,0,0.0000,92.48,47.22,280,4840
+Local / shared,6920,0.0066,94.21,47.99,280,4840
+FedAvg / own K1,41938640,39.9958,91.76,46.94,560,9680
+FedAvg / shared K1,41945560,40.0024,93.27,47.50,560,9680
+FedAvg / shared K5,8671960,8.2702,96.14,48.92,560,9680
+FedAvg / shared K20,2433160,2.3204,96.78,49.26,560,9680
+CA-AdapFL / shared K1,41945560,40.0024,115.62,58.95,560,9680
+Central pooled / shared,6613680,6.3073,82.33,41.97,280,4840

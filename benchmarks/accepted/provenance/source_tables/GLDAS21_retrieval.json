@@ -1,0 +1,10 @@
+{
+  "source": "GLDAS21",
+  "path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\ee_rebuild\\completed_raw\\CAAdapFL_GLDAS21_completed.csv",
+  "bytes": 584210,
+  "sha256": "95d5c019379ce509a7cda08c945e866544ceab5b62a74e99e809a2fc86bea86e",
+  "retrieved_utc": "2026-10-07T23:04:17.048989+00:00",
+  "download_seconds": 1.7376570999622345,
+  "content_type": "text/csv; charset=utf-8",
+  "origin": "Direct authorized EarthEngine publicsource computed table; DriveUI downloadHTTPfailed"
+}

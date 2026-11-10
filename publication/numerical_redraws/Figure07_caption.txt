@@ -1,0 +1,3 @@
+Observed versus forecast regional monthly rainfall, 2017–2024. Each panel shows all 480 CAAA global FULL seed-specific forecasts (96 dates × five seeds), and the 96 distinct TRAIN monthly climatology forecasts. Dashed line: 1:1; dotted vertical line: local gradient-TRAIN q80. Panels have separate scales. Negative forecasts are retained. Repeated seeds add forecasts, not independent observations.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

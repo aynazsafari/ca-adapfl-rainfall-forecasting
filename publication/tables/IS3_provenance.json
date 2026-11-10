@@ -1,0 +1,27 @@
+{
+  "id": "IS3",
+  "role": "saved_numeric_evidence",
+  "rows": 8,
+  "columns": [
+    "model",
+    "fixed60_global_local_RMSE_mm",
+    "VAL_global_local_RMSE_mm",
+    "VAL_personal_RMSE_mm"
+  ],
+  "sources": {
+    "benchmarks/sharing/evaluation/model_summary_ALL_endpoints.csv": {
+      "sha256": "ca75ed2e9e967cc1b3be154c4dd482345a3fc540ece1ac3b90c6292bc1bf72cf",
+      "rows": 27
+    }
+  },
+  "formula_or_selector": "Same fitted policies, separately declared fixed60/global/local, common VAL20/40/60 global/local and personal diagnostic paths; no endpoint selection by EVAL.",
+  "files_sha256": {
+    "IS3.csv": "7a26d6356ceb10aec3cc9e9e5e96c920735eec56d638d44c3b15f3d5abefc899",
+    "IS3_display.csv": "490e69c1d45ca528cdbc2bcffdc574386b17b14fb8164e31bdb10f32fbda93f5"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 21,
+    "discrepancies": []
+  }
+}

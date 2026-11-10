@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "source_type": "Official NASA POWER public AWS Analysis Ready Data monthly native grid, full study-region selected cells",
+  "sources": {
+    "merra2": {
+      "root_url": "https://nasa-power.s3.us-west-2.amazonaws.com/merra2/temporal/power_merra2_monthly_temporal_lst.zarr",
+      "requested_variables": [
+        "T2M",
+        "RH2M",
+        "WS10M",
+        "PRECTOTCORR"
+      ],
+      "official_global_attributes": {
+        "acknowledgement": "The Prediction Of Worldwide Energy Resources (POWER) Project is funded through the NASA Applied Sciences Program within the Earth Science Division of the Science Mission Directorate.",
+        "comment": "POWER data version 10.0.0 uses the source data resolution.",
+        "conventions": "CF-1.8, ACDD-1.3",
+        "creator_email": "bradley.macpherson@nasa.gov",
+        "creator_name": "Bradley Macpherson",
+        "derived_from": "The data products are derived from data partners and the POWER science team.",
+        "derived_info": "The data products are derived from data partners.",
+        "derived_link": "https://power.larc.nasa.gov",
+        "history": "The POWER project was established in the early 2000s to support distribution of NASA research products.",
+        "institution": "NASA Langley Research Center (LaRC)",
+        "keywords": "Earth Science",
+        "keywords_vocabulary": "NASA Global Change Master Directory (GCMD) Science Keyword Version 9.1.5",
+        "naming_authority": "gov.nasa.larc.power",
+        "processing_level": "4",
+        "project": "Prediction Of Worldwide Energy Resource (POWER)",
+        "publisher_email": "paul.w.stackhouse@nasa.gov",
+        "publisher_name": "Paul Stackhouse",
+        "references": "https://power.larc.nasa.gov",
+        "source": "Prediction Of Worldwide Energy Resource (POWER)",
+        "standard_name_vocabulary": "CF Standard Name Table v72",
+        "summary": "The POWER project provides solar and meteorological datasets from NASA research for support of renewable energy, building energy efficiency, agricultural, and hydrological needs.",
+        "version": "POWER Version 10.0.0",
+        "date_created": "2026-09-14T16:01:07Z",
+        "geospatial_bounds": "POLYGON((-180.0 90.0, -180.0 -90.0, 180.0 -90.0, 180.0 90.0, -180.0 90.0))",
+        "geospatial_lat_max": 90.0,
+        "geospatial_lat_min": -90.0,
+        "geospatial_lat_resolution": 0.5,
+        "geospatial_lon_max": 179.375,
+        "geospatial_lon_min": -180.0,
+        "geospatial_lon_resolution": 0.625,
+        "time_coverage_duration": "P1ME",
+        "time_coverage_end": "2029-12-31T00:00:00",
+        "time_coverage_resolution": "P1ME",
+        "time_coverage_start": "1981-01-01T00:00:00",
+        "time_standard": "Local Solar Time (LST)",
+        "title": "POWER Local Solar Time (LST) Time Series",
+        "id": "power_merra2_monthly_temporal_lst.zarr"
+      },
+      "official_variable_attributes": {
+        "T2M": {
+          "long_name": "Temperature at 2 Meters",
+          "standard_name": "Temperature_at_2_Meters",
+          "definition": "The average air (dry bulb) temperature at 2 meters above the surface of the earth.",
+          "base": "float32",
+          "units": "C",
+          "valid_min": -125.0,
+          "valid_max": 80.0,
+          "significant_digits": 2,
+          "cell_methods": "time: mean",
+          "status": "official",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        },
+        "RH2M": {
+          "long_name": "Relative Humidity at 2 Meters",
+          "standard_name": "Relative_Humidity_at_2_Meters",
+          "definition": "The ratio of vapor pressure to the saturation vapor pressure with respect to a plane surface of pure water, expressed in percent.",
+          "base": "float32",
+          "units": "%",
+          "valid_min": 0.0,
+          "valid_max": 100.0,
+          "significant_digits": 2,
+          "cell_methods": "time: mean",
+          "status": "official",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        },
+        "WS10M": {
+          "long_name": "Wind Speed at 10 Meters",
+          "standard_name": "Wind_Speed_at_10_Meters",
+          "definition": "The average of wind speed at 10 meters above the surface of the earth.",
+          "base": "float32",
+          "units": "m/s",
+          "valid_min": 0.0,
+          "valid_max": 50.0,
+          "significant_digits": 2,
+          "cell_methods": "time: mean",
+          "status": "official",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        },
+        "PRECTOTCORR": {
+          "long_name": "Precipitation Corrected",
+          "standard_name": "Precipitation_Corrected",
+          "definition": "The average MERRA-2 bias corrected total precipitation at the surface of the earth.",
+          "base": "float32",
+          "units": "mm/day",
+          "valid_min": 0.0,
+          "valid_max": 12000.0,
+          "significant_digits": 2,
+          "cell_methods": "time: mean",
+          "status": "official",
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ]
+        }
+      }
+    },
+    "srb": {
+      "root_url": "https://nasa-power.s3.us-west-2.amazonaws.com/srb/temporal/power_srb_monthly_temporal_lst.zarr",
+      "requested_variables": [
+        "ALLSKY_SFC_SW_DWN"
+      ],
+      "official_global_attributes": {
+        "acknowledgement": "The Prediction of Worldwide Energy Resources (POWER) Project is funded through the NASA Applied Sciences Program within the Earth Science Division of the Science Mission Directorate.",
+        "comment": "POWER data version 10.0.0 uses the source data resolution.",
+        "conventions": "CF-1.8, ACDD-1.3",
+        "creator_email": "bradley.macpherson@nasa.gov",
+        "creator_name": "Bradley Macpherson",
+        "date_created": "2024-06-05T20:28:37Z",
+        "derived_from": "The data products are derived from data partners and the POWER science team.",
+        "derived_info": "The data products are derived from data partners.",
+        "derived_link": "https://power.larc.nasa.gov",
+        "geospatial_bounds": "POLYGON((-180.0 90.0, -180.0 -90.0, 180.0 -90.0, 180.0 90.0, -180.0 90.0))",
+        "geospatial_lat_max": 89.5,
+        "geospatial_lat_min": -89.5,
+        "geospatial_lat_resolution": 1,
+        "geospatial_lon_max": 179.5,
+        "geospatial_lon_min": -179.5,
+        "geospatial_lon_resolution": 1,
+        "history": "The POWER project was established in the early 2000s to support distribution of NASA research products.",
+        "id": "power_srb_monthly_temporal_lst.zarr",
+        "institution": "NASA Langley Research Center (LaRC)",
+        "keywords": "Earth Science",
+        "keywords_vocabulary": "NASA Global Change Master Directory (GCMD) Science Keyword Version 9.1.5",
+        "naming_authority": "gov.nasa.larc.power",
+        "processing_level": "4",
+        "project": "Prediction Of Worldwide Energy Resource (POWER)",
+        "publisher_email": "paul.w.stackhouse@nasa.gov",
+        "publisher_name": "Paul Stackhouse",
+        "references": "https://power.larc.nasa.gov",
+        "source": "Prediction Of Worldwide Energy Resource (POWER)",
+        "standard_name_vocabulary": "CF Standard Name Table v72",
+        "summary": "The POWER project provides solar and meteorological datasets from NASA research for support of renewable energy, building energy efficiency, and agricultural needs.",
+        "time_coverage_duration": "P1ME",
+        "time_coverage_end": "2029-12-31T00:00:00",
+        "time_coverage_resolution": "P1ME",
+        "time_coverage_start": "1984-01-01T00:00:00",
+        "time_standard": "Local Solar Time (LST)",
+        "title": "POWER Local Solar Time (LST) Time Series",
+        "version": "POWER Version 10.0.0"
+      },
+      "official_variable_attributes": {
+        "ALLSKY_SFC_SW_DWN": {
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "base": "float32",
+          "cell_methods": "time: mean",
+          "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+          "long_name": "All Sky Surface Shortwave Downward Irradiance",
+          "significant_digits": 2,
+          "standard_name": "All_Sky_Surface_Shortwave_Downward_Irradiance",
+          "status": "official",
+          "units": "W m-2",
+          "valid_max": 1500.0,
+          "valid_min": 0.0
+        }
+      }
+    },
+    "syn1deg": {
+      "root_url": "https://nasa-power.s3.us-west-2.amazonaws.com/syn1deg/temporal/power_syn1deg_monthly_temporal_lst.zarr",
+      "requested_variables": [
+        "ALLSKY_SFC_SW_DWN"
+      ],
+      "official_global_attributes": {
+        "acknowledgement": "The Prediction of Worldwide Energy Resources (POWER) Project is funded through the NASA Applied Sciences Program within the Earth Science Division of the Science Mission Directorate.",
+        "comment": "POWER data version 10.0.0 uses the source data resolution.",
+        "conventions": "CF-1.8, ACDD-1.3",
+        "creator_email": "bradley.macpherson@nasa.gov",
+        "creator_name": "Bradley Macpherson",
+        "date_created": "2024-08-16T13:22:42Z",
+        "derived_from": "The data products are derived from data partners and the POWER science team.",
+        "derived_info": "The data products are derived from data partners.",
+        "derived_link": "https://power.larc.nasa.gov",
+        "geospatial_bounds": "POLYGON((-180.0 90.0, -180.0 -90.0, 180.0 -90.0, 180.0 90.0, -180.0 90.0))",
+        "geospatial_lat_max": 89.5,
+        "geospatial_lat_min": -89.5,
+        "geospatial_lat_resolution": 1,
+        "geospatial_lon_max": 179.5,
+        "geospatial_lon_min": -179.5,
+        "geospatial_lon_resolution": 1,
+        "history": "The POWER project was established in the early 2000s to support distribution of NASA research products.",
+        "id": "power_syn1deg_monthly_temporal_lst.zarr",
+        "institution": "NASA Langley Research Center (LaRC)",
+        "keywords": "Earth Science",
+        "keywords_vocabulary": "NASA Global Change Master Directory (GCMD) Science Keyword Version 9.1.5",
+        "naming_authority": "gov.nasa.larc.power",
+        "processing_level": "4",
+        "project": "Prediction Of Worldwide Energy Resource (POWER)",
+        "publisher_email": "paul.w.stackhouse@nasa.gov",
+        "publisher_name": "Paul Stackhouse",
+        "references": "https://power.larc.nasa.gov",
+        "source": "Prediction Of Worldwide Energy Resource (POWER)",
+        "standard_name_vocabulary": "CF Standard Name Table v72",
+        "summary": "The POWER project provides solar and meteorological datasets from NASA research for support of renewable energy, building energy efficiency, and agricultural needs.",
+        "time_coverage_duration": "P1ME",
+        "time_coverage_end": "2029-12-31T00:00:00",
+        "time_coverage_resolution": "P1ME",
+        "time_coverage_start": "2001-01-01T00:00:00",
+        "time_standard": "Local Solar Time (LST)",
+        "title": "POWER Local Solar Time (LST) Time Series",
+        "version": "POWER Version 10.0.0"
+      },
+      "official_variable_attributes": {
+        "ALLSKY_SFC_SW_DWN": {
+          "_ARRAY_DIMENSIONS": [
+            "time",
+            "lat",
+            "lon"
+          ],
+          "base": "float32",
+          "cell_methods": "time: mean",
+          "definition": "The total solar irradiance incident (direct plus diffuse) on a horizontal plane at the surface of the earth under all sky conditions. An alternative term for the total solar irradiance is the \"Global Horizontal Irradiance\" or GHI.",
+          "long_name": "All Sky Surface Shortwave Downward Irradiance",
+          "significant_digits": 2,
+          "standard_name": "All_Sky_Surface_Shortwave_Downward_Irradiance",
+          "status": "official",
+          "units": "W m-2",
+          "valid_max": 1500.0,
+          "valid_min": 0.0
+        }
+      }
+    }
+  },
+  "metadata_after_checks": [
+    {
+      "source_family": "merra2",
+      "url": "https://nasa-power.s3.us-west-2.amazonaws.com/merra2/temporal/power_merra2_monthly_temporal_lst.zarr/.zmetadata",
+      "retrieved_at_utc": "2026-10-07T22:08:09.598653+00:00",
+      "sha256": "1aeecfa471350667df2e8bc1a327f3214ad3546dbc7d91088cfbf6b352359ca8",
+      "metadata_unchanged_during_retrieval": true
+    },
+    {
+      "source_family": "srb",
+      "url": "https://nasa-power.s3.us-west-2.amazonaws.com/srb/temporal/power_srb_monthly_temporal_lst.zarr/.zmetadata",
+      "retrieved_at_utc": "2026-10-07T22:08:10.688554+00:00",
+      "sha256": "9296ae59994323bfdd2ef593f2c95eb0ee35e2dd869e03c7863583a3a1b25e68",
+      "metadata_unchanged_during_retrieval": true
+    },
+    {
+      "source_family": "syn1deg",
+      "url": "https://nasa-power.s3.us-west-2.amazonaws.com/syn1deg/temporal/power_syn1deg_monthly_temporal_lst.zarr/.zmetadata",
+      "retrieved_at_utc": "2026-10-07T22:08:12.868906+00:00",
+      "sha256": "94de156140172c25f19e5875eb6201cbe2deb253f74b5651e6aa74ee1200202a",
+      "metadata_unchanged_during_retrieval": true
+    }
+  ],
+  "geometry_protocol_sha256": "9f6a2f6ce237a7178e3100b7d73f2286a77d6a55d203fd2d8dc00c15fc09b1e2",
+  "country_geometry_sha256": "4cdbe7cba953c55e4c6591b779128484c2e203ff0c3433b1826bafca95a4d090",
+  "client_boxes": {
+    "Client1_NW_Arid": [
+      22.0,
+      30.0,
+      68.0,
+      76.0
+    ],
+    "Client2_Indo_Gangetic": [
+      24.0,
+      31.0,
+      76.0,
+      88.0
+    ],
+    "Client3_NE_Himalaya": [
+      23.0,
+      29.0,
+      88.0,
+      97.5
+    ],
+    "Client4_South_Peninsular": [
+      8.0,
+      15.5,
+      75.0,
+      80.5
+    ],
+    "Client5_Central_India": [
+      18.0,
+      24.0,
+      74.0,
+      83.0
+    ]
+  },
+  "geometry_rule": "Country polygon covers native grid centers; half-open boxes; full original native-cell WGS84 quadrilateral area; overlaps retained, no resampling or point proxies",
+  "monthly_statistic": "Native time mean; PRECTOTCORR mm/day retained; no multiplication by days for feature. Solar Wm-2 converted by 86400/1000000 to MJ/m2/day.",
+  "calendar": "End-of-month source labels normalized to YYYY-MM; no annual month-13 source in monthly Zarr",
+  "source_selection": "Meteorology MERRA2 1981-2024; SRB solar 1984-2000; SYN1deg solar 2001-2024, per NASA monthly API source documentation",
+  "source_unit_conversion": {
+    "ALLSKY_SFC_SW_DWN": "W m-2 * 86400 / 1000000 = MJ m-2 day-1"
+  },
+  "minimum_coverage": 0.95,
+  "panel_rows": 2640,
+  "met_values": 10560,
+  "solar_values": 2460,
+  "solar_structural_missing": 180,
+  "old_comparison_interpretation": "Modern POWER Version 10 ARD regional means vs original API Version 2.9.4 three-point means. Differences combine upstream revisions and correct regional aggregation; no agreement-based selection.",
+  "historical_release_vintages_verified": false,
+  "supplied_files_modified": false,
+  "training_run": false,
+  "provenance_limitation": "Pinned chunk bytes and metadata from this retrieval; dynamic upstream AWS store is not an immutable release. Retrieval headers and per-object SHA256 retained."
+}

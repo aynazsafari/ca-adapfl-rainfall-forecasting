@@ -1,0 +1,12 @@
+{
+  "schema": "final_notebook_status_documentation_repair_v1",
+  "status": "PASS",
+  "parent_manifest_sha256": "c6576838ce35091417f682832cec04ccc671dd11022b07bf38e67f3464ba0fa9",
+  "path": "docs/README_FA.md",
+  "before_sha256": "02d1c11f505ea9b5f253273e09ba2651381c8ca9598d44fd1183fa886e641cbe",
+  "after_sha256": "446109ad8aa1a403757074e7680d307b145256d9015d851f1e13c2054bad6df0",
+  "before": "اجرای واقعی دفترچه پس از تکمیل نتیجه بررسی خواهد شد.",
+  "after": "دفترچهٔ خواندن نتایج ذخیره‌شده واقعاً اجرا شده است: هر ۷ سلول کد بدون خطا کامل شد و هر ۳ نمودار در وضوح اصلی پذیرفته شد. فایل inspect_results.ipynb منبع قابل اجرا و inspect_results_executed.ipynb نسخهٔ اجراشده با خروجی‌هاست؛ این اجرا آموزش یا استنتاج مدل انجام نمی‌دهد.",
+  "only_declared_sentence_changed": true,
+  "science_changed": false
+}

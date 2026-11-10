@@ -1,0 +1,27 @@
+{
+  "id": "Table5",
+  "role": "static_display_transcription",
+  "rows": 5,
+  "columns": [
+    "Configuration",
+    "Channels",
+    "TRAIN\nper client",
+    "TRAIN screen R\u00b2",
+    "Eval R\u00b2",
+    "Eval RMSE mm",
+    "Mechanism/cohort"
+  ],
+  "sources": {
+    "metadata/paper_reference.json": {
+      "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+    }
+  },
+  "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+  "files_sha256": {
+    "Table5.csv": "dd37b3f36bdfe6b3ea397c912393ff104baa72faa7752e848e27272829bd144f",
+    "Table5_display.csv": "dd37b3f36bdfe6b3ea397c912393ff104baa72faa7752e848e27272829bd144f"
+  },
+  "validation_against_displayed_paper": {
+    "status": "STATIC_TRANSCRIPTION"
+  }
+}

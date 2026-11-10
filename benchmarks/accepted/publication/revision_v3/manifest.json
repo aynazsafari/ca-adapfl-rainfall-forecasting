@@ -1,0 +1,50 @@
+{
+  "status": "BUILT_FROM_VERIFIED_EVIDENCE",
+  "created_utc": "2026-10-08T22:11:31.517689+00:00",
+  "qa_receipt_sha256": "1ff9777ab00feb2137659bb6c2d12067a4ec760be0f4864e782f7e24bb589470",
+  "raw_sha256": "1db8c2d7aa854eaba8356d02ce53dae00652be1460a90e0a0c670f2b1a4b6211",
+  "creator_runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2"
+  },
+  "figures": {
+    "Figure_S5_capacity": {
+      "description": "Top whiskers: five-seed SD, not CI. Bottom: unadjusted paired common-date12-month block CI. Labels/parameters distinguish allfive candidates. FULL12 selected on validation, not evaluation.",
+      "source_tables": [
+        "S11_development.csv",
+        "S15_new_CI_36_all_blocks.csv"
+      ]
+    },
+    "Figure_S6_active_components": {
+      "description": "Same selected parent and fixed sample-count aggregation. Embedding-off retains climate sequence channels/drivers; adaptive-off retains fixed proximal\u03bc=.1.",
+      "source_tables": [
+        "S12_components.csv",
+        "S15_new_CI_36_all_blocks.csv"
+      ]
+    },
+    "Figure_S7_output_tail": {
+      "description": "Point estimates average equal-client metrics across five seeds. No uncertainty bars implied. Nonnegative outputs and fixed TRAIN tailweight2 are evaluated for allfour methods with the common validation-selected architecture.",
+      "source_tables": [
+        "S13_output_loss.csv"
+      ]
+    }
+  },
+  "files": {
+    "all_model_summary.csv": "228235879bd90a019eae22659b0323cebdc931ba1ccea1f6edbc6b1eef6da6bc",
+    "Figure_S5_capacity.pdf": "7ac9e5ab7a79001694a5b356c1d6ce13924500fbf0e0ddad602397ff7f149934",
+    "Figure_S5_capacity.png": "d17d309cc05e9908819d3e3eb2b408025314e75483a640eab2952e3506278dd9",
+    "Figure_S6_active_components.pdf": "2be40e9668cbea796db609be329b76db6adc45fe6617c86432a1e7bfcad81b47",
+    "Figure_S6_active_components.png": "e35f79c348e988adb1d974acf893bc454aedad4e508b52d604b9d20bceeca4ac",
+    "Figure_S7_output_tail.pdf": "138797a9567367813a920b3f22ee6f931dcfad224a0dca3c91bb6bcc583287f7",
+    "Figure_S7_output_tail.png": "5ccc69f6d31e4b803463b656a6abafc62c247e49fe8d2308228551a43fa4af0f",
+    "fit_inventory_100.csv": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac",
+    "S11_development.csv": "71f7b7266d3052690523e08a4b1abfa004e3021094eee8a1e85d15e70acf1b48",
+    "S12_components.csv": "b297b15632c5866614b870762e1b806e3ac46ea960baf8f536121cce19d7076c",
+    "S13_output_loss.csv": "6c497549fd8f273ec281127e80f4c78a41e00f5486a3500a328e51d867a5dc4a",
+    "S14_delay.csv": "49abf50e8603f0589a006a6501c038474a554ee2c7bbc96f710260cf8ced0b11",
+    "S15_new_CI_36_all_blocks.csv": "72d80e58c18999801f509e230c02136661d45a6d0e8d8d74173085960a19108a",
+    "S16_archived_CI_13_all_blocks.csv": "ce0e459c89d1a7e8e0782fae50e9956ae6a3b757894162d1737061ca42ddbbab"
+  }
+}

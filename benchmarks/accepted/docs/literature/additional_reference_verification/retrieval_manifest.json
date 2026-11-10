@@ -1,0 +1,145 @@
+[
+  {
+    "filename": "raw/barnston_crossref.json",
+    "requested_url": "https://api.crossref.org/works/10.1080%2F07055900.1997.9649597",
+    "retrieved_utc": "2026-10-08T01:08:56.011610+00:00",
+    "status_code": 200,
+    "final_url": "https://api.crossref.org/works/10.1080%2F07055900.1997.9649597",
+    "content_type": "application/json",
+    "bytes": 13145,
+    "sha256": "2250271572bcf36a5c12ed0fd8469a4eb36cb2e6441780288df551cc391f87e9",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/ersst6_part1_crossref.json",
+    "requested_url": "https://api.crossref.org/works/10.1175%2FJCLI-D-23-0707.1",
+    "retrieved_utc": "2026-10-08T01:08:56.012594+00:00",
+    "status_code": 200,
+    "final_url": "https://api.crossref.org/works/10.1175%2FJCLI-D-23-0707.1",
+    "content_type": "application/json",
+    "bytes": 28629,
+    "sha256": "a066c73f6ff87ce4b5ef8245b4fae27b2169855dc211a2f07e20b2cc4726bbc9",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/ersst6_part2_crossref.json",
+    "requested_url": "https://api.crossref.org/works/10.1175%2FJCLI-D-24-0185.1",
+    "retrieved_utc": "2026-10-08T01:08:56.675560+00:00",
+    "status_code": 200,
+    "final_url": "https://api.crossref.org/works/10.1175%2FJCLI-D-24-0185.1",
+    "content_type": "application/json",
+    "bytes": 25517,
+    "sha256": "a16e1cf9da322a437ff479230d6fbce19bd84de22e1f36bfb0640e1bd3393c95",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/mei_v2_zhang_crossref.json",
+    "requested_url": "https://api.crossref.org/works/10.1029%2F2019GL083946",
+    "retrieved_utc": "2026-10-08T01:08:56.715813+00:00",
+    "status_code": 200,
+    "final_url": "https://api.crossref.org/works/10.1029%2F2019GL083946",
+    "content_type": "application/json",
+    "bytes": 9718,
+    "sha256": "73c534fa1aa578fb98e57bed9ecd6410669f69ec150b2ef890f50aea6ea1a88f",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/merra2_gelaro_crossref.json",
+    "requested_url": "https://api.crossref.org/works/10.1175%2FJCLI-D-16-0758.1",
+    "retrieved_utc": "2026-10-08T01:08:57.246894+00:00",
+    "status_code": 200,
+    "final_url": "https://api.crossref.org/works/10.1175%2FJCLI-D-16-0758.1",
+    "content_type": "application/json",
+    "bytes": 22396,
+    "sha256": "131e1983c59298a1fe6d6c338ecd9c4db2a29efb1fe7597d6f366fffc062ab49",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/gldas21_datacite.json",
+    "requested_url": "https://api.datacite.org/dois/10.5067/E7TYRXPJKWOQ",
+    "retrieved_utc": "2026-10-08T01:08:57.305126+00:00",
+    "status_code": 200,
+    "final_url": "https://api.datacite.org/dois/10.5067/E7TYRXPJKWOQ",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 7125,
+    "sha256": "b41b5c81cb2e751f4af3c7452240eff53d7d1085dace2a59b13ff4396ab7475c",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/gldas21_cmr.json",
+    "requested_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=GLDAS_NOAH025_3H&version=2.1",
+    "retrieved_utc": "2026-10-08T01:08:57.832146+00:00",
+    "status_code": 200,
+    "final_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=GLDAS_NOAH025_3H&version=2.1",
+    "content_type": "application/json;charset=utf-8",
+    "bytes": 27735,
+    "sha256": "fad656f40452d947b7ce4897c250d7e6ff0847683d2db13a49d598d3e39617be",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/ncei_ersst.html",
+    "requested_url": "https://www.ncei.noaa.gov/products/extended-reconstructed-sst",
+    "retrieved_utc": "2026-10-08T01:08:57.973760+00:00",
+    "status_code": 200,
+    "final_url": "https://www.ncei.noaa.gov/products/extended-reconstructed-sst",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 56609,
+    "sha256": "4d98e94853dcb318bfc44519d5a732655dd6880f517edbffdabd84e16b1e8599",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/noaa_mei_v2.html",
+    "requested_url": "https://psl.noaa.gov/enso/mei/",
+    "retrieved_utc": "2026-10-08T01:08:58.265309+00:00",
+    "status_code": 200,
+    "final_url": "https://psl.noaa.gov/enso/mei/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 49726,
+    "sha256": "5bd5025389fa7b9b2206e8b8f882f63faf380b5efc84ed6932a79c75f0e7b541",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/power_referencing.html",
+    "requested_url": "https://power.larc.nasa.gov/docs/referencing/",
+    "retrieved_utc": "2026-10-08T01:08:58.817989+00:00",
+    "status_code": 200,
+    "final_url": "https://power.larc.nasa.gov/docs/referencing/",
+    "content_type": "text/html",
+    "bytes": 18436,
+    "sha256": "97f49593dd0878b38a1d134e5c2e41df1cd192f08668d3dfa81d37fcaef2059b",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/power_acknowledgements.html",
+    "requested_url": "https://power.larc.nasa.gov/docs/acknowledgements/",
+    "retrieved_utc": "2026-10-08T01:08:59.092240+00:00",
+    "status_code": 200,
+    "final_url": "https://power.larc.nasa.gov/docs/acknowledgements/",
+    "content_type": "text/html",
+    "bytes": 16756,
+    "sha256": "eaff9ef628a9fbb2379c14a059900719da088f63e6866bece15314414d74355f",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/nasa_gmao_merra2.html",
+    "requested_url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/documentation_merra-2/",
+    "retrieved_utc": "2026-10-08T01:08:59.132350+00:00",
+    "status_code": 200,
+    "final_url": "https://gmao.gsfc.nasa.gov/gmao-products/merra-2/documentation_merra-2/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 40326,
+    "sha256": "c75375d1d83499ecc220c9d1aeae9c557523842a15ab2dc01c907158b9d0e324",
+    "verification_status": "RETRIEVED"
+  },
+  {
+    "filename": "raw/nasa_srb_acknowledgement.html",
+    "requested_url": "https://science.larc.nasa.gov/gewex-srb/data-usage-acknowledgement/",
+    "retrieved_utc": "2026-10-08T01:08:59.289640+00:00",
+    "status_code": 200,
+    "final_url": "https://science.larc.nasa.gov/gewex-srb/data-usage-acknowledgement/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 164166,
+    "sha256": "97c516b74cd35e9fd82f8d1660aa780694ab11488dae403e43925e23b4213059",
+    "verification_status": "RETRIEVED"
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "status": "SOURCE_GATES_PASS",
+  "source_gate": {
+    "passed": true,
+    "policy": "completecalendar,finitevalues,nativejointareacoverage95%,completephysicaltimeintervalcounts;independentpreflightsaccepted",
+    "preflight_receipt_sha256": "6a4e76b22302d8bbff8ab2863454689d1c88806990b8489b7b8f929541d7afd6",
+    "target_upstream_receipt_sha256": "8059aa54fb3cf1a0c57a851a62ec427025963543869516ec14f459c5f61864a0",
+    "power_receipt_sha256": {
+      "power_native_extraction_receipt.json": "a2fcf2f8a34a499cd9ae5b469bf82eff5a256e1c8bd4b2c0421787baecaeea17",
+      "power_independent_validation.json": "1b48b465731c056dc091ffc4dd6cf30df0ae838efee17447173cf18501369c05"
+    },
+    "power_hash_manifest_sha256": "475aa8408efba0d53de23006303e9fc9c11874191c5d8d02c325a1466f33d20d",
+    "era5_recovery": {
+      "composition_receipt_sha256": "3838f8865091b9b6df583a0efc6db859835128c965a4721782b36f1df762ccf0",
+      "provider_admission_receipt_sha256": "eca3588af36303bdb5c0f07c4aa4edff5eb230793ef478af33f61429c0bb18f5",
+      "native_recovery_receipt_sha256": "844de2f1bdc9e51f29deb7beba4ebe641c9f252951dd528a809ce67ca3bd6375",
+      "recovery_completion_receipt_sha256": "7456e4ee93892909b8d8df5b410ea39053372374ec63489636d0544b64d64b8b",
+      "frozen_recovery_contract_sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f",
+      "original_ee_csv_sha256": "3629c23705164d45e55038860740b3aa01821c6a35c7e71766f50dee1d7a85dc",
+      "recovered_csv_sha256": "431779ede8f78b1e345e5ce151c5afd2871dc67b688c034dae8d77f36aed81db",
+      "merged_csv_sha256": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c",
+      "earth_engine_months": 522,
+      "native_archive_months": 6,
+      "repaired_rows": 30,
+      "repair_months": [
+        "2022-04",
+        "2022-05",
+        "2022-07",
+        "2022-08",
+        "2024-01",
+        "2024-02"
+      ],
+      "snapshot_id": "ZFKDHBCTBVHVXM3BQFV0",
+      "control_month": "2024-03",
+      "all_seven_variables_replaced_on_repaired_months": true,
+      "no_statistical_imputation": true,
+      "compatibility_scope": "Independent January1981 and March2024 regional controls; no authenticated CDS bitwise equivalence claim"
+    }
+  },
+  "inputs": {
+    "monthly": {
+      "path": "monthly.csv",
+      "sha256": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb"
+    },
+    "indices": {
+      "path": "indices.csv",
+      "sha256": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23"
+    }
+  },
+  "feature_contract": {
+    "met_columns": [
+      "era5_t2m_c",
+      "era5_d2m_c",
+      "era5_sp_hpa",
+      "era5_mslp_hpa",
+      "era5_u10_m_s",
+      "era5_v10_m_s",
+      "era5_tp_mm",
+      "era5land_t2m_c",
+      "era5land_d2m_c",
+      "era5land_skin_c",
+      "era5land_soil_m3_m3_layer1",
+      "era5land_soil_m3_m3_layer2",
+      "era5land_soil_m3_m3_layer3",
+      "era5land_soil_m3_m3_layer4",
+      "era5land_tp_mm",
+      "era5land_evaporation_mm_signed",
+      "era5land_surface_runoff_mm",
+      "era5land_subsurface_runoff_mm",
+      "power_t2m_c",
+      "power_rh2m_pct",
+      "power_ws10m_m_s",
+      "power_prectotcorr_mm_day"
+    ],
+    "full_features": 43,
+    "climate_features": 21,
+    "climate_context_features": 7,
+    "climate_features_definition": "CORE14 plus six climate indices and ENSO-times-IOD interaction",
+    "core_features": 14,
+    "issue_time": "targetmonth firstday00:00UTC",
+    "source_support": "rain/indexperiodend target-2;reanalysis/POWER target-4;revisedarchivesavailabilityscenario",
+    "embargoed_label_months": [
+      "2007-12",
+      "2010-12",
+      "2016-12"
+    ]
+  },
+  "units": {
+    "era5_t2m_c": "degC",
+    "era5_d2m_c": "degC",
+    "era5_sp_hpa": "hPa",
+    "era5_mslp_hpa": "hPa",
+    "era5_u10_m_s": "m s-1",
+    "era5_v10_m_s": "m s-1",
+    "era5_tp_mm": "mm month-1",
+    "era5land_t2m_c": "degC",
+    "era5land_d2m_c": "degC",
+    "era5land_skin_c": "degC",
+    "era5land_soil_m3_m3_layer1": "m3 m-3",
+    "era5land_soil_m3_m3_layer2": "m3 m-3",
+    "era5land_soil_m3_m3_layer3": "m3 m-3",
+    "era5land_soil_m3_m3_layer4": "m3 m-3",
+    "era5land_tp_mm": "mm month-1",
+    "era5land_evaporation_mm_signed": "mm month-1 (negative evaporation)",
+    "era5land_surface_runoff_mm": "mm month-1",
+    "era5land_subsurface_runoff_mm": "mm month-1",
+    "gldas21_tair_c": "degC",
+    "gldas21_qair_kg_kg": "kg kg-1",
+    "gldas21_wind_m_s": "m s-1",
+    "gldas21_soil_0_10cm_kg_m2": "kg m-2",
+    "gldas21_soil_10_40cm_kg_m2": "kg m-2",
+    "gldas21_soil_40_100cm_kg_m2": "kg m-2",
+    "gldas21_soil_100_200cm_kg_m2": "kg m-2",
+    "gldas21_total_rainfall_mm": "mm month-1",
+    "gldas21_liquid_rainfall_mm": "mm month-1",
+    "gldas21_evaporation_mm": "mm month-1",
+    "gldas21_surface_runoff_mm": "mm month-1",
+    "gldas21_subsurface_runoff_mm": "mm month-1",
+    "power_t2m_c": "degC",
+    "power_rh2m_pct": "percent",
+    "power_ws10m_m_s": "m s-1",
+    "power_prectotcorr_mm_day": "mm day-1 (rate)",
+    "power_solar_mj_m2_day": "MJ m-2 day-1 (mean daily irradiation)"
+  },
+  "frozen_target_sha256": "5ab390484e367ffc634b11fb900cd9c05134b501de697bce849cc2d5f1b9fb03",
+  "source_csv_sha256": {
+    "ERA5": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c",
+    "ERA5Land": "7d8376900da83886d4660b8667737f72ebcf61f8dbdfe9ac82a8fb741b614a4d",
+    "GLDAS21": "95d5c019379ce509a7cda08c945e866544ceab5b62a74e99e809a2fc86bea86e"
+  },
+  "power_sha256": "ecf899b10c6652d872f899a9b1bcb18ed84ccb25988767ad263781b95cb621f6",
+  "country_geometry_sha256": "4cdbe7cba953c55e4c6591b779128484c2e203ff0c3433b1826bafca95a4d090",
+  "geometry_policy": "native centers inside frozen country and half-openboxes;full-cellWGS84quadrilateralareas;jointsourcevalidcells;95%minareacoverage;C1/C5overlapretained",
+  "structural_sources": {
+    "solar": "1984+ only; separate matched-cohort supplement",
+    "GLDAS21": {
+      "period": "2000+ only; separate matched-cohort supplement",
+      "admitted": true
+    }
+  },
+  "IMD": "One suppliedrawmonthC1Oct2023coverage93.065%fails95%. No synthetic repair; primary excludesIMD. Separate coverage-aware matched sensitivity required.",
+  "GLDAS_temporal_note": "Past3h physicalinterval semantics documented byNASAproducer andGooglecatalog;start/endhourassetproperties retained as unexplained ingestionmetadata,raw timebounds notnumericallyverified.",
+  "evaluation": "2017-2024 retrospective;previously inspectedperiod,notuntouchedconfirmation",
+  "privacy": "Federation simulationplainmodel/summarysharing;nodefinitionalprivacyguarantee",
+  "supplement_inputs": {
+    "solar": {
+      "path": "solar_supplement.csv",
+      "sha256": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb"
+    },
+    "GLDAS21": {
+      "path": "gldas21_supplement.csv",
+      "sha256": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa"
+    }
+  }
+}

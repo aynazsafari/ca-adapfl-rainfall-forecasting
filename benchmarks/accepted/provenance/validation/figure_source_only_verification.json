@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "script_sha256": "316a77b750ba5703532874976cfb6ca3f4c4a32e22dc67a44685573d98c92b09",
+  "checks": [
+    {
+      "check": "AST syntax",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse missing_completion before pd.read_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse missing_independent_QA before pd.read_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse QA_pending before pd.read_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse QA_fail before pd.read_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse QA_wrong_run before pd.read_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse QA_wrong_evaluation_hash before pd.read_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse QA_empty_scope before pd.read_csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse completion mutation after QA",
+      "status": "PASS"
+    },
+    {
+      "check": "Matching synthetic JSON gate accepted without CSV reads",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse receipt path ../escape.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse receipt path sub/../../escape.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse receipt path /absolute.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse receipt path C:/absolute.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse receipt path C:relative.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "Admit portable Windows relative receipt path",
+      "status": "PASS"
+    },
+    {
+      "check": "Finite synthetic declared-training graph fixture",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse later training cutoff",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse monitor graph role",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse wrong training count",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse missing lag support declaration",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse nonfinite graph weight",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse weight above common scale",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse negative graph weight",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse asymmetric graph input",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse nonuniform uniform matrix",
+      "status": "PASS"
+    },
+    {
+      "check": "Refuse unequal component mean",
+      "status": "PASS"
+    },
+    {
+      "check": "Eight fixed plots; no model, network or alternate plotting imports",
+      "status": "PASS"
+    },
+    {
+      "check": "Blank format-only PNG300dpi/PDF/SVG encoders",
+      "status": "PASS"
+    }
+  ],
+  "count": 29,
+  "actual_evaluation_read": false,
+  "actual_accuracy_plots_rendered": 0,
+  "study_visual_QA": "NOT PERFORMED; requires completed actual run and independent PASS",
+  "synthetic_scope": "Only receipt gating, finite declared graph metadata and blank file encoders; no models fitted, no accuracy measurements",
+  "scratch": "source_only_sfugnkz_"
+}

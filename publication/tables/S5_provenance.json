@@ -1,0 +1,30 @@
+{
+  "id": "S5",
+  "role": "saved_numeric_evidence",
+  "rows": 31,
+  "columns": [
+    "Holm_p",
+    "block_length_months",
+    "delta_macro_R2_a_minus_b",
+    "method",
+    "model_a",
+    "model_b",
+    "multiplicity",
+    "n_blocks",
+    "not_iid_Wilcoxon",
+    "null_assumption",
+    "two_sided_p"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2/source_data/block_sign_randomization_Holm.json": {
+      "sha256": "7a1c7094da42b57ced0ed9ecd066c55c5fbc538fc02d1e14c9f3f806749e2a1e"
+    }
+  },
+  "formula_or_selector": "Flatten the full 31-pair exact annual sign/Holm31 JSON; no p-values recalculated.",
+  "files_sha256": {
+    "S5.csv": "708aa0b2b069da239b2878a07885e0d1d0d7ed0bfa4838547567f323d5ae3bc4"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

@@ -1,0 +1,13 @@
+--- pre_actual_qa/pre_actual_qa_make_figures.py
++++ make_figures.py
+@@ -264,7 +264,9 @@
+         matrix = np.asarray(component, float)
+         require(matrix.shape == (5, 5) and np.isfinite(matrix).all() and (matrix >= 0).all() and (matrix <= 1).all(),
+                 'A graph component is outside the declared finite [0,1] scale')
+-    close(graphs['graphs']['enriched'], np.mean(np.asarray(components, float), axis=0), 'enriched equal-component mean')
++    require(np.array_equal(np.asarray(graphs['graphs']['enriched'], float),
++                           np.mean(np.asarray(components, float), axis=0).astype(np.float32).astype(float)),
++            'Enriched graph differs from the equal-component mean serialized as float32')
+ 
+ 
+ def validate_metric_tables(info):

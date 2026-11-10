@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "counts": {
+    "dictionary": 43,
+    "profiles": 258,
+    "pairs": 5418,
+    "high_pairs": 99,
+    "scopes": 6
+  },
+  "matrix_checks": [
+    {
+      "scope": "Client1_NW_Arid",
+      "exact_symmetry": true,
+      "diagonal_max_abs_error": 1.4432899320127035e-15,
+      "roundoff_bound_n_epsilon": 6.639133687258436e-14
+    },
+    {
+      "scope": "Client2_Indo_Gangetic",
+      "exact_symmetry": true,
+      "diagonal_max_abs_error": 1.1102230246251565e-15,
+      "roundoff_bound_n_epsilon": 6.639133687258436e-14
+    },
+    {
+      "scope": "Client3_NE_Himalaya",
+      "exact_symmetry": true,
+      "diagonal_max_abs_error": 1.3322676295501878e-15,
+      "roundoff_bound_n_epsilon": 6.639133687258436e-14
+    },
+    {
+      "scope": "Client4_South_Peninsular",
+      "exact_symmetry": true,
+      "diagonal_max_abs_error": 1.3322676295501878e-15,
+      "roundoff_bound_n_epsilon": 6.639133687258436e-14
+    },
+    {
+      "scope": "Client5_Central_India",
+      "exact_symmetry": true,
+      "diagonal_max_abs_error": 1.2212453270876722e-15,
+      "roundoff_bound_n_epsilon": 6.639133687258436e-14
+    },
+    {
+      "scope": "GLOBAL_POOLED",
+      "exact_symmetry": true,
+      "diagonal_max_abs_error": 1.27675647831893e-14,
+      "roundoff_bound_n_epsilon": 3.319566843629218e-13
+    }
+  ],
+  "independent_fsum_checks": [
+    {
+      "scope": "Client1_NW_Arid",
+      "feature_a": "era5_tp_mm",
+      "feature_b": "era5land_tp_mm",
+      "independent_math_fsum_r": 0.9999374489382815,
+      "stored_r": 0.9999374489382812,
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "scope": "Client2_Indo_Gangetic",
+      "feature_a": "era5_tp_mm",
+      "feature_b": "era5land_tp_mm",
+      "independent_math_fsum_r": 0.9999701623525773,
+      "stored_r": 0.9999701623525771,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "scope": "Client3_NE_Himalaya",
+      "feature_a": "era5_tp_mm",
+      "feature_b": "era5land_tp_mm",
+      "independent_math_fsum_r": 0.9999257508231811,
+      "stored_r": 0.9999257508231814,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "scope": "Client4_South_Peninsular",
+      "feature_a": "era5_tp_mm",
+      "feature_b": "era5land_tp_mm",
+      "independent_math_fsum_r": 0.9998445524534264,
+      "stored_r": 0.9998445524534257,
+      "absolute_error": 6.661338147750939e-16
+    },
+    {
+      "scope": "Client5_Central_India",
+      "feature_a": "era5_tp_mm",
+      "feature_b": "era5land_tp_mm",
+      "independent_math_fsum_r": 0.9999419767608901,
+      "stored_r": 0.9999419767608902,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "scope": "GLOBAL_POOLED",
+      "feature_a": "era5_tp_mm",
+      "feature_b": "era5land_tp_mm",
+      "independent_math_fsum_r": 0.9999030651030405,
+      "stored_r": 0.9999030651030403,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "scope": "GLOBAL_POOLED",
+      "feature_a": "nino34_anomaly",
+      "feature_b": "oni_anomaly_3mo",
+      "independent_math_fsum_r": 0.9596015412126446,
+      "stored_r": 0.9596015412126492,
+      "absolute_error": 4.551914400963142e-15
+    }
+  ],
+  "labels_read": false,
+  "evaluation_files_read": false,
+  "note": "A preliminary fixed 1e-14 diagonal assertion was overly strict for pooled BLAS arithmetic (observed 1.28e-14); final verification uses the conservative n*float64-epsilon summation bound. Scientific |r|>=0.95 threshold is unchanged."
+}

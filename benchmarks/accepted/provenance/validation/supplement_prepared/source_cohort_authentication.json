@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "run_sha256": "8b0b1e665e631b709bea02c7acbea1122535ec1172d8e10143b2b3d34913eca9",
+  "primary_run_sha256": "c10ec7499adba7470982ec57eb2daaba0634d79adae49ccb53ebca6309a218fb",
+  "primary_choices_reused": {
+    "lr": 0.001,
+    "mu": {
+      "fedprox": 0.1,
+      "caaa": 0.1
+    },
+    "coefficients": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "retuning": false,
+  "runtime_identity_equals_primary": true,
+  "authenticated_files": {
+    "caadapfl/classical.py": "aea41a73498edcedc6af83f6ba8249cb71f087e3df84c0e0310c7e4d0638c714",
+    "caadapfl/evaluation.py": "a70b2771257be53661ef6d2b0b583fd17efabd289d24fada477de9f5147966c4",
+    "caadapfl/features.py": "0381556297d12e669dcf7aee191c611e259d1c6385315e61fa08d688653bd28f",
+    "caadapfl/graph_profiles.py": "d1edbf7a3e21a7dd58f0a2fb2734cb007fd46ebc9ac0cd1eda1ac364903ea536",
+    "caadapfl/neural_benchmark.py": "83814bc45d96b4dd2ea185436b9538babe59cbc70adcc00fe7ff4c33055d4873",
+    "caadapfl/runner.py": "79be46b566da5070ce785519cfe3674748295e1756abd7e2d1fc2d1a01b76047",
+    "tools/supplement_runner.py": "02a3f2800f1a23825d2f2d9df0f6f448b8b38a0b66c1bb7fcdbfdfc4a55b83c2",
+    "data/monthly.csv": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+    "data/indices.csv": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+    "data/manifest.json": "ab4928d932a722e0a7061a9311e35d81588435be49fd5ab72e84a079ceb801fd",
+    "tools/derived/imd/imd_supplement.csv": "93adacbec2a1aa4c240f756c02d440ad4fd8a27f6795731653c5d700f28e5933",
+    "tools/derived/imd/imd_supplement_quality.csv": "a968989b0194b5671f1c4a9f803215abcd18952ee0b6d2d90277faba42b9e7a9",
+    "tools/derived/imd/manifest.json": "8c14f84a86e41cd3a847d26692a3f0bee2a2a4e2e33c6504202c01ac1b49af76",
+    "tools/derived/cohorts/IMD_cohort_plan.json": "c131916d44aeeaf1125f690e63b392f9d041ef862bf7a3379a1a4a3f921ddd50",
+    "tools/derived/gldas_full/gldas21_supplement.csv": "26e89688231769d1e85662b6d74aa485d0dcacd289b75c4c3fe469383d12e6a2",
+    "tools/derived/gldas_full/gldas21_supplement_quality.csv": "6195b5fdc59d5554604ba41abfcdc854b3df0d01daf27826423d9d955a26774a",
+    "tools/derived/gldas_full/manifest.json": "049980766a7bb4c513dd0c86371573af7f55705831031989dc658bfe6add0042",
+    "tools/derived/cohorts_gldas_admitted/GLDAS21_cohort_plan.json": "ec61e06582f2bf1b21c5386ecbaec1a95f9aac6388a57b39202047e98bf8572a",
+    "data/solar_supplement.csv": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+    "tools/derived/cohorts/solar_cohort_plan.json": "7d8b4785967c76517d570405cc358df42835ea02bd341c9543665b3e121826aa"
+  },
+  "prepared_nontruth_files_verified": {
+    "datasets/GLDAS21_ADDED_FULL_evaluation_features.npz": "bfa7e7c3f477c32254b946a77d2c8f5cc5b592ddf8249ddfeedd06233d79049b",
+    "datasets/GLDAS21_ADDED_FULL_fit.npz": "00761c0cb9a6a6cb2181008452a552329975ac40f47a854d64f7858e9013fe82",
+    "datasets/GLDAS21_ADDED_FULL_schema.json": "a3eab14c5f485f51e6a5cec8ebbccffb5f6959b38b2a96f0f4eec6636ecb0ddb",
+    "datasets/GLDAS21_ADDED_local_sensitivity.json": "ff2d601756ff9c17f64e2ae36ee42e4c87e3175dc12a65f0a5c3be16c9cb7574",
+    "datasets/GLDAS21_REFERENCE_FULL_evaluation_features.npz": "2223297dff2e4e37fb1ea44fe288df2f66716afbc3dd541e9e5fe53507823eac",
+    "datasets/GLDAS21_REFERENCE_FULL_fit.npz": "25b8f54098c8951846ae32938998872780e0b7395576da47adfc187a8f642fd6",
+    "datasets/GLDAS21_REFERENCE_FULL_schema.json": "4bcddbbd312da40131e094d16a6035ac8a3170004c6752636ec7b2e0d690de7f",
+    "datasets/GLDAS21_REFERENCE_local_sensitivity.json": "ff2d601756ff9c17f64e2ae36ee42e4c87e3175dc12a65f0a5c3be16c9cb7574",
+    "datasets/IMD_ADDED_FULL_evaluation_features.npz": "78c08cb80ccb2add2eb861a04578c01fda047b1549a9c7ba9262efc453373c1f",
+    "datasets/IMD_ADDED_FULL_fit.npz": "07822be743330dab4cbee5d4ac858e0ec1774280f1ea2c243fb510594f95b501",
+    "datasets/IMD_ADDED_FULL_schema.json": "48bfa75f9f3d82f872df3779a0c0a899f5c36835ea83b6de36a8f731585c4a16",
+    "datasets/IMD_ADDED_local_sensitivity.json": "a597245fb3efc169cb9b58842d431533c48dbe5703d7832b45f5ec26216353f9",
+    "datasets/IMD_REFERENCE_FULL_evaluation_features.npz": "9e958941a269f134a8e6ec99488f669c43cfa8d6ac553e106dfc601aa2fb3af9",
+    "datasets/IMD_REFERENCE_FULL_fit.npz": "0a4223c207756593f4dacb5e660d6f721ef0320798530d841a4a8fbc66f079fc",
+    "datasets/IMD_REFERENCE_FULL_schema.json": "5c5acd6e93c0c20c52665f252da25a50ac90140a7ae7224a4473e37e6e6e52df",
+    "datasets/IMD_REFERENCE_local_sensitivity.json": "a597245fb3efc169cb9b58842d431533c48dbe5703d7832b45f5ec26216353f9",
+    "datasets/solar_ADDED_FULL_evaluation_features.npz": "41ff9cc74d246d708a7c764d4d4fa57a4ec6f9b7398a157cfdd6a6c2914b2117",
+    "datasets/solar_ADDED_FULL_fit.npz": "0375d9670f4b86a5df0a0f193f14bb97e401711928eec9f4bf0d414be302c6cb",
+    "datasets/solar_ADDED_FULL_schema.json": "225213c5b861fe0c583acdfd021f75743ffb163b768fbc26df6dbbae5adee327",
+    "datasets/solar_ADDED_local_sensitivity.json": "e90b6c4df39a0980afd2214d0818d29275f451c2b4d3e2fe52d73c48c8ff24fd",
+    "datasets/solar_REFERENCE_FULL_evaluation_features.npz": "8d1bfe71ad79a5fac85118280593e75276754d4b857e4d0de121833c08207c72",
+    "datasets/solar_REFERENCE_FULL_fit.npz": "4d2d6e1b09ffcc93b246c9a01b3fb75ca1124e283cbc5e2bb7db0240ca417a72",
+    "datasets/solar_REFERENCE_FULL_schema.json": "e66c22bf1df015fa221d484a93e37c1f9323464cc8818a222e4150f61f75e2be",
+    "datasets/solar_REFERENCE_local_sensitivity.json": "e90b6c4df39a0980afd2214d0818d29275f451c2b4d3e2fe52d73c48c8ff24fd"
+  },
+  "sealed_truth_not_opened": [
+    {
+      "file": "datasets/GLDAS21_evaluation_truth.csv",
+      "claimed_sha256": "2c8b6950f9a457346100e4b609ccc303c5cea15d492ba257b4ac26477d658820",
+      "opened": false,
+      "hash_recomputed": false
+    },
+    {
+      "file": "datasets/IMD_evaluation_truth.csv",
+      "claimed_sha256": "499fa3ed5d7c2abbe5547363180f7d484308ba7ef18280daabf27274df831e5f",
+      "opened": false,
+      "hash_recomputed": false
+    },
+    {
+      "file": "datasets/solar_evaluation_truth.csv",
+      "claimed_sha256": "2c8b6950f9a457346100e4b609ccc303c5cea15d492ba257b4ac26477d658820",
+      "opened": false,
+      "hash_recomputed": false
+    }
+  ],
+  "source_and_cohort_checks": {
+    "IMD": {
+      "source_rows": 2640,
+      "admitted_rows": 2639,
+      "invalid_rows": [
+        {
+          "client": "Client1_NW_Arid",
+          "month": "2023-10",
+          "coverage": 0.9306549597623043
+        }
+      ],
+      "minimum_weighted_coverage": 0.9306549597623043,
+      "first_target": "1983-01",
+      "last_target": "2024-01",
+      "role_counts": {
+        "train": 299,
+        "monitor": 35,
+        "validation": 71,
+        "evaluation": 85
+      },
+      "embargo_months": [
+        "2007-12",
+        "2010-12",
+        "2016-12"
+      ],
+      "candidate_samples_including_embargo": 493,
+      "active_samples_excluding_embargo": 490,
+      "evaluation_keys": 425,
+      "source_window": "t-15 through t-4 inclusive"
+    },
+    "solar": {
+      "source_rows": 2640,
+      "admitted_rows": 2460,
+      "structural_missing_rows": 180,
+      "first_valid_source": "1984-01",
+      "first_target": "1985-04",
+      "last_target": "2024-12",
+      "role_counts": {
+        "train": 272,
+        "monitor": 35,
+        "validation": 71,
+        "evaluation": 96
+      },
+      "embargo_months": [
+        "2007-12",
+        "2010-12",
+        "2016-12"
+      ],
+      "candidate_samples_including_embargo": 477,
+      "active_samples_excluding_embargo": 474,
+      "evaluation_keys": 480,
+      "source_window": "t-15 through t-4 inclusive"
+    },
+    "GLDAS21": {
+      "source_rows": 1500,
+      "admitted_rows": 1500,
+      "invalid_rows": [],
+      "minimum_weighted_coverage": 0.9549576632527891,
+      "first_target": "2001-04",
+      "last_target": "2024-12",
+      "role_counts": {
+        "train": 80,
+        "monitor": 35,
+        "validation": 71,
+        "evaluation": 96
+      },
+      "embargo_months": [
+        "2007-12",
+        "2010-12",
+        "2016-12"
+      ],
+      "candidate_samples_including_embargo": 285,
+      "active_samples_excluding_embargo": 282,
+      "evaluation_keys": 480,
+      "source_window": "t-15 through t-4 inclusive"
+    }
+  },
+  "source_subset_selection_uses_target_values": false,
+  "model_fits_run_by_audit": 0
+}

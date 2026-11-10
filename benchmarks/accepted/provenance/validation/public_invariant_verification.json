@@ -1,0 +1,56 @@
+{
+  "verified_utc": "2026-10-07T23:42:38.478730+00:00",
+  "status": "pass",
+  "exit_code": 0,
+  "test_file_sha256": "99be54a48dc446e26a300fcfe302bc801ddc1a5eed967235782cfc083f0f7fa0",
+  "readme_sha256": "f59eb2619831439716c21944e1d50b12f21945b3368157322f825e7c915443d3",
+  "modules": {
+    "features": {
+      "source": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_stage\\caadapfl\\features.py",
+      "sha256": "0381556297d12e669dcf7aee191c611e259d1c6385315e61fa08d688653bd28f"
+    },
+    "classical": {
+      "source": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\classical_impl\\classical.py",
+      "sha256": "aea41a73498edcedc6af83f6ba8249cb71f087e3df84c0e0310c7e4d0638c714"
+    },
+    "evaluation": {
+      "source": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\classical_impl\\evaluation.py",
+      "sha256": "a70b2771257be53661ef6d2b0b583fd17efabd289d24fada477de9f5147966c4"
+    },
+    "neural_benchmark": {
+      "source": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_impl\\neural_benchmark.py",
+      "sha256": "7ce74b0d4fd4277aa21ba668b91c9f3f9ad7e913992aefa07bad2d73ff57ce36"
+    },
+    "graph_profiles": {
+      "source": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_impl\\graph_profiles.py",
+      "sha256": "d1edbf7a3e21a7dd58f0a2fb2734cb007fd46ebc9ac0cd1eda1ac364903ea536"
+    },
+    "runner": {
+      "source": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\run_impl\\runner.py",
+      "sha256": "c88903e3db6abeb759067358a7bbdbd3481337ce96c3c69dea5412a0d7783285"
+    }
+  },
+  "command": [
+    "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\env\\Scripts\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_invariants.py",
+    "-v"
+  ],
+  "public_command": "python -m unittest discover -s tests -p test_invariants.py -v",
+  "runtime": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "isolation": "All six frozen module files copied byte-identically to a temporary package; removed after this verification",
+  "real_data_reads": 0,
+  "real_data_fits": 0,
+  "real_data_scores": 0,
+  "toy_fits": 2,
+  "rounds_per_toy_fit": 2,
+  "cpu_threads": 1,
+  "output_sha256": "300f0fa7b59e59d0c1ce917bccd5f0d279151cb7292cf52e4ee38c48a3d4d3b1"
+}

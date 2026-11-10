@@ -1,0 +1,784 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        
+        
+
+<meta charset="UTF-8">
+<meta name="description" content="Global Modeling and Assimilation Office Research" />
+<meta name='keywords' content='Global Modeling and Assimilation Office Research' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Global Modeling and Assimilation Office Research">
+<meta name="twitter:description" content="Global Modeling and Assimilation Office Research">
+<meta name="twitter:site" content="@GMAO">
+<meta name="twitter:image:src" content="https://gmao.gsfc.nasa.gov/static/pages/images/social-background.png">
+<meta name="twitter:creator" content="@GMAO">
+
+<!-- Open Graph data -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Global Modeling and Assimilation Office Research" />
+<meta property="og:description" content="Global Modeling and Assimilation Office Research" />
+<meta property="og:site_name" content="Global Modeling and Assimilation Office Research" />
+<meta property="og:url" content="https://gmao.gsfc.nasa.gov/gmao-products/merra-2/documentation_merra-2/" />
+<meta property="fb:admins" content="123192635089" />
+<meta property="fb:app_id" content="532429756941938" />
+<meta property="og:image" content="https://gmao.gsfc.nasa.gov/static/pages/images/social-background.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="628" />
+
+<!-- Schema.org markup -->
+<meta itemprop="name" content="Global Modeling and Assimilation Office Research"> 
+<meta itemprop="image" content="https://gmao.gsfc.nasa.gov/static/pages/images/social-background.png">
+
+<!-- Purge Cached -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+        
+        		
+		<link rel="shortcut icon" href="https://gmao.gsfc.nasa.gov/static/global/favicons/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" sizes="57x57" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://gmao.gsfc.nasa.gov/static/global/favicons/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="https://gmao.gsfc.nasa.gov/static/global/favicons/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="https://gmao.gsfc.nasa.gov/static/global/favicons/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://gmao.gsfc.nasa.gov/static/global/favicons/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://gmao.gsfc.nasa.gov/static/global/favicons/favicon-16x16.png">
+		<link rel="manifest" href="https://gmao.gsfc.nasa.gov/static/global/favicons/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="https://gmao.gsfc.nasa.gov/static/global/favicons/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+        <title>GMAO - Modern-Era Retrospective analysis for Research and Applications, Version 2</title>
+
+        		
+	  	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" type="text/css" href="https://gmao.gsfc.nasa.gov/static/global/css/prism.css">
+		
+        
+        <link rel="stylesheet" type="text/css" href="https://gmao.gsfc.nasa.gov/static/pages/css/main.css">
+        
+        
+
+        
+        
+
+<!-- Google Analytics -->
+<script id="_fed_an_ua_tag" type="application/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+        
+        
+
+    </head>
+    
+    <body class="c-gmao-products-details-page c-standard-theme  " data-minimize-offset="160">
+        
+        
+
+        
+        
+<header class="theme-2">
+	<div class="c-top-header theme-2">
+		
+		<div class="container-fluid">
+			<div class="row py-2">
+			    <div class="col-md-5 align-self-center c-brand-left-container"> 
+			    	<a aria-label="GMAO Logo" class="c-navbar-brand d-inline-block" href="https://gmao.gsfc.nasa.gov" target="_self">
+				    	<img fetchpriority="high" src="https://gmao.gsfc.nasa.gov/static/global/logo/gmao.png" aria-label="GMAO Logo" alt="GMAO Logo" class="img-fluid c-gmao-logo" height="40px" width="150px">
+				    </a>
+			    </div>
+			    <div class="col-md-2 c-brand-center-container">
+			    	<div class="d-flex">
+					    <a aria-label="NASA Logo" class="c-navbar-brand mx-2" href="https://nasa.gov" target="_blank">
+					    	<img fetchpriority="high" src="https://gmao.gsfc.nasa.gov/static/global/logo/nasa.png" aria-label="NASA Logo" alt="NASA Logo" class="img-fluid c-nasa-logo" height="65px" width="65px">
+					    </a>
+					  </div>
+				</div>
+				<div class="col-md-5 c-brand-right-container">
+					<div>
+						<div class="input-group">
+							<input type="text" placeholder="Search..." aria-label="Search..." name="c-search" class="form-control form-control-sm c-square c-top-search-input" aria-describedby="c-top-search-btn">
+							<button aria-label="Search" class="btn c-square c-top-search-btn" type="button" id="c-top-search-btn"><i class="fas fa-search"></i></button>
+						</div>
+						
+					    <div class="c-navbar-text-box small pt-2">
+					    	
+					      	<a aria-label="Menu Earth Sciences Division" href="https://science.gsfc.nasa.gov/earth/" class="c-navbar-item" target="_new" aria-label="Earth Sciences Division">Earth Sciences Division</a>
+					      	
+					      	<a aria-label="Menu Sciences and Exploration" href="https://science.gsfc.nasa.gov/sci" class="c-navbar-item" target="_new" aria-label="Sciences and Exploration">Sciences and Exploration</a>
+					      	
+					    </div>
+					    
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<nav class="navbar navbar-expand-lg c-navbar">
+	  <div class="container-fluid text-center">
+	    <a aria-label="GMAO Logo" class="navbar-brand" href="https://gmao.gsfc.nasa.gov">
+		    <img fetchpriority="high" src="https://gmao.gsfc.nasa.gov/static/global/logo/gmao.png" aria-label="GMAO Logo" alt="GMAO Logo" class="img-fluid c-gmao-logo" height="40px" width="150px">
+		  </a>
+	    <button class="navbar-toggler c-square collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Menu Toggle navigation">
+	      
+	      <span class="c-menu-line"></span>
+	      <span class="c-menu-line"></span>
+	      <span class="c-menu-line"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav">
+	      	
+	        <li class="nav-item">
+	          
+	          <a aria-label="Menu Reanalysis" class="nav-link" data-menu="/reanalysis/" href="https://gmao.gsfc.nasa.gov/reanalysis/" target="_self">Reanalysis
+	          	<span>Long-term, model-based analyses of multiple datasets using a fixed assimilation system are a major focus in the GMAO. Building on the success of the atmospheric reanalyses conducted with GEOS, current research and development activities are directed at producing a major Earth System Reanalysis, including atmosphere, land, ocean, and ice.</span>
+	          </a>
+	          
+	        </li>
+   			
+	        <li class="nav-item">
+	          
+	          <a aria-label="Menu Weather Analysis &amp; Prediction" class="nav-link" data-menu="/weather-analysis-prediction/" href="https://gmao.gsfc.nasa.gov/weather-analysis-prediction/" target="_self">Weather Analysis &amp; Prediction
+	          	<span>To support NASA&#x27;s satellite missions and field experiments, GMAO generates near-real-time atmospheric products using GEOS and distributes them to a broad community of users.</span>
+	          </a>
+	          
+	        </li>
+   			
+	        <li class="nav-item">
+	          
+	          <a aria-label="Menu Seasonal-Decadal Analysis &amp; Prediction" class="nav-link" data-menu="/seasonal-decadal-analysis_prediction/" href="https://gmao.gsfc.nasa.gov/seasonal-decadal-analysis_prediction/" target="_self">Seasonal-Decadal Analysis &amp; Prediction
+	          	<span>GMAO uses coupled Earth-System models and analyses, along with a broad range of satellite observations, to study and predict phenomena that evolve on seasonal to decadal timescales.</span>
+	          </a>
+	          
+	        </li>
+   			
+	        <li class="nav-item">
+	          
+	          <a aria-label="Menu Global Mesoscale Modeling" class="nav-link" data-menu="/global-mesoscale-modeling/" href="https://gmao.gsfc.nasa.gov/global-mesoscale-modeling/" target="_self">Global Mesoscale Modeling
+	          	<span>Current computing capacity enables GMAO to simulate the entire globe at spatial resolutions previously only possible with regional models. These “global mesoscale model” simulations serve for forefront evaluations of model performance and form the basis for Observing System Simulation Experiments.</span>
+	          </a>
+	          
+	        </li>
+   			
+	        <li class="nav-item">
+	          
+	          <a aria-label="Menu Observing System Science" class="nav-link" data-menu="/observing-system-science/" href="https://gmao.gsfc.nasa.gov/observing-system-science/" target="_self">Observing System Science
+	          	<span>GMAO&#x27;s mission to provide modeling support for NASA&#x27;s satellite observations encompasses the need to examine the impacts of different observation types in weather and climate prediction. It also requires the ability to simulate potential new observation types, in order to assess their cost benefit, based on their likely impacts on prediction.</span>
+	          </a>
+	          
+	        </li>
+   			
+	        <li class="nav-item">
+	          
+	          <a aria-label="Menu Explore" class="nav-link active dropdown-toggle c-no-outline" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+	          <ul class="dropdown-menu c-square" aria-labelledby="navbarDropdown">
+          		
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu GMAO Mission" class="dropdown-item" href="/gmao-mission/" target="_self" >GMAO Mission</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu GMAO Products" class="dropdown-item" href="/gmao-products/" target="_self" >GMAO Products</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu GMAO News" class="dropdown-item" href="/news/" target="_self" >GMAO News</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu NASA Mission Support" class="dropdown-item" href="/nasa-missions/" target="_self" >NASA Mission Support</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Field Campaign Support" class="dropdown-item" href="/field-campaigns/" target="_self" >Field Campaign Support</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Multi-Partner Projects" class="dropdown-item" href="/multi-partner/" target="_self" >Multi-Partner Projects</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Research Briefs" class="dropdown-item" href="/research-briefs/" target="_self" >Research Briefs</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Animations" class="dropdown-item" href="/animations/" target="_self" >Animations</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Science Snapshots" class="dropdown-item" href="/science-snapshots/" target="_self" >Science Snapshots</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu GEOS Systems" class="dropdown-item" href="/geos-systems/" target="_self" >GEOS Systems</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Publications" class="dropdown-item" href="/publications/" target="_self" >Publications</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Seminars &amp; Workshops" class="dropdown-item" href="/seminars-workshops/" target="_self" >Seminars &amp; Workshops</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Staff Directory" class="dropdown-item" href="/staff-directory/" target="_self" >Staff Directory</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Contact Information" class="dropdown-item" href="/contact-us/" target="_self" >Contact Information</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          		
+		            		<a aria-label="Submenu Employment" class="dropdown-item" href="/employment-opportunities-in-the-gmao/" target="_self" >Employment</a> 
+		          			
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          			
+		          		
+		          			<!-- <hr class="dropdown-divider"> -->
+		            		<a aria-label="Submenu Intranet (internal)" class="dropdown-item c-special_menu" href="/intranet/" target="_new" >Intranet (internal)</a> 
+		          			
+	          			
+	          	</li>
+            	
+	            <li>
+          			
+		          			
+		          		
+		          			<!-- <hr class="dropdown-divider"> -->
+		            		<a aria-label="Submenu Extranet (login required)" class="dropdown-item c-special_menu" href="/extranet/" target="_self" >Extranet (login required)</a> 
+		          			
+	          			
+	          	</li>
+            	
+            	
+          		
+	          </ul>
+	          
+	        </li>
+   			
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	
+
+</header>
+        
+
+        <main class="c-layout-page c-body c-sticky-menu" data-log="False" data-supper="False" >
+        
+
+	
+<!-- BANNER SECTION -->
+<section class="c-banner-section c-swoop-divider">
+    <div class="c-banner-gradient" style="background-image: linear-gradient(to right, #00000020, #00000090) "></div>
+    <div class="c-banner-photo" style="background-image: url('https://gmao.gsfc.nasa.gov/media/gmao_products/VPj9Vm07jIqPeIBhIWLGrweILf/image_8_e1byxuv7k5pw0z3t9ijhlrs8q.png');">
+        
+        <div class="container h-100">
+            <div class="c-banner-title">
+                <div class="row justify-content-center"><h1 class="col-md-12 text-white text-center mb-0">Modern-Era Retrospective analysis for Research and Applications, Version 2</h1></div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+
+	<section class="c-gmao-product-details py-4">
+		<div class="container">
+
+			
+<div class="c-breadcrumb-container" data-level1="GMAO Products" data-level2="MERRA-2" data-level3="Documentation">
+	
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb"><ol class="breadcrumb">
+	<li class="breadcrumb-item c-level-0"><a aria-label="Link Home" href="https://gmao.gsfc.nasa.gov">Home</a></li>
+	
+		<li class="breadcrumb-item c-level-1"><a aria-label="Link GMAO Products" href="/gmao-products/">GMAO Products</a></li>
+		<li class="breadcrumb-item c-level-2"><a aria-label="Link MERRA-2" href="/gmao-products/merra-2/">MERRA-2</a></li>
+		<li class="breadcrumb-item active">Documentation</li>
+	
+</ol></nav>
+</div>			
+
+	        <div class="row flex-row-reverse">
+
+				
+
+<div class="col-lg-3 c-side-list-menu">
+	<div class="c-menu-container mb-3 p-2">
+    	<ul class="c-list-icon mb-0">
+        	
+            
+        	   <li><a aria-label="Menu Data Access" href="/gmao-products/merra-2/data-access_merra-2/" class="c-link" data-slug="data-access_merra-2" target="_self" >Data Access</a></li>
+            
+            
+            
+            
+        	   <li><a aria-label="Menu Citing MERRA-2 Data" href="/gmao-products/merra-2/citing-merra-2-data_merra-2/" class="c-link" data-slug="citing-merra-2-data_merra-2" target="_self" >Citing MERRA-2 Data</a></li>
+            
+            
+        	   <li><a aria-label="Menu Documentation" href="/gmao-products/merra-2/documentation_merra-2/" class="c-link" data-slug="documentation_merra-2" target="_self" >Documentation</a></li>
+            
+            
+            
+        	   <li><a aria-label="Menu MERRA-2 AMIP" href="/gmao-products/merra-2/merra-2-amip_merra-2/" class="c-link" data-slug="merra-2-amip_merra-2" target="_self" >MERRA-2 AMIP</a></li>
+            
+            
+        	   <li><a aria-label="Menu Highlights" href="/gmao-products/merra-2/highlights_merra-2/" class="c-link" data-slug="highlights_merra-2" target="_self" >Highlights</a></li>
+            
+            
+        	   <li><a aria-label="Menu Images" href="/gmao-products/merra-2/images_merra-2/" class="c-link" data-slug="images_merra-2" target="_self" >Images</a></li>
+            
+            
+        	   <li><a aria-label="Menu Videos" href="/gmao-products/merra-2/videos_merra-2/" class="c-link" data-slug="videos_merra-2" target="_self" >Videos</a></li>
+            
+            
+        	   <li><a aria-label="Menu FAQ" href="/gmao-products/merra-2/faq_merra-2/" class="c-link" data-slug="faq_merra-2" target="_self" >FAQ</a></li>
+            
+            
+        	   <li><a aria-label="Menu Publications" href="/gmao-products/merra-2/publications_merra-2/" class="c-link" data-slug="publications_merra-2" target="_self" >Publications</a></li>
+            
+            
+        	   <li><a aria-label="Menu Mailing List" href="/gmao-products/merra-2/mailing-list_merra-2/" class="c-link" data-slug="mailing-list_merra-2" target="_self" >Mailing List</a></li>
+            
+            
+        	   <li><a aria-label="Menu User Metrics" href="/gmao-products/merra-2/user-metrics_merra-2/" class="c-link" data-slug="user-metrics_merra-2" target="_self" >User Metrics</a></li>
+            
+            
+        	   <li><a aria-label="Menu Diagnostic Feedback" href="/gmao-products/merra-2/diagnostic-feedback_merra-2/" class="c-link" data-slug="diagnostic-feedback_merra-2" target="_self" >Diagnostic Feedback</a></li>
+            
+            
+        	   <li><a aria-label="Menu GMAO Reanalysis Page" href="https://gmao.gsfc.nasa.gov/reanalysis/" class="c-link" data-slug="gmao-reanalysis-page_merra-2" target="_new" >GMAO Reanalysis Page</a></li>
+            
+            
+        </ul>
+    </div>
+</div>
+
+
+	            <div class="col-lg-9">
+	            	<div class="c-gmao-products-container mb-3">
+	            		
+						
+
+<h3 class="c-line c-line-red mb-3">Documentation</h3>
+
+
+
+
+
+						
+		                
+		                <div class="c-media-items-container">
+		                
+		                	<div class="c-item-container">
+	            				<p class="fw-bold c-item-name mb-3 text-start">MERRA-2 Overview</p>
+				                <ul class="list-unstyled">
+	                				
+	                				<li class="c-item-description mb-3"><p>The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2), Ronald Gelaro, et al., 2017, J. Clim., <i>doi: 10.1175/JCLI-D-16-0758.1</i></p></li>
+	                				
+		                			
+		                			<div class="c-item-external mb-3 ms-3"><a aria-label="View Document" target="_blank" class="" href="https://doi.org/10.1175/JCLI-D-16-0758.1">10.1175/JCLI-D-16-0758.1</a></div>
+	                				
+				                </ul>
+				            </div>
+		                
+		                	<div class="c-item-container">
+	            				<p class="fw-bold c-item-name mb-3 text-None">The American Meteorological Society has a special collection of articles relevant to MERRA-2.</p>
+				                <ul class="list-unstyled">
+	                				
+	                				<li class="c-item-description mb-3">This collection, coordinated by Mike Bosilovich, is available at</li>
+	                				
+		                			
+		                			
+	                				<li class="c-item-external"><a aria-label="View Document" target="_blank" href="http://journals.ametsoc.org/collection/MERRA2">http://journals.ametsoc.org/collection/MERRA2</a></li>
+				                </ul>
+				            </div>
+		                
+		                	<div class="c-item-container">
+	            				<p class="fw-bold c-item-name mb-3 text-start">MERRA-2 File Specification</p>
+				                <ul class="list-unstyled">
+	                				
+	                				<li class="c-item-description mb-3">This document has a comprehensive list of datasets available, as well as description of the horizontal and vertical grids.</li>
+	                				
+		                			<li class="c-item-document mb-3"><ul>
+		                				<li class="mb-2"><a aria-label="View Document" target="_blank" href="https://gmao.gsfc.nasa.gov/media/publications/zbly36ziNFDFbmYmvhQeVqPhUo/Bosilovich785.pdf">Document</a></li>
+		                			</ul></li>
+		                			
+	                				
+				                </ul>
+				            </div>
+		                
+		                	<div class="c-item-container">
+	            				<p class="fw-bold c-item-name mb-3 text-start">File Specification for MERRA-2 Climate Statistics Products</p>
+				                <ul class="list-unstyled">
+	                				
+	                				<li class="c-item-description mb-3"><p>This document describes the gridded climate statistics files produced using output from the MERRA-2 reanalysis.</p></li>
+	                				
+		                			<li class="c-item-document mb-3"><ul>
+		                				<li class="mb-2"><a aria-label="View Document" target="_blank" href="https://gmao.gsfc.nasa.gov/media/publications/zbly36ziNFDFbmYmvhQeVqPhUo/Collow1253.pdf">Document</a></li>
+		                			</ul></li>
+		                			
+	                				
+				                </ul>
+				            </div>
+		                
+		                	<div class="c-item-container">
+	            				<p class="fw-bold c-item-name mb-3 text-start">Supplementary Description of Differences between ANA and ASM Data Collections.</p>
+				                <ul class="list-unstyled">
+	                				
+	                				
+	                				
+		                			<li class="c-item-document mb-3"><ul>
+		                				<li class="mb-2"><a aria-label="View Document" target="_blank" href="https://gmao.gsfc.nasa.gov/media/gmao_products/IqPeIBhIWLGrweILfVPj9Vmdoc/ANAvsASM_fx67nlyhwk8e1gruqdbmtcs9z.pdf">Document</a></li>
+		                			</ul></li>
+		                			
+	                				
+				                </ul>
+				            </div>
+		                
+		                	<div class="c-item-container">
+	            				<p class="fw-bold c-item-name mb-3 text-start">These GMAO Technical Memoranda evaluate different aspects of the MERRA-2 system:</p>
+				                <ul class="list-unstyled">
+	                				
+	                				<li class="c-item-description mb-3"><ul><li><a href="http://-/media/documents/hj4d7kp7trcwjd7m9c5ztwp7p/Bosilovich803_wnc2dpvgi0qhr8skb453ju1eo.pdf" target="_blank">Bosilovich et al. – MERRA-2: Initial Evaluation of the Climate</a>
+</li><li><a href="http://-/media/documents/hj4d7kp7trcwjd7m9c5ztwp7p/Randles887_twnh12axoci4semvq560ybglp.pdf" target="_blank">Randles et al. – The MERRA-2 Aerosol Assimilation</a></li><li><a href="https://gmao.gsfc.nasa.gov/pubs/docs/Collow1489.pdf" target="_blank">Collow et al.&nbsp;</a><a href="http://-/media/documents/hj4d7kp7trcwjd7m9c5ztwp7p/McCarty885_1xkstd3hpjqcla54omegz0u7b.pdf" target="_blank">–</a><a href="https://gmao.gsfc.nasa.gov/pubs/docs/Collow1489.pdf" target="_blank">&nbsp;Supplemental Documentation for GEOS Aerosol Products</a>
+</li><li><a href="http://-/media/documents/hj4d7kp7trcwjd7m9c5ztwp7p/McCarty885_1xkstd3hpjqcla54omegz0u7b.pdf" target="_blank">McCarty et al. – MERRA-2 Input Observations: Summary and Assessment</a></li></ul></li>
+	                				
+		                			
+		                			
+	                				
+				                </ul>
+				            </div>
+		                
+		                	<div class="c-item-container">
+	            				<p class="fw-bold c-item-name mb-3 text-start">These GMAO Technical Memoranda document aspects of the MERRA-2 system:</p>
+				                <ul class="list-unstyled">
+	                				
+	                				<li class="c-item-description mb-3"><ul><li>
+Description of the observation corrected precipitation process used in MERRA-2: Reichle, R., Q. Liu, R. Koster, C. Draper, S. Mahanama, and G. Partyka, 2017. Land Surface Precipitation in MERRA-2. J. Clim. doi:10.1175/JCLI-D-16-0570.1 <a href="http://journals.ametsoc.org/doi/pdf/10.1175/JCLI-D-16-0570.1" target="_blank" style="background-color: rgb(255, 255, 255);">Link</a>.</li><li>Description of the GEOS-5 model changes between the MERRA and MERRA-2 systems: Molod, A., Takacs, L., Suarez, M., and Bacmeister, J., 2015: Development of the GEOS-5 atmospheric general circulation model: evolution from MERRA to MERRA2, Geosci. Model Dev., 8, 1339-1356, doi:10.5194/gmd-8-1339-2015. <a href="http://www.geosci-model-dev.net/8/1339/2015/gmd-8-1339-2015.html" target="_blank" style="background-color: rgb(255, 255, 255);">Link</a>.</li><li>Description of the mass constraint used in MERRA-2: Takacs, L. L., M. Suarez, and R. Todling, 2015. Maintaining Atmospheric Mass and Water Balance Within Reanalysis. NASA/TM–2014-104606, Vol. 37. <a href="http://-/media/documents/hj4d7kp7trcwjd7m9c5ztwp7p/Takacs737_3rlk2ehtw5zbo14sqa8gd0nuj.pdf" target="_blank">Document</a></li></ul></li>
+	                				
+		                			
+		                			
+	                				
+				                </ul>
+				            </div>
+		                
+			            </div>
+		                
+
+						
+
+						
+		            </div>
+	            </div>
+
+				
+
+<div class="col-md-12">
+	<h5 class="c-line c-line-red my-3">Related Information</h5>
+	<div class="c-bottom-menu-container mb-3">
+    	<ul class="c-list-icon mb-0">
+    		<li><a aria-label="GMAO Reanalysis Products" href="https://gmao.gsfc.nasa.gov/gmao-products/reanalysis-products" class="c-link">GMAO Reanalysis Products</a></li>
+    		
+    		
+        	<li><a aria-label="Link View current GMAO production status." href="/gmao-products/status/" class="c-link">View current GMAO production status.</a></li>
+        	
+        	
+        	
+        	
+        	<li><a aria-label="Link Modern-Era Retrospective analysis for Research and Applications - early 21st Century" href="/gmao-products/merra-21c/" class="c-link">Modern-Era Retrospective analysis for Research and Applications - early 21st Century (MERRA-21C)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link GEOS Sub-seasonal to Seasonal Prediction system, Version 3" href="/gmao-products/geos-s2s-3/" class="c-link">GEOS Sub-seasonal to Seasonal Prediction system, Version 3 (GEOS-S2S-3)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link GEOS FP" href="https://gmao.gsfc.nasa.gov/gmao-products/geos-near-real-time-data-products/" class="c-link">GEOS FP (GEOS FP)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link Goddard Earth Observing System (GEOS) for Instrument Teams" href="/gmao-products/geos-it/" class="c-link">Goddard Earth Observing System (GEOS) for Instrument Teams (GEOS IT)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link GEOS FP-IT" href="https://gmao.gsfc.nasa.gov/gmao-products/geos-near-real-time-data-products" class="c-link">GEOS FP-IT (GEOS FP-IT)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link GEOS Composition Forecasts" href="/gmao-products/geos-cf/" class="c-link">GEOS Composition Forecasts (GEOS-CF)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link GEOS Near-Real Time Data Products" href="/gmao-products/geos-near-real-time-data-products/" class="c-link">GEOS Near-Real Time Data Products (GEOS Near-Real Time Data Products)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link GEOS Sub-seasonal to Seasonal Project, Version 2" href="/gmao-products/geos-s2s-2/" class="c-link">GEOS Sub-seasonal to Seasonal Project, Version 2 (GEOS-S2S-2)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link GEOS Experimental Seasonal Forecasts" href="/gmao-products/geos-s2s-1/" class="c-link">GEOS Experimental Seasonal Forecasts (GEOS-S2S-1)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link Atmosphere-Ocean General Circulation Model" href="/gmao-products/aogcm/" class="c-link">Atmosphere-Ocean General Circulation Model (AOGCM)</a></li>
+        	
+        	
+        	
+        	
+        	
+        	<li><a aria-label="Link Modern-Era Retrospective analysis for Research and Applications" href="/gmao-products/merra/" class="c-link">Modern-Era Retrospective analysis for Research and Applications (MERRA)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link MERRA-Land" href="/gmao-products/merra-land/" class="c-link">MERRA-Land (MERRA-Land)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link Modern Era Retrospective analysis for Research and Applications Aerosol Reanalysis" href="/gmao-products/merraero/" class="c-link">Modern Era Retrospective analysis for Research and Applications Aerosol Reanalysis (MERRAero)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link MERRA-NOBM" href="/gmao-products/merra-nobm/" class="c-link">MERRA-NOBM (MERRA-NOBM)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link Non-hydrostatic 7 km Global Mesoscale Simulation" href="/gmao-products/7km-g5nr/" class="c-link">Non-hydrostatic 7 km Global Mesoscale Simulation (7km-G5NR)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link Hurricane and Severe Storm Sentinel (HS3) Forecast Support" href="/gmao-products/hs3/" class="c-link">Hurricane and Severe Storm Sentinel (HS3) Forecast Support (HS3)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link DISCOVER-AQ 2014 Campaign GEOS-5 Forecasting Support" href="/gmao-products/discover-aq/" class="c-link">DISCOVER-AQ 2014 Campaign GEOS-5 Forecasting Support (DISCOVER-AQ)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link DYAMOND Phase II" href="/gmao-products/dyamond-phase-ii/" class="c-link">DYAMOND Phase II (DYAMOND Phase II)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link Observing System Simulation Experiments" href="/gmao-products/osses/" class="c-link">Observing System Simulation Experiments (OSSEs)</a></li>
+        	
+        	
+        	
+        	<li><a aria-label="Link SMAP Level-4 Products" href="/gmao-products/smap-l4/" class="c-link">SMAP Level-4 Products (SMAP L4)</a></li>
+        	
+        	
+        </ul>
+    </div>
+</div>
+
+
+	        </div>
+
+
+		</div>
+	</section>
+
+
+        </main>
+
+        <!-- BEGIN LOADER -->
+        
+<div class="c-loading c-page-loading c-gmao-loading c-production c-token" style="display: none;" data-static="https://gmao.gsfc.nasa.gov/static/" data-token="ZCL15IbXPtXcLHXMS7XGKFO4gJLFjphTcbeKdScdY0MrIBtgDJ9qtsvaHeQHTpTo">
+    <div class="d-table position-relative w-100 h-100">
+        <div class="d-table-cell align-middle text-center">
+            <img fetchpriority="high" src="https://gmao.gsfc.nasa.gov/static/global/images/nasa.gif" class="d-inline-block">
+        </div>
+    </div>
+</div>
+        <!-- END LOADER -->
+
+        <!-- BEGIN FOOTER -->
+        
+<footer>
+    <div class="container py-5">
+        <div class="row mb-4 pb-4 c-pre-footer">
+            <div class="col-md-6">
+                <a aria-label="NASA Logo" class="c-navbar-brand mx-2" href="https://nasa.gov" target="_blank">
+                    <img fetchpriority="high" src="https://gmao.gsfc.nasa.gov/static/global/logo/nasa.png" aria-label="NASA Logo" alt="NASA Logo" class="img-fluid c-nasa-logo" height="65px" width="65px">
+                </a>
+            </div>
+            <div class="col-md-6 text-end">
+                <a aria-label="ESD Logo" class="c-navbar-brand mx-2" href="https://science.gsfc.nasa.gov/earth/" target="_blank">
+                    <img fetchpriority="high" src="https://gmao.gsfc.nasa.gov/static/global/logo/esd.png" aria-label="ESD Logo" alt="ESD Logo" class="img-fluid c-esd-logo" height="42px" width="200px">
+                </a>
+            </div>
+        </div>
+        <div class="c-policy-container">
+            <ul class="nav">
+              <li class="nav-item">
+                <a aria-label="Privacy Policy & Important Notices" class="c-nav-link" target="_blank" aria-current="page" aria-label="Privacy Policy & Important Notices" href="https://www.nasa.gov/privacy/">Privacy Policy & Important Notices</a>
+              </li>
+              <li class="nav-item">
+                <a aria-label="NASA's Accessibility Statement" class="c-nav-link" target="_blank" aria-label="NASA's Accessibility Statement" href="https://www.nasa.gov/general/accessibility/">NASA's Accessibility Statement</a>
+              </li>
+              <li class="nav-item">
+                <a aria-label="Contact Us" class="c-nav-link" aria-label="Contact Us" href="/contact-us/">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a aria-label="Website Question & Feedback" class="c-nav-link" aria-label="Website Question & Feedback" href="/question-feedback/">Website Question & Feedback</a>
+              </li>
+            </ul>
+        </div>
+        <div class="c-team-info-container" data="/gmao-products/merra-2/documentation_merra-2/">
+            <ul class="nav">
+              <li class="c-info-item">
+                <p>Responsible NASA Official: <span>Steven Pawson</span></p>
+              </li>
+              <li class="c-info-item">
+                <p>Web Curator: <a href="mailto:thang.h.do@nasa.gov"><span>Thang H Do</span></a></p>
+              </li>
+              <li class="c-info-item">
+                <p>Page Last Updated: <span>11/19/2025</span></p>
+              </li>
+            </ul>
+        </div>
+        
+        
+    </div>
+</footer>
+        <!-- END FOOTER -->
+
+            <!-- Modal -->
+    <div id="gmaoModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="GMAO Modal" aria-hidden="true" style="">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content c-rounded">
+                <div class="modal-header" style="display: none;">
+                    <h4 class="modal-title" id="myModalLabel"></h4>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer" style="display: none;">
+                    <button aria-label="Close" type="button" class="btn c-square c-btn-bold c-btn-uppercase c-modal-close btn-secondary" data-bs-dismiss="modal" style="display: none;">Close</button>
+                    <button aria-label="Submit" type="button" class="btn c-square c-btn-bold c-btn-uppercase c-modal-submit" style="display: none;">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End: Modal -->
+        	
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.0/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+	<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha512-3j3VU6WC5rPQB4Ld1jnLV7Kd5xr+cq9avvhwqzbH/taCRNURoeEpoPBK9pDyeukwSxwRPJ8fDgvYXd6SkaZ2TA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	
+	
+	<script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://gmao.gsfc.nasa.gov/static/global/js/prism.js"></script>
+
+    <script src="https://gmao.gsfc.nasa.gov/static/CACHE/js/output.cb4142193d5d.js"></script>
+        
+        <script src="https://gmao.gsfc.nasa.gov/static/CACHE/js/output.353b4fdd111a.js"></script>
+        
+  
+    </body>
+
+</html>  

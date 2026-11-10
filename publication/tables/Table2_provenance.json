@@ -1,0 +1,27 @@
+{
+  "id": "Table2",
+  "role": "static_display_transcription",
+  "rows": 6,
+  "columns": [
+    "Index",
+    "Measurement/rationale",
+    "Frozen source",
+    "Archive definition",
+    "Period support",
+    "Latest eligible",
+    "Citation/note"
+  ],
+  "sources": {
+    "metadata/paper_reference.json": {
+      "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+    }
+  },
+  "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+  "files_sha256": {
+    "Table2.csv": "ed379e423ce89db2a2077582f2ce56d6099903e652e91ec766e5fdcf6432793e",
+    "Table2_display.csv": "ed379e423ce89db2a2077582f2ce56d6099903e652e91ec766e5fdcf6432793e"
+  },
+  "validation_against_displayed_paper": {
+    "status": "STATIC_TRANSCRIPTION"
+  }
+}

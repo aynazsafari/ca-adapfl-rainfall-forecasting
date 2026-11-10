@@ -1,0 +1,12 @@
+{
+  "status": "SCOPES_SEPARATED",
+  "historical_environment_files": [
+    "ENVIRONMENT.json",
+    "CURRENT_ENVIRONMENT.json"
+  ],
+  "CURRENT_ENVIRONMENT_meaning": "Historical local observed snapshot from 2026-10-08T04:57 UTC; benchmark package 1.0.1 and pre-nbconvert authoring state. It does not describe the v3 authoring environment.",
+  "ENVIRONMENT_meaning": "Preserved original observed environment; no installed benchmark-package version is recorded there.",
+  "v3_training_environment": "runs/revision_v3/run_identity.json: environment, unchanged accepted evidence",
+  "v3_authoring_environment": "provenance/authoring_environment.json, separated from scientific training",
+  "dependency_pins": "requirements-lock.txt are direct pins for reproduction including nbconvert 7.17.1; not a resolver proof for every platform"
+}

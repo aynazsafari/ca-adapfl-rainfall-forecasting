@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "source": "ERSSTv6",
+      "source_path": "work\\amv_rebuild\\raw\\ersst.v6.1850-last.nc",
+      "sha256": "afe81239648e7ececb4bf85a5d0791bc824dd3624f6ac2d6e86bf756d47d8c73",
+      "manifest_sha256": "8dcd14adfde4ff5bd960f8646083f2408d84af0e716edee7719cc293bae0cad8",
+      "url": "https://www.ncei.noaa.gov/pub/data/cmb/ersst/v5/v6/netcdf.one/ersst.v6.1850-last.nc",
+      "retrieved_utc": "2026-10-07T21:58:17.976029+00:00",
+      "status": "PASS"
+    },
+    {
+      "source": "POWER merra2",
+      "source_path": "work\\power_imd_rebuild\\merra2_monthly_zmetadata.json",
+      "sha256": "1aeecfa471350667df2e8bc1a327f3214ad3546dbc7d91088cfbf6b352359ca8",
+      "receipt_sha256": "a2fcf2f8a34a499cd9ae5b469bf82eff5a256e1c8bd4b2c0421787baecaeea17",
+      "status": "PASS"
+    },
+    {
+      "source": "POWER srb",
+      "source_path": "work\\power_imd_rebuild\\srb_monthly_zmetadata.json",
+      "sha256": "9296ae59994323bfdd2ef593f2c95eb0ee35e2dd869e03c7863583a3a1b25e68",
+      "receipt_sha256": "a2fcf2f8a34a499cd9ae5b469bf82eff5a256e1c8bd4b2c0421787baecaeea17",
+      "status": "PASS"
+    },
+    {
+      "source": "POWER syn1deg",
+      "source_path": "work\\power_imd_rebuild\\syn1deg_monthly_zmetadata.json",
+      "sha256": "94de156140172c25f19e5875eb6201cbe2deb253f74b5651e6aa74ee1200202a",
+      "receipt_sha256": "a2fcf2f8a34a499cd9ae5b469bf82eff5a256e1c8bd4b2c0421787baecaeea17",
+      "status": "PASS"
+    },
+    {
+      "source": "frozen MEIv2",
+      "source_path": "work\\drive\\teleconnections\\MEIv2_monthly_1979-present.txt",
+      "sha256": "90a376fa1b5a07b512ee072d10d4d16312f4f20cbc679979311376aa853dfb68",
+      "version_footer_present": true,
+      "status": "PASS"
+    },
+    {
+      "source": "GLDAS supplement lineage",
+      "source_path": "outputs\\03_benchmark\\caadapfl_benchmark\\tools\\derived\\gldas_full\\manifest.json",
+      "sha256": "049980766a7bb4c513dd0c86371573af7f55705831031989dc658bfe6add0042",
+      "status": "PASS"
+    }
+  ],
+  "retained_official_documents": [
+    {
+      "source_path": "work\\power_imd_rebuild\\power_sources_doc.html",
+      "retained_copy": "raw/power_sources_frozen.html",
+      "sha256": "68a23d1eb267dea6bc23ab74203ed0521ba5bfd9069a4eccdd959e04f8ce55ed"
+    },
+    {
+      "source_path": "work\\power_imd_rebuild\\power_aws_doc.html",
+      "retained_copy": "raw/power_aws_frozen.html",
+      "sha256": "4419f0dff5f6bc4fdf57aaf247f290c97fe2cdbed76a6fbc97b738a83e128158"
+    },
+    {
+      "source_path": "work\\era5_rebuild\\ee_review\\source_evidence\\NASA_README_GLDAS2.pdf",
+      "retained_copy": "raw/NASA_README_GLDAS2_frozen.pdf",
+      "sha256": "aa37fce1e9f92bc3e3b00209016f9ac7a8089596839aa43c22e3b21246097ac7"
+    }
+  ],
+  "numerical_arrays_read": false,
+  "model_or_evaluation_files_read": false
+}

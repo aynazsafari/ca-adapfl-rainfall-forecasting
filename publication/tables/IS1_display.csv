@@ -1,0 +1,9 @@
+Archive identity,Input scaler,K,Aggregations,Proximal term,Steps / fit
+LOCAL_PRIVATE,Own,None,0,None,"9,000"
+LOCAL_STATS,Shared,None,0,None,"9,000"
+FEDAVG_PRIVATE_K1,Own,1,60,None,"9,000"
+FEDAVG_STATS_K1,Shared,1,60,None,"9,000"
+FEDAVG_STATS_K5,Shared,5,12,None,"9,000"
+FEDAVG_STATS_K20,Shared,20,3,None,"9,000"
+CAAA_STATS_K1,Shared,1,60,Adaptive μ=0.1,"9,000"
+CENTRAL_POOL_STATS,Shared,None,0,None,"8,460"

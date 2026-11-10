@@ -1,0 +1,5 @@
+Fixed a − b,ΔR² [95% CI],ΔRMSE mm [95% CI],Holm p (31-family)
+CAAA global − FedAvg global,"-0.002779 [-0.014620, 0.006410]","0.997 [-0.319, 2.470]",1
+CAAA global − FedProx global,"-0.000788 [-0.002494, 0.000530]","0.054 [-0.085, 0.222]",1
+CAAA personal − FedAvg personal,"-0.002478 [-0.009950, 0.005422]","0.128 [-0.895, 1.016]",1
+CAAA personal − FedProx personal,"0.000760 [0.000236, 0.001462]","-0.069 [-0.139, -0.006]",0.2421875

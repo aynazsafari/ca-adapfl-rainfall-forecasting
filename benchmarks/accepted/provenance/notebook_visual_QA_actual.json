@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-08T03:02:09.081813+00:00",
+  "scope": "All three actual saved-result notebook PNG outputs individually inspected at original resolution; exploratory reader plots, not manuscript plates.",
+  "run_sha256": "c10ec7499adba7470982ec57eb2daaba0634d79adae49ccb53ebca6309a218fb",
+  "executed_notebook_sha256": "963b60b99068ee9c64d10d8d58dcb710d22feb5eebd17be027376f0ab3b2592a",
+  "source_notebook_sha256": "80c650a1173baca33efdfb5d6183f80c041197f502cdb93a0ae2582f5c0f884d",
+  "execution_receipt_sha256": "555263d5a5994a986289492ddcb625a47cb78dddd63258cc19a4ff258ab465a8",
+  "image_records": [
+    {
+      "cell": 5,
+      "output": 1,
+      "path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\notebook_execution\\actual_revision_v2\\visual_assets\\cell_05_output_01.png",
+      "size": [
+        1290,
+        495
+      ],
+      "sha256": "d329ea5ce18a082dbc2009dfc2fa7ccdab6424e61cd24e1e18a2924719e4bd19"
+    },
+    {
+      "cell": 7,
+      "output": 1,
+      "path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\notebook_execution\\actual_revision_v2\\visual_assets\\cell_07_output_01.png",
+      "size": [
+        1090,
+        328
+      ],
+      "sha256": "d9c75dc4e04dbc4b078200c2196741fdd984732c99b0a07f4875466b94d8cff9"
+    },
+    {
+      "cell": 9,
+      "output": 0,
+      "path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\notebook_execution\\actual_revision_v2\\visual_assets\\cell_09_output_00.png",
+      "size": [
+        1089,
+        390
+      ],
+      "sha256": "594bb31054c022549ba9f1952652d62f4cba97a70d83965ddab3d42053cd5504"
+    }
+  ],
+  "checks": [
+    "FULL seed-point/mean panels: model identity labels, macro R2 versus RMSE units, five paired seed legend, global/personal labels readable and unclipped.",
+    "CAAA-FedAvg interval panels: 12-month primary and 6/24 sensitivities, A-minus-B signs, zero lines and complete endpoints readable.",
+    "Fixed Client1 seed42 latest24-month plot: observed/forecast keys and legend readable; raw negative predictions retained. Axis tick 2025-01 is an outer locator boundary, not a 2025 observation or forecast."
+  ],
+  "numeric_acceptance_parent": "runs/revision_v2/independent_qa/complete.json",
+  "model_fit_or_inference": false,
+  "source_notebook_modified": false
+}

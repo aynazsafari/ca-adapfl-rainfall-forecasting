@@ -1,0 +1,9 @@
+cadence,label,method,scaling,aggregations,optimizer_steps_per_fit,examples_per_fit,seeds
+0,LOCAL_PRIVATE,local,local,0,9000,269100,5
+0,LOCAL_STATS,local,shared,0,9000,269100,5
+1,FEDAVG_PRIVATE_K1,fedavg,local,60,9000,269100,5
+1,FEDAVG_STATS_K1,fedavg,shared,60,9000,269100,5
+5,FEDAVG_STATS_K5,fedavg,shared,12,9000,269100,5
+20,FEDAVG_STATS_K20,fedavg,shared,3,9000,269100,5
+1,CAAA_STATS_K1,caaa,shared,60,9000,269100,5
+0,CENTRAL_POOL_STATS,central,shared,0,8460,269100,5

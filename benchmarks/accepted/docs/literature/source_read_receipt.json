@@ -1,0 +1,141 @@
+{
+  "verified_utc": "2026-10-07T23:30:31.805142+00:00",
+  "paper_count": 10,
+  "reviewer_count": 20,
+  "scope": "Bounded primary-source mechanism comparison, not an exhaustive systematic review; no study fits, scores or manuscript changes.",
+  "inputs": [
+    {
+      "path": "work/src/comparison/caadapfl_drive_comparison_v5/reference_v4/source_evidence/reviewer_tracker_v2.json",
+      "sha256": "3c04cd3de868e3c95afe9a5536f376bc03d28867d5e1abac35c5b8630b6146f4"
+    },
+    {
+      "path": "work/review_manuscript/audit.md",
+      "sha256": "a0fce43b481b5d2181b5c27dac41f9999fa24c9deaa266a337e28eb71b7c6538"
+    },
+    {
+      "path": "work/review_manuscript/manuscript.txt",
+      "sha256": "9b37bbae58b0bb272fa1e5ccada290dd170be1a3b7f084218ef56bcbcec7adac"
+    },
+    {
+      "path": "work/benchmark_impl/neural_benchmark.py",
+      "sha256": "7ce74b0d4fd4277aa21ba668b91c9f3f9ad7e913992aefa07bad2d73ff57ce36"
+    },
+    {
+      "path": "work/benchmark_impl/graph_profiles.py",
+      "sha256": "d1edbf7a3e21a7dd58f0a2fb2734cb007fd46ebc9ac0cd1eda1ac364903ea536"
+    },
+    {
+      "path": "work/run_impl/protocol.json",
+      "sha256": "09698e14981d63c9c1ae79597e26e093f3ced274dd940ae318a8bcea3bcdbafc"
+    }
+  ],
+  "source_files": [
+    {
+      "key": "fedavg",
+      "url": "https://proceedings.mlr.press/v54/mcmahan17a/mcmahan17a.pdf",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "a7a8e2e3e437855c1efb53fe8f35f645eae7735fe9b6ac1f656a62004dbf5146",
+      "bytes": 763853,
+      "pages": 10,
+      "extracted_characters": 48698,
+      "retrieved_at_unix_s": 1791415316.9213805
+    },
+    {
+      "key": "fedprox",
+      "url": "https://proceedings.mlsys.org/paper/2020/file/1f5fe83998a09396ebe6477d9475ba0c-Paper.pdf",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "2c9e1c1ec91fc22dd8f04e52d9641a8797cdb82100936fceb63261f444194df8",
+      "bytes": 3006059,
+      "pages": 22,
+      "extracted_characters": 124658,
+      "retrieved_at_unix_s": 1791415321.3740091
+    },
+    {
+      "key": "ditto",
+      "url": "https://proceedings.mlr.press/v139/li21h/li21h.pdf",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "d23b032d76d9033c641ef475d3c16c97228bcce29bac1e596986bc54a403d8ae",
+      "bytes": 1864324,
+      "pages": 12,
+      "extracted_characters": 57668,
+      "retrieved_at_unix_s": 1791415317.7308984
+    },
+    {
+      "key": "fedamp",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/16960/16767",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "5493de603f32e17422515e430676af7113903668472029f8f6f8f9dbb160b29e",
+      "bytes": 344208,
+      "pages": 9,
+      "extracted_characters": 45692,
+      "retrieved_at_unix_s": 1791415318.3853166
+    },
+    {
+      "key": "fedala",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/26330/26102",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "adcaef86cd608a921d7faacb43566e4fb8108d6d9ca270d1d229655eed745ed0",
+      "bytes": 439286,
+      "pages": 8,
+      "extracted_characters": 48596,
+      "retrieved_at_unix_s": 1791415321.2744668
+    },
+    {
+      "key": "adapfl",
+      "url": "https://arxiv.org/pdf/2408.05761",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "cfb62421a0faa13a4ba849c41c147d6bdc9540b94d227aacb1335bc98c2ac762",
+      "bytes": 2591441,
+      "pages": 36,
+      "extracted_characters": 64087,
+      "retrieved_at_unix_s": 1791415320.3974762
+    },
+    {
+      "key": "metepfl",
+      "url": "https://www.ijcai.org/proceedings/2023/0393.pdf",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "c14be0c0ae57d40563135697f9d5c40210799514fcdbdf3832c284509adadcd1",
+      "bytes": 1242009,
+      "pages": 9,
+      "extracted_characters": 46357,
+      "retrieved_at_unix_s": 1791415321.8014789
+    },
+    {
+      "key": "fedpod",
+      "url": "https://www.ijcai.org/proceedings/2024/0638.pdf",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "d47485d42908afc50104e69141c0e4f29201e50edbcf0cfbf1c4d4ad64c4bc06",
+      "bytes": 560690,
+      "pages": 9,
+      "extracted_characters": 44718,
+      "retrieved_at_unix_s": 1791415323.1212056
+    },
+    {
+      "key": "precip_gan_author_preprint",
+      "url": "https://assets-eu.researchsquare.com/files/rs-3463206/v1_covered_8fc21a89-74e8-44fa-bfad-c6681efa9bee.pdf?c=1719058300",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "4398210b8b43cea8c247de89beefafe5b36bfd91a622f59d7297b53615a9e71a",
+      "bytes": 600223,
+      "pages": 22,
+      "extracted_characters": 69836,
+      "retrieved_at_unix_s": 1791415322.8496184
+    },
+    {
+      "key": "fedfomo",
+      "url": "https://arxiv.org/pdf/2012.08565",
+      "status": "retrieved_and_all_pages_extracted",
+      "sha256": "7d338197057abc493ae8da0d905c51de0e7a07e78027a644a1a17ac86a7e8042",
+      "bytes": 3223756,
+      "pages": 17,
+      "extracted_characters": 58701,
+      "retrieved_at_unix_s": 1791415323.3658714
+    }
+  ],
+  "comparison_inferences": "Differences against revised code are this audit's interpretation of the inspected equations and code, not claims made by those papers.",
+  "absence_language": "Not reported means no such mechanism identified in the inspected methods/full-text searches; it is not a proof of absence.",
+  "unresolved": [
+    "MetePFL: Paper writes Q=15 but parenthetically says fifty hours; report 15 steps rather than silently resolving that wording.",
+    "FedPoD: Main text states 25 local epochs/50 rounds; a figure uses another budget and sensitivity uses 5/10. Do not silently unify these settings.",
+    "Jafarigol & Trafalis: Do not assert the preprint mechanism is byte-identical to the inaccessible published full text; its nine station labels correspond to broad regional partitions."
+  ]
+}

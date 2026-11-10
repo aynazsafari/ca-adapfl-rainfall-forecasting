@@ -1,0 +1,12 @@
+{
+  "files": {
+    "MAIN_FULL_fit.npz": "0a4223c207756593f4dacb5e660d6f721ef0320798530d841a4a8fbc66f079fc",
+    "MAIN_FULL_evaluation_features.npz": "b5590105e965f9c9b6b334759d4068674c7d60c3c46357231a94dc38402f11ca",
+    "MAIN_FULL_schema.json": "b490615527ccb06c4894611868be4e76e3eb2887d9a07b8ce9ad11dd8f0c2809",
+    "MAIN_local_sensitivity.json": "194cffa9e7511d81437d0d2948b275b04c1cf5983a1a42a8f165d7dfc0c33cb2",
+    "archive_analysis_protocol.json": "1d5a94fc08f6f6f0fb8482cf9c0bc20fae5479628d07defa8052fa303eb2d6cb",
+    "archive_feature_CI_protocol.json": "6bf71825e0a4ba6fe0281f123c6f12259e7fefeaedfdd510fb8577db33e8855c",
+    "accepted_raw_predictions.csv": "31caf6b3dff04ce4737591d9057374470ae15844014083ed62f03b66591fd23a"
+  },
+  "description": "Four authenticated accepted-main preprocessing inputs, with label-free evaluation features. All other v3 datasets are rebuilt from these and the hash-checked monthly panel. Archived comparison definitions are preserved, separately identified."
+}

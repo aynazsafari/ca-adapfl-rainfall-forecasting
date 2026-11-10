@@ -1,0 +1,81 @@
+[
+  {
+    "key": "noaa_enso",
+    "url": "https://www.psl.noaa.gov/enso/index.html",
+    "cache_reused": true,
+    "cache_processed_utc": "2026-10-08T00:11:41.801173+00:00",
+    "retrieval_utc": null,
+    "retained_file_mtime_utc": "2026-10-08T00:07:21.456138+00:00",
+    "status": "retained",
+    "path": "index_sources/noaa_enso.html",
+    "bytes": 77192,
+    "sha256": "5464c5b0fba6a75eaf095204841314dd6994b9743e0f7f6b7781ccda500b1024",
+    "extracted_characters": 18960
+  },
+  {
+    "key": "noaa_meiv2",
+    "url": "https://www.psl.noaa.gov/enso/mei/index.html",
+    "cache_reused": true,
+    "cache_processed_utc": "2026-10-08T00:11:41.802172+00:00",
+    "retrieval_utc": null,
+    "retained_file_mtime_utc": "2026-10-08T00:07:21.391299+00:00",
+    "status": "retained",
+    "path": "index_sources/noaa_meiv2.html",
+    "bytes": 49726,
+    "sha256": "5bd5025389fa7b9b2206e8b8f882f63faf380b5efc84ed6932a79c75f0e7b541",
+    "extracted_characters": 11241
+  },
+  {
+    "key": "ashok2004",
+    "url": "https://sites.bu.edu/thompsonlab/files/2018/01/Ashok-et-al.-2004.pdf",
+    "cache_reused": true,
+    "cache_processed_utc": "2026-10-08T00:11:41.822178+00:00",
+    "retrieval_utc": null,
+    "retained_file_mtime_utc": "2026-10-08T00:07:22.784466+00:00",
+    "status": "retained",
+    "path": "index_sources/ashok2004.pdf",
+    "bytes": 2697259,
+    "sha256": "0ddfa4e2c626555643e04aed3b9d6ae9589c7f6711a95034b0679c1a86acc85e",
+    "pdf_pages": 15,
+    "extracted_characters": 45472
+  },
+  {
+    "key": "kumar1999_pubmed",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=10381876&retmode=xml",
+    "cache_reused": true,
+    "cache_processed_utc": "2026-10-08T00:11:41.822178+00:00",
+    "retrieval_utc": null,
+    "retained_file_mtime_utc": "2026-10-08T00:07:22.357667+00:00",
+    "status": "retained",
+    "path": "index_sources/kumar1999_pubmed.xml",
+    "bytes": 3489,
+    "sha256": "6f61d7f9672e3bec72f9992234f8a8250b32050156f8397c26a31f7bee81483e",
+    "abstract_only": true,
+    "abstract_characters": 863
+  },
+  {
+    "key": "goswami2006",
+    "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2005gl024803",
+    "retrieval_utc": "2026-10-08T00:11:41.832317+00:00",
+    "http_status": 403,
+    "final_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2005gl024803",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "retention_failed",
+    "error_type": "HTTPError",
+    "error": "403 Client Error: Forbidden for url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2005gl024803"
+  },
+  {
+    "key": "trenberth_shea2006",
+    "url": "https://staff.cgd.ucar.edu/trenbert/trenberth.pdf/TrenberthSheaHurricanes2006GRL026894.pdf",
+    "cache_reused": true,
+    "cache_processed_utc": "2026-10-08T00:11:41.983848+00:00",
+    "retrieval_utc": null,
+    "retained_file_mtime_utc": "2026-10-08T00:07:24.639997+00:00",
+    "status": "retained",
+    "path": "index_sources/trenberth_shea2006.pdf",
+    "bytes": 467693,
+    "sha256": "520c8bc9c9605aa9d1d59264ad27a6afaac8f9fa0eed3b1eeda3b0536abf13ee",
+    "pdf_pages": 4,
+    "extracted_characters": 23546
+  }
+]

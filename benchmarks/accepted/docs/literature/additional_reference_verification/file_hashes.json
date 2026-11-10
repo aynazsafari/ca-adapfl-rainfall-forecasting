@@ -1,0 +1,98 @@
+{
+  "schema": "reference_evidence_hashes_v1",
+  "created_utc": "2026-10-08T01:14:01.529623+00:00",
+  "files": {
+    "build_verification.py": {
+      "sha256": "f70a8c215690bda0117407bea58f7515b358fcf1ee990a69f4556036977d3afe",
+      "bytes": 17198
+    },
+    "capture_primary_metadata.py": {
+      "sha256": "03b7be0207a626fc83a9d2bded48b7dc08c5658a4cf9598a727e7759b6381c61",
+      "bytes": 2757
+    },
+    "local_native_attributes.json": {
+      "sha256": "07e0cd6755b562ecce818fcd1a1d9361650d0094172a5ad49746f71b39bb3263",
+      "bytes": 7853
+    },
+    "local_source_authentication.json": {
+      "sha256": "ad3f33332a1ff840b1f85657d6f0a38a1aea513c8ae8a1c83591ea911eb48422",
+      "bytes": 2897
+    },
+    "raw/barnston_crossref.json": {
+      "sha256": "2250271572bcf36a5c12ed0fd8469a4eb36cb2e6441780288df551cc391f87e9",
+      "bytes": 13145
+    },
+    "raw/ersst6_part1_crossref.json": {
+      "sha256": "a066c73f6ff87ce4b5ef8245b4fae27b2169855dc211a2f07e20b2cc4726bbc9",
+      "bytes": 28629
+    },
+    "raw/ersst6_part2_crossref.json": {
+      "sha256": "a16e1cf9da322a437ff479230d6fbce19bd84de22e1f36bfb0640e1bd3393c95",
+      "bytes": 25517
+    },
+    "raw/gldas21_cmr.json": {
+      "sha256": "fad656f40452d947b7ce4897c250d7e6ff0847683d2db13a49d598d3e39617be",
+      "bytes": 27735
+    },
+    "raw/gldas21_datacite.json": {
+      "sha256": "b41b5c81cb2e751f4af3c7452240eff53d7d1085dace2a59b13ff4396ab7475c",
+      "bytes": 7125
+    },
+    "raw/mei_v2_zhang_crossref.json": {
+      "sha256": "73c534fa1aa578fb98e57bed9ecd6410669f69ec150b2ef890f50aea6ea1a88f",
+      "bytes": 9718
+    },
+    "raw/merra2_gelaro_crossref.json": {
+      "sha256": "131e1983c59298a1fe6d6c338ecd9c4db2a29efb1fe7597d6f366fffc062ab49",
+      "bytes": 22396
+    },
+    "raw/nasa_gmao_merra2.html": {
+      "sha256": "c75375d1d83499ecc220c9d1aeae9c557523842a15ab2dc01c907158b9d0e324",
+      "bytes": 40326
+    },
+    "raw/NASA_README_GLDAS2_frozen.pdf": {
+      "sha256": "aa37fce1e9f92bc3e3b00209016f9ac7a8089596839aa43c22e3b21246097ac7",
+      "bytes": 1114575
+    },
+    "raw/nasa_srb_acknowledgement.html": {
+      "sha256": "97c516b74cd35e9fd82f8d1660aa780694ab11488dae403e43925e23b4213059",
+      "bytes": 164166
+    },
+    "raw/ncei_ersst.html": {
+      "sha256": "4d98e94853dcb318bfc44519d5a732655dd6880f517edbffdabd84e16b1e8599",
+      "bytes": 56609
+    },
+    "raw/noaa_mei_v2.html": {
+      "sha256": "5bd5025389fa7b9b2206e8b8f882f63faf380b5efc84ed6932a79c75f0e7b541",
+      "bytes": 49726
+    },
+    "raw/power_acknowledgements.html": {
+      "sha256": "eaff9ef628a9fbb2379c14a059900719da088f63e6866bece15314414d74355f",
+      "bytes": 16756
+    },
+    "raw/power_aws_frozen.html": {
+      "sha256": "4419f0dff5f6bc4fdf57aaf247f290c97fe2cdbed76a6fbc97b738a83e128158",
+      "bytes": 20175
+    },
+    "raw/power_referencing.html": {
+      "sha256": "97f49593dd0878b38a1d134e5c2e41df1cd192f08668d3dfa81d37fcaef2059b",
+      "bytes": 18436
+    },
+    "raw/power_sources_frozen.html": {
+      "sha256": "68a23d1eb267dea6bc23ab74203ed0521ba5bfd9069a4eccdd959e04f8ce55ed",
+      "bytes": 26501
+    },
+    "retrieval_manifest.json": {
+      "sha256": "fce3bd7de6747cb7b2dec23170ba5716901d02236881e66518cdb0fd8be4f1e1",
+      "bytes": 6429
+    },
+    "source_specific_notes.md": {
+      "sha256": "02c372fb5e73f901d99dcab3db28090578be9bd07bc42288ce8a60111c0ba054",
+      "bytes": 6300
+    },
+    "verified_metadata.json": {
+      "sha256": "09a059a74e0658f75065f3b333024c129df5161180f45632904bec8ab7c7182a",
+      "bytes": 20268
+    }
+  }
+}

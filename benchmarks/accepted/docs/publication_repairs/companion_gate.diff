@@ -1,0 +1,59 @@
+--- pre_actual_qa/pre_actual_qa_make_publication_companions.py
++++ make_publication_companions.py
+@@ -78,6 +78,32 @@
+     require(len(plan['pairs']) == 31 and len(plan['plates']) == 9, 'Frozen plan counts differ')
+     require(plan['forest_ranges'] == [[0, 8], [8, 16], [16, 24], [24, 31]], 'Forest partition differs')
+     return plan
++
++
++def accepted_plotter_source(repo, plan):
++    """Admit only the disclosed arithmetic-type repair of the frozen plotter."""
++    source = repo / 'tools' / 'make_figures.py'
++    if sha256(source) == plan['original_script_sha256']:
++        return plan['original_script_sha256'], []
++    repair_path = repo / 'docs' / 'publication_repairs' / 'graph_precision_repair.json'
++    repair = read_json(repair_path)
++    require(repair.get('status') == 'PASS' and repair.get('scientific_modules_unchanged') is True,
++            'Plotter repair is absent or unaccepted.')
++    require(repair.get('original_plotter_sha256') == plan['original_script_sha256'] and
++            repair.get('frozen_layout_plan_sha256') == PLAN_SHA256, 'Repair parent/unchanged layout differs.')
++    parent = repo / 'docs' / 'publication_repairs' / 'pre_actual_qa_make_figures.py'
++    check_hash(parent, plan['original_script_sha256'])
++    old = b"    close(graphs['graphs']['enriched'], np.mean(np.asarray(components, float), axis=0), 'enriched equal-component mean')"
++    new = (b"    require(np.array_equal(np.asarray(graphs['graphs']['enriched'], float),\n"
++           b"                           np.mean(np.asarray(components, float), axis=0).astype(np.float32).astype(float)),\n"
++           b"            'Enriched graph differs from the equal-component mean serialized as float32')")
++    parent_bytes = parent.read_bytes()
++    if b'\r\n' in parent_bytes:
++        new = new.replace(b'\n', b'\r\n')
++    require(parent_bytes.count(old) == 1 and parent_bytes.replace(old, new) == source.read_bytes(),
++            'Plotter changes extend beyond the exact disclosed float32 verification repair.')
++    check_hash(source, repair.get('repaired_plotter_sha256'))
++    return repair['repaired_plotter_sha256'], [repair_path, parent]
+ 
+ 
+ def gates(repo, run, figures, qa_path, figure_qa_path, plan):
+@@ -112,12 +138,12 @@
+     require(isinstance(complete.get('files'), dict) and complete['files'], 'Evaluation completion hash map absent.')
+     for relative, saved_hash in complete['files'].items():
+         check_hash(safe_child(run / 'evaluation', relative), saved_hash)
+-    check_hash(repo / 'tools' / 'make_figures.py', plan['original_script_sha256'])
++    plotter_sha256, repair_sources = accepted_plotter_source(repo, plan)
+     manifest_path = figures / 'figure_manifest.json'
+     manifest, figure_qa = read_json(manifest_path), read_json(figure_qa_path)
+     require(manifest.get('run_sha256') == run_sha and manifest.get('figure_count') == 8 and
+             manifest.get('gates_passed_before_accuracy_reads') is True, 'Original figure run/gate/count differs.')
+-    require(manifest.get('script_sha256') == plan['original_script_sha256'], 'Original figure source differs from frozen source.')
++    require(manifest.get('script_sha256') == plotter_sha256, 'Original figure source differs from accepted source.')
+     require(manifest.get('evaluation_complete', {}).get('sha256') == sha256(complete_path) and
+             manifest.get('independent_qa', {}).get('sha256') == sha256(qa_path), 'Original figure receipt binding differs.')
+     require(tuple(f['id'] for f in manifest.get('figures', [])) == ORIGINAL_IDS, 'Original eight-artifact order differs.')
+@@ -141,7 +167,7 @@
+                 synthetic_fixture=complete.get('synthetic_fixture') is True,
+                 original_manifest=manifest, figure_qa=figure_qa,
+                 gate_sources=[complete_path, qa_path, run/'run_identity.json', run/'protocol.json',
+-                              run/'choices_frozen.json', manifest_path, figure_qa_path, figures/'figure_plan.json'],
++                              run/'choices_frozen.json', manifest_path, figure_qa_path, figures/'figure_plan.json'] + repair_sources,
+                 source_paths=[safe_child(figures, relative) for relative in dict.fromkeys(sources)])
+ 
+ 

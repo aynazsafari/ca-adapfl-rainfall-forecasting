@@ -1,0 +1,32 @@
+{
+  "status": "SOURCE_ONLY_COPIED_WITH_BYTE_EQUALITY",
+  "actual_study_plots_rendered": false,
+  "existing_eight_figure_tool_unchanged": true,
+  "actual_evaluation_files_opened": false,
+  "files": [
+    {
+      "path": "tools/make_publication_companions.py",
+      "sha256": "33fa076c12f576057f4ee2e38b547be0bd858d74ac61b4937da44c1d614baafe"
+    },
+    {
+      "path": "tools/layout_plan.json",
+      "sha256": "7c62f5c40d4f1d2a55c3f8d763dd6dae2b50c2cb3b9fcb61bc3e21884ff200a0"
+    },
+    {
+      "path": "docs/PUBLICATION_LAYOUT.md",
+      "sha256": "132c3c4514305ae7c25ce5aa15a1d194267a4539e78afb79d59c638cc2be68f1"
+    },
+    {
+      "path": "docs/model_abbreviation_ledger.csv",
+      "sha256": "f1780b2b4c63a57a460114eee5e78c108bb13ba27f886aeab6c352b669eb343d"
+    },
+    {
+      "path": "provenance/validation/publication_layout_freeze.json",
+      "sha256": "bcd3214e6c374f351434db5622c3106af082bf7e5cff1e3031e73dda0ef4985e"
+    },
+    {
+      "path": "provenance/validation/publication_layout_synthetic_visual_qa.json",
+      "sha256": "45d9b17b8b1cede1fb0e9e1b2c970cb440880177de707cd4b40ee394ba2f08a0"
+    }
+  ]
+}

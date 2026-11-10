@@ -1,0 +1,48 @@
+{
+  "id": "S7",
+  "role": "saved_numeric_evidence",
+  "rows": 18,
+  "columns": [
+    "case",
+    "method",
+    "identity",
+    "model_ADDED",
+    "model_REFERENCE",
+    "delta_definition",
+    "clients",
+    "seeds",
+    "TRAIN_months_per_client",
+    "evaluation_months_per_client",
+    "REFERENCE_features",
+    "ADDED_features",
+    "primary_block_months",
+    "bootstrap_repetitions_per_block",
+    "delta_macro_R2",
+    "macro_R2_CI95_low_block12",
+    "macro_R2_CI95_high_block12",
+    "macro_R2_CI95_low_block6",
+    "macro_R2_CI95_high_block6",
+    "macro_R2_CI95_low_block24",
+    "macro_R2_CI95_high_block24",
+    "delta_macro_RMSE_mm",
+    "macro_RMSE_mm_CI95_low_block12",
+    "macro_RMSE_mm_CI95_high_block12",
+    "macro_RMSE_mm_CI95_low_block6",
+    "macro_RMSE_mm_CI95_high_block6",
+    "macro_RMSE_mm_CI95_low_block24",
+    "macro_RMSE_mm_CI95_high_block24"
+  ],
+  "sources": {
+    "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_18.csv": {
+      "sha256": "2f4467d8d04f972323927145b2508ba4d1699186d4a0e2fa861028b071b3fd3e",
+      "rows": 18
+    }
+  },
+  "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+  "files_sha256": {
+    "S7.csv": "2f4467d8d04f972323927145b2508ba4d1699186d4a0e2fa861028b071b3fd3e"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

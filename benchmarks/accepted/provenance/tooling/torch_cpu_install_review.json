@@ -1,0 +1,97 @@
+{
+  "status": "PASS_READ_ONLY_AVAILABILITY_CHECK",
+  "scope": "Official documentation plus CPU index links and wheel HEAD only; proposed CI-only installation step, not executed.",
+  "checked_utc": "2026-10-08T01:47:00.453397+00:00",
+  "official_sources": [
+    {
+      "url": "https://pytorch.org/get-started/locally/",
+      "finding": "Official installation selector provides CPU builds on Linux and Windows; Linux support requires glibc >=2.28. The selector was not used to infer exact 2.14.1 wheel availability."
+    },
+    {
+      "url": "https://pytorch.org/get-started/previous-versions/",
+      "finding": "Official Linux and Windows CPU installation examples use --index-url https://download.pytorch.org/whl/cpu."
+    },
+    {
+      "url": "https://packaging.python.org/en/latest/specifications/version-specifiers/",
+      "finding": "When an equality specifier uses a public version without a local suffix, a candidate local-version suffix is ignored for matching."
+    },
+    {
+      "url": "https://download.pytorch.org/whl/cpu/torch/",
+      "finding": "Index exposes the required 2.14.1+cpu cp312-cp312 Windows amd64 and manylinux_2_28 x86_64 wheel links."
+    }
+  ],
+  "evidence_files": {
+    "torch_cpu_index_probe.json": {
+      "sha256": "3968f73a5f1db89291066db334546cf1a3cee29a99dc0f249ddff5b95fc5d54a"
+    },
+    "torch_cpu_wheel_HEAD_receipt.json": {
+      "sha256": "de3c57bb012f4049d5623d35fd39287a24af28437306dcd82614b5beff17a823"
+    }
+  },
+  "current_package_files": {
+    ".github/workflows/implementation-checks.yml": {
+      "sha256": "50c3c9a82951c9427dbd26be9acfa39f9a4d08326ce4093a96f6585522c9b5ac"
+    },
+    "requirements-lock.txt": {
+      "sha256": "efa0496eb06e6bdf8a89d6b98de4c55932e65294049a686cff4cb306e930d475"
+    },
+    "docs/CI.md": {
+      "sha256": "f5a09d404ec00dae8fc124f6914eb2dade5d37638474d645e796fa6fcb9e71d8"
+    }
+  },
+  "proposed_command": "python -m pip install \"torch==2.14.1+cpu\" --index-url https://download.pytorch.org/whl/cpu",
+  "placement": "After setuptools install and before python -m pip install -r requirements-lock.txt",
+  "subsequent_lock_semantics": {
+    "requirement": "torch==2.14.1",
+    "candidate": "2.14.1+cpu",
+    "accepted_by_local_packaging": true
+  },
+  "wheel_availability": [
+    {
+      "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "index_sha256_fragment": "sha256=5a6363570c753812540a05eb82380e329469cbe668643e88111414c12627711f",
+      "request_method": "HEAD",
+      "status": 200,
+      "final_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 01:46:59 GMT",
+        "Content-Length": "196253677",
+        "ETag": "\"bdd6f76380be8f7d86fdd482e1e68605-3\"",
+        "Last-Modified": "Wed, 30 Sep 2026 15:28:18 GMT",
+        "Accept-Ranges": "bytes"
+      },
+      "body_bytes_read": 0
+    },
+    {
+      "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-win_amd64.whl",
+      "index_sha256_fragment": "sha256=c52adc3bd526ff7fc5bdcc58fc4a76e6214d09951b646ffe5256ebd7ba60cef1",
+      "request_method": "HEAD",
+      "status": 200,
+      "final_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-win_amd64.whl",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 01:46:59 GMT",
+        "Content-Length": "123996008",
+        "ETag": "\"4d396d2b4114d1c778083f0200fbc0e1-2\"",
+        "Last-Modified": "Wed, 30 Sep 2026 15:31:13 GMT",
+        "Accept-Ranges": "bytes"
+      },
+      "body_bytes_read": 0
+    }
+  ],
+  "disallowed_operations_performed": {
+    "wheel_GET": false,
+    "wheel_download": false,
+    "dependency_install": false,
+    "model_execution": false,
+    "workflow_edit": false,
+    "hosted_CI_execution": false
+  },
+  "limitations": [
+    "HEAD confirms object availability at retrieval time, not wheel integrity; the SHA-256 fragments are published index metadata and were not independently verified against wheel bytes.",
+    "Neither pip resolution nor installation nor hosted Windows/Linux tests were executed; CPU-index dependency resolution and transitive compatibility remain untested.",
+    "This does not prove the exact dependency metadata of the default-PyPI torch wheel. The proposal chooses the explicit CPU variant to avoid selecting a CUDA-enabled build.",
+    "The Linux wheel requires glibc >=2.28 and x86_64. The GitHub ubuntu-latest alias can change; CI execution is still needed.",
+    "The CPU wheel payload remains approximately 196 MB on Linux and 124 MB on Windows. No installation time or hosted-run success guarantee is made.",
+    "This CI-specific build choice does not establish parity with the frozen research runtime signature and must not be treated as authorization to resume research fits under a changed environment."
+  ]
+}

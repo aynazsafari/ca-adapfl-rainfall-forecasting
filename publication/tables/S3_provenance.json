@@ -1,0 +1,25 @@
+{
+  "id": "S3",
+  "role": "saved_numeric_evidence",
+  "rows": 47,
+  "columns": [
+    "model",
+    "alias",
+    "full_name",
+    "scope",
+    "feature_group"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2_publication_v2/model_abbreviation_ledger.csv": {
+      "sha256": "99f904731717053ce87874efc3a3de45fa8838e31b7eacdc78b196aa77cf3610",
+      "rows": 47
+    }
+  },
+  "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+  "files_sha256": {
+    "S3.csv": "f1780b2b4c63a57a460114eee5e78c108bb13ba27f886aeab6c352b669eb343d"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

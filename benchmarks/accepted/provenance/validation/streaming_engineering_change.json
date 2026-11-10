@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-08T00:08:55.894775+00:00",
+  "scope": "Engineering memory bound only, before any evaluation",
+  "superseded_run": "runs/revision_v1",
+  "successor_run": "runs/revision_v2",
+  "fit_mathematics_configurations_and_selection_rules_changed": false,
+  "evaluation_predictions_or_scores_before_change": false,
+  "changes": [
+    "load_fit optional history=False; default historical reader preserved",
+    "evaluate selected states one identity at a time without retaining all FitResults",
+    "public reload test validates global/personal selected-only equality"
+  ],
+  "old_code_snapshot": "snapshots/revision_v1_code/caadapfl",
+  "module_sha256": {
+    "neural_benchmark": "83814bc45d96b4dd2ea185436b9538babe59cbc70adcc00fe7ff4c33055d4873",
+    "runner": "79be46b566da5070ce785519cfe3674748295e1756abd7e2d1fc2d1a01b76047"
+  }
+}

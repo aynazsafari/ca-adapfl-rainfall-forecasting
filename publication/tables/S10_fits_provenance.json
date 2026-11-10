@@ -1,0 +1,30 @@
+{
+  "id": "S10_fits",
+  "role": "saved_numeric_evidence",
+  "rows": 100,
+  "columns": [
+    "id",
+    "label",
+    "seed",
+    "scenario",
+    "group",
+    "selected_round",
+    "validation_macro_r2",
+    "elapsed_seconds",
+    "optimizer_steps",
+    "examples"
+  ],
+  "sources": {
+    "benchmarks/accepted/publication/revision_v3/fit_inventory_100.csv": {
+      "sha256": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac",
+      "rows": 100
+    }
+  },
+  "formula_or_selector": "All 100 unique per-fit costs and selected checkpoints; aliases/projections do not add fits.",
+  "files_sha256": {
+    "S10_fits.csv": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

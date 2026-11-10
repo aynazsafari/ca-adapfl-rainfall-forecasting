@@ -1,0 +1,69 @@
+{
+  "retrieved_utc": "2026-10-08T01:47:00.453397+00:00",
+  "status": "BOTH_REQUIRED_CPU_WHEELS_HEAD_AVAILABLE",
+  "index": {
+    "index_url": "https://download.pytorch.org/whl/cpu/torch/",
+    "status": 200,
+    "final_url": "https://download.pytorch.org/whl/cpu/torch/",
+    "index_bytes": 414325,
+    "index_sha256": "76cfbb99ac920df3630726b4e1e2a73c157ebc0e1808175bc80edf45f26b5f65",
+    "total_anchor_links": 1219,
+    "matching_links": [
+      {
+        "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-manylinux_2_28_aarch64.whl#sha256=2af649994b36dffc627175c3f306d9e513a309b58d4619ac7107577613336454",
+        "decoded_link": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1+cpu-cp312-cp312-manylinux_2_28_aarch64.whl#sha256=2af649994b36dffc627175c3f306d9e513a309b58d4619ac7107577613336454"
+      },
+      {
+        "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=5a6363570c753812540a05eb82380e329469cbe668643e88111414c12627711f",
+        "decoded_link": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1+cpu-cp312-cp312-manylinux_2_28_x86_64.whl#sha256=5a6363570c753812540a05eb82380e329469cbe668643e88111414c12627711f"
+      },
+      {
+        "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-win_amd64.whl#sha256=c52adc3bd526ff7fc5bdcc58fc4a76e6214d09951b646ffe5256ebd7ba60cef1",
+        "decoded_link": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1+cpu-cp312-cp312-win_amd64.whl#sha256=c52adc3bd526ff7fc5bdcc58fc4a76e6214d09951b646ffe5256ebd7ba60cef1"
+      }
+    ],
+    "wheel_GET_requests": 0
+  },
+  "required_platforms": [
+    "cp312-cp312-win_amd64",
+    "cp312-cp312-manylinux_2_28_x86_64"
+  ],
+  "wheel_HEAD_results": [
+    {
+      "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "index_sha256_fragment": "sha256=5a6363570c753812540a05eb82380e329469cbe668643e88111414c12627711f",
+      "request_method": "HEAD",
+      "status": 200,
+      "final_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 01:46:59 GMT",
+        "Content-Length": "196253677",
+        "ETag": "\"bdd6f76380be8f7d86fdd482e1e68605-3\"",
+        "Last-Modified": "Wed, 30 Sep 2026 15:28:18 GMT",
+        "Accept-Ranges": "bytes"
+      },
+      "body_bytes_read": 0
+    },
+    {
+      "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-win_amd64.whl",
+      "index_sha256_fragment": "sha256=c52adc3bd526ff7fc5bdcc58fc4a76e6214d09951b646ffe5256ebd7ba60cef1",
+      "request_method": "HEAD",
+      "status": 200,
+      "final_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp312-cp312-win_amd64.whl",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 01:46:59 GMT",
+        "Content-Length": "123996008",
+        "ETag": "\"4d396d2b4114d1c778083f0200fbc0e1-2\"",
+        "Last-Modified": "Wed, 30 Sep 2026 15:31:13 GMT",
+        "Accept-Ranges": "bytes"
+      },
+      "body_bytes_read": 0
+    }
+  ],
+  "specifier_semantics": {
+    "requirement": "torch==2.14.1",
+    "candidate": "2.14.1+cpu",
+    "accepted_by_local_packaging": true
+  },
+  "no_wheel_downloads_installs_or_models": true
+}

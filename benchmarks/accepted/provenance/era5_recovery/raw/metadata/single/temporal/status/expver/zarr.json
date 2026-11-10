@@ -1,0 +1,56 @@
+{
+  "shape": [
+    756048
+  ],
+  "data_type": "uint8",
+  "chunk_grid": {
+    "name": "regular",
+    "configuration": {
+      "chunk_shape": [
+        753888
+      ]
+    }
+  },
+  "chunk_key_encoding": {
+    "name": "default",
+    "configuration": {
+      "separator": "/"
+    }
+  },
+  "fill_value": 255,
+  "codecs": [
+    {
+      "name": "bytes"
+    },
+    {
+      "name": "zstd",
+      "configuration": {
+        "level": 0,
+        "checksum": false
+      }
+    }
+  ],
+  "attributes": {
+    "long_name": "ECMWF experiment version",
+    "comment": "ECMWF MARS key 'expver': identifies the experiment or model version that produced each timestep. 0001 \u2014 ERA5 final reanalysis: quality-controlled, released ~2 months after the reference month. 0005 \u2014 ERA5T near-realtime: preliminary reanalysis released ~5 days behind real time; overwritten with 0001 once the month is finalized unless a known meteorological correction triggers a new dataset branch.",
+    "references": "https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation#heading-Dataformat https://confluence.ecmwf.int/pages/viewpage.action?pageId=124752178",
+    "coverage_content_type": "auxiliaryInformation",
+    "flag_values": [
+      1,
+      5,
+      255
+    ],
+    "flag_meanings": "era5_final era5t_near_realtime unspecified",
+    "valid_range": [
+      1,
+      5
+    ],
+    "_FillValue": 255
+  },
+  "dimension_names": [
+    "valid_time"
+  ],
+  "zarr_format": 3,
+  "node_type": "array",
+  "storage_transformers": []
+}

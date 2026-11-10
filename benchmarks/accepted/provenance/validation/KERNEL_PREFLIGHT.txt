@@ -1,0 +1,9 @@
+One-cell task-local kernel API preflight: PASS
+
+The corrected nested shutdown idiom was exercised in a fresh execution of the synthetic toy cell, output 42, with the same taskvenv interpreter and all four requested CPU environment values set to 2. Elapsed execution/shutdown time was 1.2207 seconds. No cell error or Python execution exception occurred.
+
+After the corrected root cleanup: manager.has_kernel=False; client channels_running=False without extra fallback cleanup. Windows provisioning/venv redirection yielded separate launcher and executing-Python PIDs; narrow independent checks confirmed both processes absent after shutdown. Immediate shutdown returned launcher exit code 1, consistent with the now=True termination path; the cell had already completed successfully. The initial preflight also has both PIDs absent and its receipt/driver/toy output are preserved separately.
+
+The observed standard IPKernelApp local TCP transport warning is retained verbatim in fixed_preflight_console.log; it was startup logging, not a notebook cell error. No global kernel registration, dependency installation, study notebook/results/truth read, model import/fit/inference or invocation of the actual gated wrapper occurred. Scratch kernel specs/config/runtime paths remained under this directory.
+
+This checks the local startup/execution/shutdown API with one trivial synthetic cell. It does not establish successful execution of the seven study-notebook cells or any accuracy figure. The corrected root wrapper was read only and its hash is recorded in kernel_preflight_receipt.json.

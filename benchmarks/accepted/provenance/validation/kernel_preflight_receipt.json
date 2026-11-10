@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "scope": "Actual one-cell synthetic local kernel startup/execution/shutdown API preflight only",
+  "elapsed_seconds": 1.220693500014022,
+  "parent_python": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\env\\Scripts\\python.exe",
+  "kernel_python": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\env\\Scripts\\python.exe",
+  "kernel_spec_argv": [
+    "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\env\\Scripts\\python.exe",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ],
+  "actual_process_argv": [
+    "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\env\\Scripts\\python.exe",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_docs\\kernel_preflight\\runtime_local\\toy_connection.json"
+  ],
+  "kernel_pid": 26844,
+  "synthetic_output": {
+    "answer": 42,
+    "cpu2_env": {
+      "MKL_NUM_THREADS": "2",
+      "NUMEXPR_NUM_THREADS": "2",
+      "OMP_NUM_THREADS": "2",
+      "OPENBLAS_NUM_THREADS": "2"
+    },
+    "cwd": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_docs\\kernel_preflight",
+    "pid": 35224,
+    "python": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\env\\Scripts\\python.exe",
+    "synthetic": true
+  },
+  "errors": [],
+  "execution_exception": null,
+  "wrapper_shutdown_observation": {
+    "manager_has_kernel": false,
+    "process_exit_code": 1,
+    "client_channels_running": false,
+    "shutdown_error": null
+  },
+  "extra_local_client_channel_cleanup_performed": false,
+  "final_client_channels_running": false,
+  "channel_cleanup_error": null,
+  "kernel_process_shutdown_confirmed": true,
+  "global_kernels_registered": false,
+  "packages_installed": false,
+  "study_notebooks_results_or_truth_opened": false,
+  "model_training_or_inference_performed": false,
+  "actual_gated_wrapper_called": false,
+  "wrapper_unchanged": true,
+  "wrapper_sha256": "62e70893fb7ff6928a40f7b4d93e8cfa121792e4cef1d3a0c08c2115411e05af",
+  "synthetic_input_sha256": "704c4b638d03f6deebab6aabc242af064bcfbe2bb847d8ea05c4c9c822f039a4",
+  "fixed_nested_cleanup_idiom_applied": true,
+  "initial_wrapper_observation_receipt_sha256": "44523a8a2ef2aa2ecf08e5f3e044891bca5e617bb850973414c182b80b15e382",
+  "driver_sha256": "19cb35a9b72ec6ed3a6467827a20a635247111455e87a39b997cdac19f0045c2",
+  "scratch_kernelspecs": {
+    "caadapfl-task": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_docs\\kernel_preflight\\temporary_kernel_specs\\caadapfl-task"
+  },
+  "additional_scratch_isolation_env": {
+    "IPYTHONDIR": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_docs\\kernel_preflight\\ipython_local",
+    "JUPYTER_RUNTIME_DIR": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_docs\\kernel_preflight\\runtime_local",
+    "JUPYTER_CONFIG_DIR": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_docs\\kernel_preflight\\jupyter_config_local",
+    "MPLCONFIGDIR": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\benchmark_docs\\kernel_preflight\\matplotlib_config_local"
+  },
+  "versions": {
+    "ipykernel": "7.4.0",
+    "jupyter_client": "8.10.0",
+    "nbclient": "0.11.0",
+    "nbformat": "5.11.1",
+    "traitlets": "5.16.1"
+  },
+  "proposed_wrapper_fix": null,
+  "limits": [
+    "One trivial synthetic cell; no claim of successful study-notebook execution or score rendering.",
+    "Extra scratch isolation env and an explicit connection-file path keep this check's runtime files local; root's API manager/client construction otherwise matched.",
+    "Two-thread environment variables verified; no numerical library was loaded to claim actual numerical-thread counts."
+  ],
+  "independent_windows_pid_shutdown_check_sha256": "90f22679e7825377f4d55f039251ce38744b68c51072ec7a5dfd792ba12b0779",
+  "both_provisioner_and_executing_python_pids_absent_after_shutdown": true,
+  "console_log_sha256": "91ecf9ae895146ff00c73c58fb2ee623438095bc81d500ef3f37799c2928bfb6"
+}

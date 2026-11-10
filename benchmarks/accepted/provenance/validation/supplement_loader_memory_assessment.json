@@ -1,0 +1,61 @@
+{
+  "status": "BOUNDED_ASSESSMENT_NO_MEASURED_BLOCKER_RETAIN_V2",
+  "reviewed_utc": "2026-10-08T01:20:26.937158+00:00",
+  "decision": "Retain prepared supplements_v2 unchanged, as directed by root; no new preparation/fits required.",
+  "current_code_sha256": {
+    "supplement_runner.py": "02a3f2800f1a23825d2f2d9df0f6f448b8b38a0b66c1bb7fcdbfdfc4a55b83c2",
+    "neural_benchmark.py": "83814bc45d96b4dd2ea185436b9538babe59cbc70adcc00fe7ff4c33055d4873"
+  },
+  "read_scope": "Current launcher/model source text plus previously saved measurement/equivalence receipts only; no new scientific fit/evaluation artifact read or probe.",
+  "prior_measurement_receipts": {
+    "work\\real_run_qa\\load_fit_memory_audit.json": "be32116b63692254ec88f668fbbbfc00e6821020584838b8d95779bbceacb561",
+    "work\\real_run_qa\\streaming_equivalence_receipt.json": "0fa17cba5e9d585f19e90b178cc69f39cdc2323445c3f95996e0b249f3e2397d"
+  },
+  "observed_FULL43": {
+    "fit_job_sha256": "2977a1228f9f07b55320341dcc9e7c5f1d9355d7037694834ce9057b27be5c74",
+    "selected_tensor_bytes": 2620848,
+    "periodic_tensor_bytes": 18345936,
+    "periodic_rounds": [
+      1,
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "periodic_round_count": 7,
+    "states_per_selected_or_round_snapshot": 6,
+    "full_load_RSS_increment_bytes": 32133120,
+    "selected_only_repeat20_peak_increment_bytes": 7462912,
+    "repeat20_last5_minus_first5_RSS_bytes": 24576,
+    "selected_only_skips_round_states_file": true,
+    "prior_validation_predictions_exactly_equivalent": 710
+  },
+  "static_largest_FULL55_estimate": {
+    "formula": "6states * 2LSTMdirections * 4gates * hidden48 * 12additionalinputs * float32_bytes4",
+    "extra_selected_tensor_bytes": 110592,
+    "extra_periodic_tensor_bytes": 774144,
+    "selected_tensor_bytes": 2731440,
+    "periodic_tensor_bytes": 19120080,
+    "full_tensor_payload_per_FitResult": 21851520,
+    "two_results_during_assignment_tensor_payload_bytes": 43703040,
+    "estimate_not_fresh_supplement_measurement": true
+  },
+  "loop_bound": {
+    "fit_cache": false,
+    "persistent_round_history_default_loaded": true,
+    "unused_history_rounds": 7,
+    "all60_round_histories_loaded": false,
+    "transient_prior_result_during_next_load": true,
+    "ninety_fit_results_retained_simultaneously": false
+  },
+  "assessment": "Skipping unused periodic states would save18.35MB of measured FULL43 tensors per load (about19.12MB estimated FULL55). The current uncached loop lacks the old primary all-fit retention failure; these measured payload bounds do not establish a supplement memory blocker. RSS includes allocator/import/log/model/batch overhead and cannot be predicted by payload bytes alone.",
+  "identity_implications": "The frozen launcher_sha256 participates in supplement run_identity and check_code. Altering only the load_fit keyword or deleting result would still invalidate the prepared v2 identity/resume. Scientific module, choices and parameters need not change, but a future adopted launcher would require an explicit new supplement identity/preparation. Current v2 is retained.",
+  "limitations": [
+    "Prior full/selected RSS observations came from distinct isolated probes; they are concrete measurements, not a controlled paired RSS estimate for every supplement.",
+    "FULL55 payload is a static architecture-derived bound using frozen hidden48/bidirectional LSTM and six selected/global-personal states; no new supplement model constructed.",
+    "No hosted or actual supplement evaluation was executed; full-process peak includes arrays, prediction frames, deserialization temporaries and allocator retention."
+  ],
+  "performed_new_fits_inference_installs_or_mutations": false
+}

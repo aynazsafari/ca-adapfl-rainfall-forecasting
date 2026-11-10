@@ -1,0 +1,3 @@
+Separate client precision–recall curves for the three FULL global identities at fixed illustrative seed 42. Scores are predicted heavy-event probabilities. Events exceed the local gradient-TRAIN q80; dash-dot line is observed evaluation prevalence. No pooled-client curve is shown. This realization is not an event-scale flood-warning validation.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

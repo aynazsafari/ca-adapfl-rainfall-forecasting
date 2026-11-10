@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "source_sha256": "95d5c019379ce509a7cda08c945e866544ceab5b62a74e99e809a2fc86bea86e",
+  "source_path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\ee_rebuild\\completed_raw\\CAAdapFL_GLDAS21_completed.csv",
+  "rows": 1500,
+  "variables": 12,
+  "calendar": [
+    "2000-01",
+    "2024-12"
+  ],
+  "all_keys_unique_complete": true,
+  "all_variables_finite": true,
+  "minimum_weighted_coverage": 0.9549576632527891,
+  "coverage_ranges_by_client": {
+    "Client1_NW_Arid": [
+      0.9549576632527891,
+      0.9970825034411586
+    ],
+    "Client2_Indo_Gangetic": [
+      1.0000000000000047,
+      1.0000000000000047
+    ],
+    "Client3_NE_Himalaya": [
+      1.0000000000000024,
+      1.0000000000000024
+    ],
+    "Client4_South_Peninsular": [
+      0.997847899379966,
+      1.0000000000000002
+    ],
+    "Client5_Central_India": [
+      1.0000000000000027,
+      1.0000000000000027
+    ]
+  },
+  "first_month_matches_independent_native_preflight_exactly": true,
+  "first_month_state_exceptions": [
+    {
+      "client": "Client1_NW_Arid",
+      "month": "2000-01",
+      "states": 247,
+      "expected": 248,
+      "temporal_coverage": 0.9959677419354839
+    },
+    {
+      "client": "Client2_Indo_Gangetic",
+      "month": "2000-01",
+      "states": 247,
+      "expected": 248,
+      "temporal_coverage": 0.9959677419354839
+    },
+    {
+      "client": "Client3_NE_Himalaya",
+      "month": "2000-01",
+      "states": 247,
+      "expected": 248,
+      "temporal_coverage": 0.9959677419354839
+    },
+    {
+      "client": "Client4_South_Peninsular",
+      "month": "2000-01",
+      "states": 247,
+      "expected": 248,
+      "temporal_coverage": 0.9959677419354839
+    },
+    {
+      "client": "Client5_Central_India",
+      "month": "2000-01",
+      "states": 247,
+      "expected": 248,
+      "temporal_coverage": 0.9959677419354839
+    }
+  ],
+  "unit_policy": "tavg already integrated10800seconds upstream; acc already monthly summed; kg/m2 numerically mm; convert Kelvin to Celsius once; no further integration",
+  "units": {
+    "gldas21_tair_c": "degC",
+    "gldas21_qair_kg_kg": "kg kg-1",
+    "gldas21_wind_m_s": "m s-1",
+    "gldas21_soil_0_10cm_kg_m2": "kg m-2",
+    "gldas21_soil_10_40cm_kg_m2": "kg m-2",
+    "gldas21_soil_40_100cm_kg_m2": "kg m-2",
+    "gldas21_soil_100_200cm_kg_m2": "kg m-2",
+    "gldas21_total_rainfall_mm": "mm month-1",
+    "gldas21_liquid_rainfall_mm": "mm month-1",
+    "gldas21_evaporation_mm": "mm month-1",
+    "gldas21_surface_runoff_mm": "mm month-1",
+    "gldas21_subsurface_runoff_mm": "mm month-1"
+  },
+  "met_columns": [
+    "gldas21_tair_c",
+    "gldas21_qair_kg_kg",
+    "gldas21_wind_m_s",
+    "gldas21_soil_0_10cm_kg_m2",
+    "gldas21_soil_10_40cm_kg_m2",
+    "gldas21_soil_40_100cm_kg_m2",
+    "gldas21_soil_100_200cm_kg_m2",
+    "gldas21_total_rainfall_mm",
+    "gldas21_liquid_rainfall_mm",
+    "gldas21_evaporation_mm",
+    "gldas21_surface_runoff_mm",
+    "gldas21_subsurface_runoff_mm"
+  ],
+  "native_geometry_receipt_sha256": "e4b3be5179a83392ed080bc0362ff4a3ce247379f1cec8dc0d7310d7b9080820",
+  "native_preflight_receipt_sha256": "6a4e76b22302d8bbff8ab2863454689d1c88806990b8489b7b8f929541d7afd6",
+  "limits": "Full regional-table quality/calendar validation; independent native spatial check January2000 only. Raw hourly time_bnds and custom GEE hour-property origin remain unverified; published backward3h physical semantics used.",
+  "generated_utc": "2026-10-07T23:16:36.139177+00:00",
+  "outputs": {
+    "gldas21_supplement.csv": "26e89688231769d1e85662b6d74aa485d0dcacd289b75c4c3fe469383d12e6a2",
+    "gldas21_supplement_quality.csv": "6195b5fdc59d5554604ba41abfcdc854b3df0d01daf27826423d9d955a26774a",
+    "raw_GLDAS21_table.csv": "95d5c019379ce509a7cda08c945e866544ceab5b62a74e99e809a2fc86bea86e"
+  }
+}

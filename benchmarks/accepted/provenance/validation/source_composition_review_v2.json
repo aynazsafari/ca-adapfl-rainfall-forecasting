@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "source_gates": {
+    "ERA5": {
+      "status": "PASS",
+      "rows": 2640,
+      "minimum_weighted_coverage": 0.999999999999999,
+      "source_sha256": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c"
+    },
+    "ERA5Land": {
+      "status": "PASS",
+      "rows": 2640,
+      "minimum_weighted_coverage": 0.9931547927241074,
+      "source_sha256": "7d8376900da83886d4660b8667737f72ebcf61f8dbdfe9ac82a8fb741b614a4d"
+    },
+    "GLDAS21": {
+      "status": "PASS",
+      "rows": 1500,
+      "minimum_weighted_coverage": 0.9549576632527892,
+      "source_sha256": "95d5c019379ce509a7cda08c945e866544ceab5b62a74e99e809a2fc86bea86e"
+    }
+  },
+  "composition": {
+    "preserved_earth_engine_rows": 2610,
+    "recovered_native_rows": 30,
+    "every_scientific_value_metadata_equal_to_its_own_source": true,
+    "march_control_earth_engine_unchanged": true
+  },
+  "canonical_rows": 2640,
+  "met_columns": 22,
+  "finite_met_values": 58080,
+  "climate_months": 528,
+  "climate_indices": 6,
+  "target_outcome_values_read": false,
+  "model_fits": 0,
+  "files": {
+    "canonical_manifest_sha256": "ab4928d932a722e0a7061a9311e35d81588435be49fd5ab72e84a079ceb801fd",
+    "composition_receipt_sha256": "3838f8865091b9b6df583a0efc6db859835128c965a4721782b36f1df762ccf0",
+    "assembler_sha256": "f4a7dea7c04276f37bb3e6a338a58660862265497919211710ca1ebdd31cc9c3",
+    "composition_script_sha256": "bc502215bf75e9efe362acecee885216e9bb6c06b9c3e1c3b030f5e7e1106c7c"
+  },
+  "canonical_version": "canonical_v2",
+  "strict_era5_manifest_lineage_matches_revalidated_receipts": true,
+  "parity_to_audited_v1": {
+    "all_numeric_payloads_byte_identical": true,
+    "files": {
+      "monthly.csv": {
+        "v1_sha256": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+        "v2_sha256": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+        "byte_identical": true
+      },
+      "indices.csv": {
+        "v1_sha256": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+        "v2_sha256": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+        "byte_identical": true
+      },
+      "solar_supplement.csv": {
+        "v1_sha256": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+        "v2_sha256": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+        "byte_identical": true
+      },
+      "gldas21_supplement.csv": {
+        "v1_sha256": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa",
+        "v2_sha256": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa",
+        "byte_identical": true
+      },
+      "source_quality.csv": {
+        "v1_sha256": "070f6fa23949c54940b01fe4e08fb8a414e6d0194cb09e857abc6f9a617d973f",
+        "v2_sha256": "070f6fa23949c54940b01fe4e08fb8a414e6d0194cb09e857abc6f9a617d973f",
+        "byte_identical": true
+      }
+    },
+    "v1_manifest_sha256": "e4a3c07746e4fc0e02940c7908bc1c765a26d27117a315e84c72b70f586b0357",
+    "v2_manifest_sha256": "ab4928d932a722e0a7061a9311e35d81588435be49fd5ab72e84a079ceb801fd",
+    "audited_v1_receipt_sha256": "87f392793bd24d28d2d11abcbf6dd17a08e7f38928d91a0d679ce50178baa3f4",
+    "v1_receipt_preserved": true
+  }
+}

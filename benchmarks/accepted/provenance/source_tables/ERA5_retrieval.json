@@ -1,0 +1,27 @@
+{
+  "source": "ERA5",
+  "status": "SOURCE_GATES_PASS",
+  "rows": 2640,
+  "recovered_rows": 30,
+  "recovered_months": [
+    "2022-04",
+    "2022-05",
+    "2022-07",
+    "2022-08",
+    "2024-01",
+    "2024-02"
+  ],
+  "cause": "21 masked/unavailable hourly precipitation validity values in EarthEngine; strict joint support rejected all clients in those six months",
+  "composition": "Original monthly EE rows for522months; all7native ERA5 variables and complete support metadata from independently validated pinned archive for6months; March2024 remains originalEE control",
+  "no_statistical_imputation": true,
+  "no_monthly_value_clipping": true,
+  "raw_ee_sha256": "3629c23705164d45e55038860740b3aa01821c6a35c7e71766f50dee1d7a85dc",
+  "recovered_source_sha256": "431779ede8f78b1e345e5ce151c5afd2871dc67b688c034dae8d77f36aed81db",
+  "provider_admission_receipt_sha256": "eca3588af36303bdb5c0f07c4aa4edff5eb230793ef478af33f61429c0bb18f5",
+  "native_recovery_receipt_sha256": "844de2f1bdc9e51f29deb7beba4ebe641c9f252951dd528a809ce67ca3bd6375",
+  "frozen_recovery_contract_sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f",
+  "merged_csv_sha256": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c",
+  "snapshot_id": "ZFKDHBCTBVHVXM3BQFV0",
+  "control_scope": "January1981 earlier crossprovider check plus independent March2024 control; not authenticated CDS bitwise equality",
+  "retrospective": "Final revised archives; no historical real-time vintage restoration"
+}

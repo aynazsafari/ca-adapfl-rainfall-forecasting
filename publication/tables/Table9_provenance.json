@@ -1,0 +1,56 @@
+{
+  "id": "Table9",
+  "role": "saved_numeric_evidence",
+  "rows": 12,
+  "columns": [
+    "model",
+    "ONI_value_bin",
+    "scope",
+    "paired_seeds",
+    "unique_dates",
+    "client_count",
+    "R2_undefined_seeds",
+    "R2_mean",
+    "R2_std",
+    "NSE_undefined_seeds",
+    "NSE_mean",
+    "NSE_std",
+    "RMSE_mm_undefined_seeds",
+    "RMSE_mm_mean",
+    "RMSE_mm_std",
+    "MAE_mm_undefined_seeds",
+    "MAE_mm_mean",
+    "MAE_mm_std",
+    "PBIAS_signed_percent_undefined_seeds",
+    "PBIAS_signed_percent_mean",
+    "PBIAS_signed_percent_std",
+    "PBIAS_absolute_percent_undefined_seeds",
+    "PBIAS_absolute_percent_mean",
+    "PBIAS_absolute_percent_std",
+    "forecast_bias_signed_percent_undefined_seeds",
+    "forecast_bias_signed_percent_mean",
+    "forecast_bias_signed_percent_std",
+    "Pearson_r_undefined_seeds",
+    "Pearson_r_mean",
+    "Pearson_r_std",
+    "KGE_2009_undefined_seeds",
+    "KGE_2009_mean",
+    "KGE_2009_std"
+  ],
+  "sources": {
+    "benchmarks/accepted/runs/revision_v2/descriptive_diagnostics/oni_five_seed_summary.csv": {
+      "sha256": "b2ea6de0695bd30fa7c7257237d8e0d64c083e5c371c8947cce54fb3b99b5f7f",
+      "rows": 576
+    }
+  },
+  "formula_or_selector": "Four fixed identities; target-minus-two period-end ONI value bins; saved five-seed summaries; descriptive strata, not independent event tests.",
+  "files_sha256": {
+    "Table9.csv": "a6d977a6e1c3929bcc86d0cc9d92337b2c5b45f395e8c56e8da92559ca8501db",
+    "Table9_display.csv": "99f3a4fbbc94922f08ae2d60ddb709bf94e214c3ab4ba7c63204e2c74a4738ca"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 24,
+    "discrepancies": []
+  }
+}

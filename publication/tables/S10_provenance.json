@@ -1,0 +1,32 @@
+{
+  "id": "S10",
+  "role": "derived_protocol_inventory",
+  "rows": 35,
+  "columns": [
+    "item",
+    "definition",
+    "source_key"
+  ],
+  "sources": {
+    "benchmarks/accepted/runs/revision_v3/protocol.json": {
+      "sha256": "9a6e32b6b7b2ca2b208c45cd45b2956c23d5cb89580f56dbda51de14fdd44ead"
+    },
+    "benchmarks/accepted/runs/revision_v3/choices_frozen.json": {
+      "sha256": "7b5624adeccd9ec9c5186141ac136e56c5b79f0bc1457173a2c74dbf46fc937b"
+    },
+    "benchmarks/accepted/runs/revision_v3/datasets/MAIN_FULL_schema.json": {
+      "sha256": "b490615527ccb06c4894611868be4e76e3eb2887d9a07b8ce9ad11dd8f0c2809"
+    },
+    "benchmarks/accepted/publication/revision_v3/fit_inventory_100.csv": {
+      "sha256": "d74c114c03340bea8b7eacf96f86de56099743f11a995bbbbdba9e6662abc3ac",
+      "rows": 100
+    }
+  },
+  "formula_or_selector": "Protocol/choice definitions and schema counts, with unique fit count and aggregate optimizer steps/examples calculated from the immutable 100-fit inventory. Original prose layout is represented as explicit source-key rows.",
+  "files_sha256": {
+    "S10.csv": "fddd92497f35c4770338675c26c1dd560c0db02b160ee4ea59652fafaa4a7a22"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

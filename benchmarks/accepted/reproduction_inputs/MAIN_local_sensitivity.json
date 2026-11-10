@@ -1,0 +1,55 @@
+{
+  "clients": {
+    "Client1_NW_Arid": {
+      "fit_end": "2007-11",
+      "flags": [],
+      "n": 299,
+      "sensitivity": [
+        -0.04811400890001066,
+        0.01778986940192138
+      ],
+      "source": "client-local target calendar anomalies and lag-eligible ENSO/IOD"
+    },
+    "Client2_Indo_Gangetic": {
+      "fit_end": "2007-11",
+      "flags": [],
+      "n": 299,
+      "sensitivity": [
+        -0.12094949473964146,
+        0.046745843232891986
+      ],
+      "source": "client-local target calendar anomalies and lag-eligible ENSO/IOD"
+    },
+    "Client3_NE_Himalaya": {
+      "fit_end": "2007-11",
+      "flags": [],
+      "n": 299,
+      "sensitivity": [
+        -0.026349152009273392,
+        0.04821011253106469
+      ],
+      "source": "client-local target calendar anomalies and lag-eligible ENSO/IOD"
+    },
+    "Client4_South_Peninsular": {
+      "fit_end": "2007-11",
+      "flags": [],
+      "n": 299,
+      "sensitivity": [
+        -0.060182156964924155,
+        0.05183301428146091
+      ],
+      "source": "client-local target calendar anomalies and lag-eligible ENSO/IOD"
+    },
+    "Client5_Central_India": {
+      "fit_end": "2007-11",
+      "flags": [],
+      "n": 299,
+      "sensitivity": [
+        -0.12809856675327086,
+        0.08263219664735875
+      ],
+      "source": "client-local target calendar anomalies and lag-eligible ENSO/IOD"
+    }
+  },
+  "privacy": "No cross-client raw rainfall series required for these two local correlations"
+}

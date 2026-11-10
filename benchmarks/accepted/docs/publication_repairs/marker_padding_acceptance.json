@@ -1,0 +1,10 @@
+{
+  "status": "PASS_ACTUAL_VISUAL_QA",
+  "created_utc": "2026-10-08T03:27:32.370199+00:00",
+  "scope": "Acceptance envelope for the immutable marker-padding repair; original candidate, issue receipt and repair record retained unchanged.",
+  "repair_receipt_sha256": "6f8f11fe6099581d67cbb200103f3efdf962b11ab27b0ccc0162a28856144a01",
+  "accepted_companion_manifest_sha256": "b444cbfb6c6b3be1bc770b949289244a372975b3161b41e79d5234b6f383463d",
+  "independent_visual_qa_sha256": "1359ebe15a72d1ecf7d2e358a277f9d288429a3450f7d40849cac470ca884ae9",
+  "accepted_directory": "figures/revision_v2_publication_v2",
+  "word_embedding_qa_completed": false
+}

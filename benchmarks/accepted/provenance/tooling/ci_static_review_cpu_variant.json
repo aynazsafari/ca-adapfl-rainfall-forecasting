@@ -1,0 +1,71 @@
+{
+  "status": "STATIC_PASS_CPU_VARIANT",
+  "reviewed_utc": "2026-10-08T01:51:27.805815+00:00",
+  "scope": "Read-only bounded recheck of CPU-install insertion and current documentation; prior reviewed package/test files authenticated unchanged.",
+  "checked_files": {
+    ".github/workflows/implementation-checks.yml": "50c3c9a82951c9427dbd26be9acfa39f9a4d08326ce4093a96f6585522c9b5ac",
+    "docs/CI.md": "f5a09d404ec00dae8fc124f6914eb2dade5d37638474d645e796fa6fcb9e71d8",
+    "provenance/tooling/github_action_pins.json": "7b9e87e2e353f2b0fdeadeb72c7a1a5fc006c22520af2d1fe15148d21bd30749",
+    "pyproject.toml": "be9773f9ed6a6585dab8bf4ca57d41fcb1fac132d749895e77816df2c342ccd0",
+    "requirements-lock.txt": "efa0496eb06e6bdf8a89d6b98de4c55932e65294049a686cff4cb306e930d475",
+    "tests/test_invariants.py": "2fdc64b4ad8801162ae6a751a47f68ffee5e7b6930f370e56a7a132c1c9c429b",
+    "tests/README.md": "f59eb2619831439716c21944e1d50b12f21945b3368157322f825e7c915443d3"
+  },
+  "historical_review": {
+    "path": "ci_static_review.json",
+    "sha256": "982dc0e30707f166fb0414a42c26e5b0905e7238d6acebcbd9230485af951132",
+    "preserved_unchanged": true
+  },
+  "checks": {
+    "duplicate_yaml_keys": false,
+    "literal_github_on_preserved": true,
+    "triggers": [
+      "push",
+      "pull_request"
+    ],
+    "permissions": {
+      "contents": "read"
+    },
+    "action_pins_match_local_provenance": [
+      {
+        "action": "actions/checkout",
+        "commit_sha": "3d3c42e5aac5ba805825da76410c181273ba90b1"
+      },
+      {
+        "action": "actions/setup-python",
+        "commit_sha": "5fda3b95a4ea91299a34e894583c3862153e4b97"
+      }
+    ],
+    "workflow_other_bytes_exactly_match_prior_review": true,
+    "install_order": [
+      "python -m pip install \"setuptools>=68\"",
+      "python -m pip install \"torch==2.14.1+cpu\" --index-url https://download.pytorch.org/whl/cpu",
+      "python -m pip install -r requirements-lock.txt",
+      "python -m pip install --no-deps --no-build-isolation -e ."
+    ],
+    "torch_public_requirement_accepts_cpu_local_version": true,
+    "package_test_and_provenance_files_unchanged": [
+      "provenance/tooling/github_action_pins.json",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "tests/test_invariants.py",
+      "tests/README.md"
+    ],
+    "tiny_fixture_and_no_hosted_execution_limits_disclosed": true
+  },
+  "cpu_availability_evidence_sha256": "de3c57bb012f4049d5623d35fd39287a24af28437306dcd82614b5beff17a823",
+  "not_performed": [
+    "No tests/models",
+    "No dependency installs",
+    "No scientific source/fit/evaluation reads",
+    "No GitHub operations or hosted CI execution",
+    "No package/workflow edits",
+    "No network requests in this recheck"
+  ],
+  "limitations": [
+    "Static review and successful prior wheel HEAD responses do not prove hosted installation, test success or Linux research parity.",
+    "Wheel published hashes are index metadata, not independently verified payload hashes.",
+    "Transitive resolution, install timing, setuptools>=68 and latest runner images remain unexecuted/unlocked.",
+    "The CI CPU build selection does not modify the frozen research runtime signature."
+  ]
+}

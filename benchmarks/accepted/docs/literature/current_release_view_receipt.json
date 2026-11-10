@@ -1,0 +1,14 @@
+{
+  "schema": "completed_literature_inference_view_v1",
+  "status": "PASS",
+  "parent": "comparison_table.csv",
+  "parent_sha256": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9",
+  "current": "comparison_table_current_release.csv",
+  "current_sha256": "9ec3d559b99f8292af43a5e834b3f77d342fed2bc0c0cfc78639b88b140a9fb8",
+  "rows": 10,
+  "modified_columns": [
+    "difference"
+  ],
+  "all_source_fact_columns_exact": true,
+  "reason": "Completed selected primary has count-only uniform aggregation; fixed TRAIN relevance and anomaly correlation accurately distinguished."
+}

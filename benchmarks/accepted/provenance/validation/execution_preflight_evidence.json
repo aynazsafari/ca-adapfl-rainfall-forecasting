@@ -1,0 +1,42 @@
+{
+  "status": "COPIED_WITH_BYTE_EQUALITY",
+  "scope": "Static CI review, bounded supplement loader assessment, actual toy kernel startup/cleanup; no research evaluation execution",
+  "files": [
+    {
+      "path": "provenance/tooling/ci_static_review.json",
+      "sha256": "982dc0e30707f166fb0414a42c26e5b0905e7238d6acebcbd9230485af951132"
+    },
+    {
+      "path": "provenance/tooling/CI_REVIEW.md",
+      "sha256": "b0e2d43c905f951aa2fb2b34ba4d21a14fbfe5d61b29d0cbc000c2c820289f2b"
+    },
+    {
+      "path": "provenance/validation/supplement_loader_memory_assessment.json",
+      "sha256": "f287218753766ede237e0b302bbd8850cd7ff4463e18a9f519ee8dd551679a02"
+    },
+    {
+      "path": "provenance/validation/kernel_preflight_receipt.json",
+      "sha256": "e51f85218c74ff43d5c49a24d6808e8d03bd56f44935142e3eb0c5b5b14a769e"
+    },
+    {
+      "path": "provenance/validation/KERNEL_PREFLIGHT.txt",
+      "sha256": "d27594efb702a3d15de89db537e7190b591227e74b4849430c08b10b946b2d78"
+    },
+    {
+      "path": "provenance/tooling/ci_static_review_cpu_variant.json",
+      "sha256": "f7bdf62a2c5d12fcffc2114253e1d6ba306c77be10ed54c0a03384bed0e33fa8"
+    },
+    {
+      "path": "provenance/tooling/torch_cpu_install_review.json",
+      "sha256": "505a57280f5b2e59002cf3116107681f55794a514a0426f356a7e4fb6b5dd3dc"
+    },
+    {
+      "path": "provenance/tooling/torch_cpu_wheel_HEAD_receipt.json",
+      "sha256": "de3c57bb012f4049d5623d35fd39287a24af28437306dcd82614b5beff17a823"
+    },
+    {
+      "path": "provenance/tooling/TORCH_CPU_INSTALL_REVIEW.md",
+      "sha256": "3a8e65abc2c96ebb800b1612777203de0a8fb8b388adf22c1f389e83b3f85c10"
+    }
+  ]
+}

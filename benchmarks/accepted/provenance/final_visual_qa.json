@@ -1,0 +1,162 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-08T22:41:28.500575+00:00",
+  "documents": [
+    {
+      "kind": "main",
+      "docx": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\06_revision_v3\\documents\\CAAdapFL_Final_Manuscript_Revision_v3_Marked.docx",
+      "docx_sha256": "39ee5dc0661393b6049195b7caf55f8587ccb904258b3708d2850e85803136d7",
+      "pdf": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\06_revision_v3\\documents\\CAAdapFL_Final_Manuscript_Revision_v3_Marked_QA_Preview.pdf",
+      "pdf_sha256": "d8a26916fb44529d3ccd62d4151169f4025ffd8a1c257ca7ea8b4cf1665d0f2e",
+      "pages": 44,
+      "every_page_actually_viewed": true,
+      "reviewer": "review_manuscript; root inspected repaired equations and publication figures",
+      "status": "PASS"
+    },
+    {
+      "kind": "response",
+      "docx": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\06_revision_v3\\documents\\Point_by_Point_Response_Revision_v3.docx",
+      "docx_sha256": "268300bc05042f2fe4d594e95a9c94dca07272f2a953eda6f6cf6e07cdb5b1a0",
+      "pdf": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\06_revision_v3\\documents\\Point_by_Point_Response_Revision_v3_QA_Preview.pdf",
+      "pdf_sha256": "b1bec16cd819e4745112906d00499de435d2b321c7e56ac96ae51bdfa39b44de",
+      "pages": 23,
+      "every_page_actually_viewed": true,
+      "reviewer": "root individually inspected every final page 1–23",
+      "status": "PASS"
+    },
+    {
+      "kind": "supplement",
+      "docx": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\06_revision_v3\\documents\\CAAdapFL_Supplementary_Material_Revision_v3.docx",
+      "docx_sha256": "3319a4c2f67b0f63757921deed32d449e9d18e120cc1f01e5a42059af4cc6b65",
+      "pdf": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\06_revision_v3\\documents\\CAAdapFL_Supplementary_Material_Revision_v3_QA_Preview.pdf",
+      "pdf_sha256": "cdd0a682fc95d393e294117006e0e3258bd7cd5524c105d2cf0838201639e766",
+      "pages": 30,
+      "every_page_actually_viewed": true,
+      "reviewer": "audit_datasets individually inspected every final page 1–30",
+      "status": "PASS"
+    }
+  ],
+  "total_pages_viewed": 97,
+  "scope": "Visual QA of PDFs exported through private GoogleDocs rendering, rasterized with Poppler; not a claim of native Microsoft Word pagination.",
+  "rendering_compatibility": {
+    "source_docx_sha256": "39ee5dc0661393b6049195b7caf55f8587ccb904258b3708d2850e85803136d7",
+    "rendering_copy_sha256": "652625cd4fce259592e713b648d0eee7ca162f5fba570f27aa50a1317deb5c21",
+    "arrays_expanded_for_GoogleDocs_conversion": [
+      {
+        "array_rows": 3,
+        "row_math_text": [
+          "Sc,jenr=141+corrac,aj2+1+cosuc,uj2+1+cossc,sj2+exp−k=13zc,k−zj,k23,c≠j",
+          "Sc,cenr=1",
+          "Gc,j=Sc,jk=1CSc,k"
+        ]
+      },
+      {
+        "array_rows": 3,
+        "row_math_text": [
+          "κ=α,Ipβ,Iclimγα+Ipβ+Iclimγ",
+          "Qc=κ1ncj=1Cnj+κ2exp−Lcmon,z+κ3ρc",
+          "wc=Qcj=1CQj"
+        ]
+      },
+      {
+        "array_rows": 2,
+        "row_math_text": [
+          "Ac,q=1ncb=1ncdc,b,q",
+          "ρc=q∈E,IAc,qsc,q"
+        ]
+      },
+      {
+        "array_rows": 2,
+        "row_math_text": [
+          "ŷc,t=j=1Jwc,j*Pc,t,j",
+          "wc*=argmaxw∈ΔJ−1Jcw;Crefit"
+        ]
+      },
+      {
+        "array_rows": 4,
+        "row_math_text": [
+          "eb=tanhW2tanhW1cb+b1+b2",
+          "ab,l=vaTtanhWahb,l;eb+ba",
+          "πb,l=expab,lk=112expab,k",
+          "ub=l=112πb,lhb,l;eb"
+        ]
+      },
+      {
+        "array_rows": 3,
+        "row_math_text": [
+          "ξc,b=min1,max0,maxq∈E,Idc,b,qsc,q",
+          "λc,B=μ1−0.7b∈Bξc,bB",
+          "0.3μ≤λc,B≤μ"
+        ]
+      }
+    ],
+    "rendering_only_page_breaks": [
+      "ALCE",
+      "Eq5"
+    ],
+    "math_tokens_identical": true,
+    "source_Word_docx_modified": false,
+    "purpose": "Private rendering compatibility only. GoogleDocs flattens native multiline display arrays; standalone native row equations preserve their intended vertical arrangement. Rendering-only page breaks keep the ALCE and Eq5 rows together."
+  },
+  "main_final_page_repair": {
+    "pages": 44,
+    "pixel_identical_pages_to_prior": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "changed_pages": [
+      16,
+      17,
+      18
+    ]
+  },
+  "final_repairs": [
+    "keep captions with figures and headings with following text",
+    "native equations preserved in delivered Word; private rendering copy preserves all math tokens",
+    "complete Eq5 and ALCE arrays kept together",
+    "exact copyable 64-hex checksums protected from humanizer",
+    "S5 caption uses Top/Bottom",
+    "historical v2 Table8/Table9 scope labelled",
+    "lag timing rationale stated without optimality claim"
+  ],
+  "private_rendering_copies": "All temporary Drive rendering copies created for this revision were deleted; no public sharing or repository deposit was performed."
+}

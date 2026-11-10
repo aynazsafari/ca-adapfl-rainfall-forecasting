@@ -1,0 +1,318 @@
+{
+  "schema": "bounded_final_release_metadata_reconciliation_v1",
+  "status": "PASS",
+  "scope": "Source/documentation/manifest metadata only; no study metric calculation, saved-model loading, fits, inference, tests, scientific QA tool reruns, raw truth or binary model-history/archive reads.",
+  "repository": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\03_benchmark\\caadapfl_benchmark",
+  "package_manifest_sha256": "7a35045bf5c18716dbaead89cf38f17039140401e5c82e4f593de416afba7c77",
+  "manifest_file_count": 555,
+  "manifest_total_file_bytes": 105160395,
+  "inventory_path_existence_and_declared_sizes": "PASS; checked 555 stat records, not whole-core content hashes",
+  "focused_content_hash_bindings": [
+    {
+      "path": "README.md",
+      "sha256": "ad87414c18cb357f7e4b94666303947fef2bb27db315053152c7d72600fa9d27",
+      "bytes": 32524
+    },
+    {
+      "path": "docs/CURRENT_RELEASE.md",
+      "sha256": "ecfcf4746f1ea5a4653ac14e1cf358c62b03dfcad14eaf17b8a757a365a3b321",
+      "bytes": 4449
+    },
+    {
+      "path": "docs/ARCHIVE_SCOPE.md",
+      "sha256": "66ae0dc4f092d72f118dd78166a41a411dc3af6cfdde199cecf8fca39e14a14d",
+      "bytes": 2350
+    },
+    {
+      "path": "docs/DEVELOPMENT_CHOICES.md",
+      "sha256": "be45cc6a734f8c7ff83560d940fdb38fc103ebe9a4d9320e570ec4ff3acfaffc",
+      "bytes": 2767
+    },
+    {
+      "path": "docs/FROZEN_PROTOCOL.md",
+      "sha256": "1c5016de005b1a19ecd31bc416a53fe74bcdacf8e2599b6465c6438a975081a1",
+      "bytes": 47870
+    },
+    {
+      "path": "docs/SOURCE_REPRODUCTION.md",
+      "sha256": "a962666b15682d0440ae728c9c163c24671f5813692feac70c4fee9868eec01b",
+      "bytes": 12444
+    },
+    {
+      "path": "docs/README_FA.md",
+      "sha256": "446109ad8aa1a403757074e7680d307b145256d9015d851f1e13c2054bad6df0",
+      "bytes": 10225
+    },
+    {
+      "path": "docs/README_FIGURES.txt",
+      "sha256": "7dc938ed0d112d79d94e44eed36dadac12a32ecef40e024e52ba6e4a8b55a495",
+      "bytes": 5395
+    },
+    {
+      "path": "docs/PUBLICATION_LAYOUT.md",
+      "sha256": "7916cf0eff15a916854fc872e6434f20904ced65dc3242bdecee372dc158eb77",
+      "bytes": 7113
+    },
+    {
+      "path": "docs/METHOD_FIGURES.md",
+      "sha256": "991f2ba0d0792181e2676ac636af8515af47c83b2f648099a4447ed152e2d0aa",
+      "bytes": 1855
+    },
+    {
+      "path": "docs/METADATA_CORRECTIONS.md",
+      "sha256": "f33dea20cbd7608262a1b8de3e6b8aaa95370ae7db695aeb10611bcdef07d0f1",
+      "bytes": 1599
+    },
+    {
+      "path": "docs/DATA_ATTRIBUTION.md",
+      "sha256": "67b80a52f9c3d990d7264c76390b40208a665df247c7406083dd4b3d5a11b147",
+      "bytes": 4867
+    },
+    {
+      "path": "docs/CI.md",
+      "sha256": "f5a09d404ec00dae8fc124f6914eb2dade5d37638474d645e796fa6fcb9e71d8",
+      "bytes": 1526
+    },
+    {
+      "path": "tests/README.md",
+      "sha256": "f59eb2619831439716c21944e1d50b12f21945b3368157322f825e7c915443d3",
+      "bytes": 1347
+    },
+    {
+      "path": "requirements-lock.txt",
+      "sha256": "efa0496eb06e6bdf8a89d6b98de4c55932e65294049a686cff4cb306e930d475",
+      "bytes": 191
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "be9773f9ed6a6585dab8bf4ca57d41fcb1fac132d749895e77816df2c342ccd0",
+      "bytes": 423
+    },
+    {
+      "path": "CURRENT_ENVIRONMENT.json",
+      "sha256": "e8bdc0fad7caf3e9a0260a4bc5f8fe01103c7f3be459f9142750366364aa835b",
+      "bytes": 4707
+    },
+    {
+      "path": "ENVIRONMENT.json",
+      "sha256": "0d0debadcf88b345fbc7e6106c7b386da094860c5c7a9ade334cbc12de0eb79e",
+      "bytes": 10838
+    },
+    {
+      "path": "docs/qa/README.md",
+      "sha256": "fff07328ce579e76a6e89ff947512a0e8e6e09ded3d1a10a85b84744901c1985",
+      "bytes": 2716
+    },
+    {
+      "path": "docs/qa/COMPLETED_QA_README.md",
+      "sha256": "82e606b5d49bddb35b48c827a1c057b475d298e9a2d0ca1ffdf04b72d12b0cba",
+      "bytes": 4841
+    },
+    {
+      "path": "docs/qa/COMPLETED_SUPPLEMENT_QA_README.md",
+      "sha256": "23af395b268911b893ba8d48893496efee8f3efd64f9128e746a26601adf6056",
+      "bytes": 5835
+    },
+    {
+      "path": "docs/qa/DESCRIPTIVE_DIAGNOSTICS_README.md",
+      "sha256": "22d175fec64cf09072ef557c50457cbf7252ba9afdcdb99cf809bac0cc0df964",
+      "bytes": 4964
+    },
+    {
+      "path": "docs/literature/README_CURRENT_VIEW.md",
+      "sha256": "c9174b5ea29dca7aaa2c60d1370fb8be0e4993789d7661676078cffac3d2f223",
+      "bytes": 528
+    },
+    {
+      "path": "docs/literature/LITERATURE_COMPARISON.md",
+      "sha256": "26adedeb500e1aa1203ba3415a7603101509ad9c0ae3b0035e6b2652b922ae8f",
+      "bytes": 20971
+    },
+    {
+      "path": "docs/literature/current_release_view_receipt.json",
+      "sha256": "f5e96185c1e468349ebc6891cb79222870581137f13ec14d442b5d005d18b4a7",
+      "bytes": 606
+    },
+    {
+      "path": "docs/literature/comparison_table.csv",
+      "sha256": "05bcaf3d0d23e83d2b433bf2a828d664d88fcd180f239594ce33a876c4fd9ff9",
+      "bytes": 12511
+    },
+    {
+      "path": "docs/literature/comparison_table_current_release.csv",
+      "sha256": "9ec3d559b99f8292af43a5e834b3f77d342fed2bc0c0cfc78639b88b140a9fb8",
+      "bytes": 12816
+    },
+    {
+      "path": "provenance/era5_recovery/README.md",
+      "sha256": "58b7059c366874728a6f532327448c1cada53d361dffbe6b5d8eb42d84e6da86",
+      "bytes": 3771
+    },
+    {
+      "path": "tools/qa/make_publication_gate.py",
+      "sha256": "812ec017d4dd755b21c483568e91cda4b5a281952bdf5b5b291ce69d488125af",
+      "bytes": 2455
+    },
+    {
+      "path": "tools/qa/audit_completed_supplements.py",
+      "sha256": "e25fbb34a7ea7b69c23ba4af00f99c10faa17c919c5618d84c5f8a63a96a332a",
+      "bytes": 42780
+    },
+    {
+      "path": "tools/assemble_data.py",
+      "sha256": "531bdcc561ba6bd6fb22a37476b1f48f37ecb0e1256d8c2a8064e4af10a97fda",
+      "bytes": 19996
+    },
+    {
+      "path": "tools/supplement_runner.py",
+      "sha256": "02a3f2800f1a23825d2f2d9df0f6f448b8b38a0b66c1bb7fcdbfdfc4a55b83c2",
+      "bytes": 29104
+    },
+    {
+      "path": "tools/make_figures.py",
+      "sha256": "ef122127b5166e52c4b5924ea583d76cfcf32deadb36dabd473e258ca2af9568",
+      "bytes": 59648
+    },
+    {
+      "path": "tools/make_publication_companions.py",
+      "sha256": "ce6e078554d0677f9e161b627213ac89f4506ede725210d04dfc9415aa968937",
+      "bytes": 34541
+    },
+    {
+      "path": "provenance/era5_recovery/compare_provider_control.py",
+      "sha256": "d84542e2042174df0c66249f78be303d01dfc8c1d07e0e67fa39889ee0d19c0c",
+      "bytes": 4628
+    },
+    {
+      "path": "docs/document_release/DOCUMENT_RELEASE_ACCEPTANCE.json",
+      "sha256": "143290c5fd91ccdf26238ea3369bd16bcaf90b8833e394aaf50483c41a31510b",
+      "bytes": 12148
+    },
+    {
+      "path": "provenance/COMPLETED_RESULTS_MANIFEST.json",
+      "sha256": "fbbd4e73457b25d2d53d0351838d5fc78f4b19de311b308e785fb396cf8bc674",
+      "bytes": 1001850
+    },
+    {
+      "path": "docs/publication_repairs/final_notebook_status_repair.json",
+      "sha256": "633d2a0500b9c7a585986ec093634b7ef1c7b869cf156f953b4efd7d5b4f4154",
+      "bytes": 1035
+    },
+    {
+      "path": "notebooks/inspect_results.ipynb",
+      "sha256": "80c650a1173baca33efdfb5d6183f80c041197f502cdb93a0ae2582f5c0f884d",
+      "bytes": 36328
+    },
+    {
+      "path": "provenance/notebook_execution_actual.json",
+      "sha256": "555263d5a5994a986289492ddcb625a47cb78dddd63258cc19a4ff258ab465a8",
+      "bytes": 1111
+    },
+    {
+      "path": "provenance/notebook_visual_QA_actual.json",
+      "sha256": "91ec347ad38abcfb61fc84327b83f768274b6d92c5aa37eba6eca4be85461075",
+      "bytes": 2465
+    },
+    {
+      "path": "provenance/validation/installed_public_tests.json",
+      "sha256": "15d62d8623766ce98db6040741da6f503c197c517bc7b5a3f9f30087b65c4b71",
+      "bytes": 395
+    },
+    {
+      "path": "provenance/validation/revision_v2_prelaunch_receipt.json",
+      "sha256": "c8100b6b235f129fde2f8f0e387a41c19752e76c5027a26aaa33c3f51f30dd2f",
+      "bytes": 5610
+    },
+    {
+      "path": "provenance/validation/streaming_prelaunch_receipt.json",
+      "sha256": "327405b6aaf79b27a10d438646f552c7dd0223a16c4ff5294eabb116e6c43149",
+      "bytes": 916
+    },
+    {
+      "path": "caadapfl/features.py",
+      "sha256": "0381556297d12e669dcf7aee191c611e259d1c6385315e61fa08d688653bd28f",
+      "bytes": 12068
+    },
+    {
+      "path": "caadapfl/neural_benchmark.py",
+      "sha256": "83814bc45d96b4dd2ea185436b9538babe59cbc70adcc00fe7ff4c33055d4873",
+      "bytes": 40316
+    },
+    {
+      "path": "caadapfl/graph_profiles.py",
+      "sha256": "d1edbf7a3e21a7dd58f0a2fb2734cb007fd46ebc9ac0cd1eda1ac364903ea536",
+      "bytes": 17570
+    },
+    {
+      "path": "caadapfl/classical.py",
+      "sha256": "aea41a73498edcedc6af83f6ba8249cb71f087e3df84c0e0310c7e4d0638c714",
+      "bytes": 21323
+    },
+    {
+      "path": "caadapfl/evaluation.py",
+      "sha256": "a70b2771257be53661ef6d2b0b583fd17efabd289d24fada477de9f5147966c4",
+      "bytes": 16862
+    },
+    {
+      "path": "caadapfl/runner.py",
+      "sha256": "79be46b566da5070ce785519cfe3674748295e1756abd7e2d1fc2d1a01b76047",
+      "bytes": 58641
+    }
+  ],
+  "all_six_active_scientific_hashes_match_manifest": true,
+  "literature": {
+    "rows": 10,
+    "source_fact_columns_exact_parity": true,
+    "only_allowed_difference_column_changed": true
+  },
+  "historical_banners_preserve_parent_bytes": [
+    {
+      "path": "docs/FROZEN_PROTOCOL.md",
+      "unchanged_archived_parent_sha256": "bd23db8a0c3a9f707c3fa339bac475aefa2a8503865d95648f375addffd648c7",
+      "current_prefix_is_historical_status_notice": true,
+      "current_body_byte_exact": true,
+      "current_body_text_exact_after_newline_normalization": true,
+      "line_endings_note": null
+    },
+    {
+      "path": "provenance/era5_recovery/README.md",
+      "unchanged_archived_parent_sha256": "38f3cc4f547fb0e4f47db8efd83956514811808718a5ac94abdfe3d5e66b2106",
+      "current_prefix_is_historical_status_notice": true,
+      "current_body_byte_exact": false,
+      "current_body_text_exact_after_newline_normalization": true,
+      "line_endings_note": "Recovery README current copy uses CRLF; parent original bytes retained unchanged."
+    }
+  ],
+  "notebook_status_repair": {
+    "status": "PASS",
+    "receipt_sha256": "633d2a0500b9c7a585986ec093634b7ef1c7b869cf156f953b4efd7d5b4f4154",
+    "archived_parent_manifest_sha256": "c6576838ce35091417f682832cec04ccc671dd11022b07bf38e67f3464ba0fa9",
+    "exact_one_sentence_byte_replacement": true
+  },
+  "environment_correction": "ENVIRONMENT.json has no installed caadapfl-benchmark entry. The earlier audit assumption that it records installed package 1.0.0 was incorrect. CURRENT_ENVIRONMENT.json and pyproject correctly state installed/package version 1.0.1.",
+  "accepted_document_pages": [
+    32,
+    21,
+    8
+  ],
+  "completed_archive_metadata": {
+    "files": 3841,
+    "uncompressed_bytes": 6689933545,
+    "parts": 4,
+    "retained_full_member_crc_receipts": "PASS; not independently rerun here",
+    "unique_paths": true
+  },
+  "source_notebook": {
+    "code_cells": 7,
+    "empty_outputs": true,
+    "default_run": "runs/revision_v2",
+    "complete_and_choices_gates_present": true
+  },
+  "not_performed": [
+    "No tests or scientific QA programs executed",
+    "No raw truth/results metric CSVs read",
+    "No model/checkpoint/round-history files opened",
+    "No CRC/hash reread of multi-GB ZIP archives",
+    "No shared repository writes"
+  ]
+}

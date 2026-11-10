@@ -1,0 +1,77 @@
+{
+  "shape": [
+    756048,
+    721,
+    1440
+  ],
+  "data_type": "float32",
+  "chunk_grid": {
+    "name": "regular",
+    "configuration": {
+      "chunk_shape": [
+        8736,
+        12,
+        12
+      ]
+    }
+  },
+  "chunk_key_encoding": {
+    "name": "default",
+    "configuration": {
+      "separator": "/"
+    }
+  },
+  "fill_value": "NaN",
+  "codecs": [
+    {
+      "name": "numcodecs.pcodec",
+      "configuration": {
+        "level": 8
+      }
+    }
+  ],
+  "attributes": {
+    "GRIB_paramId": 167,
+    "GRIB_dataType": "an",
+    "GRIB_numberOfPoints": 1038240,
+    "GRIB_typeOfLevel": "surface",
+    "GRIB_stepUnits": 1,
+    "GRIB_stepType": "instant",
+    "GRIB_gridType": "regular_ll",
+    "GRIB_uvRelativeToGrid": 0,
+    "GRIB_NV": 0,
+    "GRIB_Nx": 1440,
+    "GRIB_Ny": 721,
+    "GRIB_cfName": "unknown",
+    "GRIB_cfVarName": "t2m",
+    "GRIB_gridDefinitionDescription": "Latitude/Longitude Grid",
+    "GRIB_iDirectionIncrementInDegrees": 0.25,
+    "GRIB_iScansNegatively": 0,
+    "GRIB_jDirectionIncrementInDegrees": 0.25,
+    "GRIB_jPointsAreConsecutive": 0,
+    "GRIB_jScansPositively": 0,
+    "GRIB_latitudeOfFirstGridPointInDegrees": 90.0,
+    "GRIB_latitudeOfLastGridPointInDegrees": -90.0,
+    "GRIB_longitudeOfFirstGridPointInDegrees": 0.0,
+    "GRIB_longitudeOfLastGridPointInDegrees": 359.75,
+    "GRIB_missingValue": 3.4028234663852886e+38,
+    "GRIB_name": "2 metre temperature",
+    "GRIB_shortName": "2t",
+    "GRIB_totalNumber": 0,
+    "GRIB_units": "K",
+    "long_name": "2 metre temperature",
+    "units": "K",
+    "standard_name": "unknown",
+    "GRIB_surface": 0.0,
+    "coordinates": "lsm z_sfc slor sdor",
+    "_FillValue": "AAAAAAAA+H8="
+  },
+  "dimension_names": [
+    "valid_time",
+    "latitude",
+    "longitude"
+  ],
+  "zarr_format": 3,
+  "node_type": "array",
+  "storage_transformers": []
+}

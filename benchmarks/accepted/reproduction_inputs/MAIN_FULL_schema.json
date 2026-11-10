@@ -1,0 +1,522 @@
+{
+  "climate_names": [
+    "nino34_anomaly",
+    "dmi_hadisst11_anomaly",
+    "soi_cpc_standardized",
+    "oni_anomaly_3mo",
+    "meiv2_bimonthly",
+    "amv_ersstv6_global_removed_1951_1980",
+    "enso_x_iod"
+  ],
+  "extra_lag": 0,
+  "met_columns": [
+    "era5_t2m_c",
+    "era5_d2m_c",
+    "era5_sp_hpa",
+    "era5_mslp_hpa",
+    "era5_u10_m_s",
+    "era5_v10_m_s",
+    "era5_tp_mm",
+    "era5land_t2m_c",
+    "era5land_d2m_c",
+    "era5land_skin_c",
+    "era5land_soil_m3_m3_layer1",
+    "era5land_soil_m3_m3_layer2",
+    "era5land_soil_m3_m3_layer3",
+    "era5land_soil_m3_m3_layer4",
+    "era5land_tp_mm",
+    "era5land_evaporation_mm_signed",
+    "era5land_surface_runoff_mm",
+    "era5land_subsurface_runoff_mm",
+    "power_t2m_c",
+    "power_rh2m_pct",
+    "power_ws10m_m_s",
+    "power_prectotcorr_mm_day"
+  ],
+  "names": [
+    "season_sin1",
+    "season_cos1",
+    "season_sin2",
+    "season_cos2",
+    "rain_origin_lag1",
+    "rain_origin_lag2",
+    "rain_origin_lag5",
+    "rain_origin_lag11",
+    "rain_roll3_mean",
+    "rain_roll3_std",
+    "rain_roll6_mean",
+    "rain_roll6_std",
+    "rain_roll12_mean",
+    "rain_roll12_std",
+    "nino34_anomaly",
+    "dmi_hadisst11_anomaly",
+    "soi_cpc_standardized",
+    "oni_anomaly_3mo",
+    "meiv2_bimonthly",
+    "amv_ersstv6_global_removed_1951_1980",
+    "enso_x_iod",
+    "era5_t2m_c",
+    "era5_d2m_c",
+    "era5_sp_hpa",
+    "era5_mslp_hpa",
+    "era5_u10_m_s",
+    "era5_v10_m_s",
+    "era5_tp_mm",
+    "era5land_t2m_c",
+    "era5land_d2m_c",
+    "era5land_skin_c",
+    "era5land_soil_m3_m3_layer1",
+    "era5land_soil_m3_m3_layer2",
+    "era5land_soil_m3_m3_layer3",
+    "era5land_soil_m3_m3_layer4",
+    "era5land_tp_mm",
+    "era5land_evaporation_mm_signed",
+    "era5land_surface_runoff_mm",
+    "era5land_subsurface_runoff_mm",
+    "power_t2m_c",
+    "power_rh2m_pct",
+    "power_ws10m_m_s",
+    "power_prectotcorr_mm_day"
+  ],
+  "statistics": {
+    "clients": {
+      "Client1_NW_Arid": {
+        "heavy80_threshold_mm": 71.71416962596835,
+        "role_counts": {
+          "evaluation": 96,
+          "monitor": 35,
+          "train": 299,
+          "validation": 71
+        },
+        "target_mean": 41.38391361123381,
+        "target_std": 67.91548191351575
+      },
+      "Client2_Indo_Gangetic": {
+        "heavy80_threshold_mm": 171.9636272128868,
+        "role_counts": {
+          "evaluation": 96,
+          "monitor": 35,
+          "train": 299,
+          "validation": 71
+        },
+        "target_mean": 82.24997510391768,
+        "target_std": 103.99598492331599
+      },
+      "Client3_NE_Himalaya": {
+        "heavy80_threshold_mm": 364.160593488845,
+        "role_counts": {
+          "evaluation": 96,
+          "monitor": 35,
+          "train": 299,
+          "validation": 71
+        },
+        "target_mean": 189.1256906977205,
+        "target_std": 160.95170407746303
+      },
+      "Client4_South_Peninsular": {
+        "heavy80_threshold_mm": 166.75933393608292,
+        "role_counts": {
+          "evaluation": 96,
+          "monitor": 35,
+          "train": 299,
+          "validation": 71
+        },
+        "target_mean": 98.31145919760182,
+        "target_std": 78.88030490086226
+      },
+      "Client5_Central_India": {
+        "heavy80_threshold_mm": 203.74736499369163,
+        "role_counts": {
+          "evaluation": 96,
+          "monitor": 35,
+          "train": 299,
+          "validation": 71
+        },
+        "target_mean": 91.39590728728083,
+        "target_std": 119.48478862161406
+      }
+    },
+    "count": 1495,
+    "global_input_mean": [
+      7.426240967392351e-19,
+      -0.0033444816053512074,
+      7.426240967392351e-19,
+      -0.0033444816053511323,
+      100.2550942025504,
+      99.70415233808788,
+      99.1262272797921,
+      99.46265411270639,
+      99.7417574997583,
+      43.644019128240174,
+      99.45499721525017,
+      77.05727957745165,
+      99.43296094014583,
+      103.74077521922162,
+      -0.017123745819398024,
+      -0.11765886287625418,
+      -0.08829431438127106,
+      0.0729765886287626,
+      0.1049163879598664,
+      -0.05319841063535299,
+      0.11395244147157196,
+      24.440360403454395,
+      15.919937200316838,
+      958.4841846714725,
+      1009.1660931149231,
+      0.5853950202898617,
+      0.05753653799397915,
+      114.49502797658972,
+      24.12594758377453,
+      15.041765781275977,
+      25.025064625174014,
+      0.25947297374645334,
+      0.2744293731694771,
+      0.28272965986215365,
+      0.3229439889973849,
+      115.17496695072498,
+      -61.38024287307052,
+      22.244997069531774,
+      32.62837223534786,
+      24.79259373766053,
+      56.16151994653983,
+      3.156409058902348,
+      2.6672004381670815
+    ],
+    "global_input_std": [
+      0.7082882469748285,
+      0.7059154153580413,
+      0.7082882469748285,
+      0.7059154153580413,
+      121.30948802121029,
+      121.06438416463041,
+      120.37522242434225,
+      120.43439591687786,
+      105.37426322073378,
+      40.552282292273645,
+      79.69340312808065,
+      47.861518660695204,
+      49.61006679783083,
+      36.33202991870219,
+      0.8965391026683631,
+      0.32660308622723566,
+      0.9564235045564324,
+      0.8665829771626575,
+      0.9984283182689687,
+      0.1943513225183732,
+      0.37889583709195224,
+      5.179159200412091,
+      5.702560214233807,
+      22.830853102299205,
+      5.24723587127933,
+      1.399215689717178,
+      0.7560287582595703,
+      144.6536513748582,
+      5.067753086264626,
+      5.909885385991255,
+      5.7885289387642676,
+      0.10357019400213013,
+      0.08945721866334802,
+      0.07989552857005451,
+      0.07592005530038957,
+      145.71382091516804,
+      29.213539921948843,
+      43.59163197594931,
+      62.10660697791558,
+      5.386134454496164,
+      20.84962149426968,
+      1.0573123903072772,
+      3.0756963247561564
+    ],
+    "protocol": "count/sum/squared-sum scalar vectors",
+    "setup_communication": {
+      "messages": [
+        {
+          "bytes": 696,
+          "kind": "input_scaler_statistics",
+          "receiver": "server",
+          "sender": "Client1_NW_Arid"
+        },
+        {
+          "bytes": 696,
+          "kind": "input_scaler_statistics",
+          "receiver": "server",
+          "sender": "Client2_Indo_Gangetic"
+        },
+        {
+          "bytes": 696,
+          "kind": "input_scaler_statistics",
+          "receiver": "server",
+          "sender": "Client3_NE_Himalaya"
+        },
+        {
+          "bytes": 696,
+          "kind": "input_scaler_statistics",
+          "receiver": "server",
+          "sender": "Client4_South_Peninsular"
+        },
+        {
+          "bytes": 696,
+          "kind": "input_scaler_statistics",
+          "receiver": "server",
+          "sender": "Client5_Central_India"
+        },
+        {
+          "bytes": 688,
+          "kind": "input_scaler_mean_std",
+          "receiver": "Client1_NW_Arid",
+          "sender": "server"
+        },
+        {
+          "bytes": 688,
+          "kind": "input_scaler_mean_std",
+          "receiver": "Client2_Indo_Gangetic",
+          "sender": "server"
+        },
+        {
+          "bytes": 688,
+          "kind": "input_scaler_mean_std",
+          "receiver": "Client3_NE_Himalaya",
+          "sender": "server"
+        },
+        {
+          "bytes": 688,
+          "kind": "input_scaler_mean_std",
+          "receiver": "Client4_South_Peninsular",
+          "sender": "server"
+        },
+        {
+          "bytes": 688,
+          "kind": "input_scaler_mean_std",
+          "receiver": "Client5_Central_India",
+          "sender": "server"
+        }
+      ],
+      "privacy_assumption": "Plain training summary sharing; no differential privacy or secure aggregation claimed. Local target scaling and heavy thresholds remain at clients; reported evaluation metrics reveal aggregated diagnostics.",
+      "total_bytes": 6920,
+      "wire_format": "int64 count; float64 sum/squared-sum and broadcast mean/std"
+    },
+    "source_role": "gradient_train"
+  },
+  "support": {
+    "amv_ersstv6_global_removed_1951_1980": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "amv_ersstv6_global_removed_1951_1980"
+    },
+    "dmi_hadisst11_anomaly": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "dmi_hadisst11_anomaly"
+    },
+    "enso_x_iod": {
+      "kind": "interaction",
+      "latest_origin_offset": -1,
+      "parents": [
+        "nino34_anomaly",
+        "dmi_hadisst11_anomaly"
+      ]
+    },
+    "era5_d2m_c": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5_d2m_c"
+    },
+    "era5_mslp_hpa": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5_mslp_hpa"
+    },
+    "era5_sp_hpa": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5_sp_hpa"
+    },
+    "era5_t2m_c": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5_t2m_c"
+    },
+    "era5_tp_mm": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5_tp_mm"
+    },
+    "era5_u10_m_s": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5_u10_m_s"
+    },
+    "era5_v10_m_s": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5_v10_m_s"
+    },
+    "era5land_d2m_c": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_d2m_c"
+    },
+    "era5land_evaporation_mm_signed": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_evaporation_mm_signed"
+    },
+    "era5land_skin_c": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_skin_c"
+    },
+    "era5land_soil_m3_m3_layer1": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_soil_m3_m3_layer1"
+    },
+    "era5land_soil_m3_m3_layer2": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_soil_m3_m3_layer2"
+    },
+    "era5land_soil_m3_m3_layer3": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_soil_m3_m3_layer3"
+    },
+    "era5land_soil_m3_m3_layer4": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_soil_m3_m3_layer4"
+    },
+    "era5land_subsurface_runoff_mm": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_subsurface_runoff_mm"
+    },
+    "era5land_surface_runoff_mm": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_surface_runoff_mm"
+    },
+    "era5land_t2m_c": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_t2m_c"
+    },
+    "era5land_tp_mm": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "era5land_tp_mm"
+    },
+    "meiv2_bimonthly": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "meiv2_bimonthly"
+    },
+    "nino34_anomaly": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "nino34_anomaly"
+    },
+    "oni_anomaly_3mo": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "oni_anomaly_3mo"
+    },
+    "power_prectotcorr_mm_day": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "power_prectotcorr_mm_day"
+    },
+    "power_rh2m_pct": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "power_rh2m_pct"
+    },
+    "power_t2m_c": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "power_t2m_c"
+    },
+    "power_ws10m_m_s": {
+      "kind": "archived_regional_month",
+      "latest_origin_offset": -3,
+      "source": "power_ws10m_m_s"
+    },
+    "rain_origin_lag1": {
+      "kind": "observed_month",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_origin_lag11": {
+      "kind": "observed_month",
+      "latest_origin_offset": -11,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_origin_lag2": {
+      "kind": "observed_month",
+      "latest_origin_offset": -2,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_origin_lag5": {
+      "kind": "observed_month",
+      "latest_origin_offset": -5,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll12_mean": {
+      "first_origin_offset": -12,
+      "kind": "observed_window",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll12_std": {
+      "first_origin_offset": -12,
+      "kind": "observed_window",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll3_mean": {
+      "first_origin_offset": -3,
+      "kind": "observed_window",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll3_std": {
+      "first_origin_offset": -3,
+      "kind": "observed_window",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll6_mean": {
+      "first_origin_offset": -6,
+      "kind": "observed_window",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll6_std": {
+      "first_origin_offset": -6,
+      "kind": "observed_window",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "season_cos1": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "season_cos2": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "season_sin1": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "season_sin2": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "soi_cpc_standardized": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "soi_cpc_standardized"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "FROZEN_SOURCE_PREPARATION_READY",
+  "prepared_at_utc": "2026-10-08T01:47:55.398872+00:00",
+  "stage": "Parent-authorized before main evaluation; no research result reads.",
+  "parent_approved_plate_count": 9,
+  "all31_partition": [
+    8,
+    8,
+    8,
+    7
+  ],
+  "script_execution_scope": "synthetic-only",
+  "original_eight_plotting_source_unchanged": true,
+  "original_source_sha256": "316a77b750ba5703532874976cfb6ca3f4c4a32e22dc67a44685573d98c92b09",
+  "protocol_source_sha256": "3e2cb629ab69209bf6510203d3e073914be18cd4480bb185847b7f303363f602",
+  "files": {
+    "layout_plan.json": {
+      "sha256": "7c62f5c40d4f1d2a55c3f8d763dd6dae2b50c2cb3b9fcb61bc3e21884ff200a0",
+      "bytes": 18219
+    },
+    "make_publication_companions.py": {
+      "sha256": "33fa076c12f576057f4ee2e38b547be0bd858d74ac61b4937da44c1d614baafe",
+      "bytes": 32752
+    },
+    "model_abbreviation_ledger.csv": {
+      "sha256": "f1780b2b4c63a57a460114eee5e78c108bb13ba27f886aeab6c352b669eb343d",
+      "bytes": 4413
+    },
+    "PUBLICATION_LAYOUT.md": {
+      "sha256": "132c3c4514305ae7c25ce5aa15a1d194267a4539e78afb79d59c638cc2be68f1",
+      "bytes": 5353
+    },
+    "synthetic_verification.json": {
+      "sha256": "e1c1fa38966ffec295c3eaaaf1d02e7a0d4ed9360b59a4ae69b1e6c91154949e",
+      "bytes": 2817
+    },
+    "synthetic_visual_qa.json": {
+      "sha256": "45d9b17b8b1cede1fb0e9e1b2c970cb440880177de707cd4b40ee394ba2f08a0",
+      "bytes": 4285
+    },
+    "test_publication_companions.py": {
+      "sha256": "6f16ca53c830e6291f058abccd6fe8d96e6bacd992029f87a5976cb446c0f4d6",
+      "bytes": 10482
+    },
+    "freeze_layout.py": {
+      "sha256": "acd160b57e194ba3c6de17cfeb9c8764fa5f3cacdd74a737d451f33685040664",
+      "bytes": 8174
+    }
+  },
+  "portable_copy": [
+    "make_publication_companions.py",
+    "layout_plan.json"
+  ],
+  "optional_documentation_copy": [
+    "PUBLICATION_LAYOUT.md",
+    "model_abbreviation_ledger.csv"
+  ],
+  "excluded_copy": "Scratch synthetic fixtures are not study figures or public tests.",
+  "actual_render_prerequisites": "Completed main evaluation, exact independent QA PASS, original eight-figure accepted visual QA bound to its manifest, then independent visual QA for all nine companions."
+}

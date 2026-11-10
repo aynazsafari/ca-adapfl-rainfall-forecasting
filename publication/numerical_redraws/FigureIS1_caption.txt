@@ -1,0 +1,3 @@
+Common VAL checkpoint sensitivity for the same fitted policies. Primary fixed tick60 and secondary common selection among ticks20/40/60 are shown for global/local paths. Personal diagnostic paths remain separately identified in model_summary_ALL_endpoints.csv. Checkpoint communication is separately priced; optimizer repeats and endpoint forecasts do not add independent observations.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

@@ -1,0 +1,34 @@
+{
+  "id": "Table10",
+  "role": "derived_numeric_evidence",
+  "rows": 6,
+  "columns": [
+    "client",
+    "q80_mm",
+    "observed_n",
+    "heavy_precision_mean",
+    "heavy_precision_std",
+    "heavy_recall_mean",
+    "heavy_recall_std",
+    "heavy_F1_mean",
+    "heavy_F1_std",
+    "tail80_RMSE_mm_mean",
+    "tail80_RMSE_mm_std"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2/source_data/per_client_ALL.csv": {
+      "sha256": "47461129382f8a0a1b7ba0b83ed9aa61603d55a872093c37955c0e539d6c1543",
+      "rows": 2400
+    }
+  },
+  "formula_or_selector": "CAAA_GLOBAL_FULL only; per-client five-seed mean/sample SD. Macro averages client metrics within each seed before computing seed SD; no pooled precision/recall.",
+  "files_sha256": {
+    "Table10.csv": "e7854b0f467ef8ef5fc865f25025703807dd26d51a61a4e40cd3ff4fc446626f",
+    "Table10_display.csv": "1e6996be906412f725a5f453af8c21716db6f15840ea3d1027fe8bde2db0ca85"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 60,
+    "discrepancies": []
+  }
+}

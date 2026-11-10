@@ -1,0 +1,37 @@
+{
+  "id": "IS2",
+  "role": "saved_numeric_evidence",
+  "rows": 7,
+  "columns": [
+    "contrast_id",
+    "delta_MSE_mm2",
+    "MSE_CI95_low",
+    "MSE_CI95_high",
+    "delta_RMSE_mm",
+    "RMSE_CI95_low",
+    "RMSE_CI95_high",
+    "raw_p",
+    "Holm6",
+    "Holm7"
+  ],
+  "sources": {
+    "benchmarks/sharing/evaluation/paired_CI_7.csv": {
+      "sha256": "f60f01e842b9c3648229fe240f816ce009874b289b28fd18eb4e753ddd3b082e",
+      "rows": 84
+    },
+    "benchmarks/sharing/evaluation/annual_MSE_sign_tests.csv": {
+      "sha256": "e8a98d7178e560e4dd2debb237c6ee8d7bd908c5cb52d5870943e277ba12d69f",
+      "rows": 7
+    }
+  },
+  "formula_or_selector": "Seven fixed contrasts, marginal block12 saved MSE/RMSE intervals; annual MSE raw/retained Holm7/amended Holm6 p-values. S07 is outside Holm6.",
+  "files_sha256": {
+    "IS2.csv": "43971b69f3828d2730e382c154d87ec1670e0c84b2ae27db22dc0393df4b0a53",
+    "IS2_display.csv": "029de97a4b6d3f5762b6930383e4e4e70e2560aa0ee8423fb750f68248b0568f"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 62,
+    "discrepancies": []
+  }
+}

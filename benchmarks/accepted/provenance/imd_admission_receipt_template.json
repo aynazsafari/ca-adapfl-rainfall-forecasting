@@ -1,0 +1,34 @@
+{
+  "status": "PASS_WITH_EXPLICIT_INVALID_SOURCE",
+  "source_path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\audit_datasets\\imd_independent_monthly_reconstruction.csv",
+  "source_sha256": "eac5b7555a70263d289d118f81ddfc54de9415bab535a6fc96abf4da304b4fee",
+  "reconstructed_rows": 2640,
+  "admitted_feature_rows": 2639,
+  "invalid_source_rows": [],
+  "source_mean_definition": "monthly rainfall complete-day/complete-cell weighted regional mean from the independent native IMD reconstruction",
+  "feature_name": "imd_rainfall_mm",
+  "unit": "mm month-1",
+  "minimum_weighted_area_coverage": 0.95,
+  "physical_mean_location": "imd_supplement_quality.csv",
+  "missing_numeric_encoding": "empty CSV field (NA); no filling",
+  "feature_support": {
+    "sequence_length": 12,
+    "row_origin_month": "s",
+    "target_month": "t=s+1",
+    "met_source_per_row": "s-3=t-4",
+    "sequence_oldest_source": "t-15",
+    "sequence_latest_source": "t-4",
+    "interpretation": "prespecified conservative availability scenario applied to revised archives; no historical real-time vintage claim"
+  },
+  "outputs": {
+    "imd_supplement.csv": {
+      "sha256": "93adacbec2a1aa4c240f756c02d440ad4fd8a27f6795731653c5d700f28e5933",
+      "bytes": 129097
+    },
+    "imd_supplement_quality.csv": {
+      "sha256": "a968989b0194b5671f1c4a9f803215abcd18952ee0b6d2d90277faba42b9e7a9",
+      "bytes": 241119
+    }
+  },
+  "generated_utc": "2026-10-07T22:59:47.582701+00:00"
+}

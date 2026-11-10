@@ -1,0 +1,18 @@
+{
+  "schema": "revision_v3_authoring_runtime",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "matplotlib": "3.11.2",
+    "python-docx": "1.2.0",
+    "lxml": "6.1.1",
+    "pypdf": "6.10.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0",
+    "nbconvert": "7.17.1"
+  },
+  "usage": "publication/notebook/document authoring; not the frozen scientific training runtime"
+}

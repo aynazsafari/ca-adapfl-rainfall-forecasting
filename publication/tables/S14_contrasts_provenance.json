@@ -1,0 +1,34 @@
+{
+  "id": "S14_contrasts",
+  "role": "saved_numeric_evidence",
+  "rows": 6,
+  "columns": [
+    "contrast_id",
+    "model_a",
+    "model_b",
+    "metric",
+    "delta_a_minus_b",
+    "CI95_low",
+    "CI95_high",
+    "block_length_months",
+    "role",
+    "repetitions",
+    "n_seeds",
+    "n_clients",
+    "n_months",
+    "resample_seeds"
+  ],
+  "sources": {
+    "benchmarks/accepted/publication/revision_v3/S15_new_CI_36_all_blocks.csv": {
+      "sha256": "72d80e58c18999801f509e230c02136661d45a6d0e8d8d74173085960a19108a",
+      "rows": 216
+    }
+  },
+  "formula_or_selector": "Explicit companion numeric rows; retains all saved block lengths and both metrics where applicable.",
+  "files_sha256": {
+    "S14_contrasts.csv": "a735c91f65fce260c84fc18d39bcb4d0fc82a816f35ca727391032d5d5e4eceb"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

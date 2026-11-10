@@ -1,0 +1,363 @@
+{
+  "ablation_coefficient_reference": {
+    "coefficients": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "parent_label": "CAAA_GLOBAL_FULL_ANCHOR / CAAA_PERSONAL_FULL_ANCHOR",
+    "rule": "All five flags are compared with the fixed nonzero anchor parent; selected primary remains separate and may have zero aggregation coefficients. Do not restrict candidate grid."
+  },
+  "ablations": {
+    "NO_AUX": {
+      "use_aux": false
+    },
+    "NO_CLIMATE_WEIGHT": {
+      "use_climate": false
+    },
+    "NO_EMBEDDING": {
+      "use_embedding": false
+    },
+    "NO_PERFORMANCE_WEIGHT": {
+      "use_performance": false
+    },
+    "NO_PROX": {
+      "use_prox": false
+    }
+  },
+  "bootstrap": {
+    "blocks": [
+      12,
+      6,
+      24
+    ],
+    "estimand": "mean per-seed macro metrics",
+    "joint_date_blocks": true,
+    "paired_seeds": true,
+    "repetitions": 2000,
+    "seed": 731
+  },
+  "comparisons": [
+    [
+      "CAAA_GLOBAL_CORE",
+      "FEDAVG_GLOBAL_CORE"
+    ],
+    [
+      "CAAA_GLOBAL_CORE",
+      "FEDPROX_GLOBAL_CORE"
+    ],
+    [
+      "CAAA_GLOBAL_CLIMATE",
+      "FEDAVG_GLOBAL_CLIMATE"
+    ],
+    [
+      "CAAA_GLOBAL_CLIMATE",
+      "FEDPROX_GLOBAL_CLIMATE"
+    ],
+    [
+      "CAAA_GLOBAL_FULL",
+      "FEDAVG_GLOBAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_FULL",
+      "FEDPROX_GLOBAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_TRAIN_SELECTED",
+      "FEDAVG_GLOBAL_TRAIN_SELECTED"
+    ],
+    [
+      "CAAA_GLOBAL_TRAIN_SELECTED",
+      "FEDPROX_GLOBAL_TRAIN_SELECTED"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "FEDAVG_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "FEDPROX_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "DITTO_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_PERSONAL_FULL",
+      "LOCAL_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_CLIMATE_WEIGHT"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_PERFORMANCE_WEIGHT"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_PROX"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_AUX"
+    ],
+    [
+      "CAAA_GLOBAL_FULL_ANCHOR",
+      "CAAA_GLOBAL_FULL_NO_EMBEDDING"
+    ],
+    [
+      "CAAA_GLOBAL_CORE",
+      "CAAA_GLOBAL_CORE_CLIMATE_FREE"
+    ],
+    [
+      "GRAPH_ENRICHED_PERSONAL_FULL",
+      "GRAPH_ORIGINAL_PERSONAL_FULL"
+    ],
+    [
+      "GRAPH_ENRICHED_PERSONAL_FULL",
+      "GRAPH_UNIFORM_PERSONAL_FULL"
+    ],
+    [
+      "CAAA_GLOBAL_LATENCY_LAG1",
+      "CAAA_GLOBAL_LATENCY_REFERENCE"
+    ],
+    [
+      "FEDAVG_GLOBAL_LATENCY_LAG1",
+      "FEDAVG_GLOBAL_LATENCY_REFERENCE"
+    ],
+    [
+      "FEDPROX_GLOBAL_LATENCY_LAG1",
+      "FEDPROX_GLOBAL_LATENCY_REFERENCE"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_validation_best"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_equal_weight"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_convex"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "ROUTER_CORE_temporal_OOF_Ridge_stack"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_validation_best"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_equal_weight"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_convex"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "ROUTER_FULL_temporal_OOF_Ridge_stack"
+    ]
+  ],
+  "cpu": {
+    "max_processes": 2,
+    "maximum_active_threads": 4,
+    "threads_per_process": 2
+  },
+  "development_folds": [
+    [
+      "1995-11",
+      "1996-01",
+      "1998-12"
+    ],
+    [
+      "2000-11",
+      "2001-01",
+      "2003-12"
+    ],
+    [
+      "2004-11",
+      "2005-01",
+      "2007-11"
+    ]
+  ],
+  "embargo": "exclude December2007/2010/2016 labels from roles; OOF fit_end <= first heldout target minus2 months",
+  "feature_groups": {
+    "CLIMATE": 21,
+    "CORE": 14,
+    "FULL": 43,
+    "TRAIN_SELECTED": "training-only nested Ridge fixed-group selector"
+  },
+  "interpretation": "revised archival hindcast; availability scenarios, five fixed regions; no historically-vintaged prospective evaluation claim",
+  "latency": {
+    "common_start": "1983-02",
+    "frozen_hyperparameters": "reuse main FULL choices without retuning",
+    "main_train_per_client": 299,
+    "reference_extra_lag": 0,
+    "shifted_extra_lag": 1,
+    "train_per_client": 298
+  },
+  "neural": {
+    "batch_size": 32,
+    "checkpoint_selection": "best macro outer-validation R2; all 60 rounds, no early stopping",
+    "coefficient_candidates": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.25,
+        0.75
+      ],
+      [
+        0.0,
+        0.5,
+        0.5
+      ],
+      [
+        0.0,
+        0.75,
+        0.25
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.25,
+        0.0,
+        0.75
+      ],
+      [
+        0.25,
+        0.25,
+        0.5
+      ],
+      [
+        0.25,
+        0.5,
+        0.25
+      ],
+      [
+        0.25,
+        0.75,
+        0.0
+      ],
+      [
+        0.5,
+        0.0,
+        0.5
+      ],
+      [
+        0.5,
+        0.25,
+        0.25
+      ],
+      [
+        0.5,
+        0.5,
+        0.0
+      ],
+      [
+        0.75,
+        0.0,
+        0.25
+      ],
+      [
+        0.75,
+        0.25,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.3,
+        0.3,
+        0.4
+      ]
+    ],
+    "coefficient_selector": "CAAA global; same frozen algorithm emits global and personal identities",
+    "cpu_threads": 2,
+    "exact_ties": "smaller learning rate; smaller mu; coefficient anchor (.3,.3,.4), then lexicographic",
+    "local_epochs": 3,
+    "mu_candidates": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "mu_selector": "global CAAA/FedProx; personal Ditto/each named graph",
+    "primary_rainfall": "raw inverse-transformed mm; no clipping",
+    "rounds": 60,
+    "shared_lr_candidates": [
+      0.001,
+      0.003
+    ],
+    "shared_lr_selector": "FULL FedAvg global, seed42, baseline-favoring shared choice"
+  },
+  "primary_metrics": [
+    "equal-client macro R2",
+    "equal-client macro RMSE mm"
+  ],
+  "role_bounds": {
+    "evaluation": [
+      "2017-01",
+      "2024-12"
+    ],
+    "monitor": [
+      "2008-01",
+      "2010-11"
+    ],
+    "train": [
+      "1983-01",
+      "2007-11"
+    ],
+    "validation": [
+      "2011-01",
+      "2016-11"
+    ]
+  },
+  "router": {
+    "calibration": [
+      "2011-01",
+      "2013-11"
+    ],
+    "pools": [
+      "six pooled/local Ridge/ET/RF CORE latest-row",
+      "same six FULL latest-row"
+    ],
+    "refit_end": "2016-11",
+    "robust_objective": ".65 calibration overall R2 + .35 calibration last-half R2",
+    "score": [
+      "2014-01",
+      "2016-11"
+    ],
+    "score_interpretation": "heldout score belongs to provisional calibration weights, not final refit weights",
+    "stack": "training temporal OOF standardized Ridge alpha10"
+  },
+  "runtime_reproducibility": "Freeze Python/OS/architecture, seven scientific-library versions and PyTorch build/git signature; reject dependency changes on fit/evaluation resume. Runtime directory relocation is allowed.",
+  "seeds": [
+    42,
+    123,
+    2024,
+    7,
+    999
+  ],
+  "selected_rule": "three fixed groups; alpha10 Ridge; gain >=.002 vs CORE; training-only chronological folds",
+  "sign_randomization": "optional; block12 + Holm over this full predeclared family",
+  "supplements": {
+    "GLDAS": "disabled until root supplies matched 2001-04 start cohort; no old three-fold selector",
+    "IMD": "disabled until root supplies matched complete-case cohort"
+  },
+  "true_core_climate_free": "CORE14; no climate embedding, weighting or adaptive prox, zero ENSO/IOD drivers and sensitivity; requires separately matched CORE reference",
+  "version": "revised_archive_safe_label_embargo_raw_predictions_v1"
+}

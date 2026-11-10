@@ -1,0 +1,67 @@
+{
+  "shape": [
+    756048
+  ],
+  "data_type": "uint8",
+  "chunk_grid": {
+    "name": "regular",
+    "configuration": {
+      "chunk_shape": [
+        753888
+      ]
+    }
+  },
+  "chunk_key_encoding": {
+    "name": "default",
+    "configuration": {
+      "separator": "/"
+    }
+  },
+  "fill_value": 255,
+  "codecs": [
+    {
+      "name": "bytes"
+    },
+    {
+      "name": "zstd",
+      "configuration": {
+        "level": 0,
+        "checksum": false
+      }
+    }
+  ],
+  "attributes": {
+    "standard_name": "status_flag",
+    "long_name": "Quality-control status flag for ERA5 backfill (one value per hour)",
+    "units": "1",
+    "flag_values": [
+      0,
+      100,
+      101,
+      102,
+      103,
+      200,
+      201,
+      202,
+      203,
+      204
+    ],
+    "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+    "valid_range": [
+      0,
+      254
+    ],
+    "GRIB_shortName": "msl",
+    "GRIB_name": "Mean sea level pressure",
+    "GRIB_cfVarName": "msl",
+    "GRIB_paramId": 151,
+    "coordinates": "expver",
+    "_FillValue": 255
+  },
+  "dimension_names": [
+    "valid_time"
+  ],
+  "zarr_format": 3,
+  "node_type": "array",
+  "storage_transformers": []
+}

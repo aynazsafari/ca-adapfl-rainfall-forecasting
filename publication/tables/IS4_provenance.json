@@ -1,0 +1,43 @@
+{
+  "id": "IS4",
+  "role": "derived_numeric_evidence",
+  "rows": 8,
+  "columns": [
+    "model",
+    "seed",
+    "optimizer_steps",
+    "examples",
+    "aggregation_count",
+    "all_round_VAL_audit_bytes",
+    "downlink_bytes",
+    "logical_required_payload_bytes",
+    "model_state_bytes",
+    "model_tensor_bytes",
+    "parameters",
+    "scaler_setup_bytes",
+    "three_checkpoint_VAL_selection_bytes_all_identities",
+    "three_checkpoint_VAL_selection_bytes_per_identity",
+    "total_engine_wall_seconds",
+    "train_cpu_seconds",
+    "train_wall_seconds",
+    "uplink_bytes",
+    "validation_audit_cpu_seconds",
+    "validation_audit_wall_seconds"
+  ],
+  "sources": {
+    "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+      "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+      "rows": 40
+    }
+  },
+  "formula_or_selector": "Arithmetic means over five per-fit ledgers. MiB=bytes/2^20. Required, alternative VAL3 selection and round-wise research audit bytes remain separate; timings describe recorded simulation.",
+  "files_sha256": {
+    "IS4.csv": "545c291c428e0b94f32e0f0ac3308744a95e8c7103ff10c234e51b5857050c2b",
+    "IS4_display.csv": "79a89fd826f7793484b917f5d0679deded000ecf9460f4e19e3b9c81ad85fbce"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 48,
+    "discrepancies": []
+  }
+}

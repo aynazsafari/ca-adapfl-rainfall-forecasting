@@ -1,0 +1,21 @@
+{
+  "snapshot_id": "ZFKDHBCTBVHVXM3BQFV0",
+  "chunk_count": 644,
+  "temporal_tiles": [
+    82,
+    84
+  ],
+  "source_compressed_bytes": 1465963879,
+  "source_compressed_bytes_by_variable": {
+    "t2m": 242959504,
+    "d2m": 242457524,
+    "sp": 250815483,
+    "u10": 251045554,
+    "v10": 247401509,
+    "tp": 77316097,
+    "msl": 153968208
+  },
+  "climate_byte_ceiling": 2000000000,
+  "ledger_sha256": "8b20454206cfd7c64ae3d7e0ffc1f26992dfb223066148d67c72e9b711566040",
+  "contract_sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f"
+}

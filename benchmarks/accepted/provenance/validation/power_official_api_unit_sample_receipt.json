@@ -1,0 +1,57 @@
+{
+  "sample_years": [
+    1984,
+    2000,
+    2001,
+    2024
+  ],
+  "summary": [
+    {
+      "parameter": "ALLSKY_SFC_SW_DWN",
+      "sample_values": 48,
+      "maximum_absolute_difference": 0.004978320312499562,
+      "mean_absolute_difference": 0.0025459391276041465,
+      "api_units": [
+        "MJ/m^2/day"
+      ]
+    },
+    {
+      "parameter": "PRECTOTCORR",
+      "sample_values": 48,
+      "maximum_absolute_difference": 2.929687500063949e-05,
+      "mean_absolute_difference": 1.1393229166720345e-05,
+      "api_units": [
+        "mm/day"
+      ]
+    },
+    {
+      "parameter": "RH2M",
+      "sample_values": 48,
+      "maximum_absolute_difference": 2.929687499886313e-05,
+      "mean_absolute_difference": 1.5665690104841683e-05,
+      "api_units": [
+        "%"
+      ]
+    },
+    {
+      "parameter": "T2M",
+      "sample_values": 48,
+      "maximum_absolute_difference": 2.929687500063949e-05,
+      "mean_absolute_difference": 1.190185546839917e-05,
+      "api_units": [
+        "C"
+      ]
+    },
+    {
+      "parameter": "WS10M",
+      "sample_values": 48,
+      "maximum_absolute_difference": 2.92968750001954e-05,
+      "mean_absolute_difference": 1.5258789062546258e-05,
+      "api_units": [
+        "m/s"
+      ]
+    }
+  ],
+  "method": "Diagnostic request at a native solar grid center and its nearest native MERRA2 center. No API values enter regional panel. API rounds community-converted values to two decimal places.",
+  "unit_conversion_verified_within_API_rounding": true
+}

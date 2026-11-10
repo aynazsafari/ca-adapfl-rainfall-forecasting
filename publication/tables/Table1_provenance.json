@@ -1,0 +1,30 @@
+{
+  "id": "Table1",
+  "role": "static_display_transcription",
+  "rows": 7,
+  "columns": [
+    "Dataset",
+    "Official provider",
+    "Study access",
+    "Native\ngrid",
+    "Time\nsupport",
+    "Reduction",
+    "Source period",
+    "Variables",
+    "Role",
+    "Citation"
+  ],
+  "sources": {
+    "metadata/paper_reference.json": {
+      "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+    }
+  },
+  "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+  "files_sha256": {
+    "Table1.csv": "5969ba894726edcb43ca8e3deb206945d2a275a58cb4ebaac32ce179de0a2218",
+    "Table1_display.csv": "5969ba894726edcb43ca8e3deb206945d2a275a58cb4ebaac32ce179de0a2218"
+  },
+  "validation_against_displayed_paper": {
+    "status": "STATIC_TRANSCRIPTION"
+  }
+}

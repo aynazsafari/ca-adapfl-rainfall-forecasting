@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+runs/
+work/
+.ipynb_checkpoints/
+*.egg-info/
+snapshots/
+figures/
+temporary_kernel_specs/
+provenance/era5_recovery/raw/chunks/
+provenance/era5_recovery/derived/*.nc
+provenance/era5_recovery/derived/regional_hourly.npz

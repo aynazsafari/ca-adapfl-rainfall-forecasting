@@ -1,0 +1,23 @@
+{
+  "status": "APPLIED_AWAITING_ACTUAL_VISUAL_QA",
+  "utc": "2026-10-08T03:16:46.431351+00:00",
+  "scope": "Post-evaluation display-only repair: compute 8% axis padding after the R2 lower limit includes zero; prevent marker glyph clipping in P05/P06. No data, methods, order, comparisons, fonts, canvas or scientific calculations changed.",
+  "parent_companion_helper_sha256": "3d0b9a60a9a5ad10d44d7572227baabed27623b51319f2c848d3abff55dc0394",
+  "repaired_companion_helper_sha256": "ce6e078554d0677f9e161b627213ac89f4506ede725210d04dfc9415aa968937",
+  "candidate_manifest_sha256": "8ce224b5f7ad663b0c7d78025238c99034eeece31e387d84191798fca9bcb8f6",
+  "issue_receipt_sha256": "5bf51bcfeaf6af45cb5dde03d4352291e029c16ac85aa4c3d6e5388d8b83f8e9",
+  "frozen_layout_plan_sha256": "7c62f5c40d4f1d2a55c3f8d763dd6dae2b50c2cb3b9fcb61bc3e21884ff200a0",
+  "frozen_layout_plan_unchanged": true,
+  "scientific_modules_unchanged": true,
+  "scientific_module_sha256": {
+    "classical": "aea41a73498edcedc6af83f6ba8249cb71f087e3df84c0e0310c7e4d0638c714",
+    "evaluation": "a70b2771257be53661ef6d2b0b583fd17efabd289d24fada477de9f5147966c4",
+    "features": "0381556297d12e669dcf7aee191c611e259d1c6385315e61fa08d688653bd28f",
+    "graph_profiles": "d1edbf7a3e21a7dd58f0a2fb2734cb007fd46ebc9ac0cd1eda1ac364903ea536",
+    "neural_benchmark": "83814bc45d96b4dd2ea185436b9538babe59cbc70adcc00fe7ff4c33055d4873",
+    "runner": "79be46b566da5070ce785519cfe3674748295e1756abd7e2d1fc2d1a01b76047"
+  },
+  "exact_source_block_replacements": 1,
+  "model_fits_or_inference": false,
+  "source_writer_sha256": "2a9f0d9b1d75e97d72866f2707aed56fe787cd612ee0df24a3b4010ff0cd5f90"
+}

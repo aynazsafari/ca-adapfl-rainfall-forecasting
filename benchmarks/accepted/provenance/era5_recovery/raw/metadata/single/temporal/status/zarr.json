@@ -1,0 +1,28 @@
+{
+  "attributes": {
+    "title": "ERA5 backfill status flags (single/temporal)",
+    "summary": "Per-hour quality-control flags for each ERA5 variable in single/temporal",
+    "Conventions": "CF-1.11, ACDD-1.3",
+    "keywords": "ERA5, status, quality control, flag, single, temporal",
+    "flag_values": [
+      0,
+      100,
+      101,
+      102,
+      103,
+      200,
+      201,
+      202,
+      203,
+      204
+    ],
+    "flag_meanings": "valid_data not_yet_populated unavailable will_never_exist not_requested malformed_data decompression_error read_error corrupt_data processing_error",
+    "date_created": "2026-08-31",
+    "date_modified": "2026-08-31",
+    "time_coverage_start": "1940-01-01T00:00:00Z",
+    "time_coverage_end": "2026-03-31T23:00:00Z",
+    "time_coverage_resolution": "PT1H"
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}

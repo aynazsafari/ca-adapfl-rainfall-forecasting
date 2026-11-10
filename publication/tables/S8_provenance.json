@@ -1,0 +1,34 @@
+{
+  "id": "S8",
+  "role": "saved_numeric_evidence",
+  "rows": 36,
+  "columns": [
+    "stage",
+    "method",
+    "graph_name",
+    "identity",
+    "seed",
+    "lr",
+    "mu",
+    "alpha",
+    "beta",
+    "gamma",
+    "validation_macro_R2",
+    "job_sha256",
+    "selected",
+    "selected_round"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2/source_data/06_validation_candidates_ALL.csv": {
+      "sha256": "5d9a1cf7a78c677fc3d1706dd474a95a27b3725898b19cf0cb9f3209ae0e770e",
+      "rows": 36
+    }
+  },
+  "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+  "files_sha256": {
+    "S8.csv": "e21dc132bd10e2dba53424e8dd22316e26ce10aa00ecd2e5ffd190f4e492651e"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

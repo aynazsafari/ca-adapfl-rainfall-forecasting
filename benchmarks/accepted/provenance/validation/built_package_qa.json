@@ -1,0 +1,264 @@
+{
+  "label": "READ-ONLY BUILT PACKAGE QA; source assembly only, no study fits or study scores",
+  "checked_utc": "2026-10-08T00:00:03.395299+00:00",
+  "package": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\outputs\\03_benchmark\\caadapfl_benchmark",
+  "checks": [
+    {
+      "name": "every immutable packaged file byte/hash verified",
+      "passed": true,
+      "detail": {
+        "count": 179,
+        "failures": []
+      }
+    },
+    {
+      "name": "module hashes match package manifest",
+      "passed": true
+    },
+    {
+      "name": "canonical manifest SHA matches package manifest",
+      "passed": true
+    },
+    {
+      "name": "canonical source gate passed",
+      "passed": true
+    },
+    {
+      "name": "portable assembler output bytes exactly equal canonical v2 and packaged data",
+      "passed": true,
+      "detail": [
+        {
+          "name": "gldas21_supplement.csv",
+          "reassembled_sha256": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa",
+          "package_sha256": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa",
+          "canonical_v2_sha256": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa",
+          "exact": true
+        },
+        {
+          "name": "indices.csv",
+          "reassembled_sha256": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+          "package_sha256": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+          "canonical_v2_sha256": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+          "exact": true
+        },
+        {
+          "name": "manifest.json",
+          "reassembled_sha256": "ab4928d932a722e0a7061a9311e35d81588435be49fd5ab72e84a079ceb801fd",
+          "package_sha256": "ab4928d932a722e0a7061a9311e35d81588435be49fd5ab72e84a079ceb801fd",
+          "canonical_v2_sha256": "ab4928d932a722e0a7061a9311e35d81588435be49fd5ab72e84a079ceb801fd",
+          "exact": true
+        },
+        {
+          "name": "monthly.csv",
+          "reassembled_sha256": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+          "package_sha256": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+          "canonical_v2_sha256": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+          "exact": true
+        },
+        {
+          "name": "solar_supplement.csv",
+          "reassembled_sha256": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+          "package_sha256": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+          "canonical_v2_sha256": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+          "exact": true
+        },
+        {
+          "name": "source_quality.csv",
+          "reassembled_sha256": "070f6fa23949c54940b01fe4e08fb8a414e6d0194cb09e857abc6f9a617d973f",
+          "package_sha256": "070f6fa23949c54940b01fe4e08fb8a414e6d0194cb09e857abc6f9a617d973f",
+          "canonical_v2_sha256": "070f6fa23949c54940b01fe4e08fb8a414e6d0194cb09e857abc6f9a617d973f",
+          "exact": true
+        }
+      ]
+    },
+    {
+      "name": "portable assembler reproduces full manifest including seven-field recovery lineage",
+      "passed": true
+    },
+    {
+      "name": "ERA5 composition scope exact",
+      "passed": true
+    },
+    {
+      "name": "all eight ERA5 lineage hashes bind packaged bytes",
+      "passed": true,
+      "detail": {
+        "composition_receipt_sha256": "provenance/source_tables/ERA5_retrieval.json",
+        "provider_admission_receipt_sha256": "provenance/era5_recovery/derived/provider_admission_receipt.json",
+        "native_recovery_receipt_sha256": "provenance/era5_recovery/derived/native_recovery_receipt.json",
+        "recovery_completion_receipt_sha256": "provenance/era5_recovery/recovery_completion_receipt.json",
+        "frozen_recovery_contract_sha256": "provenance/era5_recovery/frozen_recovery_contract.json",
+        "original_ee_csv_sha256": "provenance/source_tables/era5_chunks/assembled_for_admission.csv",
+        "recovered_csv_sha256": "provenance/era5_recovery/derived/monthly_source_rows.csv",
+        "merged_csv_sha256": "provenance/source_tables/CAAdapFL_ERA5_completed.csv"
+      }
+    },
+    {
+      "name": "all canonical primary and supplemental inputs match their checksums",
+      "passed": true
+    },
+    {
+      "name": "main exact feature widths and converted units",
+      "passed": true
+    },
+    {
+      "name": "portable tools/assemble_data.py uses repository/local script roots",
+      "passed": true
+    },
+    {
+      "name": "portable tools/supplement_runner.py uses repository/local script roots",
+      "passed": true
+    },
+    {
+      "name": "supplement launcher source-only admission succeeds using packaged default paths",
+      "passed": true,
+      "detail": {
+        "IMD": {
+          "first_target": "1983-01",
+          "role_counts_per_client": {
+            "train": 299,
+            "monitor": 35,
+            "validation": 71,
+            "evaluation": 85,
+            "embargo": 3
+          },
+          "evaluation_rows": 425,
+          "status": "SOURCE_QUALITY_COHORT_DERIVED"
+        },
+        "GLDAS21": {
+          "first_target": "2001-04",
+          "role_counts_per_client": {
+            "train": 80,
+            "monitor": 35,
+            "validation": 71,
+            "evaluation": 96,
+            "embargo": 3
+          },
+          "evaluation_rows": 480,
+          "status": "SOURCE_QUALITY_COHORT_DERIVED"
+        },
+        "solar": {
+          "first_target": "1985-04",
+          "role_counts_per_client": {
+            "train": 272,
+            "monitor": 35,
+            "validation": 71,
+            "evaluation": 96,
+            "embargo": 3
+          },
+          "evaluation_rows": 480,
+          "status": "SOURCE_QUALITY_COHORT_DERIVED"
+        }
+      }
+    },
+    {
+      "name": "three packaged documentation snapshots match final accepted-source docs",
+      "passed": true,
+      "detail": {
+        "README_GITHUB_EN.txt": "README.md",
+        "FROZEN_PROTOCOL_EN.txt": "docs/FROZEN_PROTOCOL.md",
+        "README_FA.txt": "docs/README_FA.md"
+      }
+    },
+    {
+      "name": "results notebook has no saved study output",
+      "passed": true
+    },
+    {
+      "name": "results notebook exact copied identity and repository-relative default",
+      "passed": true
+    },
+    {
+      "name": "all direct dependency pins present in reference task environment",
+      "passed": true,
+      "detail": [
+        {
+          "distribution": "numpy",
+          "pinned": "2.3.5",
+          "installed": "2.3.5"
+        },
+        {
+          "distribution": "pandas",
+          "pinned": "3.0.1",
+          "installed": "3.0.1"
+        },
+        {
+          "distribution": "scipy",
+          "pinned": "1.18.1",
+          "installed": "1.18.1"
+        },
+        {
+          "distribution": "scikit-learn",
+          "pinned": "1.9.1",
+          "installed": "1.9.1"
+        },
+        {
+          "distribution": "torch",
+          "pinned": "2.14.1",
+          "installed": "2.14.1"
+        },
+        {
+          "distribution": "joblib",
+          "pinned": "1.6.0",
+          "installed": "1.6.0"
+        },
+        {
+          "distribution": "threadpoolctl",
+          "pinned": "3.7.0",
+          "installed": "3.7.0"
+        },
+        {
+          "distribution": "matplotlib",
+          "pinned": "3.11.2",
+          "installed": "3.11.2"
+        },
+        {
+          "distribution": "nbformat",
+          "pinned": "5.11.1",
+          "installed": "5.11.1"
+        },
+        {
+          "distribution": "nbclient",
+          "pinned": "0.11.0",
+          "installed": "0.11.0"
+        },
+        {
+          "distribution": "ipykernel",
+          "pinned": "7.4.0",
+          "installed": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "direct-pins versus transitive snapshot limitation disclosed",
+      "passed": true
+    },
+    {
+      "name": "prepared main run uses exact packaged neural/core code",
+      "passed": true
+    }
+  ],
+  "issues": [],
+  "supplement_source_hashes": {
+    "IMD/imd_supplement.csv": "93adacbec2a1aa4c240f756c02d440ad4fd8a27f6795731653c5d700f28e5933",
+    "IMD/imd_supplement_quality.csv": "a968989b0194b5671f1c4a9f803215abcd18952ee0b6d2d90277faba42b9e7a9",
+    "IMD/plan": "c131916d44aeeaf1125f690e63b392f9d041ef862bf7a3379a1a4a3f921ddd50",
+    "IMD/receipt": "8c14f84a86e41cd3a847d26692a3f0bee2a2a4e2e33c6504202c01ac1b49af76",
+    "GLDAS21/gldas21_supplement.csv": "26e89688231769d1e85662b6d74aa485d0dcacd289b75c4c3fe469383d12e6a2",
+    "GLDAS21/gldas21_supplement_quality.csv": "6195b5fdc59d5554604ba41abfcdc854b3df0d01daf27826423d9d955a26774a",
+    "GLDAS21/plan": "ec61e06582f2bf1b21c5386ecbaec1a95f9aac6388a57b39202047e98bf8572a",
+    "GLDAS21/receipt": "049980766a7bb4c513dd0c86371573af7f55705831031989dc658bfe6add0042",
+    "solar/plan": "7d8b4785967c76517d570405cc358df42835ea02bd341c9543665b3e121826aa",
+    "solar/feature_csv": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb"
+  },
+  "reference_run_identity_sha256": "48b921f90dc88b5e813e26817b41af7a054c4e208d64d6e45f882d8785982952",
+  "remaining_nonblocking_release_notes": [
+    "Main README still describes install/public-check verification as pending; root is performing these checks and should record the actual commands/receipts before release.",
+    "provenance/era5_recovery/README.md retains original work/env and work/era5_rebuild commands. compare_provider_control.py default EE path uses the original workspace; from repository root, a relocated control recheck needs python provenance/era5_recovery/compare_provider_control.py --ee-table provenance/source_tables/era5_chunks/assembled_for_admission.csv. This affects optional source rebuilding instructions, not processed-snapshot model reproduction or the verified portable assembler. Rechecks write control receipts, so use a separate copy when retaining the frozen snapshot.",
+    "Fresh source reconstruction requires optional icechunk/zarr/netCDF4/requests/pcodec/pyproj dependencies beyond the model direct-pin file; the main environment snapshot records them, but a dedicated rebuild environment is still a separate procedure.",
+    "Code/data licensing remains owner/provider-specific; no blanket license or identity was invented."
+  ],
+  "checks_passed": 19,
+  "checks_total": 19,
+  "status": "PASS"
+}

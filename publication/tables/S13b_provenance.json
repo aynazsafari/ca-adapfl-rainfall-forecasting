@@ -1,0 +1,30 @@
+{
+  "id": "S13b",
+  "role": "derived_numeric_evidence",
+  "rows": 132,
+  "columns": [
+    "model",
+    "metric",
+    "mean_of_equal_client_seed_means",
+    "sample_seed_SD",
+    "undefined_client_seed_rows",
+    "defined_seed_means"
+  ],
+  "sources": {
+    "benchmarks/accepted/runs/revision_v3/evaluation/per_client.csv": {
+      "sha256": "6ed47053d12204a2f5e4ac129800ef3f879520a3a3365282fa5c1d0c998b256b",
+      "rows": 1150
+    },
+    "benchmarks/accepted/publication/revision_v3/S13_output_loss.csv": {
+      "sha256": "6c497549fd8f273ec281127e80f4c78a41e00f5486a3500a328e51d867a5dc4a",
+      "rows": 12
+    }
+  },
+  "formula_or_selector": "Twelve output/loss identities; per-seed means over defined client metrics then seed mean/sample SD. Undefined client/seed metrics are counted explicitly.",
+  "files_sha256": {
+    "S13b.csv": "5dc4ac43250291d41ce414a844d2208217af2f4915ec8061b7c950565f003d78"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "default_run": "runs/revision_v2",
+  "figure_count": 8,
+  "gate": {
+    "completion": "evaluation/complete.json",
+    "independent_qa": "independent_qa/complete.json",
+    "required_qa_fields": [
+      "status=PASS",
+      "run_sha256",
+      "evaluation_complete_sha256",
+      "scope"
+    ],
+    "accuracy_csv_reads_before_gate": false
+  },
+  "formats": [
+    "PNG 300 dpi",
+    "PDF",
+    "SVG"
+  ],
+  "minimum_font_pt": 10,
+  "selection": "Fixed identities and protocol comparison order; no ranking by observed scores.",
+  "figures": [
+    {
+      "id": "01_global_and_classical",
+      "question": "FULL global neural and named classical controls",
+      "models": [
+        "CAAA_GLOBAL_FULL",
+        "FEDAVG_GLOBAL_FULL",
+        "FEDPROX_GLOBAL_FULL",
+        "CENTRAL_GLOBAL_FULL",
+        "raw_pooled_ET_FULL_latest",
+        "local_ET_FULL_latest",
+        "client_normalized_pooled_ET_FULL_latest"
+      ],
+      "metrics": [
+        "macro R2",
+        "macro RMSE mm"
+      ],
+      "uncertainty": "All five seed points and mean +/- sample SD; SD is not a confidence interval."
+    },
+    {
+      "id": "02_personal",
+      "question": "FULL personal neural and graph identities",
+      "models": [
+        "CAAA_PERSONAL_FULL",
+        "DITTO_PERSONAL_FULL",
+        "LOCAL_PERSONAL_FULL",
+        "GRAPH_ORIGINAL_PERSONAL_FULL",
+        "GRAPH_ENRICHED_PERSONAL_FULL",
+        "GRAPH_UNIFORM_PERSONAL_FULL"
+      ],
+      "metrics": [
+        "macro R2",
+        "macro RMSE mm"
+      ],
+      "uncertainty": "All five seed points and mean +/- sample SD; separate from global identities."
+    },
+    {
+      "id": "03_paired_family",
+      "question": "All 31 predeclared paired contrasts in protocol order",
+      "metrics": [
+        "macro R2 A-minus-B",
+        "macro RMSE mm A-minus-B"
+      ],
+      "uncertainty": "Marginal 95% paired circular block12 intervals; block6/24 exported as sensitivity tables."
+    },
+    {
+      "id": "04_anchor_ablations",
+      "question": "Fixed (.3,.3,.4) anchor minus each of five removed components",
+      "flags": [
+        "NO_CLIMATE_WEIGHT",
+        "NO_PERFORMANCE_WEIGHT",
+        "NO_PROX",
+        "NO_AUX",
+        "NO_EMBEDDING"
+      ],
+      "uncertainty": "Same block12 marginal intervals as the full family; positive R2 favors anchor."
+    },
+    {
+      "id": "05_training_graphs",
+      "question": "Original, enriched and uniform train-only input affinities",
+      "scale": [
+        0,
+        1
+      ],
+      "provenance": "gradient_train; 1983-01 through 2007-11, 299 targets per client",
+      "note": "Raw input affinities shown; trainer row-normalizes. Normalized reference weights exported too."
+    },
+    {
+      "id": "06_validation_grid",
+      "question": "Actual LR, method-specific mu, coefficient grid and selected round curves",
+      "source": "Hash-bound completed development candidates, seed42 outer validation only; every grid point exported."
+    },
+    {
+      "id": "07_client_heavy",
+      "question": "Per-client heavy recall/AP/tail RMSE, global and personal panels",
+      "models": {
+        "global": [
+          "CAAA_GLOBAL_FULL",
+          "FEDAVG_GLOBAL_FULL",
+          "FEDPROX_GLOBAL_FULL"
+        ],
+        "personal": [
+          "CAAA_PERSONAL_FULL",
+          "DITTO_PERSONAL_FULL",
+          "LOCAL_PERSONAL_FULL",
+          "GRAPH_ORIGINAL_PERSONAL_FULL",
+          "GRAPH_ENRICHED_PERSONAL_FULL",
+          "GRAPH_UNIFORM_PERSONAL_FULL"
+        ]
+      },
+      "uncertainty": "All five seed points and mean +/- sample SD; no subgroup confidence intervals invented."
+    },
+    {
+      "id": "08_client_PR_seed42",
+      "question": "Five separate per-client seed42 PR examples",
+      "models": [
+        "CAAA_GLOBAL_FULL",
+        "FEDAVG_GLOBAL_FULL",
+        "FEDPROX_GLOBAL_FULL"
+      ],
+      "seed": 42,
+      "pooled_PR_curve": false,
+      "note": "Predeclared illustration seed, not best seed; all seeds, models and client metrics/curves exported."
+    }
+  ],
+  "all_source_data": "All 96 evaluation months, every saved model/seed/client, full metric CSVs and PR coordinates retained.",
+  "omitted_optional_figure": "Geographic map omitted to keep scope at eight figures; no invented maps or 2025 forecasts.",
+  "interpretation": "Revised-archive retrospective 2017-2024 hindcast, five fixed overlapping regions; no prospective or spatial-generalization claim."
+}

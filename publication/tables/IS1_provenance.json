@@ -1,0 +1,34 @@
+{
+  "id": "IS1",
+  "role": "derived_numeric_evidence",
+  "rows": 8,
+  "columns": [
+    "cadence",
+    "label",
+    "method",
+    "scaling",
+    "aggregations",
+    "optimizer_steps_per_fit",
+    "examples_per_fit",
+    "seeds"
+  ],
+  "sources": {
+    "benchmarks/sharing/protocol.json": {
+      "sha256": "e1a8b0960fa4e3ca7da2a05018ffc260f9b1368fec2df01518032d87aa60be7a"
+    },
+    "benchmarks/sharing/evaluation/fit_cost_40.csv": {
+      "sha256": "8e5c0457d551ea168315ff62bdbdc0bc66c44332f9ff3f1c771c21a4f9d93d81",
+      "rows": 40
+    }
+  },
+  "formula_or_selector": "Policy rows from frozen arms; K aggregation count=ticks/K; optimizer steps from fixed_budget reconciled against all forty fit ledgers.",
+  "files_sha256": {
+    "IS1.csv": "fd47d4ee47363705c4dcdd206d4c8300f910dd1f69aeecd3817b992547ba31d0",
+    "IS1_display.csv": "2e9093f39da72ad9de03c7b1f4c0c176d2d6509adcb66a99f76114a2929b2111"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 22,
+    "discrepancies": []
+  }
+}

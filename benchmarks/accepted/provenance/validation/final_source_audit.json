@@ -1,0 +1,4806 @@
+{
+  "status": "PASS",
+  "findings": [],
+  "checks": {
+    "raw_lineage": {
+      "climate_chunks": 644,
+      "climate_compressed_bytes": 1465963879,
+      "metadata_files": 35,
+      "selected_unique_hours": 5139,
+      "source_flags": {
+        "t2m": {
+          "0": 5139
+        },
+        "d2m": {
+          "0": 5139
+        },
+        "sp": {
+          "0": 5139
+        },
+        "msl": {
+          "0": 5139
+        },
+        "u10": {
+          "0": 5139
+        },
+        "v10": {
+          "0": 5139
+        },
+        "tp": {
+          "0": 5139
+        }
+      },
+      "source_expver": {
+        "1": 5139
+      },
+      "snapshot_id": "ZFKDHBCTBVHVXM3BQFV0",
+      "climate_chunks_redecoded": false,
+      "decoded_native_hourly_files_checked_next": 7
+    },
+    "composition": {
+      "repaired_rows": 30,
+      "retained_rows": 2610,
+      "retained_months": 522,
+      "repaired_keys": [
+        [
+          "Client1_NW_Arid",
+          "2022-04"
+        ],
+        [
+          "Client1_NW_Arid",
+          "2022-05"
+        ],
+        [
+          "Client1_NW_Arid",
+          "2022-07"
+        ],
+        [
+          "Client1_NW_Arid",
+          "2022-08"
+        ],
+        [
+          "Client1_NW_Arid",
+          "2024-01"
+        ],
+        [
+          "Client1_NW_Arid",
+          "2024-02"
+        ],
+        [
+          "Client2_Indo_Gangetic",
+          "2022-04"
+        ],
+        [
+          "Client2_Indo_Gangetic",
+          "2022-05"
+        ],
+        [
+          "Client2_Indo_Gangetic",
+          "2022-07"
+        ],
+        [
+          "Client2_Indo_Gangetic",
+          "2022-08"
+        ],
+        [
+          "Client2_Indo_Gangetic",
+          "2024-01"
+        ],
+        [
+          "Client2_Indo_Gangetic",
+          "2024-02"
+        ],
+        [
+          "Client3_NE_Himalaya",
+          "2022-04"
+        ],
+        [
+          "Client3_NE_Himalaya",
+          "2022-05"
+        ],
+        [
+          "Client3_NE_Himalaya",
+          "2022-07"
+        ],
+        [
+          "Client3_NE_Himalaya",
+          "2022-08"
+        ],
+        [
+          "Client3_NE_Himalaya",
+          "2024-01"
+        ],
+        [
+          "Client3_NE_Himalaya",
+          "2024-02"
+        ],
+        [
+          "Client4_South_Peninsular",
+          "2022-04"
+        ],
+        [
+          "Client4_South_Peninsular",
+          "2022-05"
+        ],
+        [
+          "Client4_South_Peninsular",
+          "2022-07"
+        ],
+        [
+          "Client4_South_Peninsular",
+          "2022-08"
+        ],
+        [
+          "Client4_South_Peninsular",
+          "2024-01"
+        ],
+        [
+          "Client4_South_Peninsular",
+          "2024-02"
+        ],
+        [
+          "Client5_Central_India",
+          "2022-04"
+        ],
+        [
+          "Client5_Central_India",
+          "2022-05"
+        ],
+        [
+          "Client5_Central_India",
+          "2022-07"
+        ],
+        [
+          "Client5_Central_India",
+          "2022-08"
+        ],
+        [
+          "Client5_Central_India",
+          "2024-01"
+        ],
+        [
+          "Client5_Central_India",
+          "2024-02"
+        ]
+      ],
+      "all_seven_repaired_values_exact_source_copy": true,
+      "all_retained_numeric_and_calendar_metadata_exact_original_copy": true,
+      "march2024_control_retained_from_earth_engine": true,
+      "missing_ee_tp_hours_by_month": {
+        "2022-04": 1,
+        "2022-05": 6,
+        "2022-07": 1,
+        "2022-08": 6,
+        "2024-01": 1,
+        "2024-02": 6,
+        "2024-03": 0
+      },
+      "missing_ee_tp_hours_total": 21,
+      "no_statistical_imputation": true,
+      "no_monthly_clipping": true
+    },
+    "native_geometry_and_arrays": {
+      "independent_geometry": true,
+      "counts": {
+        "Client1_NW_Arid": 690,
+        "Client2_Indo_Gangetic": 912,
+        "Client3_NE_Himalaya": 419,
+        "Client4_South_Peninsular": 466,
+        "Client5_Central_India": 864
+      },
+      "wgs84_areas_m2": {
+        "Client1_NW_Arid": 480341683617.7123,
+        "Client2_Indo_Gangetic": 628694062126.6187,
+        "Client3_NE_Himalaya": 289867073466.9678,
+        "Client4_South_Peninsular": 350126033795.4796,
+        "Client5_Central_India": 621836987223.4167
+      },
+      "union_cells": 3287,
+      "decoded_hour_cell_values_including_boundaries": 118335287,
+      "monthly_reductions": 245,
+      "maximum_monthly_aggregation_absolute_difference_native_units": {
+        "t2m": 5.115907697472721e-13,
+        "d2m": 5.115907697472721e-13,
+        "sp": 1.6007106751203537e-10,
+        "msl": 1.8917489796876907e-10,
+        "u10": 2.220446049250313e-15,
+        "v10": 1.5543122344752192e-15,
+        "tp": 1.1102230246251565e-15
+      },
+      "native_minimum_maximum": {
+        "t2m": [
+          237.49830627441406,
+          322.8560485839844
+        ],
+        "d2m": [
+          224.5021209716797,
+          304.09765625
+        ],
+        "sp": [
+          52783.875,
+          102406.34375
+        ],
+        "msl": [
+          98990.375,
+          104024.5
+        ],
+        "u10": [
+          -11.770492553710938,
+          11.879425048828125
+        ],
+        "v10": [
+          -10.749374389648438,
+          14.43548583984375
+        ],
+        "tp": [
+          0.0,
+          0.05229473114013672
+        ]
+      },
+      "nonfinite_or_sentinel_values": 0,
+      "negative_required_tp_values": 0,
+      "instantaneous_support": "[month first00,next month first00)",
+      "tp_support": "(month first00,next month first00]",
+      "march_control_numeric_comparisons": 35,
+      "march_control_metadata_comparisons": 60,
+      "march_control_maximum_difference_native_units": {
+        "t2m": 9.827681424212642e-07,
+        "d2m": 5.163078640180174e-07,
+        "sp": 0.00033555857953615487,
+        "msl": 0.00024990946985781193,
+        "u10": 2.2149152245631853e-07,
+        "v10": 3.052252618429563e-07,
+        "tp": 9.691959350216495e-07
+      },
+      "march_frozen_tolerances_native_units": {
+        "t2m": 0.0001,
+        "d2m": 0.0001,
+        "sp": 0.01,
+        "msl": 0.01,
+        "u10": 0.0001,
+        "v10": 0.0001,
+        "tp": 1e-05
+      }
+    },
+    "canonical_v1_v2": {
+      "v2_manifest_sha256": "ab4928d932a722e0a7061a9311e35d81588435be49fd5ab72e84a079ceb801fd",
+      "data_files_byte_identical": {
+        "monthly.csv": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+        "indices.csv": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+        "source_quality.csv": "070f6fa23949c54940b01fe4e08fb8a414e6d0194cb09e857abc6f9a617d973f",
+        "solar_supplement.csv": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+        "gldas21_supplement.csv": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa"
+      },
+      "only_manifest_change": "source_gate.era5_recovery added",
+      "main_rows": 2640,
+      "main_columns": 25,
+      "meteorological_columns": 22,
+      "corrected_index_rows": 528,
+      "index_series": 6,
+      "quality_rows": 6780,
+      "source_checks": {
+        "ERA5": {
+          "rows": 2640,
+          "minimum_area_coverage": 0.999999999999999,
+          "maximum_area_coverage": 1.0000000000000049,
+          "complete_physical_counts": true,
+          "finite_native_values": true,
+          "integer_count_metadata": true,
+          "frozen_geometry_counts_and_areas": true,
+          "source_quality_copy": true
+        },
+        "ERA5Land": {
+          "rows": 2640,
+          "minimum_area_coverage": 0.9931547927241074,
+          "maximum_area_coverage": 1.0000000000000338,
+          "complete_physical_counts": true,
+          "finite_native_values": true,
+          "integer_count_metadata": true,
+          "frozen_geometry_counts_and_areas": true,
+          "source_quality_copy": true
+        },
+        "GLDAS21": {
+          "rows": 1500,
+          "minimum_area_coverage": 0.9549576632527891,
+          "maximum_area_coverage": 1.0000000000000047,
+          "complete_physical_counts": true,
+          "finite_native_values": true,
+          "integer_count_metadata": true,
+          "frozen_geometry_counts_and_areas": true,
+          "source_quality_copy": true
+        }
+      },
+      "unit_conversion_maximum_absolute_differences": {
+        "ERA5": {
+          "era5_t2m_c": 5.684341886080802e-14,
+          "era5_d2m_c": 5.684341886080802e-14,
+          "era5_sp_hpa": 3.410605131648481e-13,
+          "era5_mslp_hpa": 2.2737367544323206e-13,
+          "era5_u10_m_s": 8.881784197001252e-16,
+          "era5_v10_m_s": 4.440892098500626e-16,
+          "era5_tp_mm": 1.1368683772161603e-13
+        },
+        "ERA5Land": {
+          "era5land_t2m_c": 5.684341886080802e-14,
+          "era5land_d2m_c": 5.684341886080802e-14,
+          "era5land_skin_c": 5.684341886080802e-14,
+          "era5land_soil_m3_m3_layer1": 9.71445146547012e-17,
+          "era5land_soil_m3_m3_layer2": 8.326672684688674e-17,
+          "era5land_soil_m3_m3_layer3": 8.326672684688674e-17,
+          "era5land_soil_m3_m3_layer4": 8.326672684688674e-17,
+          "era5land_tp_mm": 9.969802761133906e-14,
+          "era5land_evaporation_mm_signed": 9.947598300641403e-14,
+          "era5land_surface_runoff_mm": 9.969802761133906e-14,
+          "era5land_subsurface_runoff_mm": 9.947598300641403e-14
+        },
+        "GLDAS21": {
+          "gldas21_tair_c": 5.684341886080802e-14,
+          "gldas21_qair_kg_kg": 9.974659986866641e-17,
+          "gldas21_wind_m_s": 8.881784197001252e-16,
+          "gldas21_soil_0_10cm_kg_m2": 7.105427357601002e-15,
+          "gldas21_soil_10_40cm_kg_m2": 1.4210854715202004e-14,
+          "gldas21_soil_40_100cm_kg_m2": 5.684341886080802e-14,
+          "gldas21_soil_100_200cm_kg_m2": 5.684341886080802e-14,
+          "gldas21_total_rainfall_mm": 5.684341886080802e-14,
+          "gldas21_liquid_rainfall_mm": 5.684341886080802e-14,
+          "gldas21_evaporation_mm": 2.842170943040401e-14,
+          "gldas21_surface_runoff_mm": 1.4210854715202004e-14,
+          "gldas21_subsurface_runoff_mm": 5.684341886080802e-14
+        }
+      },
+      "unchanged_target_values": true,
+      "solar_missing_months_1981_1983": 36,
+      "solar_finite_available_client_months": 2460,
+      "gldas_start": "2000-01",
+      "lineage_receipt_pins_verified": true,
+      "feature_contract": {
+        "met_columns": [
+          "era5_t2m_c",
+          "era5_d2m_c",
+          "era5_sp_hpa",
+          "era5_mslp_hpa",
+          "era5_u10_m_s",
+          "era5_v10_m_s",
+          "era5_tp_mm",
+          "era5land_t2m_c",
+          "era5land_d2m_c",
+          "era5land_skin_c",
+          "era5land_soil_m3_m3_layer1",
+          "era5land_soil_m3_m3_layer2",
+          "era5land_soil_m3_m3_layer3",
+          "era5land_soil_m3_m3_layer4",
+          "era5land_tp_mm",
+          "era5land_evaporation_mm_signed",
+          "era5land_surface_runoff_mm",
+          "era5land_subsurface_runoff_mm",
+          "power_t2m_c",
+          "power_rh2m_pct",
+          "power_ws10m_m_s",
+          "power_prectotcorr_mm_day"
+        ],
+        "full_features": 43,
+        "climate_features": 21,
+        "climate_context_features": 7,
+        "climate_features_definition": "CORE14 plus six climate indices and ENSO-times-IOD interaction",
+        "core_features": 14,
+        "issue_time": "targetmonth firstday00:00UTC",
+        "source_support": "rain/indexperiodend target-2;reanalysis/POWER target-4;revisedarchivesavailabilityscenario",
+        "embargoed_label_months": [
+          "2007-12",
+          "2010-12",
+          "2016-12"
+        ]
+      }
+    }
+  },
+  "hash_checks": [
+    {
+      "path": "work/ee_rebuild/completed_raw/era5_chunks/assembled_for_admission.csv",
+      "sha256": "3629c23705164d45e55038860740b3aa01821c6a35c7e71766f50dee1d7a85dc",
+      "bytes": 758172,
+      "context": "composition/raw_ee_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/monthly_source_rows.csv",
+      "sha256": "431779ede8f78b1e345e5ce151c5afd2871dc67b688c034dae8d77f36aed81db",
+      "bytes": 11672,
+      "context": "composition/recovered_source_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/provider_admission_receipt.json",
+      "sha256": "eca3588af36303bdb5c0f07c4aa4edff5eb230793ef478af33f61429c0bb18f5",
+      "bytes": 1889,
+      "context": "composition/provider_admission_receipt_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_recovery_receipt.json",
+      "sha256": "844de2f1bdc9e51f29deb7beba4ebe641c9f252951dd528a809ce67ca3bd6375",
+      "bytes": 2568,
+      "context": "composition/native_recovery_receipt_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/frozen_recovery_contract.json",
+      "sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f",
+      "bytes": 3486,
+      "context": "composition/frozen_recovery_contract_sha256"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/CAAdapFL_ERA5_completed.csv",
+      "sha256": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c",
+      "bytes": 902693,
+      "context": "composition/merged_csv_sha256"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/ERA5_composed_for_admission.csv",
+      "sha256": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c",
+      "bytes": 902693,
+      "context": "composed alias"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/independent_aggregation_check.csv",
+      "sha256": "f1dd738ffca673f54376f53675f1af3684235fa0a933076d6abf8d33ebc8c5ae",
+      "bytes": 23036,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/monthlycomparisonexpected.csv",
+      "sha256": "40b563ebe8f8cfae3c8c7d4e0829e55dcaad87b86a0622b946ddc303805043ab",
+      "bytes": 6693,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/monthly_source_rows.csv",
+      "sha256": "431779ede8f78b1e345e5ce151c5afd2871dc67b688c034dae8d77f36aed81db",
+      "bytes": 11672,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_hourly_2022-04.nc",
+      "sha256": "bbe031e9b37730a751b39a87eaced7065d13ed9d574938354baebbeb3ac937b2",
+      "bytes": 27221911,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_hourly_2022-05.nc",
+      "sha256": "d357675c05190fbbb2be1960e1382451c8c74e57be6c2ad482e637cf28869892",
+      "bytes": 28530004,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_hourly_2022-07.nc",
+      "sha256": "4e95a85bc537c43626fba604040841c8fdd7c7f2701ee4a42d8a5ada07f2b5e5",
+      "bytes": 30156003,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_hourly_2022-08.nc",
+      "sha256": "3495790ecd20f54b93468c68301290752b971168f9e129ca6240103c5de19dcf",
+      "bytes": 29736835,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_hourly_2024-01.nc",
+      "sha256": "0c1e6a0d448b78347839f3928eceb109d47a6a4ddfa6753b8787d7e32dfbcab6",
+      "bytes": 27202176,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_hourly_2024-02.nc",
+      "sha256": "47944c0715186df40348f6b29bf3879ca0935f5a224bf359a9081ea999273433",
+      "bytes": 25688273,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_hourly_2024-03.nc",
+      "sha256": "5927ace048b606a2f716bf9d9cead75fac187c1b7260487919a4ed46cd1e988e",
+      "bytes": 27687288,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_support_unit_checks.csv",
+      "sha256": "0000a34b56652c13ccf7637b51837b74121f3c98d1a6ab60ec1874443c835903",
+      "bytes": 3046,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/regional_hourly.npz",
+      "sha256": "6e8bf0e047feca6544242dc41092964056d17b71b3856216b2faa6868c121b92",
+      "bytes": 1303041,
+      "context": "native output"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_recovery_receipt.json",
+      "sha256": "844de2f1bdc9e51f29deb7beba4ebe641c9f252951dd528a809ce67ca3bd6375",
+      "bytes": 2568,
+      "context": "completion receipt"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/provider_admission_receipt.json",
+      "sha256": "eca3588af36303bdb5c0f07c4aa4edff5eb230793ef478af33f61429c0bb18f5",
+      "bytes": 1889,
+      "context": "completion receipt"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/source_quality_metadata.json",
+      "sha256": "6660d226625e694aa24be85a06945639407422eb2fd88347e0bb4c8b0f886e0e",
+      "bytes": 9966,
+      "context": "completion receipt"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/frozen_recovery_contract.json",
+      "sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f",
+      "bytes": 3486,
+      "context": "completion receipt"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/precipitation_native_probe.json",
+      "sha256": "4f89211434d5a63afe5f929eb1266f092a4e03e7000b6686e0ec262b99efd968",
+      "bytes": 2052,
+      "context": "completion receipt"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/recover_selected_months.py",
+      "sha256": "695d920329ff88afe19a6640a584aff4724eb8ba0d6192b07decd698c80a8f4d",
+      "bytes": 17140,
+      "context": "recovery program"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/native_geometry.py",
+      "sha256": "4c847292ecca719cca51eecee16b39bdc2abd1b85f79b185c39ffc92f030307b",
+      "bytes": 1080,
+      "context": "recovery program"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/compare_provider_control.py",
+      "sha256": "d84542e2042174df0c66249f78be303d01dfc8c1d07e0e67fa39889ee0d19c0c",
+      "bytes": 4628,
+      "context": "recovery program"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/probe_native_precipitation.py",
+      "sha256": "dcda5c9373d63510c8e4a2313b2b2fa1ec119475b57a90d808a9308d08da0455",
+      "bytes": 2454,
+      "context": "recovery program"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/source_chunk_ledger.jsonl",
+      "sha256": "8b20454206cfd7c64ae3d7e0ffc1f26992dfb223066148d67c72e9b711566040",
+      "bytes": 242811,
+      "context": "native ledger"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw_retrieval_manifest.jsonl",
+      "sha256": "a739c8fefe99a873adc11afa9a16a3b04d87c386709bc5f285ef836ded3fb7e4",
+      "bytes": 381133,
+      "context": "retrieval manifest"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/source_evidence/india_country_ne_5_1_1.geojson",
+      "sha256": "4cdbe7cba953c55e4c6591b779128484c2e203ff0c3433b1826bafca95a4d090",
+      "bytes": 670754,
+      "context": "country geometry"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/source_evidence/frozen_native_masks.npz",
+      "sha256": "74626a048e80b5de14c71942bcb39ce4cfe7a58e0f57fe4bd42fd9f8a4ec4569",
+      "bytes": 6338,
+      "context": "frozen masks"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_19_25.pcodec",
+      "sha256": "563d7b21a7639d2f503ef1c36bdf6c5b3ce16bba6f7fcf84131ecbbf2a8b5447",
+      "bytes": 2921330,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_19_26.pcodec",
+      "sha256": "6b651cfa0085f2d21b8ac092a648f07be5b1cc21fc859f56996ddad96ce32848",
+      "bytes": 2966063,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_23.pcodec",
+      "sha256": "0a023d126c488fb8f65c450564e3e08281b72648ef4ffa86323d674cd915f11b",
+      "bytes": 2698266,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_24.pcodec",
+      "sha256": "ad6b448cfff385b8e7c9bc485f22f9188ce8d5ec5abc98fc0768143ad898b51b",
+      "bytes": 2514878,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_25.pcodec",
+      "sha256": "49839d02ee59eedc8c6a0e0c9dc8d10da0a02d74098d1948d099c1f938cc4b4b",
+      "bytes": 2586063,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_26.pcodec",
+      "sha256": "b8f32c0c38811524107e45fa18b8221383c5adc1130063f69685d3545fa6d2c4",
+      "bytes": 2675240,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_27.pcodec",
+      "sha256": "148128f48de74bb8d0cda5cc657e7ccc8e73a3429676f5367b2eb85aac0c2932",
+      "bytes": 2897404,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_28.pcodec",
+      "sha256": "0518d820ae8a04634eb9de8f8a5410997b528cd1cb875af44550378f12270c94",
+      "bytes": 2921341,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_29.pcodec",
+      "sha256": "7b7353c645d38665fd171fbc77bcbfd3509db5c7ae34a471220426e11cee2ab3",
+      "bytes": 2914558,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_30.pcodec",
+      "sha256": "adcf23a5dae954718a6fd754b506a0bee93c9208c1667372004afbb5a4015494",
+      "bytes": 2909465,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_31.pcodec",
+      "sha256": "4046f3ae355a4e135c1e55ee7bab19ebe1a7699f86154ec7f03a2de971ef5523",
+      "bytes": 2895807,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_20_32.pcodec",
+      "sha256": "774b001ce52ef8f0b9b5dfcd67a371e55995e12fe82e7e5346fa22714a0c4b32",
+      "bytes": 2933973,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_22.pcodec",
+      "sha256": "a6fa55817b78ada209b3d5979f0e6433e1554d8d386b316ec00364a3e0429409",
+      "bytes": 2734564,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_23.pcodec",
+      "sha256": "162558ff6e8629a0a155207ab231b59bf0a6943671b0f6020deac0719a7b591b",
+      "bytes": 2548423,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_24.pcodec",
+      "sha256": "4919636bfe51b40797c51877dc1a6e105f6e06f08a68c7dbad76f4ca9b31d59c",
+      "bytes": 2625000,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_25.pcodec",
+      "sha256": "15dc945841d6b8fdecd7d31e6d8a39a0378b40f74cb69eb6824567b2d2f999b9",
+      "bytes": 2592667,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_26.pcodec",
+      "sha256": "9f029dd5ec54416f9c326cd39b9c8e8e24e8500ea74dfe219ef86354b0d5a0dc",
+      "bytes": 2476734,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_27.pcodec",
+      "sha256": "cb11f0653214d57b6ca39be4537bd68e1ea82be9b6e482aff51e3d62c7505273",
+      "bytes": 2415428,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_28.pcodec",
+      "sha256": "53ef381e680c3e340ba299aff8ca0c4fa0b96f24e0f82d4d44e170fdcb74e2f3",
+      "bytes": 2447836,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_29.pcodec",
+      "sha256": "ace7bec80be7f73c883d138320923eb2fe662551324b1b9bc5a89e329cf657cb",
+      "bytes": 2494375,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_30.pcodec",
+      "sha256": "e4b64d510423178b5225bccf04fe61b17e77358227039ad6f8f75b71e183d170",
+      "bytes": 2616372,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_21_31.pcodec",
+      "sha256": "9870e8d2a86017e0def8c3f523aca6842b0e6691fde3b6cd4a5c77d984c37860",
+      "bytes": 2772828,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_22.pcodec",
+      "sha256": "19458c341572674b8428acb981d697840517d61ac02256c423794073887281ec",
+      "bytes": 2134404,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_23.pcodec",
+      "sha256": "c31d90f5f00edfa0ca584b01f961ec0796b36b37bed3db838b82f9deb0168615",
+      "bytes": 2626657,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_24.pcodec",
+      "sha256": "bf2b332ded9c78a02ddb1433c8c3892d6a9f64f4e003c147c079909ced87e831",
+      "bytes": 2656677,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_25.pcodec",
+      "sha256": "fbdc5618b7aa04d5ca6bf6fd4b7c541abd1b9723f95470f9d01e874c8d874d8e",
+      "bytes": 2557507,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_26.pcodec",
+      "sha256": "49c67b231d08f9da7f8f0618c769a1616309248a96bb540303fe1f7712e2e6e0",
+      "bytes": 2611199,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_27.pcodec",
+      "sha256": "9dc7f21bfb251dd845fa72520fcc213d4781fc0044dc6ca16a1c3c2a3f57853c",
+      "bytes": 2611822,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_28.pcodec",
+      "sha256": "478a7385b947f73ddd496dde0a9456eb05e47d48706d71dc4171136b3e0193dd",
+      "bytes": 2641085,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_29.pcodec",
+      "sha256": "18f8a0d46dfa297a88c51eb155300f876405a73d6e522b8302ffafab2009d95b",
+      "bytes": 2441101,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_30.pcodec",
+      "sha256": "ee586cea67a70c52beb42af369d84260ec0d7de006362fa161501d3b9aae3ddd",
+      "bytes": 2628406,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_22_31.pcodec",
+      "sha256": "738fd9ed3e538a235d58b41211095b113a9954532d3938f217b99e00cf15aebc",
+      "bytes": 2805217,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_23_24.pcodec",
+      "sha256": "251922e5048f4f56949ad769ac8f11d4be8da02b26ce54415c7745a95a021dc7",
+      "bytes": 2714084,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_23_25.pcodec",
+      "sha256": "269ed352c0bd2215d1a5312312218eeb3276aed2c6859c1578fe1368b459572e",
+      "bytes": 2518301,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_23_26.pcodec",
+      "sha256": "b5303636d60f09fa2acf6371f9a7ea17ccb44392c5b4e211baa013a98891fbc9",
+      "bytes": 2584128,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_23_27.pcodec",
+      "sha256": "ff575933ee725231bdf04aef2a172bd3c7a7a2dbeb5e38aee9de4c9c97792e5f",
+      "bytes": 2671303,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_24_24.pcodec",
+      "sha256": "b854376de7fd8c40b9d5847fbda76de0dc57998fac44021cfb9164dbef5113ef",
+      "bytes": 2623084,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_24_25.pcodec",
+      "sha256": "6569d8a035fbbd23975ffa02f676b4615d7a3840dff985946565b9b07d4895d2",
+      "bytes": 2540531,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_24_26.pcodec",
+      "sha256": "d1f662bc87cfe7824df9c49a1b2d6e561eaa96cc31c04f9fedc53ccdec3348af",
+      "bytes": 2620369,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_24_27.pcodec",
+      "sha256": "d0fc3e7eb16aa10c067662e3d32b7330641540843ec565af86b446c9a47465ab",
+      "bytes": 2435601,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_25_25.pcodec",
+      "sha256": "44d612d1bd5ac8e4afceb1b1bdba8cd1684145782425476b1141ed67f110e982",
+      "bytes": 2638341,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_25_26.pcodec",
+      "sha256": "e9cc63be4b5f5b71a2f21266b266ffb49ec2812c14c91f3b357f89c6c6807ea3",
+      "bytes": 2646399,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_26_25.pcodec",
+      "sha256": "b495754bf699b65cd35241f5b0af8c62b31a1c8c11f5c629870f0ec7eb1ef5d7",
+      "bytes": 2724683,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_26_26.pcodec",
+      "sha256": "bcfcadb988f1cb59bc8ca227f7a51f2fc3e89eb6f68d73e0866029553866a9bb",
+      "bytes": 2584765,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_27_25.pcodec",
+      "sha256": "04c88aeaa492284785fae44063a915e005d131c06634e1212d49ec2863d9a9f1",
+      "bytes": 2206810,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/82_27_26.pcodec",
+      "sha256": "0de7756080bee5d0d07fbdd903b0b7bf5f4706873c1d6da928454a2bab2a0020",
+      "bytes": 2480954,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_19_25.pcodec",
+      "sha256": "a2663a5ea166c98ab8acb56a0ba634fb367cd62df308b551b3d74795a035bb1f",
+      "bytes": 2919475,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_19_26.pcodec",
+      "sha256": "f992f8483a42be9aacb5385c3f77749f5af265f17d8c5863a6f76bb061001d3f",
+      "bytes": 2962091,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_23.pcodec",
+      "sha256": "fe460bef2f654b603c69a9d841ae6f21e85641534d5b02e7efaf3f933c71064e",
+      "bytes": 2675888,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_24.pcodec",
+      "sha256": "672be1e3f975a1b0dd4c0da30cf5168ecd3d54c7fe8c34ced4fd9dbbbb6c76d5",
+      "bytes": 2519800,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_25.pcodec",
+      "sha256": "26871122f1a92de10002dd4b06614bee695114edd91dd65da3e87c20e7042194",
+      "bytes": 2552499,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_26.pcodec",
+      "sha256": "d30daf4386a14f38675af4f2f6c86cad44df6b38854912bee9546c04083936bd",
+      "bytes": 2666114,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_27.pcodec",
+      "sha256": "f9855bd48f64215e3b4bfcd2e1ba33d23933e827d91cfac585385e15fc0e24ca",
+      "bytes": 2893947,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_28.pcodec",
+      "sha256": "958c9d76044fa6c48cc27e5cbba814c302121319a9a4f07db6a1bcb99eee6d8c",
+      "bytes": 2916203,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_29.pcodec",
+      "sha256": "5201b6f25af959812c4417c8d61d3dca25e39151b4d9e39b4efcad0c41b0d372",
+      "bytes": 2928472,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_30.pcodec",
+      "sha256": "19e84c015e733f259df4d33005273d194a3f76abdad73046d1bd86f4370ff227",
+      "bytes": 2910204,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_31.pcodec",
+      "sha256": "3955102baedc82be5db8ed11462d3d8dd29b5ad46033f05044b6ec3b91a5b66c",
+      "bytes": 2894481,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_20_32.pcodec",
+      "sha256": "16ab860ebe299b215c84e9228d420579669d2d08bcb0d4f738bf4906f9cf4c50",
+      "bytes": 2928079,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_22.pcodec",
+      "sha256": "db9616465172ba879b1f146e6233bab3f687a0d31326f42339fff640a73f38e6",
+      "bytes": 2731197,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_23.pcodec",
+      "sha256": "75ce0b04a62b4788c7753eee31d15a357a135bfd0b1f25f5233802e7a392ed67",
+      "bytes": 2577369,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_24.pcodec",
+      "sha256": "bdfa7762a1e860946f1eafcf7e33ecb860145efd0aaebbce99299a25f542528b",
+      "bytes": 2620323,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_25.pcodec",
+      "sha256": "0db375ebec40ff8828896c4b4822ccdf568d76b19ef2b791a58eba1f93222312",
+      "bytes": 2584255,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_26.pcodec",
+      "sha256": "db62081e5af8a8826c07c655d69b2133a4564c08768c0a3329bc241c25a75292",
+      "bytes": 2425855,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_27.pcodec",
+      "sha256": "b70052610dc519439c5267edfe9546ce1fe80cb23c97d4d57e16349124ffb9a9",
+      "bytes": 2386077,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_28.pcodec",
+      "sha256": "48927cd517799d64a9e17514f091b69ebbc9f231f2206de3fa094137a50d76cd",
+      "bytes": 2447826,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_29.pcodec",
+      "sha256": "9e355ce5f6d603e4daac4573d5d434b5848950a4ae6f36e8309b3a6bd0c59068",
+      "bytes": 2531747,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_30.pcodec",
+      "sha256": "7659d3eea6233064a2befa20e43b06137ef7f0aef15e2c15e5a83225bb9394d9",
+      "bytes": 2625139,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_21_31.pcodec",
+      "sha256": "339e8464d67d780cac7d8246c2136020b27103162a9738cbd8e6e04d4506818b",
+      "bytes": 2777988,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_22.pcodec",
+      "sha256": "6b108c1d285d155c18a356747956ca151dc8a926105086c20c10ffa6f995a8c9",
+      "bytes": 2142307,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_23.pcodec",
+      "sha256": "c015a9d41cff029813bf646818e68032677d1166f40180a1f329c6031bcfcd8e",
+      "bytes": 2631958,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_24.pcodec",
+      "sha256": "7fc7b24068faff61fd10e87eb93a2e3baf66b2e4e28653bf0f229fa7ebeb5cbc",
+      "bytes": 2648786,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_25.pcodec",
+      "sha256": "102edee6973e1e8e69f1c863194f9aee49c9f1c57b86cb683d17cac66ec6c898",
+      "bytes": 2534869,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_26.pcodec",
+      "sha256": "700ff394b4b17c501ab9c565e0c782c732dc61bf67ee0fb5e5a79f25560956d3",
+      "bytes": 2586161,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_27.pcodec",
+      "sha256": "e339446ea42ddbd2773554438d81412eeb304d01a676d849ff12d2a11da40a6f",
+      "bytes": 2587366,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_28.pcodec",
+      "sha256": "ca380724e4ad56b0b64efc7851b65c2c41321b8dacc725f9174c9c4f41b6a349",
+      "bytes": 2633366,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_29.pcodec",
+      "sha256": "f1947ccc7cb9a6b3b7f08b3bbd0aa1400c127cc7b7380b6fa6e1a10244bed51f",
+      "bytes": 2473425,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_30.pcodec",
+      "sha256": "61388079d0c76a146f31ba42ac1796f3a08b9cd18ebae163b86c0a27f5224bdc",
+      "bytes": 2625193,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_22_31.pcodec",
+      "sha256": "d28d8069d5f2d2e4977bef09521b8df8184be66fb9f53ecff3ccf235eb56a38e",
+      "bytes": 2794728,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_23_24.pcodec",
+      "sha256": "6480277dec30a476b7af0ad722535249c98c03250c1310bdf6c88966d654b6d1",
+      "bytes": 2727227,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_23_25.pcodec",
+      "sha256": "8030a6d1ec2eb46ac5f6dc4135ad384895914ebb2d0f51bb04ae5554eab460e1",
+      "bytes": 2517544,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_23_26.pcodec",
+      "sha256": "5255558d10a4558b49f6312f2121c7ec2ae916cc29ad8433bc58fc63ac5284cb",
+      "bytes": 2568079,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_23_27.pcodec",
+      "sha256": "51ca15fd987470e9734534108c5e93feb21d5ea1a2088d5997d7a32d385b8444",
+      "bytes": 2665203,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_24_24.pcodec",
+      "sha256": "2e4737bb223c7c86f497e9f45565ace0cb71030de6f4934afb355a4a5d29e284",
+      "bytes": 2646213,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_24_25.pcodec",
+      "sha256": "da146d8b99cbf55557b32f8f70dcce63877c69222bf47c2a9a363148c2e334e5",
+      "bytes": 2538085,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_24_26.pcodec",
+      "sha256": "74939139b46d19e7483c0b774feee93a900cf288b37a7dbb501ac4c178e4e75d",
+      "bytes": 2618355,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_24_27.pcodec",
+      "sha256": "4c085b7ba938e8714279eba17f6273581c7659482dcc05b63aabcd841cfe4c4f",
+      "bytes": 2389488,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_25_25.pcodec",
+      "sha256": "018cb6a00029282cf55a33b92067c81841a282098703d82b347a284e57bc3774",
+      "bytes": 2663649,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_25_26.pcodec",
+      "sha256": "cec53f8882fa1ee18e84f8c9cadd3ac39c1bb6dd080aed4154c58eed94f4456f",
+      "bytes": 2662716,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_26_25.pcodec",
+      "sha256": "7e2f06f3a42e66175a70a226fc4e23a6fb521e081022700bbf11187d8a94f36a",
+      "bytes": 2743727,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_26_26.pcodec",
+      "sha256": "bf17a4d4eeb1a7080d69a72e8c0aaeef45aefaf89e664816f1e4f302e72aeda7",
+      "bytes": 2587021,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_27_25.pcodec",
+      "sha256": "2663a8a421e72ccd8b685baf08db1b6b0f3c959f40c3d019c0dc24a813720bd7",
+      "bytes": 2230123,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/d2m/84_27_26.pcodec",
+      "sha256": "a85435de4c002d99ae0b12e08b11414466f885f416d4a2ad67e6df5c528dd708",
+      "bytes": 2504863,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_19_25.pcodec",
+      "sha256": "242159e507cb95adc4c96e76c838816fab2fd399ddf712bf7b1646def9828abc",
+      "bytes": 2024518,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_19_26.pcodec",
+      "sha256": "63030d29e48a425581d20653850acbab497594a78c9b76f30d51678df3d7ee8f",
+      "bytes": 2159904,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_23.pcodec",
+      "sha256": "5976259570affe0773671f23a0362296be9e0fc4b60a6f3472b8fedbde06473e",
+      "bytes": 1553121,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_24.pcodec",
+      "sha256": "40fe69ca3f5d2c02696d5af71c6d80b436ec9b6f2fbad7e2ab482c9113a58f88",
+      "bytes": 1320793,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_25.pcodec",
+      "sha256": "1f3f2215fb3488937f3690417152e600859070938fc21735ae3ffce57c2952d8",
+      "bytes": 1445506,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_26.pcodec",
+      "sha256": "9195896d4031eb995b79d2d2e263d5ce83f4d8a6690684fe92755da24e378c6d",
+      "bytes": 1687505,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_27.pcodec",
+      "sha256": "047f637bc8cb7061f70c6122ba44701a10e27db659a6f2ddbe15a6630ab5ff78",
+      "bytes": 2036402,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_28.pcodec",
+      "sha256": "2c1c64dc29aeabbcacabc35adbc4ae4086e6ba8a230aa893377a44ad3d505a6f",
+      "bytes": 2083802,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_29.pcodec",
+      "sha256": "37d701aa5a12ddd338680b112ea658a944eb4f091fcaf6a141c1fb31209f8aa4",
+      "bytes": 2037852,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_30.pcodec",
+      "sha256": "ba1b76a2075a75f7838cb00aacc80e1b03fa90d9da97b624bc1ee69383b59812",
+      "bytes": 2085659,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_31.pcodec",
+      "sha256": "adef790d860fcdc5a87a2d00b2d702ebd4742a4a2114003b900f93998a019d2b",
+      "bytes": 2035265,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_20_32.pcodec",
+      "sha256": "5a8dda1993642767846f4c7812660691be5579393381170b400ca166097756b3",
+      "bytes": 2108031,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_22.pcodec",
+      "sha256": "113a26fde9eea1a0b813fdbc12d4f3eb8504f03ad7aa3a4d243905c155566cfc",
+      "bytes": 1709689,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_23.pcodec",
+      "sha256": "a678cb1d27d3365669e30b687604489239ec755557888e544262d96bff9be844",
+      "bytes": 1384285,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_24.pcodec",
+      "sha256": "ec13daa7aab0755251704b11facc4cc83c3c258730ba00f0e9b9688965b75c06",
+      "bytes": 1618057,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_25.pcodec",
+      "sha256": "02bdb79a3360d2223ac53c8612c56a6a8e72eb6be42c9b509bf9526f236fd13d",
+      "bytes": 1502858,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_26.pcodec",
+      "sha256": "bcb164d8518647a4dc39af0416dbd7bbf2debf5e4ee06ff10e000ea54aeb2674",
+      "bytes": 1381777,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_27.pcodec",
+      "sha256": "5b3338b17fc994d0094b27b0d6bf58985554dfec27519cbeb9667328b827890d",
+      "bytes": 1364328,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_28.pcodec",
+      "sha256": "ee9e7da895e099dfc9a3c5e6d07c1edbde74c8a33e03bcdb41b8328167fbcf5f",
+      "bytes": 1475117,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_29.pcodec",
+      "sha256": "6a66ddceb8fecfbdea492762a4a93d8ef61cd6091582ca2eca67b990817f2196",
+      "bytes": 1571140,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_30.pcodec",
+      "sha256": "ab47d6521ae3b0afab51ca32580dccf152cfa385e756dda71e7cf1c83aaf0c74",
+      "bytes": 1701359,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_21_31.pcodec",
+      "sha256": "6a940136e7136b2367edc76bca8f5382dc35a8303729b5fdc1b0910dd3e58406",
+      "bytes": 1926513,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_22.pcodec",
+      "sha256": "a10212a9eb133e38837bcdbd6ff3626b8db5b8ae6fbf17a8136ffe3ee75b0f6b",
+      "bytes": 1177520,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_23.pcodec",
+      "sha256": "ddb636d1b54334b182b4f86c77c6da0a2dbb7cee8fd43310f9176303dfcecfa9",
+      "bytes": 1425569,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_24.pcodec",
+      "sha256": "a735e351f39a113cc6ac6813e6a15e15cdf1fea5a8b0312dc6e54efafd4240e8",
+      "bytes": 1577739,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_25.pcodec",
+      "sha256": "82589abce872f96d0689835f1dafb40c34c110f3e958197414ce9b0e3292f3c4",
+      "bytes": 1562280,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_26.pcodec",
+      "sha256": "29cc9c909e31f2f95c6481ba951fa5062c60ce3abc6ea558985e875c8c99bc5f",
+      "bytes": 1617621,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_27.pcodec",
+      "sha256": "f3e5d8499142f0d27a344067b093806337c86ff8e85dd97975c538cb6083a332",
+      "bytes": 1593261,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_28.pcodec",
+      "sha256": "031646bacbf830a5e6a0f9a5ab24ca013a6efafc99691569d5f00be6cad91893",
+      "bytes": 1681704,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_29.pcodec",
+      "sha256": "61cf9c74898be8531247bc84e943b68f8c33616cc1f98723b348b56ce060d57b",
+      "bytes": 1328553,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_30.pcodec",
+      "sha256": "8c22c42707c76b14dea566b9708d3e319775bade4fb56a80e6ac7d240dc991a1",
+      "bytes": 1565200,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_22_31.pcodec",
+      "sha256": "e54cbd5e0d5204eec83a0acb161977ed0399813bff4786451fa0a2afbd22e29d",
+      "bytes": 1943775,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_23_24.pcodec",
+      "sha256": "bdac1839b932c20341db30bfa5a177f46d18bcba556c6e7bf176e9efc627fdda",
+      "bytes": 1804608,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_23_25.pcodec",
+      "sha256": "148ae19b95ae7098fea8db047e7208f00f2fb31439410608ecc76901351afadf",
+      "bytes": 1536152,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_23_26.pcodec",
+      "sha256": "02bab5d26be0a5890e12c2198838f5da0dae7e0e3e593ff5e8a3aebbd8b01c93",
+      "bytes": 1546966,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_23_27.pcodec",
+      "sha256": "97724651a9134722a4b12500a2b92b1364e03badf8f2868b1c41463b8df209aa",
+      "bytes": 1778617,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_24_24.pcodec",
+      "sha256": "0793b50feb25586d2f0f742981d530a89f2936a2cc06427a835bfe44ad42ee09",
+      "bytes": 1746730,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_24_25.pcodec",
+      "sha256": "770ac45a5edea011e71eb08e4ebabc7add84d44ff79abdae1a0391537aab122b",
+      "bytes": 1561225,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_24_26.pcodec",
+      "sha256": "635a112b8b0980b35e1d9dfba20e8d6903bd01d52bcbaaff7100029e5c715ae2",
+      "bytes": 1678996,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_24_27.pcodec",
+      "sha256": "3305f18f1c2bfb22836baf3f2986508a1b0451a9b6c3f93a384f332c796730c6",
+      "bytes": 1467990,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_25_25.pcodec",
+      "sha256": "68c30d659150f53bfb550126299fb96e838b0f247aca747018853e0e11e0cb87",
+      "bytes": 1790012,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_25_26.pcodec",
+      "sha256": "d586ab2a74daf7d083b758b40fc306fd09347d4d78d247e10d49abf6d63e017b",
+      "bytes": 1714647,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_26_25.pcodec",
+      "sha256": "80438a2bf2664ce62947fe8c5d2b3bd2b7a568bfd7640427d1e989f0e32ff333",
+      "bytes": 1888006,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_26_26.pcodec",
+      "sha256": "61ca2920319c553568336eeb045b4426ac37e67e5d933f9c15aedce5725d3a65",
+      "bytes": 1584089,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_27_25.pcodec",
+      "sha256": "725eb0444ea7a3dcb5d47b1672b6bde339a26a586f03dab3be3506f2700aecb9",
+      "bytes": 1395485,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/82_27_26.pcodec",
+      "sha256": "93e8c4b1c73f712af7059dac81ed45e183b9a97de6db1f83b62053033f74f3c7",
+      "bytes": 1552452,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_19_25.pcodec",
+      "sha256": "995c500e489592c2766cd3448431d6ec4d7586aa60bf67291a25ab72206da8a3",
+      "bytes": 2030103,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_19_26.pcodec",
+      "sha256": "a0d776e375b04a209e0341a9f2be58a0d7606da50054ca8003929e349acc7375",
+      "bytes": 2149596,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_23.pcodec",
+      "sha256": "c389aac7aed46f239d990761f4be33c2994c76be17fcaf4eb1c8085c02bebdea",
+      "bytes": 1556872,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_24.pcodec",
+      "sha256": "d33048ad791f3ff5a950d9bb274ced9da861b592103bc8a4c58e472f5b3a7613",
+      "bytes": 1337920,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_25.pcodec",
+      "sha256": "7f73b69a606e457bac5b3d3158454992a066b1d3a496398037da7da149b82886",
+      "bytes": 1448857,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_26.pcodec",
+      "sha256": "d285925aed6435eb27d73c462b92ba16beca5e8795be9efab6a8e3831f77f9e2",
+      "bytes": 1693777,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_27.pcodec",
+      "sha256": "6d6cf9600ec776a4f09e45c656c716ca24c4e28d02358ddcb609beb53d007393",
+      "bytes": 2035135,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_28.pcodec",
+      "sha256": "be8f80d662b114a8d838f6d905ad90b66e02c23895dc47fab691f4484b0ee981",
+      "bytes": 2064120,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_29.pcodec",
+      "sha256": "0254f60a0f4d07cfeaeddf766183bf5d07b98aefecd82ba79f9f7de07999f145",
+      "bytes": 2036151,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_30.pcodec",
+      "sha256": "61202ae3e59fbbb2306f9a8705c5d9d1ff44ca68921cea6df8a01ef4f2114034",
+      "bytes": 2086134,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_31.pcodec",
+      "sha256": "801b99d431e29eb6634b8d8cb5df9754f4fec949e12f35f06b6ba4d84411fc79",
+      "bytes": 2033985,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_20_32.pcodec",
+      "sha256": "9602b25d101f519ea62f279c2901f4189a4608d3e053ae2b49b3c04f30b15ab4",
+      "bytes": 2110998,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_22.pcodec",
+      "sha256": "8fadcfba857aa5c061f8ac139af585f7d3e73a33a2ecf991882208cbc0777c1b",
+      "bytes": 1716828,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_23.pcodec",
+      "sha256": "d88679bdb21c00349cad8c9c350f45028cf2f20115634c74fed010e43c2936c3",
+      "bytes": 1399094,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_24.pcodec",
+      "sha256": "85c892964f6559898e93d32d1afc658759dcd82047296107b6344fb26a797ad7",
+      "bytes": 1625770,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_25.pcodec",
+      "sha256": "80b62455e8c6b85895c1bcefaec505e107af2c02ef8aed4542f73da4b76bf60f",
+      "bytes": 1485863,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_26.pcodec",
+      "sha256": "40a9cdb1a66e663c60a49fe3fca16feea1a0f66403c6a759e36659c8d49cd3fa",
+      "bytes": 1390655,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_27.pcodec",
+      "sha256": "d4debaeeb01f1da23f7d6aa067044509aec16e6bbf70d36b217f9cbe0b1e9f3c",
+      "bytes": 1366358,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_28.pcodec",
+      "sha256": "418c40eacdb041d75a481ac1a57b1b588217212d7a7833cbecc20a63ad8a3242",
+      "bytes": 1473072,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_29.pcodec",
+      "sha256": "3c6f3446f10e0bbefe816df1e42c7c78b79a854db971e6d1bb54caa25c3dd96e",
+      "bytes": 1583031,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_30.pcodec",
+      "sha256": "dc2da53e6b142c617e3463f408fbf8a38c1fb8db71cfe7d3681b365b925c7187",
+      "bytes": 1730362,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_21_31.pcodec",
+      "sha256": "16a665005afd735f0b3f5e86e1de7f4959581dfcdfefbf32da06f44a266a6ffa",
+      "bytes": 1940587,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_22.pcodec",
+      "sha256": "0dfe72f5acefeb31dc8aa8f6c256c1f5ba03a2daf6e20b6b61976c3ef29b41bc",
+      "bytes": 1193337,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_23.pcodec",
+      "sha256": "5d656d23840322f6080838ff06479725290f7f20ae4dd3e0029b5ae7b1d31356",
+      "bytes": 1446711,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_24.pcodec",
+      "sha256": "3c45c1eb29a2077371e68ebf681c8d276eadeed507133fac85cca2b0665c057f",
+      "bytes": 1582096,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_25.pcodec",
+      "sha256": "6e1b3890cc69ea68215e9b67834b198f9521a1d004467f73ca26ca79c29401f5",
+      "bytes": 1564477,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_26.pcodec",
+      "sha256": "97f5612c290f9500ccd063a2ba60b16c9329b97054ceaad774afaff8ec47fbbb",
+      "bytes": 1629587,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_27.pcodec",
+      "sha256": "a6011af8d4e843162f41219e024b55c11d1ed25369f7837709a7d85dbbf1f30f",
+      "bytes": 1612701,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_28.pcodec",
+      "sha256": "4ab0a5282286b20a48dc406345bb9f8d251c68666f38c478e3786e1d9c1cf603",
+      "bytes": 1713185,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_29.pcodec",
+      "sha256": "a6fa795c5c2e487e7696c6e2783a58a7265e07de23a5950386f3852c7154cfde",
+      "bytes": 1335803,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_30.pcodec",
+      "sha256": "8aa1f698bb2144d54988560d7140389963c3a69a09948a925373ae0865122be6",
+      "bytes": 1566734,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_22_31.pcodec",
+      "sha256": "2c7de5775e42dccf102fc4f79cad768f39750715585ee41bfbbf4e9848a57e3e",
+      "bytes": 1954021,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_23_24.pcodec",
+      "sha256": "cea1a87016dab8f2a2db451926728953e86646c65ce04a815b8b96706aa371f3",
+      "bytes": 1811459,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_23_25.pcodec",
+      "sha256": "f58a8993a739a70c41d6c88f8154bbe2d535d64140b381c6d47dfafd173a8f83",
+      "bytes": 1558158,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_23_26.pcodec",
+      "sha256": "3fe338c7ebfadd799006dcb94673009c275480b665d06e83a2e22322d1724c31",
+      "bytes": 1569712,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_23_27.pcodec",
+      "sha256": "4e7e00e7416c82b97bd961f579ddfa8aefeba629767e5c0c762a82f40636cc77",
+      "bytes": 1803611,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_24_24.pcodec",
+      "sha256": "3f7c35d8ac669711ebe98d262b79364cbe03d24846b1cdb33b012ef9bae4fe6b",
+      "bytes": 1768270,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_24_25.pcodec",
+      "sha256": "06ee1715aaedde34130ce17f475908e65027533e567f64bddd916e4a8d1b50c6",
+      "bytes": 1609310,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_24_26.pcodec",
+      "sha256": "83ac8a29c0607b7c7edd73996142e1cda7cc3c50c76f992a3973131093e55f49",
+      "bytes": 1705892,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_24_27.pcodec",
+      "sha256": "a230d2399a0b944c6d9a48583af33dd4f13e2606a2131c90cda947366f26ec0a",
+      "bytes": 1492423,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_25_25.pcodec",
+      "sha256": "4eb571130e1ee400e341edd131950e079f5746d79cd8800dad3cdf286157d4cf",
+      "bytes": 1812888,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_25_26.pcodec",
+      "sha256": "a8eac19ea7b9a208a43ed0a08116866b356a2ad486850c5e69fe2d45ad9237c5",
+      "bytes": 1743271,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_26_25.pcodec",
+      "sha256": "a892ff8a7caaf12702266c7d2bb41a5195f7350c9d017f3f565542d9732cc3f7",
+      "bytes": 1899495,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_26_26.pcodec",
+      "sha256": "735422a7b4d54c402901d018c4d202ad80de2651104570115e3e0cb44fc7fd38",
+      "bytes": 1598474,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_27_25.pcodec",
+      "sha256": "ba6cd7463644e3c7c6dcadf91d2f3a3b92750fd18d194d38fe0aefa1fede0971",
+      "bytes": 1397550,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/msl/84_27_26.pcodec",
+      "sha256": "cd32474821ba4f91a7db05a9f637a40e9ebbdba37ff2a2487d56b1b3d37acefb",
+      "bytes": 1571097,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_19_25.pcodec",
+      "sha256": "19db0a833b6debc867ebe939cf1abbf033ec987d35b205b8d9c8ccb858f6eeed",
+      "bytes": 3175950,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_19_26.pcodec",
+      "sha256": "fda2f8e79cdbefb37bd0b95083444f2bae91d11141848e800a83128f90dbcb12",
+      "bytes": 3272610,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_23.pcodec",
+      "sha256": "8f352ac5bc396b13d17dd1ef529774b90d4ef8e4fdc491786c64f89fca260a5a",
+      "bytes": 2565953,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_24.pcodec",
+      "sha256": "1a70f0e97f3fb494336e54137125d26b8550b8b5e0e56ce7228d83cd2841c251",
+      "bytes": 1927582,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_25.pcodec",
+      "sha256": "06a45107acd5f240b7751727a643c954841a75f51ff0de1998b99cd8a7ffec58",
+      "bytes": 2340340,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_26.pcodec",
+      "sha256": "d3b6e77c9fe87cf7d714cf691a944b672cfa1cc4f9090dbae5b0b3aaaceffa89",
+      "bytes": 2524321,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_27.pcodec",
+      "sha256": "52bbbd3fcd62baf6fbc81e985149fc33bb66bf8e4139b51ddf3cc375d4924dde",
+      "bytes": 3232376,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_28.pcodec",
+      "sha256": "9e63eae3b3fdfb0253c8e04541be099b019b83d94d84f915fefa67dbc1144a3b",
+      "bytes": 3213936,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_29.pcodec",
+      "sha256": "c5dcf78aa11cad74c361958d1574ba3bf2ce2f0d313042c3aea35c38ea27ac0d",
+      "bytes": 3207331,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_30.pcodec",
+      "sha256": "67672c7f438aa7a91d346fcbca0c9a866bc2c484bf48b8c005bc96b704f515f9",
+      "bytes": 3229996,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_31.pcodec",
+      "sha256": "631ef80cd93dc5bdd9cf36ebb432972b1f1aa62178f1d090157f782537d1ec47",
+      "bytes": 3253774,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_20_32.pcodec",
+      "sha256": "3a10d37c7e32b8f35830f586bbdbedea7f9ed8155c70bdef8a90ad49b31c73e8",
+      "bytes": 3299722,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_22.pcodec",
+      "sha256": "3d87f0fc21194fc8da4b28e55a509ec2f7a63c420a5373f630ad8e48657cf297",
+      "bytes": 2687720,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_23.pcodec",
+      "sha256": "bda5079a2e420a96e970c8efa6ddadc62e17c3ee8648e1cb42b001387a0f8766",
+      "bytes": 2710098,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_24.pcodec",
+      "sha256": "a439876d52d03f178587f43505574d3db22c4800436fe858513cbc803b08fcbe",
+      "bytes": 2870746,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_25.pcodec",
+      "sha256": "0818c8b6aee4fa31bdedd623cac0689ea2301522795dec06d484947acc8d05c8",
+      "bytes": 2662264,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_26.pcodec",
+      "sha256": "04868101750f59c5282dd1ff4b4e9a11e2d4f6b1d55cf422874e861c0dcaf8df",
+      "bytes": 2391933,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_27.pcodec",
+      "sha256": "224f05716bea4b316ed0570c127637ea2db56f37d5f3567f7ca703dc05bbaed1",
+      "bytes": 1989374,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_28.pcodec",
+      "sha256": "34661c5391f4f43e0e440ef98181e1c5cff7cf3f192979ed9ca4d7fed2530266",
+      "bytes": 2491291,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_29.pcodec",
+      "sha256": "3196e9f4b142ce51ea92c6b5101bbef46983ef39b365801523dc2003eab1216d",
+      "bytes": 2533785,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_30.pcodec",
+      "sha256": "9c3a5829c59075fb09ee582ecad951c695f68ccec638a4bc7c528d6c43453b47",
+      "bytes": 2951491,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_21_31.pcodec",
+      "sha256": "d6d85755c81cd475cb6ada23fafb1339ae8db8828b166e98ddcd88157c3362a2",
+      "bytes": 3157830,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_22.pcodec",
+      "sha256": "0d91f28b919e1a3fab80e1151ea7ba959abffeaf4765ff83aea0e5410d68f0d2",
+      "bytes": 1345562,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_23.pcodec",
+      "sha256": "f5bc0abcbc63f34a100ab099fd996ff190525360d29891c2bce447f3f2785be9",
+      "bytes": 2640967,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_24.pcodec",
+      "sha256": "0c71d5486a09aabc47cb7c3742af5fbace81724747a78fac0ad33e4ca200d8d7",
+      "bytes": 2782692,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_25.pcodec",
+      "sha256": "c41193b8defb1d47553eba97bd091b6671e013569ff62805b8716023f36a1c2b",
+      "bytes": 2792951,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_26.pcodec",
+      "sha256": "f4199f38f0ee8bd08299b99e3a1d22ff26da0f5629d0353329d7b18f2f4ee51a",
+      "bytes": 2845010,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_27.pcodec",
+      "sha256": "802e151feebb9a96378e9734bb5bfd79c54ba514161c3f95f3bf8bc15f16bf24",
+      "bytes": 2866961,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_28.pcodec",
+      "sha256": "5df52ed9df3e90209aa8aad44d6085a711772233de2f801d0b147f84426eaee6",
+      "bytes": 2962402,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_29.pcodec",
+      "sha256": "e220a6c170fb41785c302445abde36f5d4890a0c19b8f98f1b963be1cc166e0f",
+      "bytes": 1853873,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_30.pcodec",
+      "sha256": "dae7c129a7ad51fdebdfa8ff56fe431466c715d7ba06fa258bc4de12c2cff989",
+      "bytes": 2537098,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_22_31.pcodec",
+      "sha256": "457cf3c06113c072c53776f5a2bf10af203dd0cdc9531727d92a0d16e96da38d",
+      "bytes": 3158116,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_23_24.pcodec",
+      "sha256": "c9817f9c133168d679d221fc8867fd4a2296bda1d4067ea9959d6ca4575ec645",
+      "bytes": 2965663,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_23_25.pcodec",
+      "sha256": "f9487f361093566980c3f67bc3e2631379640f90dc864c60e6d7fa55245c8fde",
+      "bytes": 2772484,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_23_26.pcodec",
+      "sha256": "9dd4b0efc3d1c0d08d7cd9a06206f96a60bce1ddcf6b4463aebbe4c7942a35cf",
+      "bytes": 2761622,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_23_27.pcodec",
+      "sha256": "e34a2a044a0d55bbfb7eecd8e38188c5ba322a3356b968165758093f95e7d22a",
+      "bytes": 2989892,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_24_24.pcodec",
+      "sha256": "2dd4af672c060a4bf9733b54aafe3732f88a3f9bb4d268e5b4b3b51bd32faaf6",
+      "bytes": 2891182,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_24_25.pcodec",
+      "sha256": "bd7ede9401a64c92cc4774c46dade615924718022e1642d63b128e70c53fbde9",
+      "bytes": 2759718,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_24_26.pcodec",
+      "sha256": "4ce01c12204ac3ac1d94092566169d5cb4ab058b9d24591bb30e56e71e1bb548",
+      "bytes": 2916464,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_24_27.pcodec",
+      "sha256": "e143441887c67de57d8e96ed67fd2ff021f5bb1fd295953186e1160c315d6f6f",
+      "bytes": 2140258,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_25_25.pcodec",
+      "sha256": "717c467d4efa9f6199745bd28e775c238b254c7a8b50ca11e080ce49d9360fdb",
+      "bytes": 2957201,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_25_26.pcodec",
+      "sha256": "07cde5defaedef25acc6690c87f561ce367390c5aa3d9b0afb178b54670201af",
+      "bytes": 2904596,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_26_25.pcodec",
+      "sha256": "2b092659bc50411d3164adcc02f88fdd2d576edbcb20541930fa4533c61a7fc5",
+      "bytes": 2998828,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_26_26.pcodec",
+      "sha256": "a61bb5da8c37c7a030adcc462def35c8cbd736c8aafcd36e891fcee1d15e527d",
+      "bytes": 2451094,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_27_25.pcodec",
+      "sha256": "e0e905c40410e9309ce1ac6709d0c7e679c38f0e5a1223cb50de2c9b32f7b2a9",
+      "bytes": 1834550,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/82_27_26.pcodec",
+      "sha256": "2e91f517fcaf38d0c5129d6ba82a49a29d31fa7e164442eaaf9bcb81ba9d3943",
+      "bytes": 2604546,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_19_25.pcodec",
+      "sha256": "1b771352cce78ed16ff6fc646c05003efea01f001fd104bca6a29cf4cc0b8643",
+      "bytes": 3175511,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_19_26.pcodec",
+      "sha256": "df6a0f5638b2936c9cc7aacc22e71d56c25b4442017410600ab881be4de17dd7",
+      "bytes": 3272168,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_23.pcodec",
+      "sha256": "43c1421bd1bc48e1439e88b4ab2a91713fcf65029956698c93c22d779c3fe14d",
+      "bytes": 2565068,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_24.pcodec",
+      "sha256": "c4b500862fa48eef50c2c164dce13f92b4d47464eeeb5a1ac55bd4c415ef7bb7",
+      "bytes": 1921803,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_25.pcodec",
+      "sha256": "6204780581d9feda57384d03a782756043828fb28213b8e6029a688d5dc46e51",
+      "bytes": 2339039,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_26.pcodec",
+      "sha256": "21dccc17c506c01db3a0cffca7ac4820672bcb95b681a3e6195e821a251871ef",
+      "bytes": 2518888,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_27.pcodec",
+      "sha256": "66abcd5220a59fcdc703bc22da604fe34eae30871fda6eedb912bd2ed7228edd",
+      "bytes": 3233002,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_28.pcodec",
+      "sha256": "2f2c72ec746de879a30c48032ffafb4911d5bb7b82decbf547fbb07ce043b6df",
+      "bytes": 3211237,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_29.pcodec",
+      "sha256": "29b285cb7f92a86d9d31009b46e91d140293fd14df117aa23a34ff3c1be77411",
+      "bytes": 3206044,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_30.pcodec",
+      "sha256": "b9001a3835e4210cada7c9effde5fd43570192776ceaa03c72034e0cccd7d2b8",
+      "bytes": 3228259,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_31.pcodec",
+      "sha256": "3ffae0b6c3e0b36840960bf8206882358d5596cb023ed6461a736f8a3a75db66",
+      "bytes": 3252543,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_20_32.pcodec",
+      "sha256": "1ec76276136c7cde8fc4c0fee03b18493136ec71da17e52d90f43c363b6b2994",
+      "bytes": 3296482,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_22.pcodec",
+      "sha256": "409b89b6ae348cad76ea74b0c1f48a94647a45cbfd4762d4ca50611b697ee7ec",
+      "bytes": 2692274,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_23.pcodec",
+      "sha256": "38acfd0e63e41b9b976694056a54a71042326bdc65b413821964b7b683a3b74f",
+      "bytes": 2695753,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_24.pcodec",
+      "sha256": "8f779bf681b5a490e8f38fe7ddf03a6d873d8fa3cc8483467ff159c7dcbf2f3a",
+      "bytes": 2890276,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_25.pcodec",
+      "sha256": "7baa8628e6f0f24703f7256244b39a13cc5efc8eb3b8a8843c041c6a92304a8e",
+      "bytes": 2658670,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_26.pcodec",
+      "sha256": "ba13f42566299e6516fe078adc68e95a94e3c118730a64948ac55754fc8687bd",
+      "bytes": 2391006,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_27.pcodec",
+      "sha256": "b06749742e0a4fd4083672c48df830adcf96b325bd93d9bf297b2019147fc336",
+      "bytes": 1985183,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_28.pcodec",
+      "sha256": "40fae5262f209c4fecbae3a9db9c2be73f51ddc6263b09882281a0c6a29ef1a7",
+      "bytes": 2491120,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_29.pcodec",
+      "sha256": "9440398081440df6ecce3914aa7fb4fdf2fccdc31ea7bb7e0a23b17f0bd164a6",
+      "bytes": 2523660,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_30.pcodec",
+      "sha256": "8e365b5ff4d4f3d815e8bfc64a1a4e2ba4e3d40e41f01f86405fedc2195da122",
+      "bytes": 2951718,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_21_31.pcodec",
+      "sha256": "f0c0ad1cafd7c9d16a69b3b6190de8ca6b3d9e2d2a6e4dc82ad98aa66dea7772",
+      "bytes": 3157409,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_22.pcodec",
+      "sha256": "c7a6afaf2488e33dd1bed8f3a397a79162a7da60f4f3be8609b4282114a9fe90",
+      "bytes": 1346640,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_23.pcodec",
+      "sha256": "75bd43a77655fee8151b39a9f056fcb11b42a714998386874c49e3a2f0707e22",
+      "bytes": 2632628,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_24.pcodec",
+      "sha256": "d0afdb5dd13d4348783b74491195ca5badc9ac8cea5d6193277d79e28b3cb647",
+      "bytes": 2784882,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_25.pcodec",
+      "sha256": "e17276e6897ae6338098093dd4c73159ef5e63bb70144e664bea44258dab99b3",
+      "bytes": 2792441,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_26.pcodec",
+      "sha256": "a77a34fa9b5d116dabc5cbe881ea02a32156f22e37949693e1f852725a1425a2",
+      "bytes": 2844626,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_27.pcodec",
+      "sha256": "6957de8949504e460c4006c498e78f8a67469d167a97509a043e190a334403c1",
+      "bytes": 2864810,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_28.pcodec",
+      "sha256": "b5bf1597b72387a74b3b9938996c3307be3fca41a9d09ef66680c6fb4a8e0677",
+      "bytes": 2962956,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_29.pcodec",
+      "sha256": "0efd8b2b5e973f6aa8e968f12cb432b221bbb5bb40623652343436fb504aeee8",
+      "bytes": 1855520,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_30.pcodec",
+      "sha256": "843e5336cd59dbff383778d4e13ac60c40fd8b43990c00e10a188beea3aff51f",
+      "bytes": 2545041,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_22_31.pcodec",
+      "sha256": "a317d7407a0162828c412b496bf479f97a8eb3c368ecadc6768eda96012102fd",
+      "bytes": 3160274,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_23_24.pcodec",
+      "sha256": "fed6b892e5f6732ff9a983beb8c3c8e8fd9097225a55d99aae72a1a7481470f1",
+      "bytes": 2966034,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_23_25.pcodec",
+      "sha256": "79ded5c31ce704c8bc95007ee5f853226d0a74f8f7871a11f9b5d10b1fb75b8a",
+      "bytes": 2771364,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_23_26.pcodec",
+      "sha256": "9cde514311760755bb9704b7cfe3f58ec110a1a82c9927feb30bcddceaba71b9",
+      "bytes": 2762336,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_23_27.pcodec",
+      "sha256": "a39faccdfe5bb51939f7ef4d8865af560fa2dd950c39b30e53f3cd65b4af967b",
+      "bytes": 2990838,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_24_24.pcodec",
+      "sha256": "c6f1a5bfad31176049dfe47b058fd70d1ca3b7ca2798100ce1505ba77cc326c7",
+      "bytes": 2891516,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_24_25.pcodec",
+      "sha256": "de38311cafde4d600a5334fd882f411d94cbbc23df09ea62be4318fcf60527c9",
+      "bytes": 2761168,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_24_26.pcodec",
+      "sha256": "b1f4442b4b2892d0b7c6cb344feee56a7e458f5814959a0d6c0d2aa6fc4378e6",
+      "bytes": 2917805,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_24_27.pcodec",
+      "sha256": "ec61ff93b73db5cf735df436de4e07420d62f460339c2eb64c2a6dbe4504555a",
+      "bytes": 2140203,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_25_25.pcodec",
+      "sha256": "c1e88fc888eb0511c064dbc4a96bfaf248e05f57e5eb32e5ad7aef05eb714fbd",
+      "bytes": 2957792,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_25_26.pcodec",
+      "sha256": "fe3e59ea3b0a43f088a82df8b3893ab1bbd9d07dd1207e7c60ca98ddb41ffad3",
+      "bytes": 2905268,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_26_25.pcodec",
+      "sha256": "3e0677faf439341ec162c4673342f57d49bc0525305f6aacc4085f92ba4392e8",
+      "bytes": 2999539,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_26_26.pcodec",
+      "sha256": "869836c7c6ffed1762b4263afd7cc80a1640183d29902684009e68dba24fb33d",
+      "bytes": 2447852,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_27_25.pcodec",
+      "sha256": "f41e607dcf87fcf5519d72fcc3893a2fe05a3e5fee5c0e1c3cc188508e56de19",
+      "bytes": 1829150,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/sp/84_27_26.pcodec",
+      "sha256": "292b9c93bc975b65d4350283d0a536326c71fe84545e47dae800b2bdbde882d8",
+      "bytes": 2603534,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_19_25.pcodec",
+      "sha256": "4083f219e590f3c2af8432d8e3ccb63f6e8eb99e31877590d529a920730336dd",
+      "bytes": 2926693,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_19_26.pcodec",
+      "sha256": "81078d86007f126e1075d3ff1a968711b62576d7e405448ff8f2c78a38dbd590",
+      "bytes": 2977149,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_23.pcodec",
+      "sha256": "8c6f6628a41ab8bc040911c8d60a044270badae06834807f8ab1947b4490fb2b",
+      "bytes": 2637913,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_24.pcodec",
+      "sha256": "7f6100215c1f91e180d1b6a5c4baf6966d9762105f3dd54f3a026d7a791d9c80",
+      "bytes": 2484599,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_25.pcodec",
+      "sha256": "e0c25dc1e8b2f419c5a7fcbd9ed7bd94eddb138e28d5e42d5add27b5386cb8e0",
+      "bytes": 2557549,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_26.pcodec",
+      "sha256": "669d42dc2fdb0f70d85bb843070156ff34add604b86d583a3b8514274ad6a5d5",
+      "bytes": 2677588,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_27.pcodec",
+      "sha256": "86f4994ab4d1162aa61acde50cada2f8de4e7adf4ac3365ac53fa90cb213b302",
+      "bytes": 2911495,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_28.pcodec",
+      "sha256": "a067eb696b167e0e10e78f4dc22f31cf4387b42a980ed816f21288fd2f103ba2",
+      "bytes": 2907129,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_29.pcodec",
+      "sha256": "032e6881a139693405f14be8403ecf50d90b40948695a7821f84a60629166608",
+      "bytes": 2847375,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_30.pcodec",
+      "sha256": "e7ba3e19a6799e40459c5aac3f6bd883b9dc9c004f73a4c7f0081ae31c07c36d",
+      "bytes": 2889017,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_31.pcodec",
+      "sha256": "08671e9d1e2ce6ca515c5c741779dee5e9147c8d992ff0c32a1f9447170ac3a9",
+      "bytes": 2910279,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_20_32.pcodec",
+      "sha256": "52613ff4a7902f5eaaeed6ad1b038a514eb06a0c7df976b7766aeb41c1cfa688",
+      "bytes": 2949724,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_22.pcodec",
+      "sha256": "39253ce3e808f04f6f9aa1573ec10f935de9bfcd7de993fd53e26417963d841a",
+      "bytes": 2709324,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_23.pcodec",
+      "sha256": "fa4d36f4be68f7879162d55df70d678488813e423705113b501254e89954e17b",
+      "bytes": 2514439,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_24.pcodec",
+      "sha256": "bbf9ac0211da06d715c1386f6a54067dd36ce555f20039ae60c6f2d094fd158e",
+      "bytes": 2628957,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_25.pcodec",
+      "sha256": "30d14ed6a9c9227770af3c28e0fb021e854436cb14a3c10b4e56d3126ada7f63",
+      "bytes": 2571332,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_26.pcodec",
+      "sha256": "1b850f032baa0c4ae19ab4076a5abc3b21bc3009819fdd4d15865f8d5f8969b6",
+      "bytes": 2473307,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_27.pcodec",
+      "sha256": "4cd656a6db98b2dca33589d993200d97cbdb631a3e4f34ced12ea434a4c07b9b",
+      "bytes": 2445593,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_28.pcodec",
+      "sha256": "c8c49192c2265704aee5102e7ddb76e4b32ef6a4dfa304ffd85dd80c55ddd0b6",
+      "bytes": 2493208,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_29.pcodec",
+      "sha256": "01157cfbda790cf11f176de3b386871362c137d1610b9b73d1ba1627fbee31d2",
+      "bytes": 2556738,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_30.pcodec",
+      "sha256": "852aff983c1d65b0afd18fc4fa2be698cfc3210ca0aa3877a2032c68e2223473",
+      "bytes": 2646003,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_21_31.pcodec",
+      "sha256": "e42f96f4c8987dbef3a7c4ac5e8ba018fdc0b2ef633df14ddd9650384a800206",
+      "bytes": 2784885,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_22.pcodec",
+      "sha256": "fc9d2fc529f90b2abfd6aad3635c1d4b239ec10139138ccc7b0ee48e8828fb32",
+      "bytes": 1968527,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_23.pcodec",
+      "sha256": "d33fe354e2028b7204b80168bf0325bf94151ffe96d9661d12c8c714b6120490",
+      "bytes": 2629253,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_24.pcodec",
+      "sha256": "d80d32835ecf021ebd19eb0c32dd30adb1e0aa49e5ae79caa70a1fe53299ed02",
+      "bytes": 2648166,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_25.pcodec",
+      "sha256": "0b3384066b6033490be8f6ac91ffd1040364e39b3ae3741a1be1ced4f21639ad",
+      "bytes": 2577832,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_26.pcodec",
+      "sha256": "91bb2865e4d4c4f122da4a3538b7a58b07fb41cb170f52cb3aaed1b20d652888",
+      "bytes": 2599691,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_27.pcodec",
+      "sha256": "989b22cd853b65b582bf8ffee175154dbf9f0fa395b14aad5bda78226c06b6c4",
+      "bytes": 2613682,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_28.pcodec",
+      "sha256": "d94c129ef46f7483596be8db95b4893df8cf9ec75f46ef3c2f0e6920e020349d",
+      "bytes": 2638180,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_29.pcodec",
+      "sha256": "f8c722bafcb8976573a10ecb21b069190051fb3ce536143a13388fc8c8468cfd",
+      "bytes": 2417003,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_30.pcodec",
+      "sha256": "059f31d49881f804359b68b313a8dab50c702a7ee5b184ea0d9869335a848ec1",
+      "bytes": 2651376,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_22_31.pcodec",
+      "sha256": "fa60eb532bac83d5aa33f65f9593afe7084ee241bded9983c2e85783eaacc5e1",
+      "bytes": 2830560,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_23_24.pcodec",
+      "sha256": "43b6c0a05790f8cd8e4be79c55eb9d1bc8568c8fde0ec11c59c8bd005efac087",
+      "bytes": 2752671,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_23_25.pcodec",
+      "sha256": "0932d1bd16f269fa7c3b836fc97b11940201e91a1c5742a01595a29a1cf03d7d",
+      "bytes": 2530862,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_23_26.pcodec",
+      "sha256": "5a39d30c0268e13169ccbce509c6bd945c74a8bb789de3ccf932f849170afdb6",
+      "bytes": 2580517,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_23_27.pcodec",
+      "sha256": "8c922dbec47d721a5c0e8ad970dc053d998f1de6e03332129524e0417474ad50",
+      "bytes": 2683758,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_24_24.pcodec",
+      "sha256": "72b64a0ab5216354084723f3f21d2190f780e5c24925607f9448de508ddb3c06",
+      "bytes": 2690314,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_24_25.pcodec",
+      "sha256": "cc9cc2f8bc5d4eb5bbaad7f6ff2b154565883eca701408438c2e9686dcfc2c06",
+      "bytes": 2576056,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_24_26.pcodec",
+      "sha256": "a0925ae717bab2f5c107088707f6cda3f00d00e96a876b2a8ec9035a180e77de",
+      "bytes": 2639548,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_24_27.pcodec",
+      "sha256": "555f69174c66348e821c33ca07044e317535906c916b4f46129fe0ac47372fac",
+      "bytes": 2391064,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_25_25.pcodec",
+      "sha256": "7de3ab96c6721e5994b907b1cf0280e4540f15ca71ebcdb6eb1ae6e852dfc676",
+      "bytes": 2675067,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_25_26.pcodec",
+      "sha256": "d5d7f04e8a846992c01eca3819a6a63b367e682ad203b06039c0cf01ed70f828",
+      "bytes": 2684529,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_26_25.pcodec",
+      "sha256": "67b68b73e598891bbdbc4d6bb9523663dbad9fe02c78b85ec6406dd0edbca337",
+      "bytes": 2780013,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_26_26.pcodec",
+      "sha256": "0db1c9b069d866a1e66efb06d5da2db020ca44b35998e6f3ecbf99477f267e39",
+      "bytes": 2642833,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_27_25.pcodec",
+      "sha256": "08da8d66f4869cfad60752dc9a922d7529e1acde057e78ca34b10821a1186772",
+      "bytes": 2284418,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/82_27_26.pcodec",
+      "sha256": "aea5b2db1240508686dcc67fa499c8d7089a0c3b4f7715d9c9a1f7aa63d6bb3d",
+      "bytes": 2539102,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_19_25.pcodec",
+      "sha256": "faab942cd1231ee789487b47368c3e3f5ac193da0b0d320eeaaef29d29340a76",
+      "bytes": 2922089,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_19_26.pcodec",
+      "sha256": "29c1346d496e1ea0be5699d77f552e678fc215bab2c4ddadc98f9d05e0db4ace",
+      "bytes": 2967742,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_23.pcodec",
+      "sha256": "6ae7b21b66a8a38135828bc3c736ff40c314e54f06fa9ffb449738f78be91003",
+      "bytes": 2634897,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_24.pcodec",
+      "sha256": "243604dcc5ba504934c7ad268c8bb7f4fce090eab5bdd0188a2e7eac7b254e53",
+      "bytes": 2485578,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_25.pcodec",
+      "sha256": "2a5e1f74bd3e5d219713eb58fdf471afd2972941f4068e4bd13ab9c2dc79a382",
+      "bytes": 2559025,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_26.pcodec",
+      "sha256": "2980300fb79601d4e9323330bd359a8d295f85322cbe432b570e45d4d57ef882",
+      "bytes": 2678399,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_27.pcodec",
+      "sha256": "ae77ec64b59078f7bf725cede5ae0094009fdfe285ec1be358692ecf7e574e8c",
+      "bytes": 2911641,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_28.pcodec",
+      "sha256": "e3e459a195a6aa64fcac5afe1025780b075d02b4dbb5e69bee929e9eff7b1c17",
+      "bytes": 2887293,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_29.pcodec",
+      "sha256": "0583270229daa516c2559797537519a34b07b9b4678496d335f26e8bcde1d1ba",
+      "bytes": 2848394,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_30.pcodec",
+      "sha256": "31543f9bd87a12a6078f7d9be39c20bd25eaec5f8528a0e4dc20cad895efe011",
+      "bytes": 2888339,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_31.pcodec",
+      "sha256": "023b0cd53b635f5214f5af3f7078365803b1979566da79f4fb1c9037372c37fe",
+      "bytes": 2912946,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_20_32.pcodec",
+      "sha256": "813a7a4b8b9b42f0f94a1e9f15d4fbb5792e155de32698e797fc46849d046446",
+      "bytes": 2949622,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_22.pcodec",
+      "sha256": "e0b08f149dd04a50bf40e53cae19b8f05ce57609d1dc7f08bb1222d7ad175434",
+      "bytes": 2712465,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_23.pcodec",
+      "sha256": "99887042ab85ebaabcebd26a4defe33f657edbf942d9f8c32e14efaf3f292c14",
+      "bytes": 2528803,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_24.pcodec",
+      "sha256": "b185d0a89405c99054b458bc7e7e89a93d6349a1985c2e73cc7e571784e410bd",
+      "bytes": 2629640,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_25.pcodec",
+      "sha256": "02e20157b557b494ad2c17c5a4372842956464853a33c105a24197a9972613ef",
+      "bytes": 2555090,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_26.pcodec",
+      "sha256": "5516d4213622beca547be96a0dd7c8e73e9a15bece6589726b7693e516970d96",
+      "bytes": 2452571,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_27.pcodec",
+      "sha256": "cebc2ad760497e01fa179c98c10c621d3c325e52aee81e363331165957774e10",
+      "bytes": 2399775,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_28.pcodec",
+      "sha256": "a0a4820ed80ce5d0b45963fc33927d1d395a6f6ae145e37d5e36359ec6aa1515",
+      "bytes": 2505800,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_29.pcodec",
+      "sha256": "02dfb9715390afdb02f7af3b1c5598526622a32292d26844e921dce625902203",
+      "bytes": 2574380,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_30.pcodec",
+      "sha256": "0f63ed06bc2f6ba254f705e6c31f1e6802e1ed4fd4675052f6f767bd45ef84ea",
+      "bytes": 2654540,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_21_31.pcodec",
+      "sha256": "8cdd829cf04038755efc0ad24fa32ae1fe0c384c47e69fb695ceab27bc631511",
+      "bytes": 2791215,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_22.pcodec",
+      "sha256": "44239d44fa30d6bba1d93c09d6028074aef523797bbbe66478755e5b36d1108f",
+      "bytes": 1942745,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_23.pcodec",
+      "sha256": "2b9e53cf4f4a5d5e6621b04166970962e0d4f8cd54246ee356bf50dd5f685f04",
+      "bytes": 2633712,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_24.pcodec",
+      "sha256": "cec21562271e52078a57f2f9ce1a44232f1949de53826e1a695c9b5d64b4b7b3",
+      "bytes": 2643133,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_25.pcodec",
+      "sha256": "79d4fcc9c46a0d31155af803c2df8657a33e573147088bd3e6cf2cecc93677f5",
+      "bytes": 2548239,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_26.pcodec",
+      "sha256": "b5b1e7c5b3c74137f52aa84f12e3aa01416231da6c78e0f28abb6273e771dd8d",
+      "bytes": 2581756,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_27.pcodec",
+      "sha256": "e2b4209c27bda35258b85adeac6bdd59a7bc86b26812d95dbedafbf95665b139",
+      "bytes": 2596602,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_28.pcodec",
+      "sha256": "2f67b91a8004f5e686241ce8724129fed0040d3dba62b9a9433e6f0153c7cdaa",
+      "bytes": 2644033,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_29.pcodec",
+      "sha256": "0d5bd902aa8b3d0726324b755877a61294c76aebcdbc2f6d376f6571897b225f",
+      "bytes": 2473129,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_30.pcodec",
+      "sha256": "efe7ed7a725bb5776a00df557c8d4de473818c1599f7eee0b7ed5286d6ac603d",
+      "bytes": 2647200,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_22_31.pcodec",
+      "sha256": "fd418e914a739464d7a4243105a0822d577b8808856bf9a520b717b92bfd0427",
+      "bytes": 2829904,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_23_24.pcodec",
+      "sha256": "2b1f380d058602da962b897ea0994d525c59a7e58875c9cfe5a5744581ddaba2",
+      "bytes": 2756457,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_23_25.pcodec",
+      "sha256": "e5fd29f23635b1ed34982c13145ab2edad0303f5fba6f04ec7139c9c7d36d7a7",
+      "bytes": 2532007,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_23_26.pcodec",
+      "sha256": "e5a67996020f35260ce3c18bc939d0cf771ccc6a97d56ec095556e97eee5b9c9",
+      "bytes": 2572989,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_23_27.pcodec",
+      "sha256": "b650c120df03b3a53beb07520d6a71a9c3b7ce86639b0dbf0be71d4978ee5d33",
+      "bytes": 2677840,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_24_24.pcodec",
+      "sha256": "575d8bf61aad49d56a7c3e262db389f9c65e805ecb9575a8c3961c0dd0e3ab49",
+      "bytes": 2701907,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_24_25.pcodec",
+      "sha256": "2c1d20c11a060f378758a109e5f2ec91b783eeac928d425393bf45db05e1434e",
+      "bytes": 2584087,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_24_26.pcodec",
+      "sha256": "22acfe4655bd3233f4ad504f816a5419201d1516cbb052089ffdff3c7c5ab5b5",
+      "bytes": 2635505,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_24_27.pcodec",
+      "sha256": "9997c102ded8a30264dacb27a16acb25a8843d531e5f3fb5a6c6433f9d9f0172",
+      "bytes": 2340771,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_25_25.pcodec",
+      "sha256": "c97f411522a29315f1b52cd704387b4f3b906b94ef56dc7251dfaf691bfb13d9",
+      "bytes": 2691890,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_25_26.pcodec",
+      "sha256": "c57f4135d2737264148b88e2a5104a0a5818fceb22bae373f77560edfc8b798f",
+      "bytes": 2691729,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_26_25.pcodec",
+      "sha256": "821e198dfa1766bea46b2dd9c16622fb9b4db992d06cfe734f0c510cd4f3174e",
+      "bytes": 2779265,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_26_26.pcodec",
+      "sha256": "5015a55ea7948be6b8830844767a444739acb6d2fbfb31292a44afbbd7c45740",
+      "bytes": 2638943,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_27_25.pcodec",
+      "sha256": "93b9b9fe79288ab21ad230c0249f567d3bb73ec94d7e86b74b31ceef495828fe",
+      "bytes": 2272435,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/t2m/84_27_26.pcodec",
+      "sha256": "a403a8e8be85bd84324244d500f71b6e02ce6bb399de7643ad75b8b264946e54",
+      "bytes": 2567664,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_19_25.pcodec",
+      "sha256": "a05d8b904fe5f4a30748ab2101741c2f64f4dc596a7d7f5e0501361624304686",
+      "bytes": 845037,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_19_26.pcodec",
+      "sha256": "32d49500421b877f8b527038e5f4f94d71b81b7585e5285ab59853b658ff4906",
+      "bytes": 999977,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_23.pcodec",
+      "sha256": "c54ec94a9062e1a678463dd7116d8a7fc0bfe1b3ccd30aa8ecc32a532fadf3d5",
+      "bytes": 307762,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_24.pcodec",
+      "sha256": "d8d172e6d7421535699cbd51c9f5b1e99395d881ec17182c88aa35a8ce2c6ebb",
+      "bytes": 353768,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_25.pcodec",
+      "sha256": "7f9ca861cbb312374d09050c48a3140db8092a4af47b151a390e158d5713af60",
+      "bytes": 477740,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_26.pcodec",
+      "sha256": "9f55c202955e5b4fb6525b5160c38674d7a90a05536180c88128505d5b566db7",
+      "bytes": 688228,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_27.pcodec",
+      "sha256": "74dc7dfbb43654d6fb77b64dc3d795e03abf1fe8a8d412f28d4e3ee613001c93",
+      "bytes": 1051836,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_28.pcodec",
+      "sha256": "63d747381a60f55e5828f7cd8fe36cc119d56e9535b5393df06ff4e9c39d93b8",
+      "bytes": 1206911,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_29.pcodec",
+      "sha256": "aeff42db32a312b2263cf6e24557972d815145cda0bb6ccd68b25374acc6db63",
+      "bytes": 1343097,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_30.pcodec",
+      "sha256": "13ed17adb9da3ade1c6d968b23b67d47fcba96ca47e813f94efbceabf5609c17",
+      "bytes": 1452521,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_31.pcodec",
+      "sha256": "a9aca5d325030814786a7354a3b1e3de74322140e18c57322b2f180a24676127",
+      "bytes": 1576550,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_20_32.pcodec",
+      "sha256": "1a31e1aadcdfcbc07c941e80ac285541a9c8d44b0a4fbfc7a1e7f4a8534e38f8",
+      "bytes": 1471050,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_22.pcodec",
+      "sha256": "5815ff458a8e684c53590aae9e8d97eeb9714bb8cee9e62520eae094a0701898",
+      "bytes": 409281,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_23.pcodec",
+      "sha256": "5559464de92a74697cfe29661a361d4134b88105f5e645027b3bd9f8b8d4d1d8",
+      "bytes": 368085,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_24.pcodec",
+      "sha256": "1c9fdb0858f078109acc97db993f072c7e3ce169065078804ff9fb82a8a7282a",
+      "bytes": 471168,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_25.pcodec",
+      "sha256": "014c0ec0823aecf99fc888a1d7eba8f16042b1890e0a751b2bfea7ead8488991",
+      "bytes": 542435,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_26.pcodec",
+      "sha256": "1ae3d50be444c47e3253858d9706e6afd47766a42c7b889b90c376a16e471a83",
+      "bytes": 554150,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_27.pcodec",
+      "sha256": "a66f5de4cd094d7f72f11b4ee9a1d47f76a74b15619d1f77739323462b0be3d4",
+      "bytes": 598904,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_28.pcodec",
+      "sha256": "2cc1ee6bce344b41ae8ae817dcf66e297b44cb4330490ac10fc365daedf07f33",
+      "bytes": 714187,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_29.pcodec",
+      "sha256": "d77365d82b3b25625d0944875192bfa57d91669721a462488cf062c36e10c82c",
+      "bytes": 992593,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_30.pcodec",
+      "sha256": "f84b3f0cedbaf2ca3cd2053c88f7458d23767e560bbd2314a594f0653c1e99d6",
+      "bytes": 1175301,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_21_31.pcodec",
+      "sha256": "0120494f052d8c3d8ed412b35ff86796fbf5def0df8b879a34c320da1d19681d",
+      "bytes": 1160994,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_22.pcodec",
+      "sha256": "80995727b103bc8140d8ac3102cef73ccbb76878c4a40ba511850cf26f9bc74d",
+      "bytes": 574272,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_23.pcodec",
+      "sha256": "980dd43a17ca2fdffc1279f4f6a2129a29b2a8bd43136468cfe4d2f79a941548",
+      "bytes": 534169,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_24.pcodec",
+      "sha256": "315f31a08b44d578312699674b5c8cc6ced40e605d691fae8829af2c09a30ea1",
+      "bytes": 598147,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_25.pcodec",
+      "sha256": "fbbe60ba3f5c03e81545a75a85bcec100c63644f6acb90d35d663819b3353319",
+      "bytes": 643331,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_26.pcodec",
+      "sha256": "774f82eda265079caa93eeb2c355d38eed7d6f1c3d2926a0b6c997f3990aefed",
+      "bytes": 672590,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_27.pcodec",
+      "sha256": "a93697569880bb6378446b56985309fc7d2154ae9666768fe1cf7a4e8f874c64",
+      "bytes": 711604,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_28.pcodec",
+      "sha256": "20510ed4c0213eb3ad5e4e77e5230e35e7d559cf91cb37e31e74386bac226efa",
+      "bytes": 784091,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_29.pcodec",
+      "sha256": "262d204feabac7e6b59db318844e8e94b5ef58daa535c930e6f55dbd233309ad",
+      "bytes": 887633,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_30.pcodec",
+      "sha256": "51d25c641308fbcf8c1fd936392746c563b90148c8d7cd60133ddf5963f33024",
+      "bytes": 999506,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_22_31.pcodec",
+      "sha256": "f1d3c5b8d99007957570e18bb7d063336179eb4556fafc826b80b5f972be7533",
+      "bytes": 927747,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_23_24.pcodec",
+      "sha256": "53690b5a3a57d6ae63b5435edf529e10016fa765dfc93f641719eda57d659b17",
+      "bytes": 792483,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_23_25.pcodec",
+      "sha256": "33fb4a6abe14598127a512f8c34774a9bd12645c567da05eac0db0f0ae000c92",
+      "bytes": 704366,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_23_26.pcodec",
+      "sha256": "2011285212b70dd76df3990c9707c953a7533a81fc4074cbfbcae5df65963359",
+      "bytes": 755660,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_23_27.pcodec",
+      "sha256": "5d4fe8e116c9c5f884a00644170249ecbca4fb74d97c2ed91ac160799cd8f574",
+      "bytes": 813714,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_24_24.pcodec",
+      "sha256": "2c3b8a052d0239f2910b5fd217426276610e72627f7c3177ae5f03d151ca62f6",
+      "bytes": 957818,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_24_25.pcodec",
+      "sha256": "d8727b69616e19e96bd74f8e4724c1f4b8113b3b88139aac8a1de7ef490d0d68",
+      "bytes": 772330,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_24_26.pcodec",
+      "sha256": "4676cde6e943c9b833951df81dfd32054a5ec38f20e0d2f26f513d85b0e7d2ed",
+      "bytes": 776085,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_24_27.pcodec",
+      "sha256": "38626bfbe265aca0adf7d16191a6c7cc838b9ea81bc263919889bb7cc44e35af",
+      "bytes": 905600,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_25_25.pcodec",
+      "sha256": "154ab0191195ad9898b8581db869feb9185d360f6acf32f22ffb06844286bf00",
+      "bytes": 1033511,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_25_26.pcodec",
+      "sha256": "0fd2d28d21137621e88cc42d8ee4ee5be0ee8ba182ef22ffeaaefb41a8212012",
+      "bytes": 869577,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_26_25.pcodec",
+      "sha256": "ad0b6d854106d6ec906e9eba17a1d7c9e952a6d845193bdb63bb30ad25a94ff4",
+      "bytes": 1363042,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_26_26.pcodec",
+      "sha256": "6a955b7ffb1b0a14674d7706be70d6b336c6566af1745abb2ecf18a0500d8469",
+      "bytes": 1008916,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_27_25.pcodec",
+      "sha256": "ea416a8480b374596824fb25d10f2437a3beba5000ad50a94798415056349809",
+      "bytes": 1417264,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/82_27_26.pcodec",
+      "sha256": "7ec33435140ace260463a64b2df4ae3028e72b626a366336a6f257aa8e32cdac",
+      "bytes": 1270465,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_19_25.pcodec",
+      "sha256": "60d2a4e2bbdc20edfe07b37e0706611199eb3aacc6c1688bd5ef9cf3cd16ed95",
+      "bytes": 743266,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_19_26.pcodec",
+      "sha256": "dcd7c526a8f47b8cf7858f881537ca334c23fc0e1aefd1034e4844654fffb441",
+      "bytes": 873393,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_23.pcodec",
+      "sha256": "a0f88fdffed7c58e8837e4d1f87b0e51b02d075bbae2c55f4ff136130fd684b0",
+      "bytes": 237806,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_24.pcodec",
+      "sha256": "bc3d08f7dd89175ab932512da692b73015fdf11d51c1f882078a2a67ce44c6f9",
+      "bytes": 305652,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_25.pcodec",
+      "sha256": "ccbb3fe8d735423fc681f65d7195cf9bbcf6418accceee5326dd99eaaf4dd289",
+      "bytes": 470138,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_26.pcodec",
+      "sha256": "76f3a66be5dc1e4e678c97a12d06cd59c6b727efd4373e5b90376a0722821ef0",
+      "bytes": 639450,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_27.pcodec",
+      "sha256": "75da7c57e820f888677d727db7aee8e4d743dd2611703d84aeaaaf48232bd079",
+      "bytes": 913912,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_28.pcodec",
+      "sha256": "0e5afb140deb1204b4d4c72a105803e6a9b063f7472461695a935092908913fc",
+      "bytes": 1164852,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_29.pcodec",
+      "sha256": "b7330f50a9b39f5a5e0bfaa851b184223413e49d840081cdc6a7d2b591ae24ed",
+      "bytes": 1296310,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_30.pcodec",
+      "sha256": "b6fc5d6801d8992a2100c46b32359b79319807d93ff92a37fa0b9fac4b44d99e",
+      "bytes": 1399187,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_31.pcodec",
+      "sha256": "f0913b17d9bf36bdd551c5c7f409e47e61a7448a8aa6aaa3a1276713b09dfc8e",
+      "bytes": 1566490,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_20_32.pcodec",
+      "sha256": "a12ae2b6a102c60ed6f102cbc6238ca0f8eac7464d6c8c579ad08a75fabec29d",
+      "bytes": 1552526,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_22.pcodec",
+      "sha256": "c07be2f3ed58b59ed0c8c0495cfb3c2cfa6eb6346f3013bbca471264282e40b1",
+      "bytes": 313857,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_23.pcodec",
+      "sha256": "283570ebca829d5bd03458d3cd81bacbfdfd142e20c6a59d06ac2d006036e9b0",
+      "bytes": 282154,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_24.pcodec",
+      "sha256": "cecc9366750b36d2669db844f3af0dd8b528f914d4c4e007fc75dc0775eefeab",
+      "bytes": 422960,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_25.pcodec",
+      "sha256": "624bd6fc1df0b0dbce0997247c98e5d05d8fd95f969030910ccb91e7afe81ff1",
+      "bytes": 543536,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_26.pcodec",
+      "sha256": "d367fdc8a0c251f5f367b9bb7e74dc94c133ff03bda86383086e752fdb2c5439",
+      "bytes": 578954,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_27.pcodec",
+      "sha256": "a9e3652c0993e75e55afeba0090a31039d255f02484b3edb77cb9f2d3b9078b5",
+      "bytes": 616486,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_28.pcodec",
+      "sha256": "e6c64941b46b2be98d5b259ccd87360d9c603d6331352fab4e8e409a7e08629c",
+      "bytes": 688032,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_29.pcodec",
+      "sha256": "98e0e123586f5cf384f2cbbd176e3dcfb105aa955e533e20394e0eafed821c74",
+      "bytes": 906307,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_30.pcodec",
+      "sha256": "457f3f2d469fb6774e2bf39cf6db56a3a34c78880246f1720f05400ed145d4ea",
+      "bytes": 1149521,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_21_31.pcodec",
+      "sha256": "fd1bab486bc43750d61268d2f0f25b7e311d660bcdbbc44dce71b5509c43992c",
+      "bytes": 1141691,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_22.pcodec",
+      "sha256": "5afa147838dd24329cb2f7574088ce1252c4458a1b46b54b06ee12ee07c98c58",
+      "bytes": 517026,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_23.pcodec",
+      "sha256": "94da80b362893128de70acebed5fcd58bc6000d09fd82b9f5d18c9338f161f58",
+      "bytes": 475779,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_24.pcodec",
+      "sha256": "be171dba2ff6c24976ea0aa3d2a992a05728f8abd574ccec1cbc110772535400",
+      "bytes": 549557,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_25.pcodec",
+      "sha256": "37691787c5589c610e06188a6e3561238b64a55b164a00f064c2b19dfa3f09b1",
+      "bytes": 626626,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_26.pcodec",
+      "sha256": "c75dfa2f5c0105be6bf031b65cde4f8ae78cbec07fe1e5fd1fa635194fe5d92e",
+      "bytes": 691484,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_27.pcodec",
+      "sha256": "6b040511c4ef1fbf2db1c1d4bb5f68671ca3588b0822911ee285e802e4a619c8",
+      "bytes": 740398,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_28.pcodec",
+      "sha256": "7682c626c40df1103daae3a07912b073ec72cff437c74f643cba30d44d253109",
+      "bytes": 780573,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_29.pcodec",
+      "sha256": "1a758080f78c215847a32fab2ec40afb3e1f55f93e41ca4cf8e23fde0b19ba3b",
+      "bytes": 832528,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_30.pcodec",
+      "sha256": "25282b11d3fc22de85ed97a7224a402e8387f4cd4e08714dac061c86964acb22",
+      "bytes": 984140,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_22_31.pcodec",
+      "sha256": "4fc1435cd9751166d17d2f0407bc564267f5a26c5cd5e3cce000d99500eaaa03",
+      "bytes": 906648,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_23_24.pcodec",
+      "sha256": "a5b4b32255f868be1870e7c039e9dc80e7d55a9656699d903401acacdce38519",
+      "bytes": 718566,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_23_25.pcodec",
+      "sha256": "63f66451bc9205958637fa205b7f6d11e8da96b89e131e1f3b82b60cc0a84ac3",
+      "bytes": 684609,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_23_26.pcodec",
+      "sha256": "cb23e3df88ba11e961b988dd57f55d95b1cfd780270593338dd15004f64df310",
+      "bytes": 711958,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_23_27.pcodec",
+      "sha256": "e6fbf048289ac0ad4bdda9b4ff8a374a915eef9a18d3b2e5f6512e779eb8a3f4",
+      "bytes": 792322,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_24_24.pcodec",
+      "sha256": "25ce80c8fe90057492d21f18513f1306a40e530cfccf51250f27b1592fd3de81",
+      "bytes": 875235,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_24_25.pcodec",
+      "sha256": "ecb03e0c38b2ac609957e6bb5b176e9733ff900af169fd8e3d6dafee4ed2ad62",
+      "bytes": 723028,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_24_26.pcodec",
+      "sha256": "69415d2b24dd5e517013c5de6a2de880c4f6522f8d3cb0385914f1fcb5788fb7",
+      "bytes": 734830,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_24_27.pcodec",
+      "sha256": "b5a074373ff3ba1fb10f337d9e4250cf2de5aa62a219a696a10c30920658cfe1",
+      "bytes": 806201,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_25_25.pcodec",
+      "sha256": "3859bf25dc5e42cfc7d310ac4ae89a5a6d08aa50cae6efd174f922c8794aadbb",
+      "bytes": 906430,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_25_26.pcodec",
+      "sha256": "82bac3b68f4f820ef51897458c4e1a22bceda5a533bf468eff429d7a59646b2f",
+      "bytes": 800022,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_26_25.pcodec",
+      "sha256": "777aceb9017a40c91892a04236166845f9482bf78054d54394af1068419c65df",
+      "bytes": 1288530,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_26_26.pcodec",
+      "sha256": "5b9d369c018c10d75745c65adab211cc55598e7374d330ebbbc175c058ff0be8",
+      "bytes": 992173,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_27_25.pcodec",
+      "sha256": "02c809b5530d219423381bedc93b945cd380d482b5cdeda66c8c7fa8093fb48d",
+      "bytes": 1466567,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/tp/84_27_26.pcodec",
+      "sha256": "d44dd722acd4aa2e3664a4aac9c051160f9014aa3b9db23757fea416c5dbae93",
+      "bytes": 1368891,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_19_25.pcodec",
+      "sha256": "88eefb5933da23a27bacf04e76314adef6c6dcb0b4582b181d6bdc35d9c47f93",
+      "bytes": 2720258,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_19_26.pcodec",
+      "sha256": "6b892635a44f526bcd841173e89e0cfb695c12eca0eca6e334a60a4bfc7da747",
+      "bytes": 2719871,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_23.pcodec",
+      "sha256": "e1604a12ed09a71408244503102a9c6fe41d88db3da9a3da8e9b1619d6a5b5c6",
+      "bytes": 2734402,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_24.pcodec",
+      "sha256": "4f039e4274cf2d5bc73233f995d5ee9db3cc8b543e22e357fcbee47cbe255b60",
+      "bytes": 2661159,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_25.pcodec",
+      "sha256": "16c7e4900de83b51d9949efb434c750981d88fc4c09da7bb1040ac603ffee97b",
+      "bytes": 2682519,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_26.pcodec",
+      "sha256": "abef2026596e29d6c9aa64e4d65821e1fd0382bb3ac5e64cbbcfa7715e9e7551",
+      "bytes": 2691728,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_27.pcodec",
+      "sha256": "72caa8b7001957093862c13bca8aef16dbccb983402e20343fa8aaf96939f9a3",
+      "bytes": 2714697,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_28.pcodec",
+      "sha256": "4469386d0c3107b492173c4a5cca3881b369a9ce13e895d65c9ee3d0a6bd154d",
+      "bytes": 2710955,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_29.pcodec",
+      "sha256": "2c313bcd4910e025fe4f5aa713a25efe3747b6a618b8d8459beddd36448be1f3",
+      "bytes": 2727984,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_30.pcodec",
+      "sha256": "bc9258f954c2328bf1347206d491066ed998ecf26ad0d4b5721ba196648c4a58",
+      "bytes": 2761528,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_31.pcodec",
+      "sha256": "adbc25e1ce423913a2025629907d1ebb26e35178ad1fe33b783ce88e489e2b67",
+      "bytes": 2681514,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_20_32.pcodec",
+      "sha256": "3dc8cdc4dd517ecb30e8f6f8698178e8b5fe19c3aad0e08d77124f6f9ebcea83",
+      "bytes": 2725335,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_22.pcodec",
+      "sha256": "4ef42aa605b98f441eddd57e74e20d03715c965c42bc0c12c633d61dc3d64fb3",
+      "bytes": 2799669,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_23.pcodec",
+      "sha256": "1bd88a8f47f8d1431b9e86cffe1bcd0756ae3a5cf2fcf6c91b99b22591560828",
+      "bytes": 2700567,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_24.pcodec",
+      "sha256": "d605911b1bd107f502d8202b9fd3149726c98a04e2db03d4b2c690496b1d9736",
+      "bytes": 2688838,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_25.pcodec",
+      "sha256": "881890299334e7f2f62c3230194531ba1a2cf72a605fd15ff667956ac65da40e",
+      "bytes": 2678492,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_26.pcodec",
+      "sha256": "83b1a57810c08efa246df186269cd5a7d4e896f2241fc70f1354b3825972e213",
+      "bytes": 2643834,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_27.pcodec",
+      "sha256": "f7c0c213d2eba5852ba3c3fa93b2f86434c47fc13878c1fb633871938c474bfd",
+      "bytes": 2615463,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_28.pcodec",
+      "sha256": "ba21f47bc9b93f60ce03fb1bfed98226486cccccd00aa0ee74175b34e9c64620",
+      "bytes": 2627730,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_29.pcodec",
+      "sha256": "69b022f951dd0f6595ad036bb8d98f5e7ad19fd477a9e95dadf6b3625ffd4424",
+      "bytes": 2650876,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_30.pcodec",
+      "sha256": "5f71e54ac82b7871fbae0569e6b786235f9a5ff7a086e7b7854c5c30e2fa355f",
+      "bytes": 2670206,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_21_31.pcodec",
+      "sha256": "23799f2463b3e0f8ad0684c19c4cd056ddd03e72751fe52dab45177ee5495c3a",
+      "bytes": 2709225,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_22.pcodec",
+      "sha256": "aa228efb4625088ab55750123e7f7279a869f30712c26877450096316c75cdd8",
+      "bytes": 2698049,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_23.pcodec",
+      "sha256": "5858c80f9a274fc2edb3c80a1a4c8acc1fa79dace8f490258f0efa0efea2d0f1",
+      "bytes": 2778913,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_24.pcodec",
+      "sha256": "3bfdb96a9aefceeef748022d8dc5c9785273471119464366fc378b52cec4e26b",
+      "bytes": 2715181,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_25.pcodec",
+      "sha256": "6a87b0728ab1e7b88eae8b2c9c05987593094693b8f44c9fef5ac4cb60721677",
+      "bytes": 2662910,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_26.pcodec",
+      "sha256": "2dd0749793ebb6c148f2f47e5e9f2b90d7be39fd954901a6eb78863aebd9728f",
+      "bytes": 2680671,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_27.pcodec",
+      "sha256": "58da52668cd391a075cfe7134c8dce89f58ada63e2a5bfa9ea446ce231031977",
+      "bytes": 2676027,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_28.pcodec",
+      "sha256": "3af58723ada4ba368f5a80eee2ed693cc3c6bbbfafb83ca36bc93c1d3eca6492",
+      "bytes": 2715040,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_29.pcodec",
+      "sha256": "284335992382e69573654ba018bfa9aea70930d0bcda75d0eeeab81a93e7b2a3",
+      "bytes": 2638730,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_30.pcodec",
+      "sha256": "f321273cd7ad287158cbb8cf7af691fae1844920df774d1508c98096cb95b6e9",
+      "bytes": 2717424,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_22_31.pcodec",
+      "sha256": "9fea91e6cf2efb9af815aadafeab448231a0895b010b93cc381478457b585aba",
+      "bytes": 2761934,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_23_24.pcodec",
+      "sha256": "083971671c079447d85cabcd32289a839098a54a316d35f3c9edfe6181f6d873",
+      "bytes": 2833678,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_23_25.pcodec",
+      "sha256": "3e9040dc25b61f92ddec7d143e55547166b1d1a616f11c5d92a1e188b64515dc",
+      "bytes": 2657304,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_23_26.pcodec",
+      "sha256": "a3a4ccede01902bb5a40c03f1416cd45e304b52dbc95757c8f2c95428cb6064b",
+      "bytes": 2676599,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_23_27.pcodec",
+      "sha256": "64a58e3604cacb5e4f9f8527bc9e3e15aac46c6aa7f486b0f347da2adc1a6db7",
+      "bytes": 2741407,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_24_24.pcodec",
+      "sha256": "9513642bbbbd131ccc246722bab2a909add65f2cdc26cf9e5f362087eaceda84",
+      "bytes": 2826429,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_24_25.pcodec",
+      "sha256": "f46e476dfd41623c950bf15aec95ccbaf7c46f8452064bc1fec70853da604892",
+      "bytes": 2698331,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_24_26.pcodec",
+      "sha256": "088e2b3e8483ae0167a73f1f62c255cc8729c1528510eee6de1999f936e5347c",
+      "bytes": 2720925,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_24_27.pcodec",
+      "sha256": "c93060a78ec8dea8193f54b3ad1dc7ba101b3f2c202a876e30902fa1ee2839a4",
+      "bytes": 2751379,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_25_25.pcodec",
+      "sha256": "3d76c85baf593124ad837542e3b9f4de98fa94d9aa299496cf34344d595239a3",
+      "bytes": 2749895,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_25_26.pcodec",
+      "sha256": "7c340d68fd3f74229b567b9e01dde5806a5cf1a09de39c48106629a68f50926b",
+      "bytes": 2783580,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_26_25.pcodec",
+      "sha256": "d264830ff3ff0949583f8cbb7aab358df201198966034e4c24f09ce6d277df15",
+      "bytes": 2852521,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_26_26.pcodec",
+      "sha256": "85c2569ea99d282f58ba06673c277118530e1851aedda371f11594d9d62c6b25",
+      "bytes": 2816605,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_27_25.pcodec",
+      "sha256": "707b42c5c55ed811edf191b34f53360799e3deb8deef81f3f3dfdd876fc646a5",
+      "bytes": 2763990,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/82_27_26.pcodec",
+      "sha256": "2ad0ef957dff0c2055fa72986e62800a5b9f3268085ddb244f37e50d05b6e79d",
+      "bytes": 2860488,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_19_25.pcodec",
+      "sha256": "d2d0cfa2b65964d5d4c3025d6f2503e61eec05f4b19db991a7255335209ab71c",
+      "bytes": 2730174,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_19_26.pcodec",
+      "sha256": "e1ffc56e95c194756caffec3f075aa712a5c59362125fa139e883892ca1eca18",
+      "bytes": 2730076,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_23.pcodec",
+      "sha256": "a759a0d16f653df0a3ba490df856e5d7b89ad5f4f3550ff176c08436b1aa68e0",
+      "bytes": 2746917,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_24.pcodec",
+      "sha256": "71bf7581023b05b5f75340515c5aaccdbda6fc12a3a952d79aab8baa61b61a33",
+      "bytes": 2673781,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_25.pcodec",
+      "sha256": "89106cad1dca89a6d354c2b7e13c2e793e30735428c8c7418655e4171a298fef",
+      "bytes": 2703215,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_26.pcodec",
+      "sha256": "9b985f1095e48e880fd71153c6098f77b115b1551f3a14e9087b1b76033f79b5",
+      "bytes": 2701994,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_27.pcodec",
+      "sha256": "81ddbdd3c1d9bcd01e1a0bd50e411caf865131744704a36c9489bb2d07052730",
+      "bytes": 2727346,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_28.pcodec",
+      "sha256": "55254e28b0315cfebf65692990e4b0a60cd9695c667e9e6b326b73ba9c2e4784",
+      "bytes": 2719643,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_29.pcodec",
+      "sha256": "a98726f94bdb0aee9b28a711c096fafdbb7f2762ff6ae63cd5779ecefb1899a8",
+      "bytes": 2752539,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_30.pcodec",
+      "sha256": "cd10d0c377facf369b898ac7fe0ba03110a84c3772e6d38a48820f9c22c57bc3",
+      "bytes": 2778144,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_31.pcodec",
+      "sha256": "65c97b56f0aad18cdd1b30d22b21c6f2c97f12623f61831bf1835a017548b552",
+      "bytes": 2696431,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_20_32.pcodec",
+      "sha256": "123d78196dfbac1714189f977b91b744bda6e2825cebc3366dbc46bf23ca7dd3",
+      "bytes": 2738584,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_22.pcodec",
+      "sha256": "25e96574ea416c572afd54a676fbe41fd797e8f07642cc9685c953108cd63600",
+      "bytes": 2809805,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_23.pcodec",
+      "sha256": "4075ef83f623a140a72f1bb17cf4c0539c2a7b415b99d948b43cd0c651b3f5d6",
+      "bytes": 2724791,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_24.pcodec",
+      "sha256": "bc32791418918a4cd8d78b566eb798927c6e89dc7191f90670de15d73c01fc2c",
+      "bytes": 2709505,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_25.pcodec",
+      "sha256": "50f373c3576a102695f93406c55f4c81571113af44560c54c5b1a04178b09490",
+      "bytes": 2688460,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_26.pcodec",
+      "sha256": "f4bf3b2b5a1625783335054a5184d73acbd1f7013c921b3d0b7d5e9e3cb0b6ea",
+      "bytes": 2652666,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_27.pcodec",
+      "sha256": "18c0bbb069503ecd4719a7f36193d69f83f8559dea19b7b3ea6ea70a65bf6e5c",
+      "bytes": 2635543,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_28.pcodec",
+      "sha256": "4929c6f81bf32e4a94b55d4d53d2d705728b2f122f9f38bdb088ec36f8654fc2",
+      "bytes": 2654748,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_29.pcodec",
+      "sha256": "ef3ec9ed82511b1215ef0868911b1b183ec7ec54258bbb41c571d2ccb8eee68e",
+      "bytes": 2674955,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_30.pcodec",
+      "sha256": "198231b317d2295b5e45ccda2c2e2f3a61cb872659c3b18fa502be6f83853b38",
+      "bytes": 2701267,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_21_31.pcodec",
+      "sha256": "258d11d6555a1c6d61d8012ec3d5e435a36b90582723102ef99c102cdaac5371",
+      "bytes": 2730236,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_22.pcodec",
+      "sha256": "2ab0a3ffc03ebc3232d1986f139db7927ed41f9ab939f22046ee91dd6aca8829",
+      "bytes": 2690349,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_23.pcodec",
+      "sha256": "eb5dd8ad3e7d4008c4d9f6de797afb21f6acbc3e903ca0a24411c1cc738d62c6",
+      "bytes": 2790180,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_24.pcodec",
+      "sha256": "8b396b388f8983f3fd5df4c924c1a855dae6c8def21154f67f711f685addf927",
+      "bytes": 2737176,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_25.pcodec",
+      "sha256": "a5cb374d4dc227c49d69710c15bedf3bc6eab5bc605ead9292202e830bd33590",
+      "bytes": 2670740,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_26.pcodec",
+      "sha256": "674755140dba18be9deab893a12d7f9987502d249010db4238ed8e9ff065f426",
+      "bytes": 2690798,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_27.pcodec",
+      "sha256": "e910c7d9e3dc7951337742e6c8a96807d95e179e039b2dc09a946e7dfdae33c6",
+      "bytes": 2691392,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_28.pcodec",
+      "sha256": "6512c147afac74e6b77ee134aed47b2e42dfb5e6abc13d5e7397bf1b796e2f04",
+      "bytes": 2727830,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_29.pcodec",
+      "sha256": "f4e59accdbc61d90bed2205fce8c2f80283a9d8e38b189cd83ddf8bd5c7aafd9",
+      "bytes": 2669024,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_30.pcodec",
+      "sha256": "0b0fa49567a701f83086225d716898aa088a6fced7e1c0ba6d81255bc685405c",
+      "bytes": 2743941,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_22_31.pcodec",
+      "sha256": "b83d62f2cca3649ffb8ab637a4d6794228104db5c0548c8a57597e4e5c3175bf",
+      "bytes": 2778617,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_23_24.pcodec",
+      "sha256": "04d37aa30c579effd4788cdf0ac9f3e348f51691a43b7a02173c503c7a140ccf",
+      "bytes": 2853069,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_23_25.pcodec",
+      "sha256": "bad96e12cb9993fbbb73cdd78a656e400c11f699a11d045d7e91ee0eac6182a9",
+      "bytes": 2675454,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_23_26.pcodec",
+      "sha256": "5f5487cba05d000eed627aabd9b20131c8137e9f50c9025a51de4aa81e979a1a",
+      "bytes": 2698285,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_23_27.pcodec",
+      "sha256": "c890f63f2b0afadbce619ebe0dd7e6c1b286a42c340f64193f28380049a8a6f1",
+      "bytes": 2758486,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_24_24.pcodec",
+      "sha256": "20c5374218cc8c66509b1909b0b6291b48c7eb61015104037422a6450977a810",
+      "bytes": 2847979,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_24_25.pcodec",
+      "sha256": "9ae28da0031b919f5d0ee168f9eacedeae80d64e17ff51799e8faeab5aa4b975",
+      "bytes": 2808674,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_24_26.pcodec",
+      "sha256": "4fab95e739989389f377098d49e06a1ec31e3aa4926c988d23d02c16899b4a02",
+      "bytes": 2745723,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_24_27.pcodec",
+      "sha256": "bc9d5a66f229c60436fd4f03c1d54cfd52d9e14042123f3b83f203ac7c0c3b26",
+      "bytes": 2768951,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_25_25.pcodec",
+      "sha256": "6ff10b7a68ad8337a8c1181314b10ecf714036e1c6a1c590f2247a921f840e4b",
+      "bytes": 2778675,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_25_26.pcodec",
+      "sha256": "81ce8b897e3910e605a24442b6c2159bd6b219d57b176893f7eb7992733a39f9",
+      "bytes": 2805788,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_26_25.pcodec",
+      "sha256": "60b5f4d13267e75932f4e750ea124e340ad5a2015276c9a07a34f76f89b54aff",
+      "bytes": 2864571,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_26_26.pcodec",
+      "sha256": "7e63d6e0cb52b5960c33f6877a2546f98c64ed8f3a84e402d664ad78dbf55159",
+      "bytes": 2837285,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_27_25.pcodec",
+      "sha256": "a8eef19256b967a881d4402c83d5b37508afcfe8600730d671b89e768621ef23",
+      "bytes": 2777867,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/u10/84_27_26.pcodec",
+      "sha256": "d015dad62b443b0a0fae5c29f4895e376d83a6743e022b98641a8e515a179982",
+      "bytes": 2859020,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_19_25.pcodec",
+      "sha256": "c2cfcf5c73751a980ec87a8434320522336dcfd83c56e4526435fc3dd46399fd",
+      "bytes": 2686894,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_19_26.pcodec",
+      "sha256": "478405c88e4f55b97da940e912808f70962ade7b779b01053dd132d82fde8248",
+      "bytes": 2717549,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_23.pcodec",
+      "sha256": "36bc1017569d29b530b0f234171759797569076049dbfdf9a259891938a351e1",
+      "bytes": 2744440,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_24.pcodec",
+      "sha256": "e4343d5989d40c34de24e6e13877b9b7c33bac41053c52ae9d65393516d45738",
+      "bytes": 2649319,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_25.pcodec",
+      "sha256": "8a736b7f4976ac01d7361215493ebcc7d7c3bdc1ef2d12a5ca7932fd0f13586e",
+      "bytes": 2646614,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_26.pcodec",
+      "sha256": "07a13ef8f2966b67370de97f81ecd330be3cda3e38ddbfbb813acdc7cf10e669",
+      "bytes": 2638499,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_27.pcodec",
+      "sha256": "3c5d783f03bb1aa93b01f025132d97c8c176decb1d4446655fd62f81cfaa578c",
+      "bytes": 2656678,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_28.pcodec",
+      "sha256": "58113af94e43786109d68fa0b4b80d37c7254ce716bf9edc5154c4195803d036",
+      "bytes": 2677330,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_29.pcodec",
+      "sha256": "127d667ec206e2ee2b4694d379cacec2521be7bbc1811f0905903fa1d8c62336",
+      "bytes": 2678414,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_30.pcodec",
+      "sha256": "1c56d0fa9d28a5fcb7e6eff200d1a023eab8f15b3a548981fbf708cedf5548dd",
+      "bytes": 2675326,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_31.pcodec",
+      "sha256": "c102d506a185f0e6f9e04ef0a07c25e37890445bef7cebd1d4459f76a0bd806b",
+      "bytes": 2635114,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_20_32.pcodec",
+      "sha256": "d2d6f0fd7f9245d18e90aa6616180decf6d82cfd42cda9e33cc700fdeeb358af",
+      "bytes": 2654196,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_22.pcodec",
+      "sha256": "0f448d21d52bb00dedc070a335d9ee30dc04a5f4239065c396c7a4a2e57dcfb2",
+      "bytes": 2761643,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_23.pcodec",
+      "sha256": "5e66834bbcaad113eef587524bb7b9652345d05c208fcb9d79205493a13c1509",
+      "bytes": 2664392,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_24.pcodec",
+      "sha256": "804b673268b3b35d6cc87eca969f5b3960f67bb20272882dd829580b608ad73b",
+      "bytes": 2703954,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_25.pcodec",
+      "sha256": "31eb5489aaa8292dd324dc56bff237921293c7b46a9ea68a457913d35273dbdc",
+      "bytes": 2643060,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_26.pcodec",
+      "sha256": "b9b8994b6d4ce6fa80cd67e5fdeb765c6fb27b1e5cd5cc222324c202a270c050",
+      "bytes": 2601187,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_27.pcodec",
+      "sha256": "1dc2363fb8a3627da4d1330dba78d2c89d95b4d43e5fa088eb014820c443e2e2",
+      "bytes": 2576227,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_28.pcodec",
+      "sha256": "1559d2408a8e98763fa8acd28fe0dd790c780dd2f3967242e5bc68a1999f9f21",
+      "bytes": 2598049,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_29.pcodec",
+      "sha256": "97620c9b43ae718b34c1c4174e8c414898022564a027b64fe93d2599a8f226c3",
+      "bytes": 2611292,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_30.pcodec",
+      "sha256": "2fd2d1e124c9b14262643302c76e4505a7b7e1549527d9cc69ce3b1a981793f4",
+      "bytes": 2654941,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_21_31.pcodec",
+      "sha256": "f5ef4474646b787023eb7dc7806937a5da883d04f9b9a00d52dd517e5265e06a",
+      "bytes": 2691412,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_22.pcodec",
+      "sha256": "9d42cf381d9f1cc0c9c1f5260750bc9e1c1e7788caf8974cc770cbc4d9f98f53",
+      "bytes": 2565521,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_23.pcodec",
+      "sha256": "f49b5d22e828e2e76ca6696d1a39801c18cf921f828da292a94bf236b934e86c",
+      "bytes": 2699757,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_24.pcodec",
+      "sha256": "6c3b73be0a3ceee42458f8f1eab3b7c3007a38dad49a0c776628ba20c7870f03",
+      "bytes": 2721155,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_25.pcodec",
+      "sha256": "99a933b9250c9aa1316e98d579dd0a9877dc504d775fec2b94267b2ba0bb8361",
+      "bytes": 2632260,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_26.pcodec",
+      "sha256": "880d66d98561f5213d227869b166548664c87faf9a9f7be1deba1b54e7a931b8",
+      "bytes": 2665036,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_27.pcodec",
+      "sha256": "6241f57fecb2761a63843bd6a0f10c548e19e7883bcb48b206293a2eb55c6536",
+      "bytes": 2651518,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_28.pcodec",
+      "sha256": "8d72cff7ea85caf67c2534205942bec0e8597eb53abc1dfccf00fed5cb6a85b1",
+      "bytes": 2674257,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_29.pcodec",
+      "sha256": "7ade1924bbed358e18329761302c86f1680c28d89e060a9aa6ecaa69bcbb04a5",
+      "bytes": 2655802,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_30.pcodec",
+      "sha256": "c867a76f86a929eb25375d28d90c50bd9b651ebfd5e7252798d56225921df4ee",
+      "bytes": 2761964,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_22_31.pcodec",
+      "sha256": "8adef005a29aba099b4845c99e823ae4256715e9416b56bb9d3557eff37f9ea6",
+      "bytes": 2723318,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_23_24.pcodec",
+      "sha256": "134d589e7a578ef8eed8a8e7f1bbf79392281d9b0856eb0d84028173aa3e7eb0",
+      "bytes": 2809246,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_23_25.pcodec",
+      "sha256": "491d67917461102df9e9555ae69f44abcd5c729541b6279c6d15ae877b8a0184",
+      "bytes": 2630785,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_23_26.pcodec",
+      "sha256": "9d1d4cd225af91e36b92e55403fa93eba39b1d432bf08cb6693fbfd0dc2b002e",
+      "bytes": 2631718,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_23_27.pcodec",
+      "sha256": "c1a4897344fa1789732d76b8be865fa067b5e260cb3a0d66c295ae1e43cb5532",
+      "bytes": 2697268,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_24_24.pcodec",
+      "sha256": "11e528c89c24fa2f859e41aa4eca4c7238c62bcfd4dd363e12f09fdc9ff8c9e5",
+      "bytes": 2783089,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_24_25.pcodec",
+      "sha256": "0261c40e1b9be2a2da5bee94e2f40b698fb353be17cbb501917039a2964909c1",
+      "bytes": 2642253,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_24_26.pcodec",
+      "sha256": "56341f9cea326e8c7436f3f364c0ac443c0dec57ae11022e4616501c3b6070ed",
+      "bytes": 2674528,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_24_27.pcodec",
+      "sha256": "2d6a02666575f6f723ecc47f67c0da830797b3af4bc98456954debe8e7fd42a7",
+      "bytes": 2763497,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_25_25.pcodec",
+      "sha256": "c9803eef82545073b654fe88003103d686d389f2da6855f69bc5537b92806bef",
+      "bytes": 2658612,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_25_26.pcodec",
+      "sha256": "e836aece5d5a183dc136e98126903242d5cd2922521c43cd7ccf22356e2d13a2",
+      "bytes": 2776631,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_26_25.pcodec",
+      "sha256": "7cb86b81fc7611d187d382cdd8288ded6162ec7507c14efc474c67ac78852d2c",
+      "bytes": 2795417,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_26_26.pcodec",
+      "sha256": "05c4f215e6e12b37ed7be8bdcfcd6ec6c6e8c446a668815b8a049c0896fb4e75",
+      "bytes": 2836757,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_27_25.pcodec",
+      "sha256": "7b22a1f8c7df5f50c900bcb9e40471e6317a07aef72b83fd49780ee2a64df9b1",
+      "bytes": 2725823,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/82_27_26.pcodec",
+      "sha256": "87b07d7c71ed1e75638cd945bb3f1a7b66e83b997961c65ab13abf6052bebbc2",
+      "bytes": 2819149,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_19_25.pcodec",
+      "sha256": "f12fd8127b94c6b3ce941528913a815c0f7b0409db4dd651e30b9a537e755f96",
+      "bytes": 2687213,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_19_26.pcodec",
+      "sha256": "c9d2a4c0b475bd1cbbcaa742c9addc541a1b85e33b09f0185f830efd76ff17a6",
+      "bytes": 2713641,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_23.pcodec",
+      "sha256": "4bafbf9ad5dd5aecb5a834d876404dc41f6b3c4f66694b1e4bb284c6376c8dd1",
+      "bytes": 2742549,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_24.pcodec",
+      "sha256": "f02928cf2b05bcafdfea67596f5382c569f45a5fc831c16f06f69a30004b7444",
+      "bytes": 2661719,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_25.pcodec",
+      "sha256": "d3295c73a03847fe9d87a3686aafbd12b5c385ff511e28765ef065a7eb3cbd30",
+      "bytes": 2653867,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_26.pcodec",
+      "sha256": "0de82ccc0d46d3e54699d5e14919bb4e93a524d48839301babecf3006b022b5f",
+      "bytes": 2645745,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_27.pcodec",
+      "sha256": "24e01a351065d7b914271d7a5e445fb23084cf1ef74febfa1a1a09d1d63dfe7e",
+      "bytes": 2660977,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_28.pcodec",
+      "sha256": "c44391f173ac0d275a36a8728a7ed6dabc5736345a182f94514ad045b872c42b",
+      "bytes": 2676059,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_29.pcodec",
+      "sha256": "3a3b23e8616ee68de984e8d3a0837693aa64d7ac604f17851b78ecc92fedb9f9",
+      "bytes": 2679928,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_30.pcodec",
+      "sha256": "dcb05fec7088708f0ab3135bdbf7ac0755b74a100dc5ad8decf6744f6fd23e9d",
+      "bytes": 2682357,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_31.pcodec",
+      "sha256": "28857eaa900638acf636b4b2c7694470c55120a76440aa2927dbdfc4c89d36d5",
+      "bytes": 2643455,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_20_32.pcodec",
+      "sha256": "7b55505af52b187362701005cb90d6e8e63a38fbdc7ba2da0448532d57e9d18d",
+      "bytes": 2659828,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_22.pcodec",
+      "sha256": "0e8cc2d0ef305e8d174ff1fee82be970f81f44339923166e5b9d8cac0f11f6c0",
+      "bytes": 2762708,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_23.pcodec",
+      "sha256": "0ca878873418f02c051b71c0e364909da0270dcaec15e21499dfc53d122dd922",
+      "bytes": 2680583,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_24.pcodec",
+      "sha256": "41bc33f724af7a19394882fbde50a897660edb46bb4ca6a9e0e82ffd4bf7df6a",
+      "bytes": 2716546,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_25.pcodec",
+      "sha256": "fef81b6d829489557b45a55f61228d3bee04739cf695c41bddc4aeb2ba4aeb4f",
+      "bytes": 2639510,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_26.pcodec",
+      "sha256": "163ec58dc2aaf10b60621ee062db6d987600f724ebabcbdc522ed7cadaac6712",
+      "bytes": 2602814,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_27.pcodec",
+      "sha256": "a3957c7f7bfaa1de725c90b8cc01b3550604d7120ec991bb5bd113f733112140",
+      "bytes": 2586493,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_28.pcodec",
+      "sha256": "f047f590a02347639bdfbada40f724f62817304f760a1d7b724fea38000c1bef",
+      "bytes": 2606445,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_29.pcodec",
+      "sha256": "4e91bcbcccf5954be91c23db156103d8be6690442b706e3628b6b2c221427d82",
+      "bytes": 2629266,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_30.pcodec",
+      "sha256": "733fbbb2d1d38cc2c6bfb5f6b99aa00552a2940e89c67a06a1f24297336671bd",
+      "bytes": 2669425,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_21_31.pcodec",
+      "sha256": "79047f5cf0bb02ae93d99265137b4f1cbdde7c5cc82453123496be5e0d3594f8",
+      "bytes": 2701648,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_22.pcodec",
+      "sha256": "6c76409520f70de4212add615bd094f85c0c822168607e80001a05f1289eef81",
+      "bytes": 2560718,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_23.pcodec",
+      "sha256": "d9c6eb4ff3a267f994ff12797bafab1f002f42189ffc27ec062b99528b600f7a",
+      "bytes": 2702365,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_24.pcodec",
+      "sha256": "c310d474f5b07ba899d3e0e297b74dcade46980f82690f265dfe0f78a6971f5b",
+      "bytes": 2724570,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_25.pcodec",
+      "sha256": "63344781e458e8256f098abe76711be9cd0e2bc6c7c24a46c36c41d678998519",
+      "bytes": 2637171,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_26.pcodec",
+      "sha256": "73e3715c9440b96ce4ecf3b89271c2a264aa249db277962a75d7674e50523939",
+      "bytes": 2665092,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_27.pcodec",
+      "sha256": "255649f434d36e7c2a34a2a87d9872c9706e566dc8af2ca6a4ee6b4ad11785cf",
+      "bytes": 2654012,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_28.pcodec",
+      "sha256": "551d693758820e94a4e756c31347580d770096174115454ec6989f3783981f72",
+      "bytes": 2672708,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_29.pcodec",
+      "sha256": "c7fe5f2f04c5c5e98e685a2c0fbd30d0ceecd26b319dbf26de40680647d01745",
+      "bytes": 2665523,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_30.pcodec",
+      "sha256": "11b6fb73e7d60002f91d8c1c18a645a55304f977eb267c09657267f67cc0244c",
+      "bytes": 2774279,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_22_31.pcodec",
+      "sha256": "e8965795630632582f0f022325eca810e9141bebc0b5260c2ba16649e13cd5e0",
+      "bytes": 2739974,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_23_24.pcodec",
+      "sha256": "72bd6737ec69e1461ac1ec89794eaa0917e74df2905de0288effea8ad098058e",
+      "bytes": 2814726,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_23_25.pcodec",
+      "sha256": "520691704b6651d87902ed7112e54013a51acd344c400683a90811ff9f1a216f",
+      "bytes": 2638662,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_23_26.pcodec",
+      "sha256": "94b42515723939ce8af0e0ab27af27fe171d75d2c1c3445985ea72f2933a8bf2",
+      "bytes": 2644852,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_23_27.pcodec",
+      "sha256": "6b66d864615181b59402a768ff9a8b8e614332bff41384ac43b50f32a730c072",
+      "bytes": 2707468,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_24_24.pcodec",
+      "sha256": "33b303c452bf1aa2c07e07a7c6a03eafd46b24ca8da930ebe7def504dfbec6a4",
+      "bytes": 2795947,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_24_25.pcodec",
+      "sha256": "16c6f805a40707d4710e21d0c853b34b2bd9b6a83cdf5e34b3ad4a6ffd9f35ac",
+      "bytes": 2660815,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_24_26.pcodec",
+      "sha256": "87830e53b08d6ea2b846f86e929217e0da9caf728607d8fa3b2399c5c0b6b4c5",
+      "bytes": 2680985,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_24_27.pcodec",
+      "sha256": "680f32fdafdbc0b0197617e373fe09205eee88734888cf017ab28f2f0ccebbe7",
+      "bytes": 2758241,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_25_25.pcodec",
+      "sha256": "7043b7698aee7975cde2ad9279a88d9e01dbc21072acb80b3a326038c66abc4d",
+      "bytes": 2664752,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_25_26.pcodec",
+      "sha256": "d48a0729ab00599c6b9a79b642c71ad31ab90745df722d1b1ecef2b1c14dd557",
+      "bytes": 2784864,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_26_25.pcodec",
+      "sha256": "449a8acad54234659acbce8e59d43a307aeb2f9988b0c415cfe1b9b6910a25ef",
+      "bytes": 2792109,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_26_26.pcodec",
+      "sha256": "c7a5a8e67119fcb7590565f8eb1a87881679bb4cead9b2bed58cddaab3d73c2e",
+      "bytes": 2834666,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_27_25.pcodec",
+      "sha256": "d1e67b2027098dcc99382ce29a9bdba043a32683abcdae9f526626003ca6b036",
+      "bytes": 2741971,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/chunks/v10/84_27_26.pcodec",
+      "sha256": "c3f9475a208b79e3e5877b9b25cbf200610277400d304c3f7464cda171651e4d",
+      "bytes": 2820372,
+      "context": "retained source chunk"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/zarr.json",
+      "sha256": "36615682d5be9646729635067a75185212eb0c48d708ef06ad34c1f58dd587d2",
+      "bytes": 66,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/zarr.json",
+      "sha256": "36615682d5be9646729635067a75185212eb0c48d708ef06ad34c1f58dd587d2",
+      "bytes": 66,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/zarr.json",
+      "sha256": "b2e99d60db190fa9e980107f58e1c463d0785d833687f994a3ab5fa4281dc1bc",
+      "bytes": 3382,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/zarr.json",
+      "sha256": "51f86c93ffdd8da07f2ffab2567b47385fb8c3f13cb4c5cbd672ddeb1ec22e12",
+      "bytes": 849,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/t2m/zarr.json",
+      "sha256": "43e7c7b7b6a05bdaccb5da6ce1a0ab64d74f42b851dab9121750bfd1a2d64262",
+      "bytes": 1832,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/d2m/zarr.json",
+      "sha256": "231e330293d97838604b4a95c663f352e512f88b81b6bd93e2f865482f6e8917",
+      "bytes": 1850,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/sp/zarr.json",
+      "sha256": "a90b9527ec0d9df13eedcac9033d8dd8b304901210dff063ed428d819eeda925",
+      "bytes": 1853,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/u10/zarr.json",
+      "sha256": "32d45b1f8d577533683dc01fd50e1e2829251eedbccf9d7e19c81e574d02be02",
+      "bytes": 1857,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/v10/zarr.json",
+      "sha256": "f4242f75bc06e3856b16088ee8ffde11a5f5ed101a25338e7898d9875011e03d",
+      "bytes": 1857,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/tp/zarr.json",
+      "sha256": "6a14b9bf9fb86140f664472903a54977bee6ff26b629a53e680180c687a287ae",
+      "bytes": 2033,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/msl/zarr.json",
+      "sha256": "a81758794b4b4674be3ac7275a99935c7e946783b2af18914c4c98d3133d7103",
+      "bytes": 1889,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/valid_time/zarr.json",
+      "sha256": "9b4cd2d05911e638e1c140ed7de69b89a32fd659fd67c9acd0af6b50ce8b2a0a",
+      "bytes": 905,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/latitude/zarr.json",
+      "sha256": "ce4708faa7890fa534c9fefdfc49447359b81259bb96397f2a5d9b6944c68339",
+      "bytes": 849,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/longitude/zarr.json",
+      "sha256": "908444f99a4ff1f87fea3b0a072414c3d57e98cf7c353f30c66dba179c206543",
+      "bytes": 815,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/t2m/zarr.json",
+      "sha256": "62b7769c7ff8897d60a15fd19d44b47560960bc4e10c46ea7f55f0424ef96a90",
+      "bytes": 1280,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/d2m/zarr.json",
+      "sha256": "670f6008cfb575d47cdeeba174ff346d762934fdcc7f947e248f292f85cd9d7f",
+      "bytes": 1289,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/sp/zarr.json",
+      "sha256": "49b5ad1554f5b8f2bd02d793e61b3808e5478d9bbf633f6e5aad5887627fe03b",
+      "bytes": 1276,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/u10/zarr.json",
+      "sha256": "659d3ba470857657880475d296b0e57b59290d925776d1ed161a1ff485c956f7",
+      "bytes": 1287,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/v10/zarr.json",
+      "sha256": "13208d94666e53f2a45df3da8d50615e172a7a9e2037325126ad79f0f1e55301",
+      "bytes": 1287,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/tp/zarr.json",
+      "sha256": "89df7ee30a5cfa5908f0c53399d68a8477f1ae85b2e9049660abc25fb9908376",
+      "bytes": 1483,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/msl/zarr.json",
+      "sha256": "3ec459aceb3369ad29c708774a75f79d0fc173493c9200a4834d82b1a762adb8",
+      "bytes": 1285,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/valid_time/zarr.json",
+      "sha256": "c6f50ba9ba12bf992154eb363ccaacbf900eec045a41ebd1b1499fc6042d0cf0",
+      "bytes": 888,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/expver/zarr.json",
+      "sha256": "a67e09bf78576bc593ff13764baa281056705810f0498cb3819dea3f616993c0",
+      "bytes": 1505,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/valid_time/c/0",
+      "sha256": "54d07132ff76d12c6952f90952857fc499b8bafc16e1f9d48868825b4adc01e9",
+      "bytes": 13304,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/latitude/c/0",
+      "sha256": "dbb5a190478465d0e3431816839967e904aa1d0c1bfdf4745f4bd6ec75a8deae",
+      "bytes": 724,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/longitude/c/0",
+      "sha256": "f5aafd18d81028289cc14d01bff7ecdd0d257386f317a4d24932ee047f64c2ce",
+      "bytes": 1376,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/t2m/c/0",
+      "sha256": "439c62aa79ed025c012bf52d020511ed261b34e1b876385ee011617bd7372759",
+      "bytes": 42,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/d2m/c/0",
+      "sha256": "439c62aa79ed025c012bf52d020511ed261b34e1b876385ee011617bd7372759",
+      "bytes": 42,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/sp/c/0",
+      "sha256": "439c62aa79ed025c012bf52d020511ed261b34e1b876385ee011617bd7372759",
+      "bytes": 42,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/u10/c/0",
+      "sha256": "439c62aa79ed025c012bf52d020511ed261b34e1b876385ee011617bd7372759",
+      "bytes": 42,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/v10/c/0",
+      "sha256": "439c62aa79ed025c012bf52d020511ed261b34e1b876385ee011617bd7372759",
+      "bytes": 42,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/tp/c/0",
+      "sha256": "ed241ae31f69bb68f27110b8714ae2025df68c46e90b199b51dd4dc1cf839405",
+      "bytes": 45,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/msl/c/0",
+      "sha256": "439c62aa79ed025c012bf52d020511ed261b34e1b876385ee011617bd7372759",
+      "bytes": 42,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/valid_time/c/0",
+      "sha256": "54d07132ff76d12c6952f90952857fc499b8bafc16e1f9d48868825b4adc01e9",
+      "bytes": 13304,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/raw/metadata/single/temporal/status/expver/c/0",
+      "sha256": "ca75929439bf930158144d066f11bbf32f62ae1396cd2c393484fc824fd4c88e",
+      "bytes": 42,
+      "context": "native metadata"
+    },
+    {
+      "path": "work/ee_rebuild/canonical_v2/monthly.csv",
+      "sha256": "17a74e65fffe5ce63dca076fdabc6ad0f217fccf3dc69ef1b15bbe09765403fb",
+      "bytes": 1243441,
+      "context": "canonical input/monthly"
+    },
+    {
+      "path": "work/ee_rebuild/canonical_v2/indices.csv",
+      "sha256": "70b3e2dcf531e1f244d1ef81ea3627b1e428be710d064a3afbde52e50425fe23",
+      "bytes": 58542,
+      "context": "canonical input/indices"
+    },
+    {
+      "path": "work/ee_rebuild/canonical_v2/solar_supplement.csv",
+      "sha256": "946c3f176a5edfafc9f382477760a0c599e899c32b8365c8f57d8b9a8b0dcceb",
+      "bytes": 136941,
+      "context": "canonical supplement/solar"
+    },
+    {
+      "path": "work/ee_rebuild/canonical_v2/gldas21_supplement.csv",
+      "sha256": "2a74f57d6f842d638922d719166d4db43f042e8802f08e139f2d8937696b08aa",
+      "bytes": 389269,
+      "context": "canonical supplement/GLDAS21"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/ERA5_retrieval.json",
+      "sha256": "3838f8865091b9b6df583a0efc6db859835128c965a4721782b36f1df762ccf0",
+      "bytes": 1531,
+      "context": "canonical ERA5 lineage/composition_receipt_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/provider_admission_receipt.json",
+      "sha256": "eca3588af36303bdb5c0f07c4aa4edff5eb230793ef478af33f61429c0bb18f5",
+      "bytes": 1889,
+      "context": "canonical ERA5 lineage/provider_admission_receipt_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/native_recovery_receipt.json",
+      "sha256": "844de2f1bdc9e51f29deb7beba4ebe641c9f252951dd528a809ce67ca3bd6375",
+      "bytes": 2568,
+      "context": "canonical ERA5 lineage/native_recovery_receipt_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/recovery_completion_receipt.json",
+      "sha256": "7456e4ee93892909b8d8df5b410ea39053372374ec63489636d0544b64d64b8b",
+      "bytes": 1526,
+      "context": "canonical ERA5 lineage/recovery_completion_receipt_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/frozen_recovery_contract.json",
+      "sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f",
+      "bytes": 3486,
+      "context": "canonical ERA5 lineage/frozen_recovery_contract_sha256"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/era5_chunks/assembled_for_admission.csv",
+      "sha256": "3629c23705164d45e55038860740b3aa01821c6a35c7e71766f50dee1d7a85dc",
+      "bytes": 758172,
+      "context": "canonical ERA5 lineage/original_ee_csv_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/recovery_6months/derived/monthly_source_rows.csv",
+      "sha256": "431779ede8f78b1e345e5ce151c5afd2871dc67b688c034dae8d77f36aed81db",
+      "bytes": 11672,
+      "context": "canonical ERA5 lineage/recovered_csv_sha256"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/CAAdapFL_ERA5_completed.csv",
+      "sha256": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c",
+      "bytes": 902693,
+      "context": "canonical ERA5 lineage/merged_csv_sha256"
+    },
+    {
+      "path": "work/era5_rebuild/ee_review/preflight_acceptance.json",
+      "sha256": "6a4e76b22302d8bbff8ab2863454689d1c88806990b8489b7b8f929541d7afd6",
+      "bytes": 10764,
+      "context": "canonical preflight"
+    },
+    {
+      "path": "work/chirps_upstream_qa/upstream_verification_receipt.json",
+      "sha256": "8059aa54fb3cf1a0c57a851a62ec427025963543869516ec14f459c5f61864a0",
+      "bytes": 35719,
+      "context": "canonical target receipt"
+    },
+    {
+      "path": "work/power_imd_rebuild/power_native_extraction_receipt.json",
+      "sha256": "a2fcf2f8a34a499cd9ae5b469bf82eff5a256e1c8bd4b2c0421787baecaeea17",
+      "bytes": 15745,
+      "context": "canonical POWER receipt"
+    },
+    {
+      "path": "work/power_imd_rebuild/power_independent_validation.json",
+      "sha256": "1b48b465731c056dc091ffc4dd6cf30df0ae838efee17447173cf18501369c05",
+      "bytes": 3740,
+      "context": "canonical POWER receipt"
+    },
+    {
+      "path": "work/power_imd_rebuild/power_rebuild_complete_file_hashes.json",
+      "sha256": "475aa8408efba0d53de23006303e9fc9c11874191c5d8d02c325a1466f33d20d",
+      "bytes": 23286,
+      "context": "canonical POWER hash manifest"
+    },
+    {
+      "path": "work/src/comparison/caadapfl_drive_comparison_v5/reference_v4/experiment/inputs/v3/artifacts/data/rainfall_panel.csv",
+      "sha256": "5ab390484e367ffc634b11fb900cd9c05134b501de697bce849cc2d5f1b9fb03",
+      "bytes": 561223,
+      "context": "unchanged frozen CHIRPS target"
+    },
+    {
+      "path": "work/power_imd_rebuild/power_native_region_panel_1981_2024.csv",
+      "sha256": "ecf899b10c6652d872f899a9b1bcb18ed84ccb25988767ad263781b95cb621f6",
+      "bytes": 338030,
+      "context": "POWER source panel"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/CAAdapFL_ERA5_completed.csv",
+      "sha256": "9388fa27388de82aebb3a2c4f8df415acd41c5254ea825298400fefe7ee6ec4c",
+      "bytes": 902693,
+      "context": "canonical source/ERA5"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/CAAdapFL_ERA5Land_completed.csv",
+      "sha256": "7d8376900da83886d4660b8667737f72ebcf61f8dbdfe9ac82a8fb741b614a4d",
+      "bytes": 984186,
+      "context": "canonical source/ERA5Land"
+    },
+    {
+      "path": "work/ee_rebuild/completed_raw/CAAdapFL_GLDAS21_completed.csv",
+      "sha256": "95d5c019379ce509a7cda08c945e866544ceab5b62a74e99e809a2fc86bea86e",
+      "bytes": 584210,
+      "context": "canonical source/GLDAS21"
+    }
+  ],
+  "scope": "Read-only final ERA5 composition and canonical v1/v2 admission; no model fits or forecast scores.",
+  "limitations": [
+    "The retained compressed climate chunks were rehashed and their inventory/ranges verified; seven decoded hourly NetCDF arrays were fully numerically verified. The 644 compressed climate chunks were not independently redecoded in this audit.",
+    "Independent provider agreement is regional, with frozen January1981-derived tolerances and March2024 controls; no authenticated CDS bitwise equivalence is established.",
+    "Final revised archives and declared latencies define a retrospective availability scenario, not reconstructed historical operational vintages.",
+    "GLDAS physical three-hour semantics and producer documentation support aggregation; raw GLDAS time bounds are not independently numerically verified here.",
+    "This audit performs no model fitting, model selection or forecast evaluation."
+  ],
+  "elapsed_seconds": 6.5633859999943525,
+  "audit_program_sha256": "ff86aee802cca29b86721d62eed38d8a13702ba0b54f8517f19572e0430c814a"
+}

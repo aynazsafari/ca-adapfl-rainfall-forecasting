@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "repair_months": [
+    "2022-04",
+    "2022-05",
+    "2022-07",
+    "2022-08",
+    "2024-01",
+    "2024-02"
+  ],
+  "control_month": "2024-03",
+  "repair_rows": 30,
+  "control_rows": 5,
+  "source_compressed_bytes": 1465963879,
+  "native_snapshot": "ZFKDHBCTBVHVXM3BQFV0",
+  "independent_native_checks": 245,
+  "provider_checks": 35,
+  "metadata_checks": 60,
+  "imputed_values": 0,
+  "source_raw_sha_manifest": "a739c8fefe99a873adc11afa9a16a3b04d87c386709bc5f285ef836ded3fb7e4",
+  "script_sha256": {
+    "recover_selected_months.py": "695d920329ff88afe19a6640a584aff4724eb8ba0d6192b07decd698c80a8f4d",
+    "native_geometry.py": "4c847292ecca719cca51eecee16b39bdc2abd1b85f79b185c39ffc92f030307b",
+    "compare_provider_control.py": "d84542e2042174df0c66249f78be303d01dfc8c1d07e0e67fa39889ee0d19c0c",
+    "probe_native_precipitation.py": "dcda5c9373d63510c8e4a2313b2b2fa1ec119475b57a90d808a9308d08da0455"
+  },
+  "receipts": {
+    "derived/native_recovery_receipt.json": "844de2f1bdc9e51f29deb7beba4ebe641c9f252951dd528a809ce67ca3bd6375",
+    "derived/provider_admission_receipt.json": "eca3588af36303bdb5c0f07c4aa4edff5eb230793ef478af33f61429c0bb18f5",
+    "source_quality_metadata.json": "6660d226625e694aa24be85a06945639407422eb2fd88347e0bb4c8b0f886e0e",
+    "frozen_recovery_contract.json": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f",
+    "precipitation_native_probe.json": "4f89211434d5a63afe5f929eb1266f092a4e03e7000b6686e0ec262b99efd968"
+  }
+}

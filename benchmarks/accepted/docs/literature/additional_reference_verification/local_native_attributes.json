@@ -1,0 +1,169 @@
+{
+  "ersst6": {
+    "global_attributes": {
+      "id": "ersst.v6.1850JAN-2026SEP.nc",
+      "title": "NOAA monthly ERSSTv6 (in situ only)",
+      "product_version": "v6",
+      "dataset_citation_product": "NOAA ERSSTv6",
+      "dataset_citation_version": "ERSSTv6",
+      "dataset_citation_institution": "NOAA/NESDIS/NCEI",
+      "institution": "NOAA/NESDIS/NCEI",
+      "metadata_link": "gov.noaa.ncei:C01737",
+      "source": "In situ data: ICOADS R3.0 before 2016, ICOADS R3.0.2 from 2016 to present, and Argo SST from 1999 to present. Ice data: HadISST2 ice before 2015, and NCEP ice after 2015.",
+      "references": "Huang, B., X. Yin, T. Boyer, C. Liu, M. Menne, Y. D. Rao, T. Smith, R. Vose, H.-M. Zhang, 2025: Extended Reconstructed Sea Surface Temperature Version 6 (ERSSTv6): Part I. An Artificial Neural Network Approach. J. Climate, https://doi.org/10.1175/JCLI-D-23-0707.1; Part II. Upgrades on Quality Control and Large-scale Filter. J. Climate, https://doi.org/10.1175/JCLI-D-24-0185.1",
+      "climatology": "Climatology is based on 1991-2020 SST of ERSSTv6.",
+      "acknowledgment": "The NOAA Extended Reconstructed Sea Surface Temperature (ERSST) data are provided by the NOAA National Centers for Environmental Information(NCEI).",
+      "date_created": "2025-05-05T00:00:00Z",
+      "date_modified": "2025-05-05T00:00:00Z",
+      "time_coverage_start": "1850-JAN-15T00:00:00Z",
+      "time_coverage_end": "2026-SEP-15T00:00:00Z",
+      "geospatial_lat_resolution": 2.0,
+      "geospatial_lon_resolution": 2.0
+    },
+    "variable_attributes": {
+      "sst": {
+        "units": "degree_C",
+        "long_name": "Extended reconstructed sea surface temperature",
+        "standard_name": "sea_surface_temperature"
+      },
+      "ssta": {
+        "units": "degree_C",
+        "long_name": "Extended reconstructed SST anomalies"
+      }
+    }
+  },
+  "power": {
+    "merra2": {
+      "root_url": "https://nasa-power.s3.us-west-2.amazonaws.com/merra2/temporal/power_merra2_monthly_temporal_lst.zarr",
+      "global_attributes": {
+        "id": "power_merra2_monthly_temporal_lst.zarr",
+        "version": "POWER Version 10.0.0",
+        "institution": "NASA Langley Research Center (LaRC)",
+        "project": "Prediction Of Worldwide Energy Resource (POWER)",
+        "references": "https://power.larc.nasa.gov",
+        "time_standard": "Local Solar Time (LST)",
+        "date_created": "2026-09-14T16:01:07Z",
+        "geospatial_lat_resolution": 0.5,
+        "geospatial_lon_resolution": 0.625,
+        "time_coverage_start": "1981-01-01T00:00:00",
+        "time_coverage_end": "2029-12-31T00:00:00",
+        "comment": "POWER data version 10.0.0 uses the source data resolution."
+      },
+      "variable_attributes": {
+        "T2M": {
+          "units": "C",
+          "long_name": "Temperature at 2 Meters",
+          "cell_methods": "time: mean"
+        },
+        "RH2M": {
+          "units": "%",
+          "long_name": "Relative Humidity at 2 Meters",
+          "cell_methods": "time: mean"
+        },
+        "WS10M": {
+          "units": "m/s",
+          "long_name": "Wind Speed at 10 Meters",
+          "cell_methods": "time: mean"
+        },
+        "PRECTOTCORR": {
+          "units": "mm/day",
+          "long_name": "Precipitation Corrected",
+          "cell_methods": "time: mean"
+        }
+      },
+      "zmetadata_sha256": "1aeecfa471350667df2e8bc1a327f3214ad3546dbc7d91088cfbf6b352359ca8",
+      "retrieved_utc": "2026-10-07T22:00:44.524213+00:00"
+    },
+    "srb": {
+      "root_url": "https://nasa-power.s3.us-west-2.amazonaws.com/srb/temporal/power_srb_monthly_temporal_lst.zarr",
+      "global_attributes": {
+        "id": "power_srb_monthly_temporal_lst.zarr",
+        "version": "POWER Version 10.0.0",
+        "institution": "NASA Langley Research Center (LaRC)",
+        "project": "Prediction Of Worldwide Energy Resource (POWER)",
+        "references": "https://power.larc.nasa.gov",
+        "time_standard": "Local Solar Time (LST)",
+        "date_created": "2024-06-05T20:28:37Z",
+        "geospatial_lat_resolution": 1,
+        "geospatial_lon_resolution": 1,
+        "time_coverage_start": "1984-01-01T00:00:00",
+        "time_coverage_end": "2029-12-31T00:00:00",
+        "comment": "POWER data version 10.0.0 uses the source data resolution."
+      },
+      "variable_attributes": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "W m-2",
+          "long_name": "All Sky Surface Shortwave Downward Irradiance",
+          "cell_methods": "time: mean"
+        }
+      },
+      "zmetadata_sha256": "9296ae59994323bfdd2ef593f2c95eb0ee35e2dd869e03c7863583a3a1b25e68",
+      "retrieved_utc": "2026-10-07T22:00:56.864003+00:00"
+    },
+    "syn1deg": {
+      "root_url": "https://nasa-power.s3.us-west-2.amazonaws.com/syn1deg/temporal/power_syn1deg_monthly_temporal_lst.zarr",
+      "global_attributes": {
+        "id": "power_syn1deg_monthly_temporal_lst.zarr",
+        "version": "POWER Version 10.0.0",
+        "institution": "NASA Langley Research Center (LaRC)",
+        "project": "Prediction Of Worldwide Energy Resource (POWER)",
+        "references": "https://power.larc.nasa.gov",
+        "time_standard": "Local Solar Time (LST)",
+        "date_created": "2024-08-16T13:22:42Z",
+        "geospatial_lat_resolution": 1,
+        "geospatial_lon_resolution": 1,
+        "time_coverage_start": "2001-01-01T00:00:00",
+        "time_coverage_end": "2029-12-31T00:00:00",
+        "comment": "POWER data version 10.0.0 uses the source data resolution."
+      },
+      "variable_attributes": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "W m-2",
+          "long_name": "All Sky Surface Shortwave Downward Irradiance",
+          "cell_methods": "time: mean"
+        }
+      },
+      "zmetadata_sha256": "94de156140172c25f19e5875eb6201cbe2deb253f74b5651e6aa74ee1200202a",
+      "retrieved_utc": "2026-10-07T22:00:52.257019+00:00"
+    }
+  },
+  "mei_v2": {
+    "source_path": "work\\drive\\teleconnections\\MEIv2_monthly_1979-present.txt",
+    "sha256": "90a376fa1b5a07b512ee072d10d4d16312f4f20cbc679979311376aa853dfb68",
+    "first_line": "1979     2026",
+    "footer": [
+      "Multivariate ENSO Index Version 2 (MEI.v2)",
+      "https://www.psl.noaa.gov/enso/mei",
+      "Row values are 2 month seasons (YEAR DJ JF FM MA AM MJ JJ JA AS SO ON ND)"
+    ],
+    "missing_sentinel": -999.0,
+    "jra_vintage_identifier_in_file": null
+  },
+  "gldas21": {
+    "status": "PASS",
+    "source_sha256": "95d5c019379ce509a7cda08c945e866544ceab5b62a74e99e809a2fc86bea86e",
+    "rows": 1500,
+    "variables": 12,
+    "calendar": [
+      "2000-01",
+      "2024-12"
+    ],
+    "unit_policy": "tavg already integrated10800seconds upstream; acc already monthly summed; kg/m2 numerically mm; convert Kelvin to Celsius once; no further integration",
+    "units": {
+      "gldas21_tair_c": "degC",
+      "gldas21_qair_kg_kg": "kg kg-1",
+      "gldas21_wind_m_s": "m s-1",
+      "gldas21_soil_0_10cm_kg_m2": "kg m-2",
+      "gldas21_soil_10_40cm_kg_m2": "kg m-2",
+      "gldas21_soil_40_100cm_kg_m2": "kg m-2",
+      "gldas21_soil_100_200cm_kg_m2": "kg m-2",
+      "gldas21_total_rainfall_mm": "mm month-1",
+      "gldas21_liquid_rainfall_mm": "mm month-1",
+      "gldas21_evaporation_mm": "mm month-1",
+      "gldas21_surface_runoff_mm": "mm month-1",
+      "gldas21_subsurface_runoff_mm": "mm month-1"
+    },
+    "limits": "Full regional-table quality/calendar validation; independent native spatial check January2000 only. Raw hourly time_bnds and custom GEE hour-property origin remain unverified; published backward3h physical semantics used.",
+    "manifest_sha256": "049980766a7bb4c513dd0c86371573af7f55705831031989dc658bfe6add0042"
+  }
+}

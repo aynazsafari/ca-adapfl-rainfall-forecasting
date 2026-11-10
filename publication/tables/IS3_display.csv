@@ -1,0 +1,9 @@
+Policy,Tick60 global/local,VAL global/local,VAL personal
+Local / own,58.59,55.27,—
+Local / shared,59.25,56.00,—
+FedAvg / own K1,56.05,55.43,49.89
+FedAvg / shared K1,52.60,52.12,50.67
+FedAvg / shared K5,55.41,55.17,52.95
+FedAvg / shared K20,61.13,61.57,55.92
+CA-AdapFL / shared K1,50.81,50.53,49.37
+Central pooled / shared,55.97,52.28,—

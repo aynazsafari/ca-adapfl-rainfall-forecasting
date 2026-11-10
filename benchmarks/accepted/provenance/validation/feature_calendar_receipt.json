@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "scope": "real-data calendar/units/schema and training-role invariants only; no model fit or evaluation score",
+  "source_sha256": "5ab390484e367ffc634b11fb900cd9c05134b501de697bce849cc2d5f1b9fb03",
+  "feature_names": [
+    "season_sin1",
+    "season_cos1",
+    "season_sin2",
+    "season_cos2",
+    "rain_origin_lag1",
+    "rain_origin_lag2",
+    "rain_origin_lag5",
+    "rain_origin_lag11",
+    "rain_roll3_mean",
+    "rain_roll3_std",
+    "rain_roll6_mean",
+    "rain_roll6_std",
+    "rain_roll12_mean",
+    "rain_roll12_std",
+    "nino34_anomaly",
+    "dmi_hadisst11_anomaly",
+    "soi_cpc_standardized",
+    "oni_anomaly_3mo",
+    "meiv2_bimonthly",
+    "amv_ersstv6_global_removed_1951_1980",
+    "enso_x_iod"
+  ],
+  "climate_names": [
+    "nino34_anomaly",
+    "dmi_hadisst11_anomaly",
+    "soi_cpc_standardized",
+    "oni_anomaly_3mo",
+    "meiv2_bimonthly",
+    "amv_ersstv6_global_removed_1951_1980",
+    "enso_x_iod"
+  ],
+  "support_rules": {
+    "season_sin1": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "season_cos1": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "season_sin2": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "season_cos2": {
+      "kind": "known_calendar",
+      "target_month_offset": 1
+    },
+    "rain_origin_lag1": {
+      "kind": "observed_month",
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_origin_lag2": {
+      "kind": "observed_month",
+      "latest_origin_offset": -2,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_origin_lag5": {
+      "kind": "observed_month",
+      "latest_origin_offset": -5,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_origin_lag11": {
+      "kind": "observed_month",
+      "latest_origin_offset": -11,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll3_mean": {
+      "kind": "observed_window",
+      "first_origin_offset": -3,
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll3_std": {
+      "kind": "observed_window",
+      "first_origin_offset": -3,
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll6_mean": {
+      "kind": "observed_window",
+      "first_origin_offset": -6,
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll6_std": {
+      "kind": "observed_window",
+      "first_origin_offset": -6,
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll12_mean": {
+      "kind": "observed_window",
+      "first_origin_offset": -12,
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "rain_roll12_std": {
+      "kind": "observed_window",
+      "first_origin_offset": -12,
+      "latest_origin_offset": -1,
+      "source": "CHIRPS-v2-final"
+    },
+    "nino34_anomaly": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "nino34_anomaly"
+    },
+    "dmi_hadisst11_anomaly": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "dmi_hadisst11_anomaly"
+    },
+    "soi_cpc_standardized": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "soi_cpc_standardized"
+    },
+    "oni_anomaly_3mo": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "oni_anomaly_3mo"
+    },
+    "meiv2_bimonthly": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "meiv2_bimonthly"
+    },
+    "amv_ersstv6_global_removed_1951_1980": {
+      "kind": "index_period_end",
+      "latest_origin_offset": -1,
+      "source": "amv_ersstv6_global_removed_1951_1980"
+    },
+    "enso_x_iod": {
+      "kind": "interaction",
+      "latest_origin_offset": -1,
+      "parents": [
+        "nino34_anomaly",
+        "dmi_hadisst11_anomaly"
+      ]
+    }
+  },
+  "shape_per_client": [
+    504,
+    12,
+    21
+  ],
+  "roles": {
+    "train": 299,
+    "monitor": 35,
+    "validation": 71,
+    "evaluation": 96
+  },
+  "evaluation_rows": 480,
+  "future_perturbation_training_stats_equal": true,
+  "missing_required_feature_rejected": true
+}

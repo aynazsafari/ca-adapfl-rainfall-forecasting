@@ -1,0 +1,26 @@
+{
+  "id": "Table3",
+  "role": "static_display_transcription",
+  "rows": 5,
+  "columns": [
+    "Client",
+    "Domain label",
+    "Half-open bounds",
+    "Interpretation",
+    "Rainfall setting",
+    "Constraint"
+  ],
+  "sources": {
+    "metadata/paper_reference.json": {
+      "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+    }
+  },
+  "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+  "files_sha256": {
+    "Table3.csv": "710c147874ab06fc95957c1503885a6c32b9eef62d415f930a557e51a895cbdb",
+    "Table3_display.csv": "710c147874ab06fc95957c1503885a6c32b9eef62d415f930a557e51a895cbdb"
+  },
+  "validation_against_displayed_paper": {
+    "status": "STATIC_TRANSCRIPTION"
+  }
+}

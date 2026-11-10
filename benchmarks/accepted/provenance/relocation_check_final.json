@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-08T21:46:05.281696+00:00",
+  "fresh_path": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\v3_relocation_check_final",
+  "empirical_fits": 0,
+  "synthetic_fixture_fits": 11,
+  "contract_checks": 33,
+  "source_launcher_sha256": "e2acc6bd20b4dc86bd657ac7b6d82517770cbb404187d6cb0cdb6c30b9754014",
+  "prepared_identity_sha256": "021b08e4bc234f4ffa30f175681618da8f85af8d816b65c741d2dfe6ab1baca7",
+  "scope": "Fresh-checkout preparation/path/hash/contract verification only. No duplicate100-fit run and no new evaluation read."
+}

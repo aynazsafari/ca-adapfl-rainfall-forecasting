@@ -1,0 +1,65 @@
+{
+  "status": "PASS_NONNEGATIVE_COMPLETE",
+  "by_month": {
+    "2022-04": {
+      "native_minimum": 0.0,
+      "native_maximum": 0.028883695602416992,
+      "native_hour_cell_values": 2366640,
+      "negative_hour_cell_values": 0,
+      "zero_hour_cell_values": 1955313,
+      "nonfinite_values": 0
+    },
+    "2022-05": {
+      "native_minimum": 0.0,
+      "native_maximum": 0.05229473114013672,
+      "native_hour_cell_values": 2445528,
+      "negative_hour_cell_values": 0,
+      "zero_hour_cell_values": 1780578,
+      "nonfinite_values": 0
+    },
+    "2022-07": {
+      "native_minimum": 0.0,
+      "native_maximum": 0.038239479064941406,
+      "native_hour_cell_values": 2445528,
+      "negative_hour_cell_values": 0,
+      "zero_hour_cell_values": 420305,
+      "nonfinite_values": 0
+    },
+    "2022-08": {
+      "native_minimum": 0.0,
+      "native_maximum": 0.04001164436340332,
+      "native_hour_cell_values": 2445528,
+      "negative_hour_cell_values": 0,
+      "zero_hour_cell_values": 607477,
+      "nonfinite_values": 0
+    },
+    "2024-01": {
+      "native_minimum": 0.0,
+      "native_maximum": 0.016376018524169922,
+      "native_hour_cell_values": 2445528,
+      "negative_hour_cell_values": 0,
+      "zero_hour_cell_values": 2070448,
+      "nonfinite_values": 0
+    },
+    "2024-02": {
+      "native_minimum": 0.0,
+      "native_maximum": 0.011013984680175781,
+      "native_hour_cell_values": 2287752,
+      "negative_hour_cell_values": 0,
+      "zero_hour_cell_values": 1948335,
+      "nonfinite_values": 0
+    },
+    "2024-03": {
+      "native_minimum": 0.0,
+      "native_maximum": 0.01814889907836914,
+      "native_hour_cell_values": 2445528,
+      "negative_hour_cell_values": 0,
+      "zero_hour_cell_values": 2130304,
+      "nonfinite_values": 0
+    }
+  },
+  "negative_examples": [],
+  "source_values_changed": false,
+  "raw_tp_chunks": 92,
+  "required_flow_semantics": "One-hour amount ending validity timestamp; (00 first day,00 first day of next month]"
+}

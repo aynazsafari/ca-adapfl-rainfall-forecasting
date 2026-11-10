@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="506.88pt" height="470.592pt" viewBox="0 0 506.88 470.592" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-11T00:48:10.298480</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 470.592 
+L 506.88 470.592 
+L 506.88 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 17.46 126.614965 
+L 226.08 126.614965 
+L 226.08 49.464847 
+L 17.46 49.464847 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #f1f4f6; stroke: #5e6973; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 280.8 126.614965 
+L 489.42 126.614965 
+L 489.42 49.464847 
+L 280.8 49.464847 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #f1f4f6; stroke: #5e6973; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 228.080566 84.350118 
+Q 253.441175 84.350118 277.571947 84.350118 
+" clip-path="url(#p0c1bfe14f7)" style="fill: none; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 272.771947 81.950118 
+L 277.571947 84.350118 
+L 272.771947 86.750118 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #444b52; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 278.799434 110.514071 
+Q 253.438825 110.514071 229.308053 110.514071 
+" clip-path="url(#p0c1bfe14f7)" style="fill: none; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 234.108053 112.914071 
+L 229.308053 110.514071 
+L 234.108053 108.114071 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #444b52; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 17.46 291.649129 
+L 226.08 291.649129 
+L 226.08 217.853365 
+L 17.46 217.853365 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #f1f4f6; stroke: #5e6973; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 280.8 291.649129 
+L 489.42 291.649129 
+L 489.42 217.853365 
+L 280.8 217.853365 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #f1f4f6; stroke: #5e6973; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 228.080566 244.688188 
+Q 253.441175 244.688188 277.571947 244.688188 
+" clip-path="url(#p0c1bfe14f7)" style="fill: none; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 272.771947 242.288188 
+L 277.571947 244.688188 
+L 272.771947 247.088188 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #444b52; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 278.799434 274.206494 
+Q 253.438825 274.206494 229.308053 274.206494 
+" clip-path="url(#p0c1bfe14f7)" style="fill: none; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 234.108053 276.606494 
+L 229.308053 274.206494 
+L 234.108053 271.806494 
+z
+" clip-path="url(#p0c1bfe14f7)" style="fill: #444b52; stroke: #444b52; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="253.44" y="20.617412" transform="rotate(-0 253.44 20.617412)">CAAA messages in a one-process simulation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(67.620781 72.268031)">Five simulated clients</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(43.164531 84.299281)">Local TRAIN labels and updates</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(35.546562 98.268031)">Local monitor and outer validation</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(50.767656 110.299281)">Local target scaling and q80</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(341.679531 72.114125)">Parameter server</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(298.610781 84.299281)">Additive normalized CAAA weights</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(332.89125 98.268031)">Size + monitor score</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(304.392812 111.268031)">+ fixed TRAIN climate relevance</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(88.433125 163.51423)">Each round: states, scalar losses and fixed TRAIN strengths.</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(112.906406 178.91423)">Broadcast the global model at each training round.</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(52.645 245.479372)">One-time TRAIN summaries</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(23.340312 257.510622)">Sample count; input sum, squared sum</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(41.587969 271.086403)">Two local ENSO/IOD correlations</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(317.67875 244.510622)">Shared input mean and SD</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(308.158437 258.479372)">Climate correlation summaries</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(322.485781 270.510622)">Plain numerical payloads</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(123.847969 331.231877)">Upload input statistics and climate summaries.</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'" transform="translate(143.543125 346.631877)">Broadcast the input mean and SD once.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(99.293906 391.785412)">No secure aggregation or differential privacy is implemented.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(91.9525 405.785412)">Graph controls separately require aligned TRAIN rainfall sharing.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'" transform="translate(91.193906 419.785412)">Central and static-router controls use declared raw-data pooling.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0c1bfe14f7">
+   <rect x="7.2" y="7.2" width="492.48" height="456.192"/>
+  </clipPath>
+ </defs>
+</svg>

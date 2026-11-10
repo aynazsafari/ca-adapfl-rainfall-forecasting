@@ -1,0 +1,75 @@
+{
+  "additional_CI_policy": "11 archived diagnostic contrasts, fixed before fresh evaluation; all10 archived router identities included regardless of point score, plus personalCAAAvsTRAINclimatology. Unadjusted percentile95% paired-seed common-date intervals at blocks12/6/24,2000 draws each,seed731. Not merged into accepted31 or new36-family tests; no confirmatory claim.",
+  "additional_unadjusted_pairs": [
+    [
+      "ROUTER_CORE_convex",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "ROUTER_CORE_equal_weight",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "ROUTER_CORE_robust_convex",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "STATIC_OOF_RIDGE_CORE_V2",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "ROUTER_CORE_validation_best",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "ROUTER_FULL_convex",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "ROUTER_FULL_equal_weight",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "ROUTER_FULL_robust_convex",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "STATIC_OOF_RIDGE_V2",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "ROUTER_FULL_validation_best",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ],
+    [
+      "CAAA_PERSONAL_FULL_V2",
+      "TRAIN_MONTHLY_CLIMATOLOGY"
+    ]
+  ],
+  "created_utc": "2026-10-08T21:14:01.015352+00:00",
+  "evaluation_script_sha256_at_archive_freeze": "c98e6e833099bac9f7dc124470dacbc9416501d6fe99a0c01fdf6548b078ea2d",
+  "fresh_evaluation_not_opened": true,
+  "historical_period_already_inspected": true,
+  "legacy_label_mapping": {
+    "CAAA_GLOBAL_FULL_V2": "CAAA_GLOBAL_FULL",
+    "CAAA_PERSONAL_FULL_V2": "CAAA_PERSONAL_FULL",
+    "POOLED_EXTRATREES_V2": "raw_pooled_ET_FULL_latest",
+    "STATIC_OOF_RIDGE_CORE_V2": "ROUTER_CORE_temporal_OOF_Ridge_stack",
+    "STATIC_OOF_RIDGE_V2": "ROUTER_FULL_temporal_OOF_Ridge_stack",
+    "TRAIN_MONTHLY_CLIMATOLOGY": "training_seasonal_mean"
+  },
+  "legacy_raw_sha256": "31caf6b3dff04ce4737591d9057374470ae15844014083ed62f03b66591fd23a",
+  "legacy_run_sha256": "c10ec7499adba7470982ec57eb2daaba0634d79adae49ccb53ebca6309a218fb",
+  "router_labels": [
+    "ROUTER_CORE_convex",
+    "ROUTER_CORE_equal_weight",
+    "ROUTER_CORE_robust_convex",
+    "ROUTER_CORE_temporal_OOF_Ridge_stack",
+    "ROUTER_CORE_validation_best",
+    "ROUTER_FULL_convex",
+    "ROUTER_FULL_equal_weight",
+    "ROUTER_FULL_robust_convex",
+    "ROUTER_FULL_temporal_OOF_Ridge_stack",
+    "ROUTER_FULL_validation_best"
+  ]
+}

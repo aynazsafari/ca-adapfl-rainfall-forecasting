@@ -1,0 +1,31 @@
+{
+  "id": "IS2_all_blocks",
+  "role": "saved_numeric_evidence",
+  "rows": 84,
+  "columns": [
+    "contrast_id",
+    "title",
+    "metric",
+    "delta",
+    "CI95_low",
+    "CI95_high",
+    "block_length_months",
+    "repetitions",
+    "interval_role",
+    "metric_role",
+    "multiplicity"
+  ],
+  "sources": {
+    "benchmarks/sharing/evaluation/paired_CI_7.csv": {
+      "sha256": "f60f01e842b9c3648229fe240f816ce009874b289b28fd18eb4e753ddd3b082e",
+      "rows": 84
+    }
+  },
+  "formula_or_selector": "All 84 saved intervals at block6/12/24; no uncertainty resampling.",
+  "files_sha256": {
+    "IS2_all_blocks.csv": "f60f01e842b9c3648229fe240f816ce009874b289b28fd18eb4e753ddd3b082e"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "control_month": "2024-03",
+  "native_comparisons": 35,
+  "metadata_comparisons": 60,
+  "frozen_tolerances": {
+    "t2m": 0.0001,
+    "d2m": 0.0001,
+    "sp": 0.01,
+    "msl": 0.01,
+    "u10": 0.0001,
+    "v10": 0.0001,
+    "tp": 1e-05
+  },
+  "maximum_native_absolute_differences_by_variable": {
+    "t2m": 9.827681424212642e-07,
+    "d2m": 5.163077503311797e-07,
+    "sp": 0.0003355585940880701,
+    "u10": 2.2149152234529623e-07,
+    "v10": 3.052252618429563e-07,
+    "tp": 9.691959349938939e-07,
+    "msl": 0.00024990946985781193
+  },
+  "files": {
+    "earth_engine_table": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\ee_rebuild\\completed_raw\\era5_chunks\\assembled_for_admission.csv",
+    "earth_engine_sha256": "3629c23705164d45e55038860740b3aa01821c6a35c7e71766f50dee1d7a85dc",
+    "earthmover_table": "C:\\Users\\niman\\Documents\\Codex\\2026-10-08\\https-drive-google-com-drive-folders\\work\\era5_rebuild\\recovery_6months\\derived\\monthly_source_rows.csv",
+    "earthmover_sha256": "431779ede8f78b1e345e5ce151c5afd2871dc67b688c034dae8d77f36aed81db",
+    "native_receipt_sha256": "844de2f1bdc9e51f29deb7beba4ebe641c9f252951dd528a809ce67ca3bd6375",
+    "frozen_contract_sha256": "b9b548defedaf4938e0e710492e54324eb96bc2d293085f58af8debc799f914f"
+  },
+  "source_repair_scope": "Six rejected ERA5 months, all seven variables; March2024 is verification control only",
+  "cause_verified": "Earth Engine six rejected months have21 missing tp validity records in total; state bands complete",
+  "numeric_difference_explanation": "Small cross-provider differences are measured; no proven encoding cause and no bitwise equivalence claim",
+  "no_imputation": true,
+  "historical_availability": "Retrospective final reanalysis, no historical operational vintage reconstruction"
+}

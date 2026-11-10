@@ -1,0 +1,32 @@
+{
+  "id": "S12",
+  "role": "saved_numeric_evidence",
+  "rows": 4,
+  "columns": [
+    "model",
+    "R2_mean",
+    "R2_std",
+    "RMSE_mm_mean",
+    "RMSE_mm_std",
+    "MAE_mm_mean",
+    "tail80_RMSE_macro_mm",
+    "tail80_bias_macro_mm",
+    "tail80_underprediction_macro_fraction",
+    "nonheavy_RMSE_macro_mm",
+    "MSESS_vs_climatology",
+    "negative_predictions_total_over_2400_seed_specific_rows"
+  ],
+  "sources": {
+    "benchmarks/accepted/publication/revision_v3/S12_components.csv": {
+      "sha256": "b297b15632c5866614b870762e1b806e3ac46ea960baf8f536121cce19d7076c",
+      "rows": 4
+    }
+  },
+  "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+  "files_sha256": {
+    "S12.csv": "b297b15632c5866614b870762e1b806e3ac46ea960baf8f536121cce19d7076c"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "figures_individually_viewed": [
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "repairs": [
+    "S5paramcollision removed; vertical panels6.45in",
+    "S7vertical fullwidth panelsfont11;6.45in",
+    "S6 6.45in; paired intervals readable"
+  ],
+  "numeric_content_unchanged": true
+}

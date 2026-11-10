@@ -1,0 +1,118 @@
+{
+  "status": "SYNTHETIC_LAYOUT_PASS",
+  "scope": "All nine watermarked synthetic plates individually inspected; no research results read. Actual plots still require separate independent QA.",
+  "requested_image_detail": "original",
+  "display_note": "Large images may be resized by the viewing surface; native file dimensions independently checked.",
+  "checked_at_utc": "2026-10-08T01:47:55.395874+00:00",
+  "script_sha256": "33fa076c12f576057f4ee2e38b547be0bd858d74ac61b4937da44c1d614baafe",
+  "frozen_plan_sha256": "7c62f5c40d4f1d2a55c3f8d763dd6dae2b50c2cb3b9fcb61bc3e21884ff200a0",
+  "synthetic_companion_manifest_sha256": "e959ea1f59c517f418fad5768daa50cf57cac2938dc02b4dcb00f8e486976e62",
+  "plates": [
+    {
+      "id": "P01_paired_01_08",
+      "png_sha256": "43c37efae4c619e61f157f2cea2f88d15f80ae255e24330076a86682ff1e6d93",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P02_paired_09_16",
+      "png_sha256": "819febb27d77e6e597426a1b43769b34b409068c747a5d4f099438029fb034e2",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P03_paired_17_24",
+      "png_sha256": "b199bc0ab617736d4b6485ddb921f8b68e34bb5f723287c3ae8fb2b535a539e7",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P04_paired_25_31",
+      "png_sha256": "195d4fc8d96e82f9d5a7f5e3e19d6ef75e1ac0fd8e7e29480ecdc511e5d7e861",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P05_global",
+      "png_sha256": "3c772f34382610fd0358573cc52605cb97fb5220b5e41859c2dae7363135057f",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P06_personal",
+      "png_sha256": "961828585cd72c5e21ab520e6087897df752bba337f1127876cd0d7e81a45878",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P07_anchor",
+      "png_sha256": "471fe01c8a40a9232eb631016db999ac811be4bcf85097ba42e239cb9c048e4d",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P08_training_graphs",
+      "png_sha256": "adfde55e28977f0e0f892aa4417ccc369cb8a90c702b1376338ca1d28abf10d4",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    },
+    {
+      "id": "P09_client_PR_seed42",
+      "png_sha256": "bb560efd919d10b129e07daa021b8062cf7bd6a4bdbe4f93b5d7bf7114057149",
+      "layout": "PASS",
+      "specific_checks": [
+        "text/axis-label separation",
+        "full frozen identities and order",
+        "font and native canvas checks",
+        "legible markers or cells"
+      ]
+    }
+  ],
+  "repairs_before_acceptance": [
+    "Anchor axes moved to avoid short-canvas header/footer overlap",
+    "Graph annotation reduced to one decimal; exact color/CSV values preserved",
+    "PR left margin enlarged",
+    "Tick labels filtered to inside displayed range"
+  ],
+  "no_actual_evaluation_access": true
+}

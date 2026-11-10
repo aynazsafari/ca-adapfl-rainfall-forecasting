@@ -1,0 +1,124 @@
+{
+  "months": [
+    "2022-04",
+    "2022-05",
+    "2022-07",
+    "2022-08",
+    "2024-01",
+    "2024-02",
+    "2024-03"
+  ],
+  "recovery_months": [
+    "2022-04",
+    "2022-05",
+    "2022-07",
+    "2022-08",
+    "2024-01",
+    "2024-02"
+  ],
+  "compatibility_month": "2024-03",
+  "snapshot_id": "ZFKDHBCTBVHVXM3BQFV0",
+  "country_sha256": "4cdbe7cba953c55e4c6591b779128484c2e203ff0c3433b1826bafca95a4d090",
+  "mask_sha256": "74626a048e80b5de14c71942bcb39ce4cfe7a58e0f57fe4bd42fd9f8a4ec4569",
+  "temporal_tiles": [
+    82,
+    84
+  ],
+  "union_cells": 3287,
+  "clients": [
+    "Client1_NW_Arid",
+    "Client2_Indo_Gangetic",
+    "Client3_NE_Himalaya",
+    "Client4_South_Peninsular",
+    "Client5_Central_India"
+  ],
+  "native_counts": {
+    "Client1_NW_Arid": 690,
+    "Client2_Indo_Gangetic": 912,
+    "Client3_NE_Himalaya": 419,
+    "Client4_South_Peninsular": 466,
+    "Client5_Central_India": 864
+  },
+  "native_areas_m2": {
+    "Client1_NW_Arid": 480341683617.71234,
+    "Client2_Indo_Gangetic": 628694062126.6187,
+    "Client3_NE_Himalaya": 289867073466.9678,
+    "Client4_South_Peninsular": 350126033795.4796,
+    "Client5_Central_India": 621836987223.4167
+  },
+  "periods": [
+    {
+      "month": "2022-04",
+      "start": 720984,
+      "end_inclusive": 721704,
+      "hours": 720,
+      "source_interval_start": "2022-04-01T00:00",
+      "source_interval_end": "2022-05-01T00:00"
+    },
+    {
+      "month": "2022-05",
+      "start": 721704,
+      "end_inclusive": 722448,
+      "hours": 744,
+      "source_interval_start": "2022-05-01T00:00",
+      "source_interval_end": "2022-06-01T00:00"
+    },
+    {
+      "month": "2022-07",
+      "start": 723168,
+      "end_inclusive": 723912,
+      "hours": 744,
+      "source_interval_start": "2022-07-01T00:00",
+      "source_interval_end": "2022-08-01T00:00"
+    },
+    {
+      "month": "2022-08",
+      "start": 723912,
+      "end_inclusive": 724656,
+      "hours": 744,
+      "source_interval_start": "2022-08-01T00:00",
+      "source_interval_end": "2022-09-01T00:00"
+    },
+    {
+      "month": "2024-01",
+      "start": 736344,
+      "end_inclusive": 737088,
+      "hours": 744,
+      "source_interval_start": "2024-01-01T00:00",
+      "source_interval_end": "2024-02-01T00:00"
+    },
+    {
+      "month": "2024-02",
+      "start": 737088,
+      "end_inclusive": 737784,
+      "hours": 696,
+      "source_interval_start": "2024-02-01T00:00",
+      "source_interval_end": "2024-03-01T00:00"
+    },
+    {
+      "month": "2024-03",
+      "start": 737784,
+      "end_inclusive": 738528,
+      "hours": 744,
+      "source_interval_start": "2024-03-01T00:00",
+      "source_interval_end": "2024-04-01T00:00"
+    }
+  ],
+  "cap_climate_bytes": 2000000000,
+  "network_workers": 2,
+  "instantaneous_time_semantics": "[00 first day,00 first day of next month)",
+  "precipitation_time_semantics": "One-hour amount ending validity timestamp; (00 first day,00 first day of next month]",
+  "provider_compatibility_absolute_tolerances_native_units": {
+    "t2m": 0.0001,
+    "d2m": 0.0001,
+    "sp": 0.01,
+    "msl": 0.01,
+    "u10": 0.0001,
+    "v10": 0.0001,
+    "tp": 1e-05
+  },
+  "tolerances_frozen_from": "January 1981 check, before any forecast outcomes",
+  "source_admission": "all selected native cells finite; all required hourly timestamps; source status0 and expver1; March compatibility PASS",
+  "historical_availability": "Retrospective final reanalysis archive, no historical operational vintage claim",
+  "no_imputation": true
+}

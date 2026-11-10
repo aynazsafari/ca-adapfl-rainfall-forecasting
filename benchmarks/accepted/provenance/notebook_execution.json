@@ -1,0 +1,13 @@
+{
+  "status": "EXECUTED_PASS",
+  "utc": "2026-10-08T22:28:10.322339+00:00",
+  "code_cells": 7,
+  "all_cells_executed": true,
+  "error_outputs": 0,
+  "notebook_sha256": "34eb7b5e8c7ee28560aaf5611bcfc735919dcb21a7f49e62091db590887d8db2",
+  "html_sha256": "82ce3d7e32640444706678400d6c0a2263319bb2aebe8b4d978c0e1fbc78f76b",
+  "empirical_fits_performed": 0,
+  "inspection_status": "HTML_VISUAL_PASS: root viewed guards/counts, source cohort, development/component/output tables, all three embedded figures, latency contrasts and reproduction footer in IAB; internal wide-table scrolling is contained.",
+  "bounded_independent_review": "audit_notebook checked 383 publication cell/identity/count comparisons and three embedded PNG byte identities without empirical fits.",
+  "visual_review_utc": "2026-10-08T22:41:28.502561+00:00"
+}

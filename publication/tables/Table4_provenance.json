@@ -1,0 +1,26 @@
+{
+  "id": "Table4",
+  "role": "static_display_transcription",
+  "rows": 5,
+  "columns": [
+    "S",
+    "C1 NW",
+    "C2 IGP",
+    "C3 NE",
+    "C4 South",
+    "C5 Central"
+  ],
+  "sources": {
+    "metadata/paper_reference.json": {
+      "sha256": "debf391bb197336cfd7180721156a55f6cecd836bebe5a89bc2eeca12c46955a"
+    }
+  },
+  "formula_or_selector": "Exact static display transcription, including stated Table4 affinities and Table5 results. No independent numeric recomputation claimed.",
+  "files_sha256": {
+    "Table4.csv": "4c8187a56c41ed487ed4cb97da96e33e0b668b21fc006efd651433bf1653725d",
+    "Table4_display.csv": "4c8187a56c41ed487ed4cb97da96e33e0b668b21fc006efd651433bf1653725d"
+  },
+  "validation_against_displayed_paper": {
+    "status": "STATIC_TRANSCRIPTION"
+  }
+}

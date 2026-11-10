@@ -1,0 +1,45 @@
+{
+  "id": "Table8",
+  "role": "saved_numeric_evidence",
+  "rows": 10,
+  "columns": [
+    "comparison",
+    "model_a",
+    "model_b",
+    "TRAIN_months",
+    "EVAL_months",
+    "R2_a",
+    "R2_b",
+    "delta_R2",
+    "CI95_low",
+    "CI95_high"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2/source_data/seed_summary_ALL.csv": {
+      "sha256": "7c03ea7d97bfe6aecf1b151924b2deabc294734bbbdaeb6a0d78455c925aaf19",
+      "rows": 96
+    },
+    "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv": {
+      "sha256": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577",
+      "rows": 186
+    },
+    "benchmarks/accepted/runs/supplements_v2/publication_tables/paired_contrasts_18.csv": {
+      "sha256": "2f4467d8d04f972323927145b2508ba4d1699186d4a0e2fa861028b071b3fd3e",
+      "rows": 18
+    },
+    "benchmarks/accepted/runs/supplements_v2/publication_tables/model_summary_36.csv": {
+      "sha256": "7c7e71e3c21b6c5eff4410a9c5fe03bf62e9aa044624fd36310b2b5e5ee5205b",
+      "rows": 36
+    }
+  },
+  "formula_or_selector": "Fixed anchor/CORE/latency selections and within-source CAAA GLOBAL added-minus-reference selections. Cohort lengths from frozen protocol/source ledgers; derived IMD scores require no provider-valued input file.",
+  "files_sha256": {
+    "Table8.csv": "0b89d02cc2d469699f52f09c99f1a79d8b16572b9e6595ef432cd1c197c3c25b",
+    "Table8_display.csv": "c6d7250edd3e68dd3b6b411873d8fd70dd55e9ab238f044baa70e4c7d4435f3d"
+  },
+  "validation_against_displayed_paper": {
+    "status": "PASS",
+    "numeric_tokens_checked": 70,
+    "discrepancies": []
+  }
+}

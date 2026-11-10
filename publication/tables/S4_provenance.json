@@ -1,0 +1,33 @@
+{
+  "id": "S4",
+  "role": "saved_numeric_evidence",
+  "rows": 186,
+  "columns": [
+    "model_a",
+    "model_b",
+    "metric",
+    "delta_a_minus_b",
+    "CI95_low",
+    "CI95_high",
+    "block_length_months",
+    "role",
+    "repetitions",
+    "n_seeds",
+    "n_clients",
+    "n_months",
+    "resample_seeds"
+  ],
+  "sources": {
+    "benchmarks/accepted/figures/revision_v2/source_data/paired_block_bootstrap_summary_ALL.csv": {
+      "sha256": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577",
+      "rows": 186
+    }
+  },
+  "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+  "files_sha256": {
+    "S4.csv": "d960228e8f376d1d66d9bbbb16e21bf7c43adcf4f5bda406555d56d0daf18577"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

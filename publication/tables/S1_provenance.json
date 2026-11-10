@@ -1,0 +1,30 @@
+{
+  "id": "S1",
+  "role": "saved_numeric_evidence",
+  "rows": 43,
+  "columns": [
+    "index",
+    "feature",
+    "incremental_group",
+    "core_member",
+    "climate_member",
+    "full_member",
+    "raw_physical_unit",
+    "analyzed_unit",
+    "unit_basis",
+    "support_json"
+  ],
+  "sources": {
+    "benchmarks/accepted/docs/feature_diagnostics/feature_dictionary.csv": {
+      "sha256": "c6a10990cee0cc3d2ac73254186962dff923ba05cdeb9ca513d30fb31f5d9232",
+      "rows": 43
+    }
+  },
+  "formula_or_selector": "Preserve authoritative saved rows, columns and ordering. Numeric CSV evidence export; original Word abbreviations/line breaks are not reconstructed.",
+  "files_sha256": {
+    "S1.csv": "c6a10990cee0cc3d2ac73254186962dff923ba05cdeb9ca513d30fb31f5d9232"
+  },
+  "validation_against_displayed_paper": {
+    "status": "NOT_REQUESTED_NUMERIC_EVIDENCE_EXPORT"
+  }
+}

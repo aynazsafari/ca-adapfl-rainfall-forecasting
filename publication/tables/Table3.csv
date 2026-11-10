@@ -1,0 +1,11 @@
+Client,Domain label,Half-open bounds,Interpretation,Rainfall setting,Constraint
+C1,NW Arid,"22 ≤ lat < 30
+68 ≤ lon < 76",Descriptive arid/semi-arid,Low seasonal monthly totals,Overlaps C5
+C2,Indo-Gangetic,"24 ≤ lat < 31
+76 ≤ lon < 88",Descriptive mainland,Summer monsoon,Fixed domain;not unseen-client test
+C3,NE/Himalaya,"23 ≤ lat < 29
+88 ≤ lon < 97.5",Descriptive orographic,Large monthly totals,Native-grid mask differs by source
+C4,South Peninsular,"8 ≤ lat < 15.5
+75 ≤ lon < 80.5",Descriptive peninsula,Different seasonal regime,Not exact Köppen/subdivision boundary
+C5,Central India,"18 ≤ lat < 24
+74 ≤ lon < 83",Descriptive core monsoon,Seasonal mainland rainfall,Overlaps C1

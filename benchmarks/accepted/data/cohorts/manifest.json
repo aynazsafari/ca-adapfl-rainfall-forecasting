@@ -1,0 +1,18 @@
+{
+  "status": "CALENDAR_AND_SOURCE_QUALITY_PLANS_BUILT_NO_FITS",
+  "generated_utc": "2026-10-07T22:59:48.342938+00:00",
+  "sequence_length": 12,
+  "extra_lag": 0,
+  "imd_quality_sha256": "a968989b0194b5671f1c4a9f803215abcd18952ee0b6d2d90277faba42b9e7a9",
+  "power_panel_sha256": "ecf899b10c6652d872f899a9b1bcb18ed84ccb25988767ad263781b95cb621f6",
+  "target_outcomes_read": false,
+  "GLDAS21_full_source_quality_pending": true,
+  "outputs": {
+    "GLDAS21_cohort_plan.json": "1b3dc8e7ae3dbbdd2e576a5c944bde7a668f2db067cc32f34bc55012a3497f8a",
+    "GLDAS21_matched_target_keys.csv": "f1e0c4b578fd21630f083f7a700adbed157ad57158c608dacb605381cb800a0c",
+    "IMD_cohort_plan.json": "c131916d44aeeaf1125f690e63b392f9d041ef862bf7a3379a1a4a3f921ddd50",
+    "IMD_matched_target_keys.csv": "3931930b220f8cfd7200ea0d796d334bd9263016867fdee9d8c02c9560cba10d",
+    "solar_cohort_plan.json": "7d8b4785967c76517d570405cc358df42835ea02bd341c9543665b3e121826aa",
+    "solar_matched_target_keys.csv": "fd6181706d1b34780a45440f2f15d2a77ee697d13a7dc011184f74ad16025ad9"
+  }
+}

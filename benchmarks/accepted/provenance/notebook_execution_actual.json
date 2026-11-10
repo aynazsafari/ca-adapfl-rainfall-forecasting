@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Actual execution of all seven fixed read-only saved-result notebook cells",
+  "run_sha256": "c10ec7499adba7470982ec57eb2daaba0634d79adae49ccb53ebca6309a218fb",
+  "evaluation_complete_sha256": "07740960d3d38a60346e087e070065a527c0451f2bafa48393e47c29afc32d36",
+  "independent_qa_sha256": "c379f9b16af248f6c34f709767ff0b66274789057c4a0bcf9e2d0e4b3cbe1d3a",
+  "source_notebook_sha256": "80c650a1173baca33efdfb5d6183f80c041197f502cdb93a0ae2582f5c0f884d",
+  "executed_notebook_sha256": "963b60b99068ee9c64d10d8d58dcb710d22feb5eebd17be027376f0ab3b2592a",
+  "elapsed_seconds": 17.378393899998628,
+  "code_cells_executed": 7,
+  "error_outputs": 0,
+  "temporary_kernel_only": true,
+  "global_kernel_registration_performed": false,
+  "kernel_shutdown_confirmed": true,
+  "kernel_client_channels_stopped": true,
+  "models_fitted_or_inferred": false,
+  "source_notebook_unchanged": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "verification_wrapper_sha256": "62e70893fb7ff6928a40f7b4d93e8cfa121792e4cef1d3a0c08c2115411e05af"
+}

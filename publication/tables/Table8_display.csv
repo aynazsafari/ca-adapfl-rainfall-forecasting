@@ -1,0 +1,11 @@
+Declared comparison,CohortTRAIN / EVAL,R² of a / b,ΔR² a−b,12-month 95% CI
+Anchor − No climate weight,299 / 96,0.7514 / 0.7531,-0.001747,"[-0.004695, 0.000049]"
+Anchor − No performance weight,299 / 96,0.7514 / 0.7517,-0.000298,"[-0.003858, 0.002670]"
+Anchor − No proximity,299 / 96,0.7514 / 0.7552,-0.003825,"[-0.015124, 0.004995]"
+Anchor − No auxiliary head,299 / 96,0.7514 / 0.7496,0.001790,"[-0.006335, 0.009029]"
+Anchor − No embedding,299 / 96,0.7514 / 0.7494,0.001967,"[-0.005352, 0.009907]"
+CORE − climate-free CORE,299 / 96,0.7608 / 0.7612,-0.000498,"[-0.001265, 0.000316]"
+Extra lag − matched reference,298 / 96,0.7484 / 0.7504,-0.002019,"[-0.020345, 0.015517]"
+IMD added − own reference,299 / 85,0.7464 / 0.7481,-0.001698,"[-0.014635, 0.010506]"
+solar added − own reference,272 / 96,0.7489 / 0.7536,-0.004670,"[-0.013767, 0.004937]"
+GLDAS21 added − own reference,80 / 96,0.7313 / 0.7292,0.002084,"[-0.031799, 0.035268]"

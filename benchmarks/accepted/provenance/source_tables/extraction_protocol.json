@@ -1,0 +1,131 @@
+{
+  "version": "chirps-rebuild-v3.0.0",
+  "purpose": "A new traceable target dataset for reviewer-directed revision, not certified reconstruction of the missing original export",
+  "source_name": "CHIRPS v2 monthly final",
+  "target_unit": "mm/month",
+  "source_url_template": "https://data.chc.ucsb.edu/products/CHIRPS-2.0/global_monthly/cogs/chirps-v2.0.{year}.{month}.cog",
+  "period_start": "1981-01",
+  "period_end": "2024-12",
+  "sample_months": [
+    "1981-01",
+    "1984-02",
+    "2000-02",
+    "2001-02",
+    "2010-04",
+    "2010-07",
+    "2010-10",
+    "2016-07"
+  ],
+  "sample_selection_reason": "Fixed calendar coverage of dry/monsoon/post-monsoon, leap/non-leap February, early record and later development; no score or agreement-based month selection",
+  "clients": {
+    "Client1_NW_Arid": [
+      22.0,
+      30.0,
+      68.0,
+      76.0
+    ],
+    "Client2_Indo_Gangetic": [
+      24.0,
+      31.0,
+      76.0,
+      88.0
+    ],
+    "Client3_NE_Himalaya": [
+      23.0,
+      29.0,
+      88.0,
+      97.5
+    ],
+    "Client4_South_Peninsular": [
+      8.0,
+      15.5,
+      75.0,
+      80.5
+    ],
+    "Client5_Central_India": [
+      18.0,
+      24.0,
+      74.0,
+      83.0
+    ]
+  },
+  "country_geometry": {
+    "path": "source_evidence/india_country_ne_5_1_1.geojson",
+    "sha256": "4cdbe7cba953c55e4c6591b779128484c2e203ff0c3433b1826bafca95a4d090",
+    "source_zip_path": "source_evidence/natural_earth_10m_countries.zip",
+    "source_zip_sha256": "ce1ac7036499a0edd641fbc093cd209a98f96a49d2eca8480aaacad35138a7f6",
+    "version": "5.1.1",
+    "scale": "1:10 million",
+    "public_domain": true,
+    "boundary_policy": "Natural Earth default de facto country geometry; no POV adjustment",
+    "limitation": "Cartographic border; not cadastral truth, historical yearly boundary or the original CHIRPS mask"
+  },
+  "original_bbox_evidence": {
+    "path": "source_evidence/recorded_bboxes_v2.json",
+    "sha256": "5c71795170da5e72b3352be95b7dfa8d09f76851153bdfc53bc8bb6e6cc4ea47"
+  },
+  "native_grid_metadata": {
+    "path": "source_evidence/first_cog_metadata.json",
+    "sha256": "3750e7fce6645b9642a7bf0d51877514638ce8806f838123e8c97aea8cbadf06"
+  },
+  "native_grid": {
+    "height": 2000,
+    "width": 7200,
+    "crs": "EPSG:4326",
+    "transform": [
+      0.05000000074505806,
+      0.0,
+      -180.0,
+      0.0,
+      -0.05000000074505806,
+      50.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "nominal_resolution_degrees": 0.05,
+    "window": {
+      "row_off": 379,
+      "col_off": 4959,
+      "height": 461,
+      "width": 591
+    },
+    "resampling": null,
+    "transform_equality_absolute_tolerance": 1e-10
+  },
+  "spatial_rule": {
+    "country_inclusion": "Pixel center covered by country polygon, including polygon boundary and all source components inside the client box",
+    "bbox_inclusion": "lat_min <= center_lat < lat_max and lon_min <= center_lon < lon_max",
+    "area_weight": "Absolute WGS84 geodesic quadrilateral area from four original pixel corners using pyproj.Geod.polygon_area_perimeter",
+    "ellipsoid": "WGS84",
+    "cell_weight_scope": "Full selected cell, not fractional country intersection",
+    "overlaps": "Retained and measured for every client pair; no exclusive partition or spatial independence claim",
+    "national_domain": "Five selected study domains; not complete national coverage"
+  },
+  "nodata_value": -9999.0,
+  "raster_nodata_metadata_allowed": [
+    null,
+    -9999.0
+  ],
+  "nodata_semantics_source": "Official CHIRPS2 FAQ, including COGs without an embedded GDAL nodata tag",
+  "minimum_weighted_coverage": 0.95,
+  "coverage_definition": "Valid selected pixel area / all geometrically selected pixel area",
+  "no_valid_support": "Fail; never impute or substitute zero",
+  "other_negative_or_nonfinite_values": "Fail; no silent clipping or removal",
+  "mean_definition": "Sum(valid rainfall_mm * geodesic cell area) / sum(valid geodesic cell area)",
+  "temporal_aggregation": "Use the native monthly total directly; no multiplication by days or summation of monthly means",
+  "diagnostic_variants": [
+    "country unweighted mean",
+    "bbox unweighted mean",
+    "bbox area-weighted mean"
+  ],
+  "diagnostic_variants_can_select_the_main_definition": false,
+  "availability": {
+    "monthly_label_assumed_release": "day 21 of the following month at 00:00 UTC",
+    "issue": "first day of target month at 00:00 UTC",
+    "historical_vintages_verified": false,
+    "interpretation": "Retrospective final-product data with declared latency assumption; not an operational historical-vintage forecast"
+  },
+  "model_training_in_this_extraction": false,
+  "original_export_provenance_restored": false
+}

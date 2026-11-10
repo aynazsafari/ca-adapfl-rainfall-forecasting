@@ -1,0 +1,3 @@
+# Optional source-only diagrams, in addition to requirements-lock.txt.
+# This dependency is not used by training or the eight result figures.
+shapely==2.2.0

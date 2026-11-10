@@ -1,0 +1,4 @@
+case,TRAIN_start,TRAIN_end,TRAIN_months_per_client,monitor_months_per_client,validation_months_per_client,evaluation_start,evaluation_end,evaluation_months_per_client,REFERENCE_features,ADDED_features
+IMD,1983-01,2007-11,299,35,71,2017-01,2024-01,85,43,44
+solar,1985-04,2007-11,272,35,71,2017-01,2024-12,96,43,44
+GLDAS21,2001-04,2007-11,80,35,71,2017-01,2024-12,96,43,55

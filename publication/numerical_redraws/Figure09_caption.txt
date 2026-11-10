@@ -1,0 +1,3 @@
+Seed-42 development grids on January 2011–November 2016 VAL. (a) Shared learning rate. (b) Six method-specific proximal μ grids. (c) Fifteen quarter-step simplex triples plus the (0.3,0.3,0.4) anchor; color uses its own validation scale. Rings mark selected candidates. (d) All sixty saved validation rounds for the selected LR, CAAA μ and coefficient candidates. Validation was reused for tuning/checkpoint selection; these are developmental scores, not independent accuracy estimates.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

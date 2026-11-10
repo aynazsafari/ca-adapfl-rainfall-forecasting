@@ -1,0 +1,3 @@
+Per-client heavy-event recall, average precision and rainfall tail RMSE for fixed FULL global/personal identities. Small points: five seeds; diamonds and whiskers: mean ± sample seed SD, not confidence intervals. Recall uses probability ≥0.5; AP uses continuous probabilities; tail RMSE scores observed months exceeding local TRAIN q80. Proportion whiskers stop at 0/100% with arrows when SD extends beyond those bounds. Seed values themselves remain in [0,100%]; repeated seeds do not add observed events.
+
+Numerical redraw, not an exact reconstruction of the embedded manuscript image.

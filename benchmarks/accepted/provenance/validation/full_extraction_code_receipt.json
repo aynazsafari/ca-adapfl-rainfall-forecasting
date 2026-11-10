@@ -1,0 +1,20 @@
+{
+  "source_script_sha256": "f749ce8ad15c42ed4d4ad49384506a4b9112768989531c1325918374e2774b86",
+  "scope": "ERA5 ERA5Land 528months, GLDAS21 300months; preflight accepted independently; no model fits",
+  "native_joint_mask": "explicitzero weightedmeans",
+  "raw_interval_metadata": {
+    "2000-01-01T03:00": {
+      "start_hour": 3,
+      "end_hour": 6
+    },
+    "2000-01-01T06:00": {
+      "start_hour": 6,
+      "end_hour": 9
+    },
+    "2000-02-01T00:00": {
+      "start_hour": 0,
+      "end_hour": 3
+    }
+  },
+  "GLDAS_note": "NASA producer and Google catalog document past3h averages/accumulations. Custom assetstart/endhour forwardlabels are preserved but notinterpreted as physical timebounds; raw producer timebounds not numericallyverified."
+}

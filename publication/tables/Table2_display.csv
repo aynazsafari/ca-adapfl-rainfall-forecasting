@@ -1,0 +1,7 @@
+Index,Measurement/rationale,Frozen source,Archive definition,Period support,Latest eligible,Citation/note
+Niño3.4,Pacific SST ENSO proxy,NOAA CPC,Monthly ERSSTv5 regional anomaly,Monthly,t−2,[39]
+ONI,Smoothed Pacific SST;redundant ENSO view,Frozen supplied ONI archive,Three-month Niño3.4 anomaly,Three-month end,t−2,Threshold bins are not persistent event labels
+SOI,Atmospheric ENSO pressure contrast,NOAA CPC,Standardized Tahiti–Darwin index,Monthly,t−2,Dimensionless;not raw Pa
+DMI,Indian Ocean SST gradient;ENSO interaction hypothesis,NOAA PSL HadISST1.1,West minus southeast tropical Indian Ocean,Monthly,t−2,[40]
+MEIv2,Multivariate coupled ENSO view,NOAA PSL frozen supplied bytes,Bimonthly multivariate index;vintage uncertain,Second month,t−2,MEIv2 method [41]; frozen bytes retained; reanalysis vintage unverified
+Derived AMV,Exploratory Atlantic background covariate,Official ERSSTv6 raw SST,1951–1980 monthly anomalies;NA minus global ocean,Monthly unsmoothed,t−2,"ERSSTv6 [37, 38]; researcher-derived AMV; no official AMO/causal-lag claim"

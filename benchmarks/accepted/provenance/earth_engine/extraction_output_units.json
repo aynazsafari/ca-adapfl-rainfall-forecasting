@@ -1,0 +1,41 @@
+{
+  "units": {
+    "ERA5": {
+      "temperature_2m": "K",
+      "dewpoint_temperature_2m": "K",
+      "surface_pressure": "Pa",
+      "mean_sea_level_pressure": "Pa",
+      "u_component_of_wind_10m": "m s-1",
+      "v_component_of_wind_10m": "m s-1",
+      "total_precipitation": "m month-1"
+    },
+    "ERA5Land": {
+      "temperature_2m": "K",
+      "dewpoint_temperature_2m": "K",
+      "skin_temperature": "K",
+      "volumetric_soil_water_layer_1": "m3 m-3",
+      "volumetric_soil_water_layer_2": "m3 m-3",
+      "volumetric_soil_water_layer_3": "m3 m-3",
+      "volumetric_soil_water_layer_4": "m3 m-3",
+      "total_precipitation_sum": "m month-1",
+      "total_evaporation_sum": "m month-1 (signed; evaporation negative)",
+      "surface_runoff_sum": "m month-1",
+      "sub_surface_runoff_sum": "m month-1"
+    },
+    "GLDAS21": {
+      "Tair_f_inst": "K",
+      "Qair_f_inst": "kg kg-1",
+      "Wind_f_inst": "m s-1",
+      "SoilMoi0_10cm_inst": "kg m-2",
+      "SoilMoi10_40cm_inst": "kg m-2",
+      "SoilMoi40_100cm_inst": "kg m-2",
+      "SoilMoi100_200cm_inst": "kg m-2",
+      "Rainf_f_tavg": "kg m-2 month-1",
+      "Rainf_tavg": "kg m-2 month-1",
+      "Evap_tavg": "kg m-2 month-1",
+      "Qs_acc": "kg m-2 month-1",
+      "Qsb_acc": "kg m-2 month-1"
+    }
+  },
+  "note": "GLDAS tavg is already integrated over10800seconds per record; do not integrate twice. Monthly totals are spatial area means. Source band names retained for traceability."
+}

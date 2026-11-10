@@ -1,0 +1,13 @@
+--- pre_marker_qa_make_publication_companions.py
++++ make_publication_companions.py
+@@ -359,8 +359,9 @@
+             mean,sd=values.mean(),values.std(ddof=1)
+             ax.errorbar(mean,i,xerr=sd,fmt=marker,color=color,markersize=5,capsize=3,linewidth=1.1)
+             extent.extend([*values,mean-sd,mean+sd])
+-        lo,hi=min(extent),max(extent); pad=max(hi-lo,.01)*.08
++        lo,hi=min(extent),max(extent)
+         if metric=='R2': lo=min(lo,0); ax.axvline(0,color='#8B939B',linestyle=':',linewidth=.8)
++        pad=max(hi-lo,.01)*.08
+         # Even an SD whisker below zero remains visible; it is not a rainfall forecast.
+         ax.set_xlim(lo-pad,hi+pad); ax.set_ylim(len(methods)-.5,-.5)
+         ax.set_yticks(range(len(methods)),[aliases[m] for m in methods] if ax is axes[0] else ['']*len(methods))
