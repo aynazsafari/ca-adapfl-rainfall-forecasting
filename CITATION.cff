@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this benchmark and the accompanying paper when available."
+type: software
+title: "CAAdapFL: Climate Components and Information Sharing in Federated Monthly Rainfall Forecasting across Five Indian Regions"
+version: 1.2.0
+license: Apache-2.0
+authors:
+  - family-names: Safari Shateri
+    given-names: Aynaz
+    orcid: https://orcid.org/0009-0009-3494-2753
+  - family-names: Jamshidi Asl
+    given-names: Mobin
+    orcid: https://orcid.org/0009-0005-5494-4247
+  - family-names: Shirini
+    given-names: Amirreza
+    orcid: https://orcid.org/0009-0005-3533-0047
+  - family-names: Sattari
+    given-names: Mohammad Taghi
+    orcid: https://orcid.org/0000-0002-5139-2118
+  - family-names: Apaydin
+    given-names: Halit
+    orcid: https://orcid.org/0000-0002-9875-7321
+abstract: "A retrospective five-region monthly rainfall benchmark with primary comparisons, source controls, matched capacity/output controls and a controlled information-sharing study."

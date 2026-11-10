@@ -1,0 +1,13 @@
+CAAdapFL reproducible monthly rainfall benchmark
+Copyright 2026 the CAAdapFL authors.
+
+Authors: Aynaz Safari Shateri; Mobin Jamshidi Asl; Amirreza Shirini;
+Mohammad Taghi Sattari; Halit Apaydin.
+
+Author-owned benchmark software is licensed under Apache License, Version2.0.
+Scientific modules preserved under benchmarks/ are byte-identical historical
+sources, so historical notices/README statements describe their original snapshot.
+The current root LICENSE and this NOTICE specify the authorized software release.
+Third-party data, geographic inputs and referenced publications retain their
+own terms. Apache2.0 does not confer additional redistribution rights in them.
+See docs/DATA_ACCESS.md and the preserved provider attribution records.
