@@ -44,8 +44,7 @@ CAAdapFL/
 ├── 📄 CITATION.cff          # Citation metadata template
 ├── 📄 LICENSE               # Apache-2.0 License terms
 ├── 📄 NOTICE                # Copyright & institutional notices
-├── 📄 README.md             # English documentation (this file)
-├── 📄 README_FA.md          # Persian documentation (راهنمای فارسی)
+├── 📄 README.md             # English documentation 
 ├── 📄 benchmark.py          # Main automated benchmarking entrypoint
 ├── 📄 requirements.txt      # Core Python environment dependencies
 ├── 📄 requirements-imd-source.txt       # Dependencies for IMD rainfall integration
